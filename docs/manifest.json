@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/Users/shaun/Documents/Web & software development/C#/Projects/Galaxon/Core/docfx_project",
+  "source_base_path": "/Users/shaun/Documents/Web & software development/C#/Projects/Galaxon/mossy2100.github.io",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "YP/wvArVv92dt+vZwK/DDlu8ixXPoijJ8IhReBHxZrU="
+          "hash": "QbgMX3klAxelgpNybhr+Vw8aX3Fgbzv4K2VWZ4y5Q+w="
         }
       },
       "is_incremental": false,
@@ -585,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "sbgXHJqZ0A0i7pVIfxJUT8Uqvh+X4D+E0+taMXXt3OQ="
+          "hash": "H2/mHUuzkXNa/3lP80ZypwAZF5I1Ey9LTRUnA9O7s/M="
         }
       },
       "is_incremental": false,
@@ -609,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "x+YfugNBwdaYmb8HkzZxVyKk6Ql2AIT76v9EhWXZZ2M="
+          "hash": "aPSsiRArKdtsRks+BTjB7el0j9GVjNX6qKnhcZtliKc="
         }
       },
       "is_incremental": false,
@@ -621,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "WSuRrYiGwKKMbtdG9z8W9fXmLoCyTnGg9AxbPKLXm2Y="
+          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
         }
       },
       "is_incremental": false,
