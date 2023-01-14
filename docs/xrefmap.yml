@@ -541,12 +541,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XBigInteger.ToUnsigned
   nameWithType: XBigInteger.ToUnsigned
-- uid: Galaxon.Core.Numbers.XBinaryInteger
-  name: XBinaryInteger
-  href: api/Galaxon.Core.Numbers.XBinaryInteger.html
-  commentId: T:Galaxon.Core.Numbers.XBinaryInteger
-  fullName: Galaxon.Core.Numbers.XBinaryInteger
-  nameWithType: XBinaryInteger
 - uid: Galaxon.Core.Numbers.XByte
   name: XByte
   href: api/Galaxon.Core.Numbers.XByte.html
@@ -1072,6 +1066,19 @@ references:
   commentId: T:Galaxon.Core.Numbers.XInt
   fullName: Galaxon.Core.Numbers.XInt
   nameWithType: XInt
+- uid: Galaxon.Core.Numbers.XInt.Abs(System.Int32)
+  name: Abs(Int32)
+  href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_Abs_System_Int32_
+  commentId: M:Galaxon.Core.Numbers.XInt.Abs(System.Int32)
+  fullName: Galaxon.Core.Numbers.XInt.Abs(System.Int32)
+  nameWithType: XInt.Abs(Int32)
+- uid: Galaxon.Core.Numbers.XInt.Abs*
+  name: Abs
+  href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_Abs_
+  commentId: Overload:Galaxon.Core.Numbers.XInt.Abs
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XInt.Abs
+  nameWithType: XInt.Abs
 - uid: Galaxon.Core.Numbers.XInt.Sqrt(System.Int32)
   name: Sqrt(Int32)
   href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_Sqrt_System_Int32_
@@ -1085,12 +1092,31 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XInt.Sqrt
   nameWithType: XInt.Sqrt
+- uid: Galaxon.Core.Numbers.XInteger
+  name: XInteger
+  href: api/Galaxon.Core.Numbers.XInteger.html
+  commentId: T:Galaxon.Core.Numbers.XInteger
+  fullName: Galaxon.Core.Numbers.XInteger
+  nameWithType: XInteger
 - uid: Galaxon.Core.Numbers.XLong
   name: XLong
   href: api/Galaxon.Core.Numbers.XLong.html
   commentId: T:Galaxon.Core.Numbers.XLong
   fullName: Galaxon.Core.Numbers.XLong
   nameWithType: XLong
+- uid: Galaxon.Core.Numbers.XLong.Abs(System.Int64)
+  name: Abs(Int64)
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Abs_System_Int64_
+  commentId: M:Galaxon.Core.Numbers.XLong.Abs(System.Int64)
+  fullName: Galaxon.Core.Numbers.XLong.Abs(System.Int64)
+  nameWithType: XLong.Abs(Int64)
+- uid: Galaxon.Core.Numbers.XLong.Abs*
+  name: Abs
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Abs_
+  commentId: Overload:Galaxon.Core.Numbers.XLong.Abs
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XLong.Abs
+  nameWithType: XLong.Abs
 - uid: Galaxon.Core.Numbers.XLong.Pow(System.Int64,System.Int64)
   name: Pow(Int64, Int64)
   href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Pow_System_Int64_System_Int64_
@@ -1117,210 +1143,235 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XLong.Sqrt
   nameWithType: XLong.Sqrt
-- uid: Galaxon.Core.Numbers.XNumberBase
-  name: XNumberBase
-  href: api/Galaxon.Core.Numbers.XNumberBase.html
-  commentId: T:Galaxon.Core.Numbers.XNumberBase
-  fullName: Galaxon.Core.Numbers.XNumberBase
-  nameWithType: XNumberBase
-- uid: Galaxon.Core.Numbers.XNumberBase.Div*
+- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64})
+  name: Sum(IEnumerable<UInt64>)
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_UInt64__
+  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64})
+  name.vb: Sum(IEnumerable(Of UInt64))
+  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.UInt64>)
+  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.UInt64))
+  nameWithType: XLong.Sum(IEnumerable<UInt64>)
+  nameWithType.vb: XLong.Sum(IEnumerable(Of UInt64))
+- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
+  name: Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_UInt64__Func_System_UInt64_System_UInt64__
+  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
+  name.vb: Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
+  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.UInt64>, Func<System.UInt64, System.UInt64>)
+  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.UInt64), Func(Of System.UInt64, System.UInt64))
+  nameWithType: XLong.Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
+  nameWithType.vb: XLong.Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
+- uid: Galaxon.Core.Numbers.XLong.Sum*
+  name: Sum
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_
+  commentId: Overload:Galaxon.Core.Numbers.XLong.Sum
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XLong.Sum
+  nameWithType: XLong.Sum
+- uid: Galaxon.Core.Numbers.XNumber
+  name: XNumber
+  href: api/Galaxon.Core.Numbers.XNumber.html
+  commentId: T:Galaxon.Core.Numbers.XNumber
+  fullName: Galaxon.Core.Numbers.XNumber
+  nameWithType: XNumber
+- uid: Galaxon.Core.Numbers.XNumber.Div*
   name: Div
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Div_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.Div
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Div_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.Div
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.Div
-  nameWithType: XNumberBase.Div
-- uid: Galaxon.Core.Numbers.XNumberBase.Div``1(``0,``0)
+  fullName: Galaxon.Core.Numbers.XNumber.Div
+  nameWithType: XNumber.Div
+- uid: Galaxon.Core.Numbers.XNumber.Div``1(``0,``0)
   name: Div<T>(T, T)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Div__1___0___0_
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.Div``1(``0,``0)
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Div__1___0___0_
+  commentId: M:Galaxon.Core.Numbers.XNumber.Div``1(``0,``0)
   name.vb: Div(Of T)(T, T)
-  fullName: Galaxon.Core.Numbers.XNumberBase.Div<T>(T, T)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.Div(Of T)(T, T)
-  nameWithType: XNumberBase.Div<T>(T, T)
-  nameWithType.vb: XNumberBase.Div(Of T)(T, T)
-- uid: Galaxon.Core.Numbers.XNumberBase.DivMod*
+  fullName: Galaxon.Core.Numbers.XNumber.Div<T>(T, T)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.Div(Of T)(T, T)
+  nameWithType: XNumber.Div<T>(T, T)
+  nameWithType.vb: XNumber.Div(Of T)(T, T)
+- uid: Galaxon.Core.Numbers.XNumber.DivMod*
   name: DivMod
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_DivMod_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.DivMod
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_DivMod_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.DivMod
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.DivMod
-  nameWithType: XNumberBase.DivMod
-- uid: Galaxon.Core.Numbers.XNumberBase.DivMod``1(``0,``0)
+  fullName: Galaxon.Core.Numbers.XNumber.DivMod
+  nameWithType: XNumber.DivMod
+- uid: Galaxon.Core.Numbers.XNumber.DivMod``1(``0,``0)
   name: DivMod<T>(T, T)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_DivMod__1___0___0_
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.DivMod``1(``0,``0)
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_DivMod__1___0___0_
+  commentId: M:Galaxon.Core.Numbers.XNumber.DivMod``1(``0,``0)
   name.vb: DivMod(Of T)(T, T)
-  fullName: Galaxon.Core.Numbers.XNumberBase.DivMod<T>(T, T)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.DivMod(Of T)(T, T)
-  nameWithType: XNumberBase.DivMod<T>(T, T)
-  nameWithType.vb: XNumberBase.DivMod(Of T)(T, T)
-- uid: Galaxon.Core.Numbers.XNumberBase.Implements(System.Object,Type)
+  fullName: Galaxon.Core.Numbers.XNumber.DivMod<T>(T, T)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.DivMod(Of T)(T, T)
+  nameWithType: XNumber.DivMod<T>(T, T)
+  nameWithType.vb: XNumber.DivMod(Of T)(T, T)
+- uid: Galaxon.Core.Numbers.XNumber.Implements(System.Object,Type)
   name: Implements(Object, Type)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Implements_System_Object_Type_
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.Implements(System.Object,Type)
-  fullName: Galaxon.Core.Numbers.XNumberBase.Implements(System.Object, Type)
-  nameWithType: XNumberBase.Implements(Object, Type)
-- uid: Galaxon.Core.Numbers.XNumberBase.Implements*
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Implements_System_Object_Type_
+  commentId: M:Galaxon.Core.Numbers.XNumber.Implements(System.Object,Type)
+  fullName: Galaxon.Core.Numbers.XNumber.Implements(System.Object, Type)
+  nameWithType: XNumber.Implements(Object, Type)
+- uid: Galaxon.Core.Numbers.XNumber.Implements*
   name: Implements
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Implements_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.Implements
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Implements_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.Implements
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.Implements
-  nameWithType: XNumberBase.Implements
-- uid: Galaxon.Core.Numbers.XNumberBase.IsComplex(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.Implements
+  nameWithType: XNumber.Implements
+- uid: Galaxon.Core.Numbers.XNumber.IsComplex(System.Nullable{System.Object})
   name: IsComplex(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsComplex_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsComplex(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsComplex_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsComplex(System.Nullable{System.Object})
   name.vb: IsComplex(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsComplex(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsComplex(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsComplex(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsComplex(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsComplex*
+  fullName: Galaxon.Core.Numbers.XNumber.IsComplex(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsComplex(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsComplex(Nullable<Object>)
+  nameWithType.vb: XNumber.IsComplex(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsComplex*
   name: IsComplex
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsComplex_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsComplex
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsComplex_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsComplex
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsComplex
-  nameWithType: XNumberBase.IsComplex
-- uid: Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsComplex
+  nameWithType: XNumber.IsComplex
+- uid: Galaxon.Core.Numbers.XNumber.IsFloatingPoint(System.Nullable{System.Object})
   name: IsFloatingPoint(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsFloatingPoint_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsFloatingPoint_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsFloatingPoint(System.Nullable{System.Object})
   name.vb: IsFloatingPoint(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsFloatingPoint(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsFloatingPoint(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint*
+  fullName: Galaxon.Core.Numbers.XNumber.IsFloatingPoint(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsFloatingPoint(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsFloatingPoint(Nullable<Object>)
+  nameWithType.vb: XNumber.IsFloatingPoint(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsFloatingPoint*
   name: IsFloatingPoint
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsFloatingPoint_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsFloatingPoint_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsFloatingPoint
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsFloatingPoint
-  nameWithType: XNumberBase.IsFloatingPoint
-- uid: Galaxon.Core.Numbers.XNumberBase.IsInteger(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsFloatingPoint
+  nameWithType: XNumber.IsFloatingPoint
+- uid: Galaxon.Core.Numbers.XNumber.IsInteger(System.Nullable{System.Object})
   name: IsInteger(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsInteger_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsInteger(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsInteger_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsInteger(System.Nullable{System.Object})
   name.vb: IsInteger(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsInteger(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsInteger(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsInteger(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsInteger(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsInteger*
+  fullName: Galaxon.Core.Numbers.XNumber.IsInteger(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsInteger(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsInteger(Nullable<Object>)
+  nameWithType.vb: XNumber.IsInteger(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsInteger*
   name: IsInteger
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsInteger_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsInteger
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsInteger_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsInteger
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsInteger
-  nameWithType: XNumberBase.IsInteger
-- uid: Galaxon.Core.Numbers.XNumberBase.IsNumber(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsInteger
+  nameWithType: XNumber.IsInteger
+- uid: Galaxon.Core.Numbers.XNumber.IsNumber(System.Nullable{System.Object})
   name: IsNumber(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsNumber_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsNumber(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsNumber_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsNumber(System.Nullable{System.Object})
   name.vb: IsNumber(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsNumber(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsNumber(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsNumber(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsNumber(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsNumber*
+  fullName: Galaxon.Core.Numbers.XNumber.IsNumber(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsNumber(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsNumber(Nullable<Object>)
+  nameWithType.vb: XNumber.IsNumber(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsNumber*
   name: IsNumber
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsNumber_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsNumber
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsNumber_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsNumber
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsNumber
-  nameWithType: XNumberBase.IsNumber
-- uid: Galaxon.Core.Numbers.XNumberBase.IsReal(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsNumber
+  nameWithType: XNumber.IsNumber
+- uid: Galaxon.Core.Numbers.XNumber.IsReal(System.Nullable{System.Object})
   name: IsReal(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsReal_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsReal(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsReal_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsReal(System.Nullable{System.Object})
   name.vb: IsReal(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsReal(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsReal(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsReal(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsReal(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsReal*
+  fullName: Galaxon.Core.Numbers.XNumber.IsReal(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsReal(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsReal(Nullable<Object>)
+  nameWithType.vb: XNumber.IsReal(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsReal*
   name: IsReal
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsReal_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsReal
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsReal_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsReal
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsReal
-  nameWithType: XNumberBase.IsReal
-- uid: Galaxon.Core.Numbers.XNumberBase.IsSignedInteger(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsReal
+  nameWithType: XNumber.IsReal
+- uid: Galaxon.Core.Numbers.XNumber.IsSignedInteger(System.Nullable{System.Object})
   name: IsSignedInteger(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsSignedInteger_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsSignedInteger(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsSignedInteger_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsSignedInteger(System.Nullable{System.Object})
   name.vb: IsSignedInteger(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsSignedInteger(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsSignedInteger(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsSignedInteger(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsSignedInteger(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsSignedInteger*
+  fullName: Galaxon.Core.Numbers.XNumber.IsSignedInteger(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsSignedInteger(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsSignedInteger(Nullable<Object>)
+  nameWithType.vb: XNumber.IsSignedInteger(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsSignedInteger*
   name: IsSignedInteger
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsSignedInteger_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsSignedInteger
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsSignedInteger_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsSignedInteger
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsSignedInteger
-  nameWithType: XNumberBase.IsSignedInteger
-- uid: Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger(System.Nullable{System.Object})
+  fullName: Galaxon.Core.Numbers.XNumber.IsSignedInteger
+  nameWithType: XNumber.IsSignedInteger
+- uid: Galaxon.Core.Numbers.XNumber.IsUnsignedInteger(System.Nullable{System.Object})
   name: IsUnsignedInteger(Nullable<Object>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsUnsignedInteger_System_Nullable_System_Object__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger(System.Nullable{System.Object})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsUnsignedInteger_System_Nullable_System_Object__
+  commentId: M:Galaxon.Core.Numbers.XNumber.IsUnsignedInteger(System.Nullable{System.Object})
   name.vb: IsUnsignedInteger(Nullable(Of Object))
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger(System.Nullable<System.Object>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger(System.Nullable(Of System.Object))
-  nameWithType: XNumberBase.IsUnsignedInteger(Nullable<Object>)
-  nameWithType.vb: XNumberBase.IsUnsignedInteger(Nullable(Of Object))
-- uid: Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger*
+  fullName: Galaxon.Core.Numbers.XNumber.IsUnsignedInteger(System.Nullable<System.Object>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.IsUnsignedInteger(System.Nullable(Of System.Object))
+  nameWithType: XNumber.IsUnsignedInteger(Nullable<Object>)
+  nameWithType.vb: XNumber.IsUnsignedInteger(Nullable(Of Object))
+- uid: Galaxon.Core.Numbers.XNumber.IsUnsignedInteger*
   name: IsUnsignedInteger
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_IsUnsignedInteger_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_IsUnsignedInteger_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.IsUnsignedInteger
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.IsUnsignedInteger
-  nameWithType: XNumberBase.IsUnsignedInteger
-- uid: Galaxon.Core.Numbers.XNumberBase.Mod*
+  fullName: Galaxon.Core.Numbers.XNumber.IsUnsignedInteger
+  nameWithType: XNumber.IsUnsignedInteger
+- uid: Galaxon.Core.Numbers.XNumber.Mod*
   name: Mod
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Mod_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.Mod
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Mod_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.Mod
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.Mod
-  nameWithType: XNumberBase.Mod
-- uid: Galaxon.Core.Numbers.XNumberBase.Mod``1(``0,``0)
+  fullName: Galaxon.Core.Numbers.XNumber.Mod
+  nameWithType: XNumber.Mod
+- uid: Galaxon.Core.Numbers.XNumber.Mod``1(``0,``0)
   name: Mod<T>(T, T)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Mod__1___0___0_
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.Mod``1(``0,``0)
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Mod__1___0___0_
+  commentId: M:Galaxon.Core.Numbers.XNumber.Mod``1(``0,``0)
   name.vb: Mod(Of T)(T, T)
-  fullName: Galaxon.Core.Numbers.XNumberBase.Mod<T>(T, T)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.Mod(Of T)(T, T)
-  nameWithType: XNumberBase.Mod<T>(T, T)
-  nameWithType.vb: XNumberBase.Mod(Of T)(T, T)
-- uid: Galaxon.Core.Numbers.XNumberBase.Product*
+  fullName: Galaxon.Core.Numbers.XNumber.Mod<T>(T, T)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.Mod(Of T)(T, T)
+  nameWithType: XNumber.Mod<T>(T, T)
+  nameWithType.vb: XNumber.Mod(Of T)(T, T)
+- uid: Galaxon.Core.Numbers.XNumber.Product*
   name: Product
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Product_
-  commentId: Overload:Galaxon.Core.Numbers.XNumberBase.Product
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Product_
+  commentId: Overload:Galaxon.Core.Numbers.XNumber.Product
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XNumberBase.Product
-  nameWithType: XNumberBase.Product
-- uid: Galaxon.Core.Numbers.XNumberBase.Product``1(IEnumerable{``0})
+  fullName: Galaxon.Core.Numbers.XNumber.Product
+  nameWithType: XNumber.Product
+- uid: Galaxon.Core.Numbers.XNumber.Product``1(IEnumerable{``0})
   name: Product<T>(IEnumerable<T>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Product__1_IEnumerable___0__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.Product``1(IEnumerable{``0})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Product__1_IEnumerable___0__
+  commentId: M:Galaxon.Core.Numbers.XNumber.Product``1(IEnumerable{``0})
   name.vb: Product(Of T)(IEnumerable(Of T))
-  fullName: Galaxon.Core.Numbers.XNumberBase.Product<T>(IEnumerable<T>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.Product(Of T)(IEnumerable(Of T))
-  nameWithType: XNumberBase.Product<T>(IEnumerable<T>)
-  nameWithType.vb: XNumberBase.Product(Of T)(IEnumerable(Of T))
-- uid: Galaxon.Core.Numbers.XNumberBase.Product``1(IEnumerable{``0},Func{``0,``0})
+  fullName: Galaxon.Core.Numbers.XNumber.Product<T>(IEnumerable<T>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.Product(Of T)(IEnumerable(Of T))
+  nameWithType: XNumber.Product<T>(IEnumerable<T>)
+  nameWithType.vb: XNumber.Product(Of T)(IEnumerable(Of T))
+- uid: Galaxon.Core.Numbers.XNumber.Product``1(IEnumerable{``0},Func{``0,``0})
   name: Product<T>(IEnumerable<T>, Func<T, T>)
-  href: api/Galaxon.Core.Numbers.XNumberBase.html#Galaxon_Core_Numbers_XNumberBase_Product__1_IEnumerable___0__Func___0___0__
-  commentId: M:Galaxon.Core.Numbers.XNumberBase.Product``1(IEnumerable{``0},Func{``0,``0})
+  href: api/Galaxon.Core.Numbers.XNumber.html#Galaxon_Core_Numbers_XNumber_Product__1_IEnumerable___0__Func___0___0__
+  commentId: M:Galaxon.Core.Numbers.XNumber.Product``1(IEnumerable{``0},Func{``0,``0})
   name.vb: Product(Of T)(IEnumerable(Of T), Func(Of T, T))
-  fullName: Galaxon.Core.Numbers.XNumberBase.Product<T>(IEnumerable<T>, Func<T, T>)
-  fullName.vb: Galaxon.Core.Numbers.XNumberBase.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
-  nameWithType: XNumberBase.Product<T>(IEnumerable<T>, Func<T, T>)
-  nameWithType.vb: XNumberBase.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
+  fullName: Galaxon.Core.Numbers.XNumber.Product<T>(IEnumerable<T>, Func<T, T>)
+  fullName.vb: Galaxon.Core.Numbers.XNumber.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
+  nameWithType: XNumber.Product<T>(IEnumerable<T>, Func<T, T>)
+  nameWithType.vb: XNumber.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
 - uid: Galaxon.Core.Numbers.XRandom
   name: XRandom
   href: api/Galaxon.Core.Numbers.XRandom.html
@@ -1366,88 +1417,25 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XRandom.NextInt32
   nameWithType: XRandom.NextInt32
-- uid: Galaxon.Core.Numbers.XUint
-  name: XUint
-  href: api/Galaxon.Core.Numbers.XUint.html
-  commentId: T:Galaxon.Core.Numbers.XUint
-  fullName: Galaxon.Core.Numbers.XUint
-  nameWithType: XUint
-- uid: Galaxon.Core.Numbers.XUint.Abs(System.Int32)
-  name: Abs(Int32)
-  href: api/Galaxon.Core.Numbers.XUint.html#Galaxon_Core_Numbers_XUint_Abs_System_Int32_
-  commentId: M:Galaxon.Core.Numbers.XUint.Abs(System.Int32)
-  fullName: Galaxon.Core.Numbers.XUint.Abs(System.Int32)
-  nameWithType: XUint.Abs(Int32)
-- uid: Galaxon.Core.Numbers.XUint.Abs*
-  name: Abs
-  href: api/Galaxon.Core.Numbers.XUint.html#Galaxon_Core_Numbers_XUint_Abs_
-  commentId: Overload:Galaxon.Core.Numbers.XUint.Abs
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XUint.Abs
-  nameWithType: XUint.Abs
-- uid: Galaxon.Core.Numbers.XUlong
-  name: XUlong
-  href: api/Galaxon.Core.Numbers.XUlong.html
-  commentId: T:Galaxon.Core.Numbers.XUlong
-  fullName: Galaxon.Core.Numbers.XUlong
-  nameWithType: XUlong
-- uid: Galaxon.Core.Numbers.XUlong.Abs(System.Int64)
-  name: Abs(Int64)
-  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Abs_System_Int64_
-  commentId: M:Galaxon.Core.Numbers.XUlong.Abs(System.Int64)
-  fullName: Galaxon.Core.Numbers.XUlong.Abs(System.Int64)
-  nameWithType: XUlong.Abs(Int64)
-- uid: Galaxon.Core.Numbers.XUlong.Abs*
-  name: Abs
-  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Abs_
-  commentId: Overload:Galaxon.Core.Numbers.XUlong.Abs
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XUlong.Abs
-  nameWithType: XUlong.Abs
-- uid: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64})
-  name: Sum(IEnumerable<UInt64>)
-  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_IEnumerable_System_UInt64__
-  commentId: M:Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64})
-  name.vb: Sum(IEnumerable(Of UInt64))
-  fullName: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable<System.UInt64>)
-  fullName.vb: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable(Of System.UInt64))
-  nameWithType: XUlong.Sum(IEnumerable<UInt64>)
-  nameWithType.vb: XUlong.Sum(IEnumerable(Of UInt64))
-- uid: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
-  name: Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
-  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_IEnumerable_System_UInt64__Func_System_UInt64_System_UInt64__
-  commentId: M:Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
-  name.vb: Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
-  fullName: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable<System.UInt64>, Func<System.UInt64, System.UInt64>)
-  fullName.vb: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable(Of System.UInt64), Func(Of System.UInt64, System.UInt64))
-  nameWithType: XUlong.Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
-  nameWithType.vb: XUlong.Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
-- uid: Galaxon.Core.Numbers.XUlong.Sum*
-  name: Sum
-  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_
-  commentId: Overload:Galaxon.Core.Numbers.XUlong.Sum
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XUlong.Sum
-  nameWithType: XUlong.Sum
-- uid: Galaxon.Core.Numbers.XUshort
-  name: XUshort
-  href: api/Galaxon.Core.Numbers.XUshort.html
-  commentId: T:Galaxon.Core.Numbers.XUshort
-  fullName: Galaxon.Core.Numbers.XUshort
-  nameWithType: XUshort
-- uid: Galaxon.Core.Numbers.XUshort.Abs(System.Int16)
+- uid: Galaxon.Core.Numbers.XShort
+  name: XShort
+  href: api/Galaxon.Core.Numbers.XShort.html
+  commentId: T:Galaxon.Core.Numbers.XShort
+  fullName: Galaxon.Core.Numbers.XShort
+  nameWithType: XShort
+- uid: Galaxon.Core.Numbers.XShort.Abs(System.Int16)
   name: Abs(Int16)
-  href: api/Galaxon.Core.Numbers.XUshort.html#Galaxon_Core_Numbers_XUshort_Abs_System_Int16_
-  commentId: M:Galaxon.Core.Numbers.XUshort.Abs(System.Int16)
-  fullName: Galaxon.Core.Numbers.XUshort.Abs(System.Int16)
-  nameWithType: XUshort.Abs(Int16)
-- uid: Galaxon.Core.Numbers.XUshort.Abs*
+  href: api/Galaxon.Core.Numbers.XShort.html#Galaxon_Core_Numbers_XShort_Abs_System_Int16_
+  commentId: M:Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  fullName: Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  nameWithType: XShort.Abs(Int16)
+- uid: Galaxon.Core.Numbers.XShort.Abs*
   name: Abs
-  href: api/Galaxon.Core.Numbers.XUshort.html#Galaxon_Core_Numbers_XUshort_Abs_
-  commentId: Overload:Galaxon.Core.Numbers.XUshort.Abs
+  href: api/Galaxon.Core.Numbers.XShort.html#Galaxon_Core_Numbers_XShort_Abs_
+  commentId: Overload:Galaxon.Core.Numbers.XShort.Abs
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XUshort.Abs
-  nameWithType: XUshort.Abs
+  fullName: Galaxon.Core.Numbers.XShort.Abs
+  nameWithType: XShort.Abs
 - uid: Galaxon.Core.Strings
   name: Galaxon.Core.Strings
   href: api/Galaxon.Core.Strings.html

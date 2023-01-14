@@ -51,10 +51,14 @@
       }
     ],
     "dest": "docs",
+    "globalMetadata": {
+      "_appLogoPath": "images/Galaxon logo - transparent bg.png"
+    },
     "globalMetadataFiles": [],
     "fileMetadataFiles": [],
     "template": [
-      "default"
+      "default",
+      "templates/galaxon"
     ],
     "postProcessors": [],
     "markdownEngineName": "markdig",

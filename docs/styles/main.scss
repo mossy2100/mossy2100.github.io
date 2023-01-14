@@ -1,0 +1,227 @@
+$body-bg-color: darken(steelblue, 30%);
+$inactive-menu-item-color: darken(steelblue, 30%);
+$active-menu-item-color: steelblue;
+$hover-menu-item-color: lighten(steelblue, 10%);
+$panel-bg-color: aliceblue;
+$panel-border-color: darken(aliceblue, 10%);
+
+body {
+    background-color: $body-bg-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.5;
+}
+
+.navbar-brand {
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.toc .level1 > li {
+    font-size: 14px;
+}
+
+.navbar-inverse {
+    background-color: black;
+
+    .navbar-nav {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+
+        > li {
+            > a {
+                color: white;
+                background-color: $inactive-menu-item-color;
+                margin-top: 5px;
+                border-radius: 3px;
+
+                &:hover {
+                    background-color: $hover-menu-item-color;
+                }
+            }
+
+            &.active > a {
+                background-color: $active-menu-item-color;
+
+                &:hover {
+                    background-color: $hover-menu-item-color;
+                }
+            }
+        }
+    }
+}
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
+#profile-link {
+    a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 3px;
+        background-color: $inactive-menu-item-color;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 15px;
+        height: 40px;
+
+        img {
+            border-radius: 2px;
+            width: 30px;
+            height: 30px;
+        }
+
+        label {
+            color: white;
+            padding-left: 15px;
+            margin-bottom: 0;
+            font-weight: normal;
+            cursor: inherit;
+        }
+
+        &:hover {
+            background-color: $hover-menu-item-color;
+        }
+    }
+}
+
+#wrapper {
+    display: flex;
+}
+
+.container {
+    min-height: 100%;
+    display: flex;
+    align-items: stretch;
+
+    .article {
+        background-color: white;
+        margin-top: 70px;
+        margin-bottom: 0;
+        padding-bottom: 70px;
+        display: flex;
+        align-items: stretch;
+
+        &.row {
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        &.grid-right{
+            margin-left: 0;
+        }
+
+        .anchorjs-link {
+            display: none;
+        }
+
+        .col-md-2 {
+            width: 260px;
+            padding: 0;
+
+            .sideaffix {
+                width: 260px;
+                padding: 5px;
+                margin-top: 0;
+                top: 90px;
+                bottom: 0 !important;
+
+                .affix {
+                    overflow: hidden;
+                }
+            }
+        }
+    }
+}
+
+.sidenav,
+.sideaffix {
+    width: 260px;
+    background-color: $panel-bg-color;
+    border-left: solid 1px $panel-border-color;
+    border-right: solid 1px $panel-border-color;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.sidetoc,
+.sidefilter {
+    border: none;
+    background-color: transparent;
+}
+
+.toc {
+    background-color: transparent !important;
+}
+
+.sidefilter {
+    padding: 10px;
+
+    .toc-filter {
+        margin: 0;
+        border: solid 1px $panel-border-color;
+
+        > .filter-icon {
+            top: 15px;
+            left: 9px;
+        }
+
+        > .clear-icon {
+            top: 13px;
+        }
+
+        > input {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-left: 25px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-inverse {
+        .navbar-collapse {
+            padding-right: 0;
+        }
+
+        .navbar-nav {
+            margin-left: 10px;
+            width: auto;
+
+            > li {
+                > a {
+                    margin-left: 5px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+
+    #profile-link {
+        float: right;
+    }
+}
+
+@media (min-width: 992px) {
+    .article {
+        .col-md-10 {
+            width: 420px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .article {
+        .col-md-10 {
+            width: 620px;
+        }
+    }
+}
