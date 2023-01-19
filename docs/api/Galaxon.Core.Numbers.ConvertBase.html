@@ -75,8 +75,6 @@
   </h1>
   <div class="markdown level0 summary"><p>This class supports conversion between integers and strings of digits in a specified base,
 which can be in the range 2..64.</p>
-<p>NB: &quot;radix&quot; is used as a synonym for &quot;base&quot; in method arguments, because &quot;base&quot; is a keyword in
-C#.</p>
 <p>All built-in integer types are supported, including Int128, UInt128, and BigInteger.</p>
 <p>Most languages support conversion to and from base 2 to 36, formed from the 10 digits plus the
 26 letters in the English alphabet. To this sequence I've appended 28 non-alphanumeric (symbol)
@@ -94,37 +92,39 @@ different contexts), and '&quot;' (double quote) which is the string delimiter i
 Use the parameter &quot;letterCase&quot; to specify for the result to use all lower- or all upper-case
 letters. See the method documentation for ToBase() for how to use this parameter.</p>
 <p>The default is to use lower-case for all letters except for L (see the Digits constant).
-Lower-case letters are more easily distinguishable from numerals than upper-case letters.
-For example:
-O looks like 0
-I looks like 1
-Z looks like 2
-S looks like 5
-G looks like 6
-T looks like 7
-B looks like 8
-The only similar problem with lower-case letters is that l looks like 1, so upper-case is used
-for this letter only. (This is also why we use &quot;L&quot; as a suffix for long literals, as a rule.)</p>
+Upper-case letters are more easily confused with numerals than lower-case. For example:</p>
+<ul>
+<li>'O' looks like '0'</li>
+<li>'I' looks like '1'</li>
+<li>'Z' looks like '2'</li>
+<li>'S' looks like '5'</li>
+<li>'G' looks like '6'</li>
+<li>'B' looks like '8'
+The only similar problem with lower-case letters is that 'l' looks like '1'. To solve this,
+upper-case is used for this letter only. (This is the same reason why we use &quot;L&quot; as a suffix for
+long literals in C#, as a rule.)</li>
+</ul>
 <p>These days, most fonts, especially those used by IDEs, make it easy enough to distinguish
 between letters and numbers, so it's not the issue it once was.
 Multiple coding standards for CSS require lower-case hex digits in color literals.
 &quot;L&quot; is not a hexadecimal digit, so this behaviour doesn't violate that standard.
-Other than that, I can't find any standards that mandate one over the other.</p>
+Other than that, I can't find any standards that mandate one over the other. It seems upper-case
+is favoured in older languages, lower-case in newer.</p>
 <p>The core methods are ToBase() and FromBase(). In addition, convenience methods are provided in
 the form of &quot;To&quot; and &quot;From&quot; methods for all bases that are a power of 2:</p>
-<hr>
-<p>Numeral system          Base   Abbreviation</p>
-<hr>
-<p>binary                   2        Bin
-quaternary               4        Quat
-octal                    8        Oct
-hexadecimal             16        Hex
-triacontakaidecimal*    32        Tria
-tetrasexagesimal        64        Tetra</p>
-<hr>
-<p>*Base 32 is more correctly called duotrigesimal. However, there are multiple methods in use for
-encoding base 32 digits; the one used here is called triacontakaidecimal (see link below), also
-known as base32hex. It's the same encoding used in Java in JavaScript.</p>
+<p>|------------------------|--------|----------------|
+|  Numeral system        |  Base  |  Abbreviation  |
+|------------------------|--------|----------------|
+|  binary                |    2   |  Bin           |
+|  quaternary            |    4   |  Quat          |
+|  octal                 |    8   |  Oct           |
+|  hexadecimal           |   16   |  Hex           |
+|  triacontakaidecimal*  |   32   |  Tria          |
+|  tetrasexagesimal      |   64   |  Tetra         |
+|------------------------|--------|----------------|</p>
+<p>*Base 32 is more correctly called &quot;duotrigesimal&quot;. However, there are multiple methods in use
+for encoding base 32 digits; the one used here is called &quot;triacontakaidecimal&quot; (see link below),
+also known as &quot;base32hex&quot;. It's the same encoding used in Java in JavaScript.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -140,13 +140,6 @@ known as base32hex. It's the same encoding used in Java in JavaScript.</p>
   </div>
   <h3 id="fields">Fields
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_Digits.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.Digits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L94">View Source</a>
-  </span>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_Digits" data-uid="Galaxon.Core.Numbers.ConvertBase.Digits">Digits</h4>
   <div class="markdown level1 summary"><p>Valid digits as a string, supporting up to base 64.</p>
 </div>
@@ -170,13 +163,17 @@ known as base32hex. It's the same encoding used in Java in JavaScript.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_MaxBase.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.MaxBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L91">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_Digits.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.Digits%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L89">View Source</a>
+              </span>
+      </div>
+  
   <h4 id="Galaxon_Core_Numbers_ConvertBase_MaxBase" data-uid="Galaxon.Core.Numbers.ConvertBase.MaxBase">MaxBase</h4>
   <div class="markdown level1 summary"><p>The maximum base supported by the type.</p>
 </div>
@@ -200,13 +197,17 @@ known as base32hex. It's the same encoding used in Java in JavaScript.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_MinBase.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.MinBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L88">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_MaxBase.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.MaxBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L86">View Source</a>
+              </span>
+      </div>
+  
   <h4 id="Galaxon_Core_Numbers_ConvertBase_MinBase" data-uid="Galaxon.Core.Numbers.ConvertBase.MinBase">MinBase</h4>
   <div class="markdown level1 summary"><p>The minimum base supported by the type.</p>
 </div>
@@ -230,24 +231,63 @@ known as base32hex. It's the same encoding used in Java in JavaScript.</p>
       </tr>
     </tbody>
   </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_MinBase.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.MinBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L83">View Source</a>
+              </span>
+      </div>
+  
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ThinSpace" data-uid="Galaxon.Core.Numbers.ConvertBase.ThinSpace">ThinSpace</h4>
+  <div class="markdown level1 summary"><p>Unicode thin space character. Can be useful for formatting numbers.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const char ThinSpace = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ThinSpace.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ThinSpace%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L93">View Source</a>
+              </span>
+      </div>
+  
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromBase__1_System_String_System_Byte_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromBase%60%601(System.String%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L288">View Source</a>
-  </span>
   <a id="Galaxon_Core_Numbers_ConvertBase_FromBase_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromBase*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromBase__1_System_String_System_Byte_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromBase``1(System.String,System.Byte)">FromBase&lt;T&gt;(String, Byte)</h4>
-  <div class="markdown level1 summary"><p>Convert a string of digits in a given base into a int.</p>
+  <div class="markdown level1 summary"><p>Convert a string of digits in a given base into a int.
+Group separator characters, including spaces, newlines, thin spaces, periods, commas, and
+underscores, will be ignored.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromBase&lt;T&gt;(string digits, byte fromBase)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -323,13 +363,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromBin__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromBin%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L355">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromBase__1_System_String_System_Byte_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromBase%60%601(System.String%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L237">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromBin_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromBin*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromBin__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromBin``1(System.String)">FromBin&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of binary digits into an integer.</p>
@@ -338,7 +382,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromBin&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -391,13 +434,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromHex__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromHex%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L382">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromBin__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromBin%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L304">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromHex_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromHex*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromHex__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromHex``1(System.String)">FromHex&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of hexadecimal digits into an integer.</p>
@@ -406,7 +453,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromHex&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -459,13 +505,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromOct__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromOct%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L373">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromHex__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromHex%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L331">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromOct_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromOct*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromOct__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromOct``1(System.String)">FromOct&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of octal digits into an integer.</p>
@@ -474,7 +524,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromOct&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -527,13 +576,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromQuat__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromQuat%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L364">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromOct__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromOct%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L322">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromQuat_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromQuat*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromQuat__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromQuat``1(System.String)">FromQuat&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of quaternary digits into an integer.</p>
@@ -542,7 +595,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromQuat&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -595,13 +647,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromTetra__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromTetra%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L400">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromQuat__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromQuat%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L313">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromTetra_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromTetra*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromTetra__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromTetra``1(System.String)">FromTetra&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of tetrasexagesimal digits into an integer.</p>
@@ -610,7 +666,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromTetra&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -663,13 +718,17 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromTria__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromTria%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L391">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromTetra__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromTetra%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L349">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_FromTria_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromTria*"></a>
   <h4 id="Galaxon_Core_Numbers_ConvertBase_FromTria__1_System_String_" data-uid="Galaxon.Core.Numbers.ConvertBase.FromTria``1(System.String)">FromTria&lt;T&gt;(String)</h4>
   <div class="markdown level1 summary"><p>Convert a string of triacontakaidecimal digits into an integer.</p>
@@ -678,7 +737,6 @@ specified base.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T FromTria&lt;T&gt;(string digits)
-
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -731,15 +789,95 @@ specified base.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Int32_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToBase%60%601(%60%600%2CSystem.Byte%2CSystem.Int32%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L120">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_FromTria__1_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.FromTria%60%601(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L340">View Source</a>
+              </span>
+      </div>
+  
+  <a id="Galaxon_Core_Numbers_ConvertBase_GroupDigits_" data-uid="Galaxon.Core.Numbers.ConvertBase.GroupDigits*"></a>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_GroupDigits_System_String_System_Char_System_Byte_" data-uid="Galaxon.Core.Numbers.ConvertBase.GroupDigits(System.String,System.Char,System.Byte)">GroupDigits(String, Char, Byte)</h4>
+  <div class="markdown level1 summary"><p>Given a string of digits, format in groups using the specified group separator and group
+size.</p>
+<p>This method is designed for formatting numbers but it could be used for other purposes,
+since the method doesn't check if the characters are actually digits. It just assumes they
+are. Apart from saving time, it allows the method to be used for hexadecimal or other bases.</p>
+<p>Grouping starts from the right. Here's how you would format an integer:
+&quot;12345678&quot;.GroupDigits(',', 3) =&gt; &quot;12,345,678&quot;</p>
+<p>You can chain methods if you need to, e.g.
+&quot;11111000000001010101&quot;.GroupDigits('<em>', 8) =&gt; &quot;1111_10000000_01010101&quot;
+&quot;11111000000001010101&quot;.ZeroPad(24).GroupDigits('</em>', 8) =&gt; &quot;00001111_10000000_01010101&quot;
+123456789.ToHex().ZeroPad(8).GroupDigits(' ') =&gt; &quot;075b cd15&quot;</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string GroupDigits(this string str, char separator = '_', byte size = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>The string, nominally of digits, but can be whatever.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">separator</span></td>
+        <td><p>The group separator character.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">size</span></td>
+        <td><p>The group size.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The formatted string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_GroupDigits_System_String_System_Char_System_Byte_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.GroupDigits(System.String%2CSystem.Char%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L385">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToBase_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBase*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Int32_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Int32,System.Nullable{System.Boolean})">ToBase&lt;T&gt;(T, Byte, Int32, Nullable&lt;Boolean&gt;)</h4>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Nullable{System.Boolean})">ToBase&lt;T&gt;(T, Byte, Nullable&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Convert an integer to a string of digits in a given base.</p>
 <p>Note, a negative value will be converted to a non-negative value with the same underlying
 bits. This reflects the behaviour of other base-conversion methods in .NET.</p>
@@ -747,8 +885,7 @@ bits. This reflects the behaviour of other base-conversion methods in .NET.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBase&lt;T&gt;(this T n, byte toBase, int width = 1, bool? letterCase = null)
-
+    <pre><code class="lang-csharp hljs">public static string ToBase&lt;T&gt;(this T n, byte toBase, bool? letterCase = null)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -771,12 +908,6 @@ bits. This reflects the behaviour of other base-conversion methods in .NET.</p>
         <td><span class="xref">System.Byte</span></td>
         <td><span class="parametername">toBase</span></td>
         <td><p>The base to convert to.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits.</p>
 </td>
       </tr>
       <tr>
@@ -838,118 +969,25 @@ false = lower-case</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToBase%60%601(%60%600%2CSystem.Byte%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L191">View Source</a>
-  </span>
-  <a id="Galaxon_Core_Numbers_ConvertBase_ToBase_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBase*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Nullable{System.Boolean})">ToBase&lt;T&gt;(T, Byte, Nullable&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Variation of ToBase() that allows the user to omit the width parameter.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBase&lt;T&gt;(this T n, byte toBase, bool? letterCase)
-
-    where T : IBinaryInteger&lt;T&gt;</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">n</span></td>
-        <td><p>The instance value.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Byte</span></td>
-        <td><span class="parametername">toBase</span></td>
-        <td><p>The base to convert to.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><span class="parametername">letterCase</span></td>
-        <td><p>If letters should be lower-case, upper-case, or default.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>The string of digits.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td><p>The integer type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Galaxon.Core.Exceptions.ArgumentInvalidException.html">ArgumentInvalidException</a></td>
-        <td><p>If T is an unsupported type.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToBin%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L204">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToBase%60%601(%60%600%2CSystem.Byte%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L117">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToBin_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBin*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_System_Int32_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0,System.Int32)">ToBin&lt;T&gt;(T, Int32)</h4>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0)">ToBin&lt;T&gt;(T)</h4>
   <div class="markdown level1 summary"><p>Convert an integer to binary digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToBin&lt;T&gt;(this T n, int width = 1)
-
+    <pre><code class="lang-csharp hljs">public static string ToBin&lt;T&gt;(this T n)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -966,13 +1004,6 @@ false = lower-case</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
     </tbody>
@@ -1008,22 +1039,25 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Int32_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToHex%60%601(%60%600%2CSystem.Int32%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L241">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToBin%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L181">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToHex_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToHex*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Int32_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Int32,System.Nullable{System.Boolean})">ToHex&lt;T&gt;(T, Int32, Nullable&lt;Boolean&gt;)</h4>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Nullable{System.Boolean})">ToHex&lt;T&gt;(T, Nullable&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Convert integer to hexadecimal digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToHex&lt;T&gt;(this T n, int width = 1, bool? letterCase = null)
-
+    <pre><code class="lang-csharp hljs">public static string ToHex&lt;T&gt;(this T n, bool? letterCase = null)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1040,13 +1074,6 @@ up the width.</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
       <tr>
@@ -1088,22 +1115,25 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToOct%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L228">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToHex%60%601(%60%600%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L200">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToOct_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToOct*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_System_Int32_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0,System.Int32)">ToOct&lt;T&gt;(T, Int32)</h4>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0)">ToOct&lt;T&gt;(T)</h4>
   <div class="markdown level1 summary"><p>Convert integer to octal digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToOct&lt;T&gt;(this T n, int width = 1)
-
+    <pre><code class="lang-csharp hljs">public static string ToOct&lt;T&gt;(this T n)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1120,13 +1150,6 @@ up the width.</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
     </tbody>
@@ -1162,22 +1185,25 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToQuat%60%601(%60%600%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L216">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToOct%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L193">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToQuat_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToQuat*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_System_Int32_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0,System.Int32)">ToQuat&lt;T&gt;(T, Int32)</h4>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0)">ToQuat&lt;T&gt;(T)</h4>
   <div class="markdown level1 summary"><p>Convert integer to quaternary digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToQuat&lt;T&gt;(this T n, int width = 1)
-
+    <pre><code class="lang-csharp hljs">public static string ToQuat&lt;T&gt;(this T n)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1194,13 +1220,6 @@ up the width.</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
     </tbody>
@@ -1236,22 +1255,25 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Int32_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToTetra%60%601(%60%600%2CSystem.Int32%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L269">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToQuat%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L187">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToTetra_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTetra*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Int32_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Int32,System.Nullable{System.Boolean})">ToTetra&lt;T&gt;(T, Int32, Nullable&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Convert integer to tetrasexagesimal digits.</p>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Nullable{System.Boolean})">ToTetra&lt;T&gt;(T, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Convert integer to tetrasexagesimal (base 64) digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToTetra&lt;T&gt;(this T n, int width = 1, bool? letterCase = null)
-
+    <pre><code class="lang-csharp hljs">public static string ToTetra&lt;T&gt;(this T n, bool? letterCase = null)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1268,13 +1290,6 @@ up the width.</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
       <tr>
@@ -1316,22 +1331,25 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Int32_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToTria%60%601(%60%600%2CSystem.Int32%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L255">View Source</a>
-  </span>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToTetra%60%601(%60%600%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L214">View Source</a>
+              </span>
+      </div>
+  
   <a id="Galaxon_Core_Numbers_ConvertBase_ToTria_" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTria*"></a>
-  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Int32_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Int32,System.Nullable{System.Boolean})">ToTria&lt;T&gt;(T, Int32, Nullable&lt;Boolean&gt;)</h4>
-  <div class="markdown level1 summary"><p>Convert integer to triacontakaidecimal digits.</p>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Nullable_System_Boolean__" data-uid="Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Nullable{System.Boolean})">ToTria&lt;T&gt;(T, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Convert integer to triacontakaidecimal (base 32) digits.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToTria&lt;T&gt;(this T n, int width = 1, bool? letterCase = null)
-
+    <pre><code class="lang-csharp hljs">public static string ToTria&lt;T&gt;(this T n, bool? letterCase = null)
     where T : IBinaryInteger&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -1348,13 +1366,6 @@ up the width.</p>
         <td><span class="xref">T</span></td>
         <td><span class="parametername">n</span></td>
         <td><p>The integer to convert.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">width</span></td>
-        <td><p>The minimum number of digits in the result. Extra 0s will be prepended if necessary to make
-up the width.</p>
 </td>
       </tr>
       <tr>
@@ -1396,6 +1407,77 @@ up the width.</p>
       </tr>
     </tbody>
   </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Nullable_System_Boolean__.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ToTria%60%601(%60%600%2CSystem.Nullable%7BSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L207">View Source</a>
+              </span>
+      </div>
+  
+  <a id="Galaxon_Core_Numbers_ConvertBase_ZeroPad_" data-uid="Galaxon.Core.Numbers.ConvertBase.ZeroPad*"></a>
+  <h4 id="Galaxon_Core_Numbers_ConvertBase_ZeroPad_System_String_System_Int32_" data-uid="Galaxon.Core.Numbers.ConvertBase.ZeroPad(System.String,System.Int32)">ZeroPad(String, Int32)</h4>
+  <div class="markdown level1 summary"><p>Pad a string on the left with 0s to make it up to a certain width.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ZeroPad(this string str, int width)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>The string.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">width</span></td>
+        <td><p>The minimum number of characters in the the result.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The zero-padded string.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase_ZeroPad_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase.ZeroPad(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L362">View Source</a>
+              </span>
+      </div>
+  
 </article>
           </div>
           
@@ -1407,7 +1489,7 @@ up the width.</p>
                     <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Numbers_ConvertBase.md&amp;value=---%0Auid%3A%20Galaxon.Core.Numbers.ConvertBase%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L83" class="contribution-link">View Source</a>
+                    <a href="https://github.com/mossy2100/Core/blob/main/Numbers/ConvertBase.cs/#L78" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
@@ -1421,16 +1503,16 @@ up the width.</p>
       </div>
       
       <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+          <div class="grad-bottom"></div>
+          <div class="footer">
+              <div class="container">
+                  <span class="pull-right"><a href="#top">Back to top</a></span>
+                  
+                  <span>Generated by <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+                  |
+                  <span class="logo-attribution">Galaxy logo by <a href="https://www.freepik.com/free-vector/gradient-galaxy-logo-template_20917680.htm?query=logo&epik=dj0yJnU9b1pZMEtfNW1aX2hjQXp5ZGthUW9NczNjeS1PUjk5YmMmcD0wJm49eGdtbjNyUnRWSGlzX2xuVmhsc1hNQSZ0PUFBQUFBR1BJaTg0" target="_blank">Freepik</a></span>
+              </div>
           </div>
-        </div>
       </footer>
     </div>
     

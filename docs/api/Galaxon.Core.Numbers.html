@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Galaxon.Core.Numbers
+    <title>Galaxon.Core.Numbers
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Galaxon.Core.Numbers
+    <meta name="title" content="Galaxon.Core.Numbers
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -70,7 +70,7 @@
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="Galaxon.Core.Numbers">
   
-  <h1 id="Galaxon_Core_Numbers" data-uid="Galaxon.Core.Numbers" class="text-break">Namespace Galaxon.Core.Numbers
+  <h1 id="Galaxon_Core_Numbers" data-uid="Galaxon.Core.Numbers" class="text-break">Galaxon.Core.Numbers
   </h1>
   <div class="markdown level0 summary"></div>
   <div class="markdown level0 conceptual"></div>
@@ -80,8 +80,6 @@
       <h4><a class="xref" href="Galaxon.Core.Numbers.ConvertBase.html">ConvertBase</a></h4>
       <section><p>This class supports conversion between integers and strings of digits in a specified base,
 which can be in the range 2..64.</p>
-<p>NB: &quot;radix&quot; is used as a synonym for &quot;base&quot; in method arguments, because &quot;base&quot; is a keyword in
-C#.</p>
 <p>All built-in integer types are supported, including Int128, UInt128, and BigInteger.</p>
 <p>Most languages support conversion to and from base 2 to 36, formed from the 10 digits plus the
 26 letters in the English alphabet. To this sequence I've appended 28 non-alphanumeric (symbol)
@@ -99,70 +97,84 @@ different contexts), and '&quot;' (double quote) which is the string delimiter i
 Use the parameter &quot;letterCase&quot; to specify for the result to use all lower- or all upper-case
 letters. See the method documentation for ToBase() for how to use this parameter.</p>
 <p>The default is to use lower-case for all letters except for L (see the Digits constant).
-Lower-case letters are more easily distinguishable from numerals than upper-case letters.
-For example:
-O looks like 0
-I looks like 1
-Z looks like 2
-S looks like 5
-G looks like 6
-T looks like 7
-B looks like 8
-The only similar problem with lower-case letters is that l looks like 1, so upper-case is used
-for this letter only. (This is also why we use &quot;L&quot; as a suffix for long literals, as a rule.)</p>
+Upper-case letters are more easily confused with numerals than lower-case. For example:</p>
+<ul>
+<li>'O' looks like '0'</li>
+<li>'I' looks like '1'</li>
+<li>'Z' looks like '2'</li>
+<li>'S' looks like '5'</li>
+<li>'G' looks like '6'</li>
+<li>'B' looks like '8'
+The only similar problem with lower-case letters is that 'l' looks like '1'. To solve this,
+upper-case is used for this letter only. (This is the same reason why we use &quot;L&quot; as a suffix for
+long literals in C#, as a rule.)</li>
+</ul>
 <p>These days, most fonts, especially those used by IDEs, make it easy enough to distinguish
 between letters and numbers, so it's not the issue it once was.
 Multiple coding standards for CSS require lower-case hex digits in color literals.
 &quot;L&quot; is not a hexadecimal digit, so this behaviour doesn't violate that standard.
-Other than that, I can't find any standards that mandate one over the other.</p>
+Other than that, I can't find any standards that mandate one over the other. It seems upper-case
+is favoured in older languages, lower-case in newer.</p>
 <p>The core methods are ToBase() and FromBase(). In addition, convenience methods are provided in
 the form of &quot;To&quot; and &quot;From&quot; methods for all bases that are a power of 2:</p>
-<hr>
-<p>Numeral system          Base   Abbreviation</p>
-<hr>
-<p>binary                   2        Bin
-quaternary               4        Quat
-octal                    8        Oct
-hexadecimal             16        Hex
-triacontakaidecimal*    32        Tria
-tetrasexagesimal        64        Tetra</p>
-<hr>
-<p>*Base 32 is more correctly called duotrigesimal. However, there are multiple methods in use for
-encoding base 32 digits; the one used here is called triacontakaidecimal (see link below), also
-known as base32hex. It's the same encoding used in Java in JavaScript.</p>
+<p>|------------------------|--------|----------------|
+|  Numeral system        |  Base  |  Abbreviation  |
+|------------------------|--------|----------------|
+|  binary                |    2   |  Bin           |
+|  quaternary            |    4   |  Quat          |
+|  octal                 |    8   |  Oct           |
+|  hexadecimal           |   16   |  Hex           |
+|  triacontakaidecimal*  |   32   |  Tria          |
+|  tetrasexagesimal      |   64   |  Tetra         |
+|------------------------|--------|----------------|</p>
+<p>*Base 32 is more correctly called &quot;duotrigesimal&quot;. However, there are multiple methods in use
+for encoding base 32 digits; the one used here is called &quot;triacontakaidecimal&quot; (see link below),
+also known as &quot;base32hex&quot;. It's the same encoding used in Java in JavaScript.</p>
+</section>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.SuperAndSubscript.html">SuperAndSubscript</a></h4>
+      <section><p>Extension methods that enable formatting of integers in superscript or subscript form.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XBigInteger.html">XBigInteger</a></h4>
       <section><p>Extension methods for BigInteger.</p>
-</section>
-      <h4><a class="xref" href="Galaxon.Core.Numbers.XByte.html">XByte</a></h4>
-      <section><p>Extension methods for sbyte and byte.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XDecimal.html">XDecimal</a></h4>
       <section><p>Extension methods for decimal.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XDouble.html">XDouble</a></h4>
-      <section><p>Extension methods for double.</p>
+      <section><p>Extension methods and other bonus stuff for double.</p>
+</section>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XFloat.html">XFloat</a></h4>
+      <section><p>Extension methods and other bonus stuff for float.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XFloatingPoint.html">XFloatingPoint</a></h4>
       <section><p>Extension methods for IFloatingPoint{T}.</p>
 </section>
-      <h4><a class="xref" href="Galaxon.Core.Numbers.XInt.html">XInt</a></h4>
-      <section><p>Extension methods for int and uint.</p>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XHalf.html">XHalf</a></h4>
+      <section><p>Extension methods and other bonus stuff for Half.</p>
 </section>
-      <h4><a class="xref" href="Galaxon.Core.Numbers.XInteger.html">XInteger</a></h4>
-      <section><p>Extension methods for integer types (IBinaryInteger{T}).</p>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XInt.html">XInt</a></h4>
+      <section><p>Extension methods for int.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XLong.html">XLong</a></h4>
-      <section><p>Extension methods for long and ulong.</p>
+      <section><p>Extension methods for long.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XNumber.html">XNumber</a></h4>
       <section><p>Extension methods for numbers (INumber{T} and INumberBase{T}).</p>
 </section>
-      <h4><a class="xref" href="Galaxon.Core.Numbers.XRandom.html">XRandom</a></h4>
-      <section><p>Extension methods for Random.</p>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XSbyte.html">XSbyte</a></h4>
+      <section><p>Extension methods for sbyte.</p>
 </section>
       <h4><a class="xref" href="Galaxon.Core.Numbers.XShort.html">XShort</a></h4>
-      <section><p>Extension methods for short and ushort.</p>
+      <section><p>Extension methods for short.</p>
+</section>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XUint.html">XUint</a></h4>
+      <section><p>Extension methods for uint.</p>
+</section>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XUlong.html">XUlong</a></h4>
+      <section><p>Extension methods for ulong.</p>
+</section>
+      <h4><a class="xref" href="Galaxon.Core.Numbers.XUshort.html">XUshort</a></h4>
+      <section><p>Extension methods for ushort.</p>
 </section>
 </article>
           </div>
@@ -183,16 +195,16 @@ known as base32hex. It's the same encoding used in Java in JavaScript.</p>
       </div>
       
       <footer>
-        <div class="grad-bottom"></div>
-        <div class="footer">
-          <div class="container">
-            <span class="pull-right">
-              <a href="#top">Back to top</a>
-            </span>
-            
-            <span>Generated by <strong>DocFX</strong></span>
+          <div class="grad-bottom"></div>
+          <div class="footer">
+              <div class="container">
+                  <span class="pull-right"><a href="#top">Back to top</a></span>
+                  
+                  <span>Generated by <a href="https://dotnet.github.io/docfx" target="_blank">DocFX</a></span>
+                  |
+                  <span class="logo-attribution">Galaxy logo by <a href="https://www.freepik.com/free-vector/gradient-galaxy-logo-template_20917680.htm?query=logo&epik=dj0yJnU9b1pZMEtfNW1aX2hjQXp5ZGthUW9NczNjeS1PUjk5YmMmcD0wJm49eGdtbjNyUnRWSGlzX2xuVmhsc1hNQSZ0PUFBQUFBR1BJaTg0" target="_blank">Freepik</a></span>
+              </div>
           </div>
-        </div>
       </footer>
     </div>
     

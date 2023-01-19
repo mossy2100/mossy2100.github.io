@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XCollection.html",
-          "hash": "C0eIKWzbITrJ0tbui3gTNtogiUCe4LsbxVvmFj3U1qs="
+          "hash": "abGtAkIl89SGuUVM/aK8L0YLuHglV2wNneo1t0N5Hhw="
         }
       },
       "is_incremental": false,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XDictionary.html",
-          "hash": "ZLh7cK5rn7Z7aal8hE/URrqKUqug7PagYxEEu/EmuAY="
+          "hash": "UA54Hf2YajqE0b3VgcPtvHn+0oykco9lXmNha+CH3s8="
         }
       },
       "is_incremental": false,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XEnumerable.html",
-          "hash": "c9emThPNCjdoWLgFp3oSw12yZgEdTBY28moEfjfL2HY="
+          "hash": "RjX/xAWHCL1vXBoxOYDx8VZPGYYlPOjFKw1wNbhAeyM="
         }
       },
       "is_incremental": false,
@@ -45,7 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.html",
-          "hash": "77CH4Amy5Ruvq0qoNi3VBsA9E5NYH8UH/Duagz+ZO48="
+          "hash": "XzP9tfdXYvw5CU6q661iHKoGJtvabx5ExsxSZf5Ow4Q="
         }
       },
       "is_incremental": false,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.ArgumentFormatException.html",
-          "hash": "8vRfSf+0d9W7UJ45ehRE3JRG3jUOk8AZBt/1Ewm1FyI="
+          "hash": "M+fz2RJEgmMEmN/0icWhAis+PeifMWFaUdEpws1o5Pg="
         }
       },
       "is_incremental": false,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.ArgumentInvalidException.html",
-          "hash": "nBHwEAOC5c0LvU+CEcnNYE2QrRYLQW+oqxk+C9UPxlM="
+          "hash": "e/NfjcYUX3EnKksLpk9VDz2Y5wkIEmdAfgO0GJVM2rc="
         }
       },
       "is_incremental": false,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.DataNotFoundException.html",
-          "hash": "awyujeVSfvlFCazH9uHzFzUwiyRrN7JGdNQvTdtleJ8="
+          "hash": "q52axeVfk+Z0imbB4Ebu0QotJi8ZDec3Laizecn5myk="
         }
       },
       "is_incremental": false,
@@ -93,7 +93,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.html",
-          "hash": "JhdMBWZ2ONW8btBKA09nqmZ2XyDBCOhqNMAgtct6kmo="
+          "hash": "EMJdCH9Z86BZuAxKqueYM+GIMa/78w4xF9bpK0SBLkE="
         }
       },
       "is_incremental": false,
@@ -105,7 +105,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.ConvertBase.html",
-          "hash": "B8aplLjtnF4WmnDbaoXidrW0+7aWeSHhM0o3IoXZwBc="
+          "hash": "ysaehfVXCU/yKCf3HG7gw9sEEyKlIJfAmFdmK7N8syg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.SuperAndSubscript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.SuperAndSubscript.html",
+          "hash": "Xucsvw2b+IND8WBpnJxT7z7SsMvjIw9SHtczf9C7fGo="
         }
       },
       "is_incremental": false,
@@ -117,19 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XBigInteger.html",
-          "hash": "Q3gEZpOiB0mLw9cze3gTThji8VHvhDiIHD/wTRY1Y+0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Galaxon.Core.Numbers.XByte.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Galaxon.Core.Numbers.XByte.html",
-          "hash": "CH0SNpixUM+Sej/SEyRea1BP0Bspvg114CM45nVNl5Y="
+          "hash": "AgcNTwEYkdiyBx3IGnJ0IBVZDinDg8lY4AnhTcNAU/U="
         }
       },
       "is_incremental": false,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XDecimal.html",
-          "hash": "xH8NMjjXIwIwb422a2pw9w3VPIWt160qaJHeioEDE6w="
+          "hash": "gz4sE3uzu2OJROdeunRutewwMGSliHHPNUgvzmiWcOA="
         }
       },
       "is_incremental": false,
@@ -153,7 +153,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XDouble.html",
-          "hash": "n4hWa6cfS9kkJ2BbuzwCzRhEEMYLlHgtY6UPqsRWOCs="
+          "hash": "tlQOGxj5JiXopGMwNgksXlmZ3KxSHuGTAjq0c2W3VaI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.XFloat.html",
+          "hash": "22Xh1GPuGgGy4b1igHuOdKfXMUtmCS4nV8hA4/DXoY8="
         }
       },
       "is_incremental": false,
@@ -165,7 +177,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XFloatingPoint.html",
-          "hash": "TGOMhJ31CdjDQKg+owXMgHL7MSCoxrnr9TWMVczlg7M="
+          "hash": "sa2lcD1xoQ1AfNR4FUiPFDXTGauGksGYonGbuYSGet8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XHalf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.XHalf.html",
+          "hash": "wOOTGD3ECQj6GDgS4S4/yAC5I8xbNc29dTA1lw5XxNE="
         }
       },
       "is_incremental": false,
@@ -177,19 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XInt.html",
-          "hash": "TZen3bAGtp1hO8CwmbCp67jWm7S+UFFHwpfmzeEbT7M="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Galaxon.Core.Numbers.XInteger.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Galaxon.Core.Numbers.XInteger.html",
-          "hash": "50XavDzUX7r3lgdhsHRTBOAWMXjpjd/cUUVS+ROBEZY="
+          "hash": "wNN6h86UigdJImkR2IkKm+HjcXSTPuZdzllNTiIfNu4="
         }
       },
       "is_incremental": false,
@@ -201,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XLong.html",
-          "hash": "ZcVW2jKkSYqHP+9+PCbrWSnuIF1G2neaTDZOOqg1HpA="
+          "hash": "WIayZj3IZNYlM4VWx8/KXM0SgF/8WqGZMzXz8QHjNQ8="
         }
       },
       "is_incremental": false,
@@ -213,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XNumber.html",
-          "hash": "eV6CLgREKslP0gvUmsI7zh4trt+7U1+kWsgCdWkjsLU="
+          "hash": "z4POCWnQ/t0P9NHnMbt7L5a+B7jXfkq+MisZyXwMP8Q="
         }
       },
       "is_incremental": false,
@@ -221,11 +233,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Galaxon.Core.Numbers.XRandom.yml",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XSbyte.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Galaxon.Core.Numbers.XRandom.html",
-          "hash": "8OueXJ3sIWkmp2+piqOGpbCvH0Htw6LNnf2DoG+hJhs="
+          "relative_path": "api/Galaxon.Core.Numbers.XSbyte.html",
+          "hash": "+cwWH5nA0CLkYracCJlz4cE5d9jBRzNGpum752+E0Fc="
         }
       },
       "is_incremental": false,
@@ -237,7 +249,43 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XShort.html",
-          "hash": "gTwD7DbTxPJgSV9mGK0kYzLP8jvW4NsQ5JmzY0l7xd4="
+          "hash": "vM7b2quux/FpHOM4WHYZGmvJhGewoexHh3cChiPbMWo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XUint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.XUint.html",
+          "hash": "/yi/aPc4RbhjzVg4crXEnL1cG3mVCdFcncCFr4CaMOo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XUlong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.XUlong.html",
+          "hash": "l5VhJEnjz8vokAp5x3RquBufLnI2YMdIFdVY8nM3Rf8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Numbers.XUshort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Numbers.XUshort.html",
+          "hash": "K4h1X1UKnh5RAMMgLHRxus3L0By21NjMUedLuAKeJ6Y="
         }
       },
       "is_incremental": false,
@@ -249,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.html",
-          "hash": "/VBVdRRcwISLTre9wOyqW2XpWy4Rg+nDD2SBp9KZt/E="
+          "hash": "KP/D2z3h2k2r58OIkotST/4f62LV3tJVRPC6IEmYfnw="
         }
       },
       "is_incremental": false,
@@ -261,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.InvalidCharAction.html",
-          "hash": "48n32jSnaT9kl+bhbJmsyqdjCyAMeQjwxlZqDq/VFOk="
+          "hash": "zYgea6ho3kISZISRyqWtmjgw9VP0PL6W+HOP0Xm6KvY="
         }
       },
       "is_incremental": false,
@@ -269,11 +317,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Galaxon.Core.Strings.SuperAndSubscript.yml",
+      "source_relative_path": "api/Galaxon.Core.Strings.Translate.ITranslateProvider.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Galaxon.Core.Strings.SuperAndSubscript.html",
-          "hash": "PfUMHW+T3iZ4j1OnPQWWP3LA7fwil0KzY9wY3opGn/4="
+          "relative_path": "api/Galaxon.Core.Strings.Translate.ITranslateProvider.html",
+          "hash": "du4l6ExVoIV3BGCZ4EHT/7We4wpjaeyOfd9ZZaIOqas="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Strings.Translate.TranslateProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Strings.Translate.TranslateProvider.html",
+          "hash": "FJGA9We/q4adig6WZHN1OhaAfjGPHrSXfiwZCV0577o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Strings.Translate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Strings.Translate.html",
+          "hash": "BwNFJxmPi7le7ul4TOA0dEHvNw7pYiLa+mlh7UzQaR0="
         }
       },
       "is_incremental": false,
@@ -285,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.XString.html",
-          "hash": "QsLixo//sEYEavCR9a5wl4/XXGY0m8mXR6lTJMaBtzk="
+          "hash": "ecGJjArdLPPHZmXXfiGnCcGQIvmMY/0JbzvnpTGYyVU="
         }
       },
       "is_incremental": false,
@@ -297,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.XStringBuilder.html",
-          "hash": "lKEenErZZURv+UgZlzDcko5xtqu6xnzGUBpyc2NHrHg="
+          "hash": "JDr2eW7OX0d2nT1V26AC8mOUlhVQVUKW9+HHVliZOzg="
         }
       },
       "is_incremental": false,
@@ -309,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.html",
-          "hash": "FeK3+MuEmV2Hlq41yoTLOtUKlQWW0lxtmLJqWbxagaY="
+          "hash": "DR3CVHfbjuMdcshRRJ586whMSpuTgBGtoym8qaGdV9E="
         }
       },
       "is_incremental": false,
@@ -321,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Testing.XAssert.html",
-          "hash": "zH26GUAAL91cGB0fpKFjjtQFOMIOMba5QTDXp/FNQh4="
+          "hash": "4s3aNgFWK97nCk062qdp0CZw/SAEX9Q5INoMNWcQhC8="
         }
       },
       "is_incremental": false,
@@ -333,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Testing.html",
-          "hash": "Qu4kw+H2N21yCnjcX3E60yNcD0i95lGRfeX/jnboiao="
+          "hash": "9KOAAYKweUCVi4x1iBq50WKppfNBxKF4fX4uMQSaKlM="
         }
       },
       "is_incremental": false,
@@ -345,7 +417,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestConvertBase.html",
-          "hash": "MzNeGCUgfbfDeASlw7IMvelEkjWG90TR1N8EmZcZtmM="
+          "hash": "qKrxkVydnssxSvh55AIwuIHlgpKuA8OnUgt/5ZifRJg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html",
+          "hash": "gEnpUiTdwzLMVPkY3okkSQsoUSKy0nzi/hyPyk9Kcho="
         }
       },
       "is_incremental": false,
@@ -357,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXBigInteger.html",
-          "hash": "DuGFxe51M49yfwqCy+E/YKJmuRDbgQ1H2EzAcIXLM5g="
+          "hash": "9CZpsP2MQLgqxg7Dcal+bcZVEfxxSuu0qnFXRA6iYQE="
         }
       },
       "is_incremental": false,
@@ -369,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDateOnly.html",
-          "hash": "niAX3N5ML9IsvADSNKmVy0GvbvbADQu6IIqzyY4wyLY="
+          "hash": "wqGq8Ty1Dmrd6OI+/g6qxKcZtbcCz/sXm0y8yFbjN+Q="
         }
       },
       "is_incremental": false,
@@ -381,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDateTime.html",
-          "hash": "Tcd+lIdn79zNoIFc05WhvcAYSwNwqL/7sisFgAMQnDw="
+          "hash": "B/ypBGzqXebQfXwZ8hFy6/JQkp0RPzS+vPdxXb2Uhuk="
         }
       },
       "is_incremental": false,
@@ -393,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDecimal.html",
-          "hash": "kUKavNlZAT9HWflxVSSJmaSQ06y3AQHRhXFxZBat46U="
+          "hash": "LELUhr2FxTva66Hf3g3IB8cepiltvVZ0DzKjSoLzQPU="
         }
       },
       "is_incremental": false,
@@ -405,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDictionary.html",
-          "hash": "S861tSsv2Qthid8Y1ev+GYLdSkxEL5i7zN7ca0/sjao="
+          "hash": "7MNRAQb1gOGs23xTT7E4qRATLvsnrbUQaiEv3EX+0gA="
         }
       },
       "is_incremental": false,
@@ -417,7 +501,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDouble.html",
-          "hash": "jVGFcz3WpVJtFxsbyt35swWk96rKWzJVR1vusrU2s7o="
+          "hash": "7rjC2EMuV8MKiNwAjf7Ub9Cg0nHPFlT5qfU/cjtpUVU="
         }
       },
       "is_incremental": false,
@@ -429,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXEnumerable.html",
-          "hash": "6lBAx+LRdKV7KDYh0lqCkpKU5vz87cKIGdzqSLQ+IMM="
+          "hash": "31QDMYajxriGNwFAQl2emBouXNWvmxSmf6Imejg0DGo="
         }
       },
       "is_incremental": false,
@@ -441,7 +525,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXInt.html",
-          "hash": "ircyhmcA7+fZ2U1HWURPcShV7MoiTdVp75U+xIGvKmo="
+          "hash": "ck/5UJ6Ek1/mhannDh9b0j2UBI1jCgjKhgS5BiMnNBY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Core.Tests.TestXString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Core.Tests.TestXString.html",
+          "hash": "g7qvD6andj5cdxzhGzYWgqRUnZlBriaAa9gIvTiw95o="
         }
       },
       "is_incremental": false,
@@ -453,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXUlong.html",
-          "hash": "PbsAJjlCVvCEey+AFAxaLght4R85lapmIybR8p1+p1M="
+          "hash": "NgZrLvWx4P7hbi4ZKSjhPpBBRUIAg/DMIKYTQQvoqXc="
         }
       },
       "is_incremental": false,
@@ -465,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.html",
-          "hash": "AdhJRbXOzDhiELC14nsykT2QYvLcjoIBLsY0oDjK098="
+          "hash": "gyjqWrs3dzZXQXzXZLdpkwcO0JgX4SutCIQ/WKf2rb0="
         }
       },
       "is_incremental": false,
@@ -477,7 +573,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.ETimeUnit.html",
-          "hash": "zWKU20H2HHduSdtdqjKsiPah7fsFpLfp+89ndeA5pb4="
+          "hash": "no5q/GprUQrpjI3CUlWIsa/0Lyhyis2DHFUCbE0yKOw="
         }
       },
       "is_incremental": false,
@@ -489,7 +585,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XDateOnly.html",
-          "hash": "lyElXCgECslbCQuyb0GERQPRN3F8sjGlziHosQBNk4g="
+          "hash": "4swdGxG7TNgOufENVSnrIIr/YKhW6RfwtrYmy3KWwWw="
         }
       },
       "is_incremental": false,
@@ -501,7 +597,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XDateTime.html",
-          "hash": "zg1wdSLd2tjVf9H42AhNFvdXqi2q/O6v/ZTkxnaJopI="
+          "hash": "HB/B1C8rODY5hHw3/GSsCkblzelNDjig8RnHxJPs1Ec="
         }
       },
       "is_incremental": false,
@@ -513,7 +609,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XTimeSpan.html",
-          "hash": "4Uni5Yk9Y61jNIe6d8QfzTFHIaWg0Dvug4cTSR3dy+I="
+          "hash": "1H7GyUgXf8jUN40reMjiSm3JBSvTZaQQbPp9OcyPt64="
         }
       },
       "is_incremental": false,
@@ -525,7 +621,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.html",
-          "hash": "8otOsPO1dP/a8Fjq12zwArjPVvMVs1MJ8s8CLR+lnLY="
+          "hash": "UbbvW+XqoeZ4u8yqfsKBw5DWNSVXAbigDGU5lVyn/iI="
         }
       },
       "is_incremental": false,
@@ -537,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "HkF8DJuIOuwbfZenm6QgF6/8u0zYafhwC5byqQ+ujAo="
+          "hash": "ALLppHAVyApVI79uM82Yog3pBTgBpyeFkwfdQNv0eew="
         }
       },
       "is_incremental": false,
@@ -549,7 +645,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "Uq0E9Mij8ZEM/tq5Wu3xX2hp6MDaUUic1SBn5zQM1NI="
+          "hash": "mawOm1sAASe6uQhRmVj1nM608qrrZ98aYZ2t41KkwSM="
         }
       },
       "is_incremental": false,
@@ -561,7 +657,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/intro.html",
-          "hash": "sIrIOm1+4aayR0jCNQW/rn339/1PgjLF6l+rofCfggw="
+          "hash": "Kt07bMpY4nkeOI65ZwkCr/q/0O+hmfoaUg/yfScmhwQ="
         }
       },
       "is_incremental": false,
@@ -580,12 +676,23 @@
       "version": ""
     },
     {
+      "type": "Resource",
+      "source_relative_path": "images/Galaxon logo - transparent bg.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/Galaxon logo - transparent bg.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "UDbsyAilf5230LUOWCR0q/C9PctkIKiAdYalM/N+pcs="
+          "hash": "apVjWe3NzQI6cexCV4RUZfFfIpHrsVBfoqwAzRWi4o8="
         }
       },
       "is_incremental": false,
@@ -622,8 +729,15 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 44,
-          "skipped_file_count": 44
+          "total_file_count": 52,
+          "skipped_file_count": 52
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,

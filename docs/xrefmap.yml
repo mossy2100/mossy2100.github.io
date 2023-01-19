@@ -321,6 +321,19 @@ references:
   fullName.vb: Galaxon.Core.Numbers.ConvertBase.FromTria(Of T)(System.String)
   nameWithType: ConvertBase.FromTria<T>(String)
   nameWithType.vb: ConvertBase.FromTria(Of T)(String)
+- uid: Galaxon.Core.Numbers.ConvertBase.GroupDigits(System.String,System.Char,System.Byte)
+  name: GroupDigits(String, Char, Byte)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_GroupDigits_System_String_System_Char_System_Byte_
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.GroupDigits(System.String,System.Char,System.Byte)
+  fullName: Galaxon.Core.Numbers.ConvertBase.GroupDigits(System.String, System.Char, System.Byte)
+  nameWithType: ConvertBase.GroupDigits(String, Char, Byte)
+- uid: Galaxon.Core.Numbers.ConvertBase.GroupDigits*
+  name: GroupDigits
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_GroupDigits_
+  commentId: Overload:Galaxon.Core.Numbers.ConvertBase.GroupDigits
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.ConvertBase.GroupDigits
+  nameWithType: ConvertBase.GroupDigits
 - uid: Galaxon.Core.Numbers.ConvertBase.MaxBase
   name: MaxBase
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_MaxBase
@@ -333,6 +346,12 @@ references:
   commentId: F:Galaxon.Core.Numbers.ConvertBase.MinBase
   fullName: Galaxon.Core.Numbers.ConvertBase.MinBase
   nameWithType: ConvertBase.MinBase
+- uid: Galaxon.Core.Numbers.ConvertBase.ThinSpace
+  name: ThinSpace
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ThinSpace
+  commentId: F:Galaxon.Core.Numbers.ConvertBase.ThinSpace
+  fullName: Galaxon.Core.Numbers.ConvertBase.ThinSpace
+  nameWithType: ConvertBase.ThinSpace
 - uid: Galaxon.Core.Numbers.ConvertBase.ToBase*
   name: ToBase
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToBase_
@@ -340,15 +359,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToBase
   nameWithType: ConvertBase.ToBase
-- uid: Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Int32,System.Nullable{System.Boolean})
-  name: ToBase<T>(T, Byte, Int32, Nullable<Boolean>)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Int32_System_Nullable_System_Boolean__
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Int32,System.Nullable{System.Boolean})
-  name.vb: ToBase(Of T)(T, Byte, Int32, Nullable(Of Boolean))
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToBase<T>(T, System.Byte, System.Int32, System.Nullable<System.Boolean>)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToBase(Of T)(T, System.Byte, System.Int32, System.Nullable(Of System.Boolean))
-  nameWithType: ConvertBase.ToBase<T>(T, Byte, Int32, Nullable<Boolean>)
-  nameWithType.vb: ConvertBase.ToBase(Of T)(T, Byte, Int32, Nullable(Of Boolean))
 - uid: Galaxon.Core.Numbers.ConvertBase.ToBase``1(``0,System.Byte,System.Nullable{System.Boolean})
   name: ToBase<T>(T, Byte, Nullable<Boolean>)
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToBase__1___0_System_Byte_System_Nullable_System_Boolean__
@@ -365,15 +375,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToBin
   nameWithType: ConvertBase.ToBin
-- uid: Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0,System.Int32)
-  name: ToBin<T>(T, Int32)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_System_Int32_
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0,System.Int32)
-  name.vb: ToBin(Of T)(T, Int32)
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToBin<T>(T, System.Int32)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToBin(Of T)(T, System.Int32)
-  nameWithType: ConvertBase.ToBin<T>(T, Int32)
-  nameWithType.vb: ConvertBase.ToBin(Of T)(T, Int32)
+- uid: Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0)
+  name: ToBin<T>(T)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToBin__1___0_
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToBin``1(``0)
+  name.vb: ToBin(Of T)(T)
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToBin<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToBin(Of T)(T)
+  nameWithType: ConvertBase.ToBin<T>(T)
+  nameWithType.vb: ConvertBase.ToBin(Of T)(T)
 - uid: Galaxon.Core.Numbers.ConvertBase.ToHex*
   name: ToHex
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToHex_
@@ -381,15 +391,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToHex
   nameWithType: ConvertBase.ToHex
-- uid: Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name: ToHex<T>(T, Int32, Nullable<Boolean>)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Int32_System_Nullable_System_Boolean__
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name.vb: ToHex(Of T)(T, Int32, Nullable(Of Boolean))
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToHex<T>(T, System.Int32, System.Nullable<System.Boolean>)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToHex(Of T)(T, System.Int32, System.Nullable(Of System.Boolean))
-  nameWithType: ConvertBase.ToHex<T>(T, Int32, Nullable<Boolean>)
-  nameWithType.vb: ConvertBase.ToHex(Of T)(T, Int32, Nullable(Of Boolean))
+- uid: Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Nullable{System.Boolean})
+  name: ToHex<T>(T, Nullable<Boolean>)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToHex__1___0_System_Nullable_System_Boolean__
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToHex``1(``0,System.Nullable{System.Boolean})
+  name.vb: ToHex(Of T)(T, Nullable(Of Boolean))
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToHex<T>(T, System.Nullable<System.Boolean>)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToHex(Of T)(T, System.Nullable(Of System.Boolean))
+  nameWithType: ConvertBase.ToHex<T>(T, Nullable<Boolean>)
+  nameWithType.vb: ConvertBase.ToHex(Of T)(T, Nullable(Of Boolean))
 - uid: Galaxon.Core.Numbers.ConvertBase.ToOct*
   name: ToOct
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToOct_
@@ -397,15 +407,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToOct
   nameWithType: ConvertBase.ToOct
-- uid: Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0,System.Int32)
-  name: ToOct<T>(T, Int32)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_System_Int32_
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0,System.Int32)
-  name.vb: ToOct(Of T)(T, Int32)
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToOct<T>(T, System.Int32)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToOct(Of T)(T, System.Int32)
-  nameWithType: ConvertBase.ToOct<T>(T, Int32)
-  nameWithType.vb: ConvertBase.ToOct(Of T)(T, Int32)
+- uid: Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0)
+  name: ToOct<T>(T)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToOct__1___0_
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToOct``1(``0)
+  name.vb: ToOct(Of T)(T)
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToOct<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToOct(Of T)(T)
+  nameWithType: ConvertBase.ToOct<T>(T)
+  nameWithType.vb: ConvertBase.ToOct(Of T)(T)
 - uid: Galaxon.Core.Numbers.ConvertBase.ToQuat*
   name: ToQuat
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToQuat_
@@ -413,15 +423,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToQuat
   nameWithType: ConvertBase.ToQuat
-- uid: Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0,System.Int32)
-  name: ToQuat<T>(T, Int32)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_System_Int32_
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0,System.Int32)
-  name.vb: ToQuat(Of T)(T, Int32)
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToQuat<T>(T, System.Int32)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToQuat(Of T)(T, System.Int32)
-  nameWithType: ConvertBase.ToQuat<T>(T, Int32)
-  nameWithType.vb: ConvertBase.ToQuat(Of T)(T, Int32)
+- uid: Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0)
+  name: ToQuat<T>(T)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToQuat__1___0_
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToQuat``1(``0)
+  name.vb: ToQuat(Of T)(T)
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToQuat<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToQuat(Of T)(T)
+  nameWithType: ConvertBase.ToQuat<T>(T)
+  nameWithType.vb: ConvertBase.ToQuat(Of T)(T)
 - uid: Galaxon.Core.Numbers.ConvertBase.ToTetra*
   name: ToTetra
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTetra_
@@ -429,15 +439,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToTetra
   nameWithType: ConvertBase.ToTetra
-- uid: Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name: ToTetra<T>(T, Int32, Nullable<Boolean>)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Int32_System_Nullable_System_Boolean__
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name.vb: ToTetra(Of T)(T, Int32, Nullable(Of Boolean))
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToTetra<T>(T, System.Int32, System.Nullable<System.Boolean>)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToTetra(Of T)(T, System.Int32, System.Nullable(Of System.Boolean))
-  nameWithType: ConvertBase.ToTetra<T>(T, Int32, Nullable<Boolean>)
-  nameWithType.vb: ConvertBase.ToTetra(Of T)(T, Int32, Nullable(Of Boolean))
+- uid: Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Nullable{System.Boolean})
+  name: ToTetra<T>(T, Nullable<Boolean>)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTetra__1___0_System_Nullable_System_Boolean__
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToTetra``1(``0,System.Nullable{System.Boolean})
+  name.vb: ToTetra(Of T)(T, Nullable(Of Boolean))
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToTetra<T>(T, System.Nullable<System.Boolean>)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToTetra(Of T)(T, System.Nullable(Of System.Boolean))
+  nameWithType: ConvertBase.ToTetra<T>(T, Nullable<Boolean>)
+  nameWithType.vb: ConvertBase.ToTetra(Of T)(T, Nullable(Of Boolean))
 - uid: Galaxon.Core.Numbers.ConvertBase.ToTria*
   name: ToTria
   href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTria_
@@ -445,15 +455,90 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ToTria
   nameWithType: ConvertBase.ToTria
-- uid: Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name: ToTria<T>(T, Int32, Nullable<Boolean>)
-  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Int32_System_Nullable_System_Boolean__
-  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Int32,System.Nullable{System.Boolean})
-  name.vb: ToTria(Of T)(T, Int32, Nullable(Of Boolean))
-  fullName: Galaxon.Core.Numbers.ConvertBase.ToTria<T>(T, System.Int32, System.Nullable<System.Boolean>)
-  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToTria(Of T)(T, System.Int32, System.Nullable(Of System.Boolean))
-  nameWithType: ConvertBase.ToTria<T>(T, Int32, Nullable<Boolean>)
-  nameWithType.vb: ConvertBase.ToTria(Of T)(T, Int32, Nullable(Of Boolean))
+- uid: Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Nullable{System.Boolean})
+  name: ToTria<T>(T, Nullable<Boolean>)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ToTria__1___0_System_Nullable_System_Boolean__
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ToTria``1(``0,System.Nullable{System.Boolean})
+  name.vb: ToTria(Of T)(T, Nullable(Of Boolean))
+  fullName: Galaxon.Core.Numbers.ConvertBase.ToTria<T>(T, System.Nullable<System.Boolean>)
+  fullName.vb: Galaxon.Core.Numbers.ConvertBase.ToTria(Of T)(T, System.Nullable(Of System.Boolean))
+  nameWithType: ConvertBase.ToTria<T>(T, Nullable<Boolean>)
+  nameWithType.vb: ConvertBase.ToTria(Of T)(T, Nullable(Of Boolean))
+- uid: Galaxon.Core.Numbers.ConvertBase.ZeroPad(System.String,System.Int32)
+  name: ZeroPad(String, Int32)
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ZeroPad_System_String_System_Int32_
+  commentId: M:Galaxon.Core.Numbers.ConvertBase.ZeroPad(System.String,System.Int32)
+  fullName: Galaxon.Core.Numbers.ConvertBase.ZeroPad(System.String, System.Int32)
+  nameWithType: ConvertBase.ZeroPad(String, Int32)
+- uid: Galaxon.Core.Numbers.ConvertBase.ZeroPad*
+  name: ZeroPad
+  href: api/Galaxon.Core.Numbers.ConvertBase.html#Galaxon_Core_Numbers_ConvertBase_ZeroPad_
+  commentId: Overload:Galaxon.Core.Numbers.ConvertBase.ZeroPad
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.ConvertBase.ZeroPad
+  nameWithType: ConvertBase.ZeroPad
+- uid: Galaxon.Core.Numbers.SuperAndSubscript
+  name: SuperAndSubscript
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html
+  commentId: T:Galaxon.Core.Numbers.SuperAndSubscript
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript
+  nameWithType: SuperAndSubscript
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
+  name: SubscriptChars
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_SubscriptChars
+  commentId: F:Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
+  nameWithType: SuperAndSubscript.SubscriptChars
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
+  name: SuperscriptChars
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_SuperscriptChars
+  commentId: F:Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
+  nameWithType: SuperAndSubscript.SuperscriptChars
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
+  name: ToSubscript(String)
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript_System_String_
+  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
+  nameWithType: SuperAndSubscript.ToSubscript(String)
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript*
+  name: ToSubscript
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript_
+  commentId: Overload:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript
+  nameWithType: SuperAndSubscript.ToSubscript
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript``1(``0)
+  name: ToSubscript<T>(T)
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript__1___0_
+  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript``1(``0)
+  name.vb: ToSubscript(Of T)(T)
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(Of T)(T)
+  nameWithType: SuperAndSubscript.ToSubscript<T>(T)
+  nameWithType.vb: SuperAndSubscript.ToSubscript(Of T)(T)
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
+  name: ToSuperscript(String)
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript_System_String_
+  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
+  nameWithType: SuperAndSubscript.ToSuperscript(String)
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript*
+  name: ToSuperscript
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript_
+  commentId: Overload:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript
+  nameWithType: SuperAndSubscript.ToSuperscript
+- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript``1(``0)
+  name: ToSuperscript<T>(T)
+  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript__1___0_
+  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript``1(``0)
+  name.vb: ToSuperscript(Of T)(T)
+  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(Of T)(T)
+  nameWithType: SuperAndSubscript.ToSuperscript<T>(T)
+  nameWithType.vb: SuperAndSubscript.ToSuperscript(Of T)(T)
 - uid: Galaxon.Core.Numbers.XBigInteger
   name: XBigInteger
   href: api/Galaxon.Core.Numbers.XBigInteger.html
@@ -473,6 +558,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XBigInteger.DigitSum
   nameWithType: XBigInteger.DigitSum
+- uid: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger,BigInteger)
+  name: GreatestCommonDivisor(BigInteger, BigInteger)
+  href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_GreatestCommonDivisor_BigInteger_BigInteger_
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger,BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger, BigInteger)
+  nameWithType: XBigInteger.GreatestCommonDivisor(BigInteger, BigInteger)
+- uid: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor*
+  name: GreatestCommonDivisor
+  href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_GreatestCommonDivisor_
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor
+  nameWithType: XBigInteger.GreatestCommonDivisor
 - uid: Galaxon.Core.Numbers.XBigInteger.IsPalindromic(BigInteger)
   name: IsPalindromic(BigInteger)
   href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_IsPalindromic_BigInteger_
@@ -486,6 +584,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XBigInteger.IsPalindromic
   nameWithType: XBigInteger.IsPalindromic
+- uid: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger,BigInteger)
+  name: LeastCommonMultiple(BigInteger, BigInteger)
+  href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_LeastCommonMultiple_BigInteger_BigInteger_
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger,BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger, BigInteger)
+  nameWithType: XBigInteger.LeastCommonMultiple(BigInteger, BigInteger)
+- uid: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple*
+  name: LeastCommonMultiple
+  href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_LeastCommonMultiple_
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple
+  nameWithType: XBigInteger.LeastCommonMultiple
 - uid: Galaxon.Core.Numbers.XBigInteger.NumDigits(BigInteger)
   name: NumDigits(BigInteger)
   href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_NumDigits_BigInteger_
@@ -521,6 +632,15 @@ references:
   fullName.vb: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable(Of BigInteger))
   nameWithType: XBigInteger.Sum(IEnumerable<BigInteger>)
   nameWithType.vb: XBigInteger.Sum(IEnumerable(Of BigInteger))
+- uid: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  name: Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_Sum_IEnumerable_BigInteger__Func_BigInteger_BigInteger__
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  name.vb: Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
+  fullName: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  fullName.vb: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
+  nameWithType: XBigInteger.Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  nameWithType.vb: XBigInteger.Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
 - uid: Galaxon.Core.Numbers.XBigInteger.Sum*
   name: Sum
   href: api/Galaxon.Core.Numbers.XBigInteger.html#Galaxon_Core_Numbers_XBigInteger_Sum_
@@ -541,25 +661,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XBigInteger.ToUnsigned
   nameWithType: XBigInteger.ToUnsigned
-- uid: Galaxon.Core.Numbers.XByte
-  name: XByte
-  href: api/Galaxon.Core.Numbers.XByte.html
-  commentId: T:Galaxon.Core.Numbers.XByte
-  fullName: Galaxon.Core.Numbers.XByte
-  nameWithType: XByte
-- uid: Galaxon.Core.Numbers.XByte.Abs(System.SByte)
-  name: Abs(SByte)
-  href: api/Galaxon.Core.Numbers.XByte.html#Galaxon_Core_Numbers_XByte_Abs_System_SByte_
-  commentId: M:Galaxon.Core.Numbers.XByte.Abs(System.SByte)
-  fullName: Galaxon.Core.Numbers.XByte.Abs(System.SByte)
-  nameWithType: XByte.Abs(SByte)
-- uid: Galaxon.Core.Numbers.XByte.Abs*
-  name: Abs
-  href: api/Galaxon.Core.Numbers.XByte.html#Galaxon_Core_Numbers_XByte_Abs_
-  commentId: Overload:Galaxon.Core.Numbers.XByte.Abs
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XByte.Abs
-  nameWithType: XByte.Abs
 - uid: Galaxon.Core.Numbers.XDecimal
   name: XDecimal
   href: api/Galaxon.Core.Numbers.XDecimal.html
@@ -670,6 +771,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDecimal.Asinh
   nameWithType: XDecimal.Asinh
+- uid: Galaxon.Core.Numbers.XDecimal.Assemble(System.Byte,System.Byte,UInt128)
+  name: Assemble(Byte, Byte, UInt128)
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Assemble_System_Byte_System_Byte_UInt128_
+  commentId: M:Galaxon.Core.Numbers.XDecimal.Assemble(System.Byte,System.Byte,UInt128)
+  fullName: Galaxon.Core.Numbers.XDecimal.Assemble(System.Byte, System.Byte, UInt128)
+  nameWithType: XDecimal.Assemble(Byte, Byte, UInt128)
+- uid: Galaxon.Core.Numbers.XDecimal.Assemble*
+  name: Assemble
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Assemble_
+  commentId: Overload:Galaxon.Core.Numbers.XDecimal.Assemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDecimal.Assemble
+  nameWithType: XDecimal.Assemble
 - uid: Galaxon.Core.Numbers.XDecimal.Atanh(System.Decimal)
   name: Atanh(Decimal)
   href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Atanh_System_Decimal_
@@ -748,6 +862,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDecimal.Csch
   nameWithType: XDecimal.Csch
+- uid: Galaxon.Core.Numbers.XDecimal.Disassemble(System.Decimal)
+  name: Disassemble(Decimal)
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Disassemble_System_Decimal_
+  commentId: M:Galaxon.Core.Numbers.XDecimal.Disassemble(System.Decimal)
+  fullName: Galaxon.Core.Numbers.XDecimal.Disassemble(System.Decimal)
+  nameWithType: XDecimal.Disassemble(Decimal)
+- uid: Galaxon.Core.Numbers.XDecimal.Disassemble*
+  name: Disassemble
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Disassemble_
+  commentId: Overload:Galaxon.Core.Numbers.XDecimal.Disassemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDecimal.Disassemble
+  nameWithType: XDecimal.Disassemble
 - uid: Galaxon.Core.Numbers.XDecimal.Exp10(System.Decimal)
   name: Exp10(Decimal)
   href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_Exp10_System_Decimal_
@@ -774,6 +901,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDecimal.Exp2
   nameWithType: XDecimal.Exp2
+- uid: Galaxon.Core.Numbers.XDecimal.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XDecimal.GetRandom
+  fullName: Galaxon.Core.Numbers.XDecimal.GetRandom()
+  nameWithType: XDecimal.GetRandom()
+- uid: Galaxon.Core.Numbers.XDecimal.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XDecimal.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDecimal.GetRandom
+  nameWithType: XDecimal.GetRandom
 - uid: Galaxon.Core.Numbers.XDecimal.IsInteger(System.Decimal)
   name: IsInteger(Decimal)
   href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_IsInteger_System_Decimal_
@@ -832,6 +972,24 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDecimal.Log2
   nameWithType: XDecimal.Log2
+- uid: Galaxon.Core.Numbers.XDecimal.MaxScale
+  name: MaxScale
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_MaxScale
+  commentId: F:Galaxon.Core.Numbers.XDecimal.MaxScale
+  fullName: Galaxon.Core.Numbers.XDecimal.MaxScale
+  nameWithType: XDecimal.MaxScale
+- uid: Galaxon.Core.Numbers.XDecimal.NumExpBits
+  name: NumExpBits
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XDecimal.NumExpBits
+  fullName: Galaxon.Core.Numbers.XDecimal.NumExpBits
+  nameWithType: XDecimal.NumExpBits
+- uid: Galaxon.Core.Numbers.XDecimal.NumIntBits
+  name: NumIntBits
+  href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_NumIntBits
+  commentId: F:Galaxon.Core.Numbers.XDecimal.NumIntBits
+  fullName: Galaxon.Core.Numbers.XDecimal.NumIntBits
+  nameWithType: XDecimal.NumIntBits
 - uid: Galaxon.Core.Numbers.XDecimal.RoundSigFigs(System.Decimal,System.Int32)
   name: RoundSigFigs(Decimal, Int32)
   href: api/Galaxon.Core.Numbers.XDecimal.html#Galaxon_Core_Numbers_XDecimal_RoundSigFigs_System_Decimal_System_Int32_
@@ -903,12 +1061,38 @@ references:
   commentId: T:Galaxon.Core.Numbers.XDouble
   fullName: Galaxon.Core.Numbers.XDouble
   nameWithType: XDouble
+- uid: Galaxon.Core.Numbers.XDouble.Assemble(System.Byte,System.UInt16,System.UInt64)
+  name: Assemble(Byte, UInt16, UInt64)
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_Assemble_System_Byte_System_UInt16_System_UInt64_
+  commentId: M:Galaxon.Core.Numbers.XDouble.Assemble(System.Byte,System.UInt16,System.UInt64)
+  fullName: Galaxon.Core.Numbers.XDouble.Assemble(System.Byte, System.UInt16, System.UInt64)
+  nameWithType: XDouble.Assemble(Byte, UInt16, UInt64)
+- uid: Galaxon.Core.Numbers.XDouble.Assemble*
+  name: Assemble
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_Assemble_
+  commentId: Overload:Galaxon.Core.Numbers.XDouble.Assemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDouble.Assemble
+  nameWithType: XDouble.Assemble
 - uid: Galaxon.Core.Numbers.XDouble.Delta
   name: Delta
   href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_Delta
   commentId: F:Galaxon.Core.Numbers.XDouble.Delta
   fullName: Galaxon.Core.Numbers.XDouble.Delta
   nameWithType: XDouble.Delta
+- uid: Galaxon.Core.Numbers.XDouble.Disassemble(System.Double)
+  name: Disassemble(Double)
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_Disassemble_System_Double_
+  commentId: M:Galaxon.Core.Numbers.XDouble.Disassemble(System.Double)
+  fullName: Galaxon.Core.Numbers.XDouble.Disassemble(System.Double)
+  nameWithType: XDouble.Disassemble(Double)
+- uid: Galaxon.Core.Numbers.XDouble.Disassemble*
+  name: Disassemble
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_Disassemble_
+  commentId: Overload:Galaxon.Core.Numbers.XDouble.Disassemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDouble.Disassemble
+  nameWithType: XDouble.Disassemble
 - uid: Galaxon.Core.Numbers.XDouble.FuzzyEquals(System.Double,System.Double,System.Double)
   name: FuzzyEquals(Double, Double, Double)
   href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_FuzzyEquals_System_Double_System_Double_System_Double_
@@ -970,6 +1154,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDouble.FuzzyIsPositiveInteger
   nameWithType: XDouble.FuzzyIsPositiveInteger
+- uid: Galaxon.Core.Numbers.XDouble.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XDouble.GetRandom
+  fullName: Galaxon.Core.Numbers.XDouble.GetRandom()
+  nameWithType: XDouble.GetRandom()
+- uid: Galaxon.Core.Numbers.XDouble.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XDouble.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDouble.GetRandom
+  nameWithType: XDouble.GetRandom
 - uid: Galaxon.Core.Numbers.XDouble.IsNegativeInteger(System.Double)
   name: IsNegativeInteger(Double)
   href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_IsNegativeInteger_System_Double_
@@ -1009,6 +1206,56 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDouble.IsPositiveInteger
   nameWithType: XDouble.IsPositiveInteger
+- uid: Galaxon.Core.Numbers.XDouble.MaxExp
+  name: MaxExp
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MaxExp
+  commentId: F:Galaxon.Core.Numbers.XDouble.MaxExp
+  fullName: Galaxon.Core.Numbers.XDouble.MaxExp
+  nameWithType: XDouble.MaxExp
+- uid: Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MaxPosSubnormalValue
+  commentId: P:Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue
+  nameWithType: XDouble.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue*
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MaxPosSubnormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDouble.MaxPosSubnormalValue
+  nameWithType: XDouble.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XDouble.MinExp
+  name: MinExp
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MinExp
+  commentId: F:Galaxon.Core.Numbers.XDouble.MinExp
+  fullName: Galaxon.Core.Numbers.XDouble.MinExp
+  nameWithType: XDouble.MinExp
+- uid: Galaxon.Core.Numbers.XDouble.MinPosNormalValue
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MinPosNormalValue
+  commentId: P:Galaxon.Core.Numbers.XDouble.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XDouble.MinPosNormalValue
+  nameWithType: XDouble.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XDouble.MinPosNormalValue*
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_MinPosNormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XDouble.MinPosNormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XDouble.MinPosNormalValue
+  nameWithType: XDouble.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XDouble.NumExpBits
+  name: NumExpBits
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XDouble.NumExpBits
+  fullName: Galaxon.Core.Numbers.XDouble.NumExpBits
+  nameWithType: XDouble.NumExpBits
+- uid: Galaxon.Core.Numbers.XDouble.NumFracBits
+  name: NumFracBits
+  href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_NumFracBits
+  commentId: F:Galaxon.Core.Numbers.XDouble.NumFracBits
+  fullName: Galaxon.Core.Numbers.XDouble.NumFracBits
+  nameWithType: XDouble.NumFracBits
 - uid: Galaxon.Core.Numbers.XDouble.RoundSigFigs(System.Double,System.Int32)
   name: RoundSigFigs(Double, Int32)
   href: api/Galaxon.Core.Numbers.XDouble.html#Galaxon_Core_Numbers_XDouble_RoundSigFigs_System_Double_System_Int32_
@@ -1022,12 +1269,123 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XDouble.RoundSigFigs
   nameWithType: XDouble.RoundSigFigs
+- uid: Galaxon.Core.Numbers.XFloat
+  name: XFloat
+  href: api/Galaxon.Core.Numbers.XFloat.html
+  commentId: T:Galaxon.Core.Numbers.XFloat
+  fullName: Galaxon.Core.Numbers.XFloat
+  nameWithType: XFloat
+- uid: Galaxon.Core.Numbers.XFloat.Assemble(System.Byte,System.UInt16,System.UInt64)
+  name: Assemble(Byte, UInt16, UInt64)
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_Assemble_System_Byte_System_UInt16_System_UInt64_
+  commentId: M:Galaxon.Core.Numbers.XFloat.Assemble(System.Byte,System.UInt16,System.UInt64)
+  fullName: Galaxon.Core.Numbers.XFloat.Assemble(System.Byte, System.UInt16, System.UInt64)
+  nameWithType: XFloat.Assemble(Byte, UInt16, UInt64)
+- uid: Galaxon.Core.Numbers.XFloat.Assemble*
+  name: Assemble
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_Assemble_
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.Assemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloat.Assemble
+  nameWithType: XFloat.Assemble
+- uid: Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  name: Disassemble(Single)
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_Disassemble_System_Single_
+  commentId: M:Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  fullName: Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  nameWithType: XFloat.Disassemble(Single)
+- uid: Galaxon.Core.Numbers.XFloat.Disassemble*
+  name: Disassemble
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_Disassemble_
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.Disassemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloat.Disassemble
+  nameWithType: XFloat.Disassemble
+- uid: Galaxon.Core.Numbers.XFloat.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XFloat.GetRandom
+  fullName: Galaxon.Core.Numbers.XFloat.GetRandom()
+  nameWithType: XFloat.GetRandom()
+- uid: Galaxon.Core.Numbers.XFloat.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloat.GetRandom
+  nameWithType: XFloat.GetRandom
+- uid: Galaxon.Core.Numbers.XFloat.MaxExp
+  name: MaxExp
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MaxExp
+  commentId: F:Galaxon.Core.Numbers.XFloat.MaxExp
+  fullName: Galaxon.Core.Numbers.XFloat.MaxExp
+  nameWithType: XFloat.MaxExp
+- uid: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MaxPosSubnormalValue
+  commentId: P:Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  nameWithType: XFloat.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue*
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MaxPosSubnormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  nameWithType: XFloat.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XFloat.MinExp
+  name: MinExp
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MinExp
+  commentId: F:Galaxon.Core.Numbers.XFloat.MinExp
+  fullName: Galaxon.Core.Numbers.XFloat.MinExp
+  nameWithType: XFloat.MinExp
+- uid: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MinPosNormalValue
+  commentId: P:Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  nameWithType: XFloat.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XFloat.MinPosNormalValue*
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_MinPosNormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  nameWithType: XFloat.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XFloat.NumExpBits
+  name: NumExpBits
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XFloat.NumExpBits
+  fullName: Galaxon.Core.Numbers.XFloat.NumExpBits
+  nameWithType: XFloat.NumExpBits
+- uid: Galaxon.Core.Numbers.XFloat.NumFracBits
+  name: NumFracBits
+  href: api/Galaxon.Core.Numbers.XFloat.html#Galaxon_Core_Numbers_XFloat_NumFracBits
+  commentId: F:Galaxon.Core.Numbers.XFloat.NumFracBits
+  fullName: Galaxon.Core.Numbers.XFloat.NumFracBits
+  nameWithType: XFloat.NumFracBits
 - uid: Galaxon.Core.Numbers.XFloatingPoint
   name: XFloatingPoint
   href: api/Galaxon.Core.Numbers.XFloatingPoint.html
   commentId: T:Galaxon.Core.Numbers.XFloatingPoint
   fullName: Galaxon.Core.Numbers.XFloatingPoint
   nameWithType: XFloatingPoint
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Assemble*
+  name: Assemble
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_Assemble_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.Assemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Assemble
+  nameWithType: XFloatingPoint.Assemble
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  name: Assemble<T>(Byte, UInt16, UInt64)
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_Assemble__1_System_Byte_System_UInt16_System_UInt64_
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  name.vb: Assemble(Of T)(Byte, UInt16, UInt64)
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Assemble<T>(System.Byte, System.UInt16, System.UInt64)
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.Assemble(Of T)(System.Byte, System.UInt16, System.UInt64)
+  nameWithType: XFloatingPoint.Assemble<T>(Byte, UInt16, UInt64)
+  nameWithType.vb: XFloatingPoint.Assemble(Of T)(Byte, UInt16, UInt64)
 - uid: Galaxon.Core.Numbers.XFloatingPoint.Disassemble*
   name: Disassemble
   href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_Disassemble_
@@ -1044,22 +1402,181 @@ references:
   fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.Disassemble(Of T)(T)
   nameWithType: XFloatingPoint.Disassemble<T>(T)
   nameWithType.vb: XFloatingPoint.Disassemble(Of T)(T)
-- uid: Galaxon.Core.Numbers.XFloatingPoint.GetStructure*
-  name: GetStructure
-  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetStructure_
-  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetStructure
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp*
+  name: GetMaxExp
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMaxExp_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetStructure
-  nameWithType: XFloatingPoint.GetStructure
-- uid: Galaxon.Core.Numbers.XFloatingPoint.GetStructure``1(``0)
-  name: GetStructure<T>(T)
-  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetStructure__1___0_
-  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetStructure``1(``0)
-  name.vb: GetStructure(Of T)(T)
-  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetStructure<T>(T)
-  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetStructure(Of T)(T)
-  nameWithType: XFloatingPoint.GetStructure<T>(T)
-  nameWithType.vb: XFloatingPoint.GetStructure(Of T)(T)
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp
+  nameWithType: XFloatingPoint.GetMaxExp
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp``1
+  name: GetMaxExp<T>()
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMaxExp__1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp``1
+  name.vb: GetMaxExp(Of T)()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp<T>()
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp(Of T)()
+  nameWithType: XFloatingPoint.GetMaxExp<T>()
+  nameWithType.vb: XFloatingPoint.GetMaxExp(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp*
+  name: GetMinExp
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMinExp_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMinExp
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp
+  nameWithType: XFloatingPoint.GetMinExp
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp``1
+  name: GetMinExp<T>()
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMinExp__1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMinExp``1
+  name.vb: GetMinExp(Of T)()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp<T>()
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp(Of T)()
+  nameWithType: XFloatingPoint.GetMinExp<T>()
+  nameWithType.vb: XFloatingPoint.GetMinExp(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue*
+  name: GetMinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMinPosNormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue
+  nameWithType: XFloatingPoint.GetMinPosNormalValue
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue``1
+  name: GetMinPosNormalValue<T>()
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetMinPosNormalValue__1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue``1
+  name.vb: GetMinPosNormalValue(Of T)()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue<T>()
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue(Of T)()
+  nameWithType: XFloatingPoint.GetMinPosNormalValue<T>()
+  nameWithType.vb: XFloatingPoint.GetMinPosNormalValue(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits*
+  name: GetNumExpBits
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetNumExpBits_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits
+  nameWithType: XFloatingPoint.GetNumExpBits
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits``1
+  name: GetNumExpBits<T>()
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetNumExpBits__1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits``1
+  name.vb: GetNumExpBits(Of T)()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits<T>()
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits(Of T)()
+  nameWithType: XFloatingPoint.GetNumExpBits<T>()
+  nameWithType.vb: XFloatingPoint.GetNumExpBits(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits*
+  name: GetNumFracBits
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetNumFracBits_
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits
+  nameWithType: XFloatingPoint.GetNumFracBits
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits``1
+  name: GetNumFracBits<T>()
+  href: api/Galaxon.Core.Numbers.XFloatingPoint.html#Galaxon_Core_Numbers_XFloatingPoint_GetNumFracBits__1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits``1
+  name.vb: GetNumFracBits(Of T)()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits<T>()
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits(Of T)()
+  nameWithType: XFloatingPoint.GetNumFracBits<T>()
+  nameWithType.vb: XFloatingPoint.GetNumFracBits(Of T)()
+- uid: Galaxon.Core.Numbers.XHalf
+  name: XHalf
+  href: api/Galaxon.Core.Numbers.XHalf.html
+  commentId: T:Galaxon.Core.Numbers.XHalf
+  fullName: Galaxon.Core.Numbers.XHalf
+  nameWithType: XHalf
+- uid: Galaxon.Core.Numbers.XHalf.Assemble(System.Byte,System.UInt16,System.UInt64)
+  name: Assemble(Byte, UInt16, UInt64)
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_Assemble_System_Byte_System_UInt16_System_UInt64_
+  commentId: M:Galaxon.Core.Numbers.XHalf.Assemble(System.Byte,System.UInt16,System.UInt64)
+  fullName: Galaxon.Core.Numbers.XHalf.Assemble(System.Byte, System.UInt16, System.UInt64)
+  nameWithType: XHalf.Assemble(Byte, UInt16, UInt64)
+- uid: Galaxon.Core.Numbers.XHalf.Assemble*
+  name: Assemble
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_Assemble_
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.Assemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XHalf.Assemble
+  nameWithType: XHalf.Assemble
+- uid: Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  name: Disassemble(Half)
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_Disassemble_Half_
+  commentId: M:Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  fullName: Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  nameWithType: XHalf.Disassemble(Half)
+- uid: Galaxon.Core.Numbers.XHalf.Disassemble*
+  name: Disassemble
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_Disassemble_
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.Disassemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XHalf.Disassemble
+  nameWithType: XHalf.Disassemble
+- uid: Galaxon.Core.Numbers.XHalf.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XHalf.GetRandom
+  fullName: Galaxon.Core.Numbers.XHalf.GetRandom()
+  nameWithType: XHalf.GetRandom()
+- uid: Galaxon.Core.Numbers.XHalf.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XHalf.GetRandom
+  nameWithType: XHalf.GetRandom
+- uid: Galaxon.Core.Numbers.XHalf.MaxExp
+  name: MaxExp
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MaxExp
+  commentId: F:Galaxon.Core.Numbers.XHalf.MaxExp
+  fullName: Galaxon.Core.Numbers.XHalf.MaxExp
+  nameWithType: XHalf.MaxExp
+- uid: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MaxPosSubnormalValue
+  commentId: P:Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  nameWithType: XHalf.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue*
+  name: MaxPosSubnormalValue
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MaxPosSubnormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  nameWithType: XHalf.MaxPosSubnormalValue
+- uid: Galaxon.Core.Numbers.XHalf.MinExp
+  name: MinExp
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MinExp
+  commentId: F:Galaxon.Core.Numbers.XHalf.MinExp
+  fullName: Galaxon.Core.Numbers.XHalf.MinExp
+  nameWithType: XHalf.MinExp
+- uid: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MinPosNormalValue
+  commentId: P:Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  nameWithType: XHalf.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XHalf.MinPosNormalValue*
+  name: MinPosNormalValue
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_MinPosNormalValue_
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  nameWithType: XHalf.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XHalf.NumExpBits
+  name: NumExpBits
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XHalf.NumExpBits
+  fullName: Galaxon.Core.Numbers.XHalf.NumExpBits
+  nameWithType: XHalf.NumExpBits
+- uid: Galaxon.Core.Numbers.XHalf.NumFracBits
+  name: NumFracBits
+  href: api/Galaxon.Core.Numbers.XHalf.html#Galaxon_Core_Numbers_XHalf_NumFracBits
+  commentId: F:Galaxon.Core.Numbers.XHalf.NumFracBits
+  fullName: Galaxon.Core.Numbers.XHalf.NumFracBits
+  nameWithType: XHalf.NumFracBits
 - uid: Galaxon.Core.Numbers.XInt
   name: XInt
   href: api/Galaxon.Core.Numbers.XInt.html
@@ -1079,6 +1596,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XInt.Abs
   nameWithType: XInt.Abs
+- uid: Galaxon.Core.Numbers.XInt.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XInt.GetRandom
+  fullName: Galaxon.Core.Numbers.XInt.GetRandom()
+  nameWithType: XInt.GetRandom()
+- uid: Galaxon.Core.Numbers.XInt.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XInt.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XInt.GetRandom
+  nameWithType: XInt.GetRandom
 - uid: Galaxon.Core.Numbers.XInt.Sqrt(System.Int32)
   name: Sqrt(Int32)
   href: api/Galaxon.Core.Numbers.XInt.html#Galaxon_Core_Numbers_XInt_Sqrt_System_Int32_
@@ -1092,12 +1622,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XInt.Sqrt
   nameWithType: XInt.Sqrt
-- uid: Galaxon.Core.Numbers.XInteger
-  name: XInteger
-  href: api/Galaxon.Core.Numbers.XInteger.html
-  commentId: T:Galaxon.Core.Numbers.XInteger
-  fullName: Galaxon.Core.Numbers.XInteger
-  nameWithType: XInteger
 - uid: Galaxon.Core.Numbers.XLong
   name: XLong
   href: api/Galaxon.Core.Numbers.XLong.html
@@ -1117,6 +1641,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XLong.Abs
   nameWithType: XLong.Abs
+- uid: Galaxon.Core.Numbers.XLong.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XLong.GetRandom
+  fullName: Galaxon.Core.Numbers.XLong.GetRandom()
+  nameWithType: XLong.GetRandom()
+- uid: Galaxon.Core.Numbers.XLong.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XLong.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XLong.GetRandom
+  nameWithType: XLong.GetRandom
 - uid: Galaxon.Core.Numbers.XLong.Pow(System.Int64,System.Int64)
   name: Pow(Int64, Int64)
   href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Pow_System_Int64_System_Int64_
@@ -1143,24 +1680,24 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XLong.Sqrt
   nameWithType: XLong.Sqrt
-- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64})
-  name: Sum(IEnumerable<UInt64>)
-  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_UInt64__
-  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64})
-  name.vb: Sum(IEnumerable(Of UInt64))
-  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.UInt64>)
-  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.UInt64))
-  nameWithType: XLong.Sum(IEnumerable<UInt64>)
-  nameWithType.vb: XLong.Sum(IEnumerable(Of UInt64))
-- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
-  name: Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
-  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_UInt64__Func_System_UInt64_System_UInt64__
-  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
-  name.vb: Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
-  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.UInt64>, Func<System.UInt64, System.UInt64>)
-  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.UInt64), Func(Of System.UInt64, System.UInt64))
-  nameWithType: XLong.Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
-  nameWithType.vb: XLong.Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
+- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.Int64})
+  name: Sum(IEnumerable<Int64>)
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_Int64__
+  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.Int64})
+  name.vb: Sum(IEnumerable(Of Int64))
+  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.Int64>)
+  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.Int64))
+  nameWithType: XLong.Sum(IEnumerable<Int64>)
+  nameWithType.vb: XLong.Sum(IEnumerable(Of Int64))
+- uid: Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.Int64},Func{System.Int64,System.Int64})
+  name: Sum(IEnumerable<Int64>, Func<Int64, Int64>)
+  href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_IEnumerable_System_Int64__Func_System_Int64_System_Int64__
+  commentId: M:Galaxon.Core.Numbers.XLong.Sum(IEnumerable{System.Int64},Func{System.Int64,System.Int64})
+  name.vb: Sum(IEnumerable(Of Int64), Func(Of Int64, Int64))
+  fullName: Galaxon.Core.Numbers.XLong.Sum(IEnumerable<System.Int64>, Func<System.Int64, System.Int64>)
+  fullName.vb: Galaxon.Core.Numbers.XLong.Sum(IEnumerable(Of System.Int64), Func(Of System.Int64, System.Int64))
+  nameWithType: XLong.Sum(IEnumerable<Int64>, Func<Int64, Int64>)
+  nameWithType.vb: XLong.Sum(IEnumerable(Of Int64), Func(Of Int64, Int64))
 - uid: Galaxon.Core.Numbers.XLong.Sum*
   name: Sum
   href: api/Galaxon.Core.Numbers.XLong.html#Galaxon_Core_Numbers_XLong_Sum_
@@ -1372,51 +1909,25 @@ references:
   fullName.vb: Galaxon.Core.Numbers.XNumber.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
   nameWithType: XNumber.Product<T>(IEnumerable<T>, Func<T, T>)
   nameWithType.vb: XNumber.Product(Of T)(IEnumerable(Of T), Func(Of T, T))
-- uid: Galaxon.Core.Numbers.XRandom
-  name: XRandom
-  href: api/Galaxon.Core.Numbers.XRandom.html
-  commentId: T:Galaxon.Core.Numbers.XRandom
-  fullName: Galaxon.Core.Numbers.XRandom
-  nameWithType: XRandom
-- uid: Galaxon.Core.Numbers.XRandom.NextDecimal(Random)
-  name: NextDecimal(Random)
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextDecimal_Random_
-  commentId: M:Galaxon.Core.Numbers.XRandom.NextDecimal(Random)
-  fullName: Galaxon.Core.Numbers.XRandom.NextDecimal(Random)
-  nameWithType: XRandom.NextDecimal(Random)
-- uid: Galaxon.Core.Numbers.XRandom.NextDecimal*
-  name: NextDecimal
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextDecimal_
-  commentId: Overload:Galaxon.Core.Numbers.XRandom.NextDecimal
+- uid: Galaxon.Core.Numbers.XSbyte
+  name: XSbyte
+  href: api/Galaxon.Core.Numbers.XSbyte.html
+  commentId: T:Galaxon.Core.Numbers.XSbyte
+  fullName: Galaxon.Core.Numbers.XSbyte
+  nameWithType: XSbyte
+- uid: Galaxon.Core.Numbers.XSbyte.Abs(System.SByte)
+  name: Abs(SByte)
+  href: api/Galaxon.Core.Numbers.XSbyte.html#Galaxon_Core_Numbers_XSbyte_Abs_System_SByte_
+  commentId: M:Galaxon.Core.Numbers.XSbyte.Abs(System.SByte)
+  fullName: Galaxon.Core.Numbers.XSbyte.Abs(System.SByte)
+  nameWithType: XSbyte.Abs(SByte)
+- uid: Galaxon.Core.Numbers.XSbyte.Abs*
+  name: Abs
+  href: api/Galaxon.Core.Numbers.XSbyte.html#Galaxon_Core_Numbers_XSbyte_Abs_
+  commentId: Overload:Galaxon.Core.Numbers.XSbyte.Abs
   isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XRandom.NextDecimal
-  nameWithType: XRandom.NextDecimal
-- uid: Galaxon.Core.Numbers.XRandom.NextDoubleFullRange(Random)
-  name: NextDoubleFullRange(Random)
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextDoubleFullRange_Random_
-  commentId: M:Galaxon.Core.Numbers.XRandom.NextDoubleFullRange(Random)
-  fullName: Galaxon.Core.Numbers.XRandom.NextDoubleFullRange(Random)
-  nameWithType: XRandom.NextDoubleFullRange(Random)
-- uid: Galaxon.Core.Numbers.XRandom.NextDoubleFullRange*
-  name: NextDoubleFullRange
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextDoubleFullRange_
-  commentId: Overload:Galaxon.Core.Numbers.XRandom.NextDoubleFullRange
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XRandom.NextDoubleFullRange
-  nameWithType: XRandom.NextDoubleFullRange
-- uid: Galaxon.Core.Numbers.XRandom.NextInt32(Random)
-  name: NextInt32(Random)
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextInt32_Random_
-  commentId: M:Galaxon.Core.Numbers.XRandom.NextInt32(Random)
-  fullName: Galaxon.Core.Numbers.XRandom.NextInt32(Random)
-  nameWithType: XRandom.NextInt32(Random)
-- uid: Galaxon.Core.Numbers.XRandom.NextInt32*
-  name: NextInt32
-  href: api/Galaxon.Core.Numbers.XRandom.html#Galaxon_Core_Numbers_XRandom_NextInt32_
-  commentId: Overload:Galaxon.Core.Numbers.XRandom.NextInt32
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.XRandom.NextInt32
-  nameWithType: XRandom.NextInt32
+  fullName: Galaxon.Core.Numbers.XSbyte.Abs
+  nameWithType: XSbyte.Abs
 - uid: Galaxon.Core.Numbers.XShort
   name: XShort
   href: api/Galaxon.Core.Numbers.XShort.html
@@ -1436,6 +1947,101 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XShort.Abs
   nameWithType: XShort.Abs
+- uid: Galaxon.Core.Numbers.XShort.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XShort.html#Galaxon_Core_Numbers_XShort_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XShort.GetRandom
+  fullName: Galaxon.Core.Numbers.XShort.GetRandom()
+  nameWithType: XShort.GetRandom()
+- uid: Galaxon.Core.Numbers.XShort.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XShort.html#Galaxon_Core_Numbers_XShort_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XShort.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XShort.GetRandom
+  nameWithType: XShort.GetRandom
+- uid: Galaxon.Core.Numbers.XUint
+  name: XUint
+  href: api/Galaxon.Core.Numbers.XUint.html
+  commentId: T:Galaxon.Core.Numbers.XUint
+  fullName: Galaxon.Core.Numbers.XUint
+  nameWithType: XUint
+- uid: Galaxon.Core.Numbers.XUint.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XUint.html#Galaxon_Core_Numbers_XUint_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XUint.GetRandom
+  fullName: Galaxon.Core.Numbers.XUint.GetRandom()
+  nameWithType: XUint.GetRandom()
+- uid: Galaxon.Core.Numbers.XUint.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XUint.html#Galaxon_Core_Numbers_XUint_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XUint.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XUint.GetRandom
+  nameWithType: XUint.GetRandom
+- uid: Galaxon.Core.Numbers.XUlong
+  name: XUlong
+  href: api/Galaxon.Core.Numbers.XUlong.html
+  commentId: T:Galaxon.Core.Numbers.XUlong
+  fullName: Galaxon.Core.Numbers.XUlong
+  nameWithType: XUlong
+- uid: Galaxon.Core.Numbers.XUlong.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XUlong.GetRandom
+  fullName: Galaxon.Core.Numbers.XUlong.GetRandom()
+  nameWithType: XUlong.GetRandom()
+- uid: Galaxon.Core.Numbers.XUlong.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XUlong.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XUlong.GetRandom
+  nameWithType: XUlong.GetRandom
+- uid: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64})
+  name: Sum(IEnumerable<UInt64>)
+  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_IEnumerable_System_UInt64__
+  commentId: M:Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64})
+  name.vb: Sum(IEnumerable(Of UInt64))
+  fullName: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable<System.UInt64>)
+  fullName.vb: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable(Of System.UInt64))
+  nameWithType: XUlong.Sum(IEnumerable<UInt64>)
+  nameWithType.vb: XUlong.Sum(IEnumerable(Of UInt64))
+- uid: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
+  name: Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
+  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_IEnumerable_System_UInt64__Func_System_UInt64_System_UInt64__
+  commentId: M:Galaxon.Core.Numbers.XUlong.Sum(IEnumerable{System.UInt64},Func{System.UInt64,System.UInt64})
+  name.vb: Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
+  fullName: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable<System.UInt64>, Func<System.UInt64, System.UInt64>)
+  fullName.vb: Galaxon.Core.Numbers.XUlong.Sum(IEnumerable(Of System.UInt64), Func(Of System.UInt64, System.UInt64))
+  nameWithType: XUlong.Sum(IEnumerable<UInt64>, Func<UInt64, UInt64>)
+  nameWithType.vb: XUlong.Sum(IEnumerable(Of UInt64), Func(Of UInt64, UInt64))
+- uid: Galaxon.Core.Numbers.XUlong.Sum*
+  name: Sum
+  href: api/Galaxon.Core.Numbers.XUlong.html#Galaxon_Core_Numbers_XUlong_Sum_
+  commentId: Overload:Galaxon.Core.Numbers.XUlong.Sum
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XUlong.Sum
+  nameWithType: XUlong.Sum
+- uid: Galaxon.Core.Numbers.XUshort
+  name: XUshort
+  href: api/Galaxon.Core.Numbers.XUshort.html
+  commentId: T:Galaxon.Core.Numbers.XUshort
+  fullName: Galaxon.Core.Numbers.XUshort
+  nameWithType: XUshort
+- uid: Galaxon.Core.Numbers.XUshort.GetRandom
+  name: GetRandom()
+  href: api/Galaxon.Core.Numbers.XUshort.html#Galaxon_Core_Numbers_XUshort_GetRandom
+  commentId: M:Galaxon.Core.Numbers.XUshort.GetRandom
+  fullName: Galaxon.Core.Numbers.XUshort.GetRandom()
+  nameWithType: XUshort.GetRandom()
+- uid: Galaxon.Core.Numbers.XUshort.GetRandom*
+  name: GetRandom
+  href: api/Galaxon.Core.Numbers.XUshort.html#Galaxon_Core_Numbers_XUshort_GetRandom_
+  commentId: Overload:Galaxon.Core.Numbers.XUshort.GetRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XUshort.GetRandom
+  nameWithType: XUshort.GetRandom
 - uid: Galaxon.Core.Strings
   name: Galaxon.Core.Strings
   href: api/Galaxon.Core.Strings.html
@@ -1466,68 +2072,76 @@ references:
   commentId: F:Galaxon.Core.Strings.InvalidCharAction.Throw
   fullName: Galaxon.Core.Strings.InvalidCharAction.Throw
   nameWithType: InvalidCharAction.Throw
-- uid: Galaxon.Core.Strings.SuperAndSubscript
-  name: SuperAndSubscript
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html
-  commentId: T:Galaxon.Core.Strings.SuperAndSubscript
-  fullName: Galaxon.Core.Strings.SuperAndSubscript
-  nameWithType: SuperAndSubscript
-- uid: Galaxon.Core.Strings.SuperAndSubscript.SubscriptChars
-  name: SubscriptChars
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_SubscriptChars
-  commentId: F:Galaxon.Core.Strings.SuperAndSubscript.SubscriptChars
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.SubscriptChars
-  nameWithType: SuperAndSubscript.SubscriptChars
-- uid: Galaxon.Core.Strings.SuperAndSubscript.SuperscriptChars
-  name: SuperscriptChars
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_SuperscriptChars
-  commentId: F:Galaxon.Core.Strings.SuperAndSubscript.SuperscriptChars
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.SuperscriptChars
-  nameWithType: SuperAndSubscript.SuperscriptChars
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  name: ToSubscript(String, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSubscript_System_String_Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.SuperAndSubscript.ToSubscript(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript(System.String, Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: SuperAndSubscript.ToSubscript(String, InvalidCharAction)
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript*
-  name: ToSubscript
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSubscript_
-  commentId: Overload:Galaxon.Core.Strings.SuperAndSubscript.ToSubscript
+- uid: Galaxon.Core.Strings.Translate
+  name: Galaxon.Core.Strings.Translate
+  href: api/Galaxon.Core.Strings.Translate.html
+  commentId: N:Galaxon.Core.Strings.Translate
+  fullName: Galaxon.Core.Strings.Translate
+  nameWithType: Galaxon.Core.Strings.Translate
+- uid: Galaxon.Core.Strings.Translate.ITranslateProvider
+  name: ITranslateProvider
+  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html
+  commentId: T:Galaxon.Core.Strings.Translate.ITranslateProvider
+  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider
+  nameWithType: ITranslateProvider
+- uid: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
+  name: ExecuteAsync(String, String, CancellationToken)
+  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html#Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_
+  commentId: M:Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
+  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String, System.String, CancellationToken)
+  nameWithType: ITranslateProvider.ExecuteAsync(String, String, CancellationToken)
+- uid: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html#Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_
+  commentId: Overload:Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync
   isSpec: "True"
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript
-  nameWithType: SuperAndSubscript.ToSubscript
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript``1(``0)
-  name: ToSubscript<T>(T)
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSubscript__1___0_
-  commentId: M:Galaxon.Core.Strings.SuperAndSubscript.ToSubscript``1(``0)
-  name.vb: ToSubscript(Of T)(T)
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript<T>(T)
-  fullName.vb: Galaxon.Core.Strings.SuperAndSubscript.ToSubscript(Of T)(T)
-  nameWithType: SuperAndSubscript.ToSubscript<T>(T)
-  nameWithType.vb: SuperAndSubscript.ToSubscript(Of T)(T)
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  name: ToSuperscript(String, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSuperscript_System_String_Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript(System.String, Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: SuperAndSubscript.ToSuperscript(String, InvalidCharAction)
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript*
-  name: ToSuperscript
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSuperscript_
-  commentId: Overload:Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript
+  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync
+  nameWithType: ITranslateProvider.ExecuteAsync
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider
+  name: TranslateProvider
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html
+  commentId: T:Galaxon.Core.Strings.Translate.TranslateProvider
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider
+  nameWithType: TranslateProvider
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String,System.String)
+  name: Execute(String, String)
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_Execute_System_String_System_String_
+  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String,System.String)
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String, System.String)
+  nameWithType: TranslateProvider.Execute(String, String)
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.Execute*
+  name: Execute
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_Execute_
+  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.Execute
   isSpec: "True"
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript
-  nameWithType: SuperAndSubscript.ToSuperscript
-- uid: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript``1(``0)
-  name: ToSuperscript<T>(T)
-  href: api/Galaxon.Core.Strings.SuperAndSubscript.html#Galaxon_Core_Strings_SuperAndSubscript_ToSuperscript__1___0_
-  commentId: M:Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript``1(``0)
-  name.vb: ToSuperscript(Of T)(T)
-  fullName: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript<T>(T)
-  fullName.vb: Galaxon.Core.Strings.SuperAndSubscript.ToSuperscript(Of T)(T)
-  nameWithType: SuperAndSubscript.ToSuperscript<T>(T)
-  nameWithType.vb: SuperAndSubscript.ToSuperscript(Of T)(T)
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.Execute
+  nameWithType: TranslateProvider.Execute
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
+  name: ExecuteAsync(String, String, CancellationToken)
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_
+  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String, System.String, CancellationToken)
+  nameWithType: TranslateProvider.ExecuteAsync(String, String, CancellationToken)
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_ExecuteAsync_
+  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync
+  nameWithType: TranslateProvider.ExecuteAsync
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
+  name: GetSupportedLanguages()
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_GetSupportedLanguages
+  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages()
+  nameWithType: TranslateProvider.GetSupportedLanguages()
+- uid: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages*
+  name: GetSupportedLanguages
+  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_GetSupportedLanguages_
+  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
+  nameWithType: TranslateProvider.GetSupportedLanguages
 - uid: Galaxon.Core.Strings.XString
   name: XString
   href: api/Galaxon.Core.Strings.XString.html
@@ -1550,6 +2164,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.EqualsIgnoreCase
   nameWithType: XString.EqualsIgnoreCase
+- uid: Galaxon.Core.Strings.XString.IsAscii(System.String)
+  name: IsAscii(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_IsAscii_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.IsAscii(System.String)
+  fullName: Galaxon.Core.Strings.XString.IsAscii(System.String)
+  nameWithType: XString.IsAscii(String)
+- uid: Galaxon.Core.Strings.XString.IsAscii*
+  name: IsAscii
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_IsAscii_
+  commentId: Overload:Galaxon.Core.Strings.XString.IsAscii
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.IsAscii
+  nameWithType: XString.IsAscii
 - uid: Galaxon.Core.Strings.XString.IsPalindrome(System.String)
   name: IsPalindrome(String)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_IsPalindrome_System_String_
@@ -1563,19 +2190,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.IsPalindrome
   nameWithType: XString.IsPalindrome
-- uid: Galaxon.Core.Strings.XString.RemoveDiacritics(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  name: RemoveDiacritics(String, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_RemoveDiacritics_System_String_Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.XString.RemoveDiacritics(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  fullName: Galaxon.Core.Strings.XString.RemoveDiacritics(System.String, Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: XString.RemoveDiacritics(String, InvalidCharAction)
-- uid: Galaxon.Core.Strings.XString.RemoveDiacritics*
-  name: RemoveDiacritics
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_RemoveDiacritics_
-  commentId: Overload:Galaxon.Core.Strings.XString.RemoveDiacritics
+- uid: Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  name: MakeSlug(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_MakeSlug_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  fullName: Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  nameWithType: XString.MakeSlug(String)
+- uid: Galaxon.Core.Strings.XString.MakeSlug*
+  name: MakeSlug
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_MakeSlug_
+  commentId: Overload:Galaxon.Core.Strings.XString.MakeSlug
   isSpec: "True"
-  fullName: Galaxon.Core.Strings.XString.RemoveDiacritics
-  nameWithType: XString.RemoveDiacritics
+  fullName: Galaxon.Core.Strings.XString.MakeSlug
+  nameWithType: XString.MakeSlug
 - uid: Galaxon.Core.Strings.XString.Repeat(System.String,System.Int32)
   name: Repeat(String, Int32)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_Repeat_System_String_System_Int32_
@@ -1589,6 +2216,61 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.Repeat
   nameWithType: XString.Repeat
+- uid: Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},Galaxon.Core.Strings.InvalidCharAction)
+  name: ReplaceChars(String, Dictionary<Char, String>, InvalidCharAction)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__Galaxon_Core_Strings_InvalidCharAction_
+  commentId: M:Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},Galaxon.Core.Strings.InvalidCharAction)
+  name.vb: ReplaceChars(String, Dictionary(Of Char, String), InvalidCharAction)
+  fullName: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary<System.Char, System.String>, Galaxon.Core.Strings.InvalidCharAction)
+  fullName.vb: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary(Of System.Char, System.String), Galaxon.Core.Strings.InvalidCharAction)
+  nameWithType: XString.ReplaceChars(String, Dictionary<Char, String>, InvalidCharAction)
+  nameWithType.vb: XString.ReplaceChars(String, Dictionary(Of Char, String), InvalidCharAction)
+- uid: Galaxon.Core.Strings.XString.ReplaceChars*
+  name: ReplaceChars
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ReplaceChars_
+  commentId: Overload:Galaxon.Core.Strings.XString.ReplaceChars
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.ReplaceChars
+  nameWithType: XString.ReplaceChars
+- uid: Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  name: StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripBrackets_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
+  commentId: M:Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  fullName: Galaxon.Core.Strings.XString.StripBrackets(System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  nameWithType: XString.StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
+- uid: Galaxon.Core.Strings.XString.StripBrackets*
+  name: StripBrackets
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripBrackets_
+  commentId: Overload:Galaxon.Core.Strings.XString.StripBrackets
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.StripBrackets
+  nameWithType: XString.StripBrackets
+- uid: Galaxon.Core.Strings.XString.StripTags(System.String)
+  name: StripTags(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripTags_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.StripTags(System.String)
+  fullName: Galaxon.Core.Strings.XString.StripTags(System.String)
+  nameWithType: XString.StripTags(String)
+- uid: Galaxon.Core.Strings.XString.StripTags*
+  name: StripTags
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripTags_
+  commentId: Overload:Galaxon.Core.Strings.XString.StripTags
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.StripTags
+  nameWithType: XString.StripTags
+- uid: Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  name: StripWhitespace(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripWhitespace_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  fullName: Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  nameWithType: XString.StripWhitespace(String)
+- uid: Galaxon.Core.Strings.XString.StripWhitespace*
+  name: StripWhitespace
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripWhitespace_
+  commentId: Overload:Galaxon.Core.Strings.XString.StripWhitespace
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.StripWhitespace
+  nameWithType: XString.StripWhitespace
 - uid: Galaxon.Core.Strings.XString.ToDecimal(System.String)
   name: ToDecimal(String)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToDecimal_System_String_
@@ -1641,22 +2323,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.ToSmallCaps
   nameWithType: XString.ToSmallCaps
-- uid: Galaxon.Core.Strings.XString.Transform(System.String,Dictionary{System.Char,System.Char},Galaxon.Core.Strings.InvalidCharAction)
-  name: Transform(String, Dictionary<Char, Char>, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_Transform_System_String_Dictionary_System_Char_System_Char__Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.XString.Transform(System.String,Dictionary{System.Char,System.Char},Galaxon.Core.Strings.InvalidCharAction)
-  name.vb: Transform(String, Dictionary(Of Char, Char), InvalidCharAction)
-  fullName: Galaxon.Core.Strings.XString.Transform(System.String, Dictionary<System.Char, System.Char>, Galaxon.Core.Strings.InvalidCharAction)
-  fullName.vb: Galaxon.Core.Strings.XString.Transform(System.String, Dictionary(Of System.Char, System.Char), Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: XString.Transform(String, Dictionary<Char, Char>, InvalidCharAction)
-  nameWithType.vb: XString.Transform(String, Dictionary(Of Char, Char), InvalidCharAction)
-- uid: Galaxon.Core.Strings.XString.Transform*
-  name: Transform
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_Transform_
-  commentId: Overload:Galaxon.Core.Strings.XString.Transform
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.XString.Transform
-  nameWithType: XString.Transform
 - uid: Galaxon.Core.Strings.XStringBuilder
   name: XStringBuilder
   href: api/Galaxon.Core.Strings.XStringBuilder.html
@@ -1883,12 +2549,83 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestConvertBase.TestToBaseInvalidBase
   nameWithType: TestConvertBase.TestToBaseInvalidBase
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript
+  name: TestSuperscriptAndSubscript
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html
+  commentId: T:Galaxon.Core.Tests.TestSuperscriptAndSubscript
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript
+  nameWithType: TestSuperscriptAndSubscript
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
+  name: TestIntToSubscript()
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSubscript
+  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript()
+  nameWithType: TestSuperscriptAndSubscript.TestIntToSubscript()
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript*
+  name: TestIntToSubscript
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSubscript_
+  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
+  nameWithType: TestSuperscriptAndSubscript.TestIntToSubscript
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
+  name: TestIntToSuperscript()
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript()
+  nameWithType: TestSuperscriptAndSubscript.TestIntToSuperscript()
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript*
+  name: TestIntToSuperscript
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSuperscript_
+  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
+  nameWithType: TestSuperscriptAndSubscript.TestIntToSuperscript
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
+  name: TestStringToSubscript()
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSubscript
+  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript()
+  nameWithType: TestSuperscriptAndSubscript.TestStringToSubscript()
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript*
+  name: TestStringToSubscript
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSubscript_
+  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
+  nameWithType: TestSuperscriptAndSubscript.TestStringToSubscript
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
+  name: TestStringToSuperscript()
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript()
+  nameWithType: TestSuperscriptAndSubscript.TestStringToSuperscript()
+- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript*
+  name: TestStringToSuperscript
+  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSuperscript_
+  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
+  nameWithType: TestSuperscriptAndSubscript.TestStringToSuperscript
 - uid: Galaxon.Core.Tests.TestXBigInteger
   name: TestXBigInteger
   href: api/Galaxon.Core.Tests.TestXBigInteger.html
   commentId: T:Galaxon.Core.Tests.TestXBigInteger
   fullName: Galaxon.Core.Tests.TestXBigInteger
   nameWithType: TestXBigInteger
+- uid: Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor
+  name: TestGreatestCommonDivisor()
+  href: api/Galaxon.Core.Tests.TestXBigInteger.html#Galaxon_Core_Tests_TestXBigInteger_TestGreatestCommonDivisor
+  commentId: M:Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor
+  fullName: Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor()
+  nameWithType: TestXBigInteger.TestGreatestCommonDivisor()
+- uid: Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor*
+  name: TestGreatestCommonDivisor
+  href: api/Galaxon.Core.Tests.TestXBigInteger.html#Galaxon_Core_Tests_TestXBigInteger_TestGreatestCommonDivisor_
+  commentId: Overload:Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXBigInteger.TestGreatestCommonDivisor
+  nameWithType: TestXBigInteger.TestGreatestCommonDivisor
 - uid: Galaxon.Core.Tests.TestXBigInteger.TestNumDigitsNegative
   name: TestNumDigitsNegative()
   href: api/Galaxon.Core.Tests.TestXBigInteger.html#Galaxon_Core_Tests_TestXBigInteger_TestNumDigitsNegative
@@ -2258,6 +2995,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXDecimal.TanhTest
   nameWithType: TestXDecimal.TanhTest
+- uid: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble
+  name: TestDisassembleAssemble()
+  href: api/Galaxon.Core.Tests.TestXDecimal.html#Galaxon_Core_Tests_TestXDecimal_TestDisassembleAssemble
+  commentId: M:Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble
+  fullName: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble()
+  nameWithType: TestXDecimal.TestDisassembleAssemble()
+- uid: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble*
+  name: TestDisassembleAssemble
+  href: api/Galaxon.Core.Tests.TestXDecimal.html#Galaxon_Core_Tests_TestXDecimal_TestDisassembleAssemble_
+  commentId: Overload:Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssemble
+  nameWithType: TestXDecimal.TestDisassembleAssemble
+- uid: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom
+  name: TestDisassembleAssembleRandom()
+  href: api/Galaxon.Core.Tests.TestXDecimal.html#Galaxon_Core_Tests_TestXDecimal_TestDisassembleAssembleRandom
+  commentId: M:Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom
+  fullName: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom()
+  nameWithType: TestXDecimal.TestDisassembleAssembleRandom()
+- uid: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom*
+  name: TestDisassembleAssembleRandom
+  href: api/Galaxon.Core.Tests.TestXDecimal.html#Galaxon_Core_Tests_TestXDecimal_TestDisassembleAssembleRandom_
+  commentId: Overload:Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXDecimal.TestDisassembleAssembleRandom
+  nameWithType: TestXDecimal.TestDisassembleAssembleRandom
 - uid: Galaxon.Core.Tests.TestXDictionary
   name: TestXDictionary
   href: api/Galaxon.Core.Tests.TestXDictionary.html
@@ -2373,6 +3136,51 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXInt.TestSqrt2
   nameWithType: TestXInt.TestSqrt2
+- uid: Galaxon.Core.Tests.TestXString
+  name: TestXString
+  href: api/Galaxon.Core.Tests.TestXString.html
+  commentId: T:Galaxon.Core.Tests.TestXString
+  fullName: Galaxon.Core.Tests.TestXString
+  nameWithType: TestXString
+- uid: Galaxon.Core.Tests.TestXString.TestMakeSlug
+  name: TestMakeSlug()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestMakeSlug
+  commentId: M:Galaxon.Core.Tests.TestXString.TestMakeSlug
+  fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug()
+  nameWithType: TestXString.TestMakeSlug()
+- uid: Galaxon.Core.Tests.TestXString.TestMakeSlug*
+  name: TestMakeSlug
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestMakeSlug_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestMakeSlug
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
+  nameWithType: TestXString.TestMakeSlug
+- uid: Galaxon.Core.Tests.TestXString.TestRomanization
+  name: TestRomanization()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestRomanization
+  commentId: M:Galaxon.Core.Tests.TestXString.TestRomanization
+  fullName: Galaxon.Core.Tests.TestXString.TestRomanization()
+  nameWithType: TestXString.TestRomanization()
+- uid: Galaxon.Core.Tests.TestXString.TestRomanization*
+  name: TestRomanization
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestRomanization_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestRomanization
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestRomanization
+  nameWithType: TestXString.TestRomanization
+- uid: Galaxon.Core.Tests.TestXString.TestTranslation
+  name: TestTranslation()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestTranslation
+  commentId: M:Galaxon.Core.Tests.TestXString.TestTranslation
+  fullName: Galaxon.Core.Tests.TestXString.TestTranslation()
+  nameWithType: TestXString.TestTranslation()
+- uid: Galaxon.Core.Tests.TestXString.TestTranslation*
+  name: TestTranslation
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestTranslation_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestTranslation
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestTranslation
+  nameWithType: TestXString.TestTranslation
 - uid: Galaxon.Core.Tests.TestXUlong
   name: TestXUlong
   href: api/Galaxon.Core.Tests.TestXUlong.html
@@ -2481,32 +3289,6 @@ references:
   commentId: T:Galaxon.Core.Time.XDateOnly
   fullName: Galaxon.Core.Time.XDateOnly
   nameWithType: XDateOnly
-- uid: Galaxon.Core.Time.XDateOnly.Christmas(System.Int32)
-  name: Christmas(Int32)
-  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Christmas_System_Int32_
-  commentId: M:Galaxon.Core.Time.XDateOnly.Christmas(System.Int32)
-  fullName: Galaxon.Core.Time.XDateOnly.Christmas(System.Int32)
-  nameWithType: XDateOnly.Christmas(Int32)
-- uid: Galaxon.Core.Time.XDateOnly.Christmas*
-  name: Christmas
-  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Christmas_
-  commentId: Overload:Galaxon.Core.Time.XDateOnly.Christmas
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateOnly.Christmas
-  nameWithType: XDateOnly.Christmas
-- uid: Galaxon.Core.Time.XDateOnly.Easter(System.Int32)
-  name: Easter(Int32)
-  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Easter_System_Int32_
-  commentId: M:Galaxon.Core.Time.XDateOnly.Easter(System.Int32)
-  fullName: Galaxon.Core.Time.XDateOnly.Easter(System.Int32)
-  nameWithType: XDateOnly.Easter(Int32)
-- uid: Galaxon.Core.Time.XDateOnly.Easter*
-  name: Easter
-  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Easter_
-  commentId: Overload:Galaxon.Core.Time.XDateOnly.Easter
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateOnly.Easter
-  nameWithType: XDateOnly.Easter
 - uid: Galaxon.Core.Time.XDateOnly.FromDayOfYear(System.Int32,System.Int32)
   name: FromDayOfYear(Int32, Int32)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_FromDayOfYear_System_Int32_System_Int32_
@@ -2546,6 +3328,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateOnly.FromTotalDays
   nameWithType: XDateOnly.FromTotalDays
+- uid: Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)
+  name: GetChristmas(Int32)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetChristmas_System_Int32_
+  commentId: M:Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)
+  fullName: Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)
+  nameWithType: XDateOnly.GetChristmas(Int32)
+- uid: Galaxon.Core.Time.XDateOnly.GetChristmas*
+  name: GetChristmas
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetChristmas_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.GetChristmas
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.GetChristmas
+  nameWithType: XDateOnly.GetChristmas
+- uid: Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)
+  name: GetEaster(Int32)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetEaster_System_Int32_
+  commentId: M:Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)
+  fullName: Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)
+  nameWithType: XDateOnly.GetEaster(Int32)
+- uid: Galaxon.Core.Time.XDateOnly.GetEaster*
+  name: GetEaster
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetEaster_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.GetEaster
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.GetEaster
+  nameWithType: XDateOnly.GetEaster
 - uid: Galaxon.Core.Time.XDateOnly.GetTicks(DateOnly)
   name: GetTicks(DateOnly)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetTicks_DateOnly_

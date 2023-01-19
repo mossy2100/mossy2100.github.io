@@ -1,0 +1,163 @@
+body {
+  background-color: #1b3246; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.5; }
+
+.navbar-brand img {
+  width: 50px;
+  height: 50px; }
+
+.navbar-inverse {
+  background-color: black; }
+  .navbar-inverse .navbar-nav {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0; }
+    .navbar-inverse .navbar-nav > li > a {
+      color: white;
+      background-color: #1b3246;
+      margin-top: 5px;
+      border-radius: 3px; }
+      .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: #699bc4; }
+    .navbar-inverse .navbar-nav > li.active > a {
+      background-color: steelblue; }
+      .navbar-inverse .navbar-nav > li.active > a:hover {
+        background-color: #699bc4; }
+
+.navbar-toggle {
+  margin-right: 0; }
+
+#profile-link a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #1b3246;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 15px;
+  height: 40px; }
+  #profile-link a img {
+    border-radius: 2px;
+    width: 30px;
+    height: 30px; }
+  #profile-link a label {
+    color: white;
+    padding-left: 15px;
+    margin-bottom: 0;
+    font-weight: normal;
+    cursor: inherit; }
+  #profile-link a:hover {
+    background-color: #699bc4; }
+
+.toc .level1 > li {
+  font-size: 14px; }
+
+[role="main"] {
+  background-color: white; }
+  [role="main"] .article {
+    width: 100%;
+    padding-bottom: 51px;
+    margin-top: 0 !important;
+    margin-bottom: 0; }
+    [role="main"] .article .col-md-10 {
+      padding-top: 20px;
+      padding-bottom: 20px; }
+
+.sidetoc,
+.sidefilter {
+  border: none;
+  background-color: transparent; }
+  .sidetoc li,
+  .sidefilter li {
+    text-align: left; }
+
+.toc {
+  background-color: transparent !important; }
+
+.sidefilter {
+  padding: 10px; }
+  .sidefilter .toc-filter {
+    margin: 0;
+    border: solid 1px #bde0ff; }
+    .sidefilter .toc-filter > .filter-icon {
+      top: 15px;
+      left: 9px; }
+    .sidefilter .toc-filter > .clear-icon {
+      top: 13px; }
+    .sidefilter .toc-filter > input {
+      padding-top: 5px;
+      padding-bottom: 5px;
+      padding-left: 25px; }
+
+.collapse.in {
+  text-align: left; }
+
+@media (min-width: 768px) {
+  #wrapper {
+    display: flex; }
+
+  .navbar-inverse .navbar-collapse {
+    padding-right: 0; }
+  .navbar-inverse .navbar-nav {
+    margin-left: 10px;
+    width: auto; }
+    .navbar-inverse .navbar-nav > li > a {
+      margin-left: 5px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+
+  #profile-link {
+    float: right; }
+
+  [role="main"] {
+    display: flex; }
+    [role="main"] .sidenav {
+      width: 260px;
+      padding: 0;
+      background-color: aliceblue;
+      border: solid 1px #bde0ff;
+      border-top-width: 0;
+      border-bottom-width: 0; }
+    [role="main"] .article {
+      width: 460px;
+      padding-top: 92px;
+      background-color: white;
+      display: flex; }
+      [role="main"] .article .col-md-10 {
+        width: 460px; }
+      [role="main"] .article .contrib {
+        height: 20px;
+        border-bottom: solid 1px silver; } }
+@media (min-width: 992px) {
+  [role="main"] .article {
+    width: 680px; }
+    [role="main"] .article .col-md-10 {
+      width: 420px; }
+    [role="main"] .article .col-md-2 {
+      width: 260px;
+      padding: 0;
+      background-color: aliceblue;
+      border: solid 1px #bde0ff;
+      border-top-width: 0;
+      border-bottom-width: 0;
+      display: flex; }
+      [role="main"] .article .col-md-2 .sideaffix {
+        margin-top: 0; }
+        [role="main"] .article .col-md-2 .sideaffix .contribution {
+          width: 258px; }
+        [role="main"] .article .col-md-2 .sideaffix nav {
+          width: 258px; }
+          [role="main"] .article .col-md-2 .sideaffix nav .nav {
+            width: 250px;
+            overflow: hidden; } }
+@media (min-width: 1200px) {
+  [role="main"] .article {
+    width: 880px; }
+    [role="main"] .article .col-md-10 {
+      width: 620px; } }
+
+/*# sourceMappingURL=main.css.map */
