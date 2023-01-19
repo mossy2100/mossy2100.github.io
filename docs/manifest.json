@@ -305,18 +305,6 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Galaxon.Core.Strings.InvalidCharAction.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Galaxon.Core.Strings.InvalidCharAction.html",
-          "hash": "zYgea6ho3kISZISRyqWtmjgw9VP0PL6W+HOP0Xm6KvY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Galaxon.Core.Strings.Translate.ITranslateProvider.yml",
       "output": {
         ".html": {
@@ -357,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.XString.html",
-          "hash": "ecGJjArdLPPHZmXXfiGnCcGQIvmMY/0JbzvnpTGYyVU="
+          "hash": "upzLyPxIzbFrjy8k1uWCGUixp4w9ssBGpi9/OEAnvDM="
         }
       },
       "is_incremental": false,
@@ -381,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.html",
-          "hash": "DR3CVHfbjuMdcshRRJ586whMSpuTgBGtoym8qaGdV9E="
+          "hash": "10AJlrTszIfiRHu2+S+0C42sshXIsTDvU7D4V4OA8Ew="
         }
       },
       "is_incremental": false,
@@ -645,7 +633,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mawOm1sAASe6uQhRmVj1nM608qrrZ98aYZ2t41KkwSM="
+          "hash": "vACZ9ReXZcpUHY/Mi6uGEUdJ5LcLNQ34kWmexcMsIFk="
         }
       },
       "is_incremental": false,
@@ -660,7 +648,7 @@
           "hash": "Kt07bMpY4nkeOI65ZwkCr/q/0O+hmfoaUg/yfScmhwQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -695,7 +683,7 @@
           "hash": "apVjWe3NzQI6cexCV4RUZfFfIpHrsVBfoqwAzRWi4o8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -729,8 +717,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 52,
-          "skipped_file_count": 52
+          "total_file_count": 51,
+          "skipped_file_count": 46
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

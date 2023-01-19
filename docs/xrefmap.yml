@@ -2048,30 +2048,6 @@ references:
   commentId: N:Galaxon.Core.Strings
   fullName: Galaxon.Core.Strings
   nameWithType: Galaxon.Core.Strings
-- uid: Galaxon.Core.Strings.InvalidCharAction
-  name: InvalidCharAction
-  href: api/Galaxon.Core.Strings.InvalidCharAction.html
-  commentId: T:Galaxon.Core.Strings.InvalidCharAction
-  fullName: Galaxon.Core.Strings.InvalidCharAction
-  nameWithType: InvalidCharAction
-- uid: Galaxon.Core.Strings.InvalidCharAction.Keep
-  name: Keep
-  href: api/Galaxon.Core.Strings.InvalidCharAction.html#Galaxon_Core_Strings_InvalidCharAction_Keep
-  commentId: F:Galaxon.Core.Strings.InvalidCharAction.Keep
-  fullName: Galaxon.Core.Strings.InvalidCharAction.Keep
-  nameWithType: InvalidCharAction.Keep
-- uid: Galaxon.Core.Strings.InvalidCharAction.Skip
-  name: Skip
-  href: api/Galaxon.Core.Strings.InvalidCharAction.html#Galaxon_Core_Strings_InvalidCharAction_Skip
-  commentId: F:Galaxon.Core.Strings.InvalidCharAction.Skip
-  fullName: Galaxon.Core.Strings.InvalidCharAction.Skip
-  nameWithType: InvalidCharAction.Skip
-- uid: Galaxon.Core.Strings.InvalidCharAction.Throw
-  name: Throw
-  href: api/Galaxon.Core.Strings.InvalidCharAction.html#Galaxon_Core_Strings_InvalidCharAction_Throw
-  commentId: F:Galaxon.Core.Strings.InvalidCharAction.Throw
-  fullName: Galaxon.Core.Strings.InvalidCharAction.Throw
-  nameWithType: InvalidCharAction.Throw
 - uid: Galaxon.Core.Strings.Translate
   name: Galaxon.Core.Strings.Translate
   href: api/Galaxon.Core.Strings.Translate.html
@@ -2216,15 +2192,15 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.Repeat
   nameWithType: XString.Repeat
-- uid: Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},Galaxon.Core.Strings.InvalidCharAction)
-  name: ReplaceChars(String, Dictionary<Char, String>, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},Galaxon.Core.Strings.InvalidCharAction)
-  name.vb: ReplaceChars(String, Dictionary(Of Char, String), InvalidCharAction)
-  fullName: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary<System.Char, System.String>, Galaxon.Core.Strings.InvalidCharAction)
-  fullName.vb: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary(Of System.Char, System.String), Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: XString.ReplaceChars(String, Dictionary<Char, String>, InvalidCharAction)
-  nameWithType.vb: XString.ReplaceChars(String, Dictionary(Of Char, String), InvalidCharAction)
+- uid: Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  name: ReplaceChars(String, Dictionary<Char, String>, Boolean)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__System_Boolean_
+  commentId: M:Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  name.vb: ReplaceChars(String, Dictionary(Of Char, String), Boolean)
+  fullName: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary<System.Char, System.String>, System.Boolean)
+  fullName.vb: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary(Of System.Char, System.String), System.Boolean)
+  nameWithType: XString.ReplaceChars(String, Dictionary<Char, String>, Boolean)
+  nameWithType.vb: XString.ReplaceChars(String, Dictionary(Of Char, String), Boolean)
 - uid: Galaxon.Core.Strings.XString.ReplaceChars*
   name: ReplaceChars
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ReplaceChars_
@@ -2310,12 +2286,12 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.ToInt
   nameWithType: XString.ToInt
-- uid: Galaxon.Core.Strings.XString.ToSmallCaps(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  name: ToSmallCaps(String, InvalidCharAction)
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_System_String_Galaxon_Core_Strings_InvalidCharAction_
-  commentId: M:Galaxon.Core.Strings.XString.ToSmallCaps(System.String,Galaxon.Core.Strings.InvalidCharAction)
-  fullName: Galaxon.Core.Strings.XString.ToSmallCaps(System.String, Galaxon.Core.Strings.InvalidCharAction)
-  nameWithType: XString.ToSmallCaps(String, InvalidCharAction)
+- uid: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  name: ToSmallCaps(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  fullName: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  nameWithType: XString.ToSmallCaps(String)
 - uid: Galaxon.Core.Strings.XString.ToSmallCaps*
   name: ToSmallCaps
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_

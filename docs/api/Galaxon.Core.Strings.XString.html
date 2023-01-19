@@ -195,7 +195,7 @@
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_IsAscii_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.IsAscii(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L191">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L160">View Source</a>
               </span>
       </div>
   
@@ -305,7 +305,7 @@ necessary - please let me know if you disagree.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_MakeSlug_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.MakeSlug(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L203">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L172">View Source</a>
               </span>
       </div>
   
@@ -362,12 +362,12 @@ necessary - please let me know if you disagree.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_Repeat_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.Repeat(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L119">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L88">View Source</a>
               </span>
       </div>
   
   <a id="Galaxon_Core_Strings_XString_ReplaceChars_" data-uid="Galaxon.Core.Strings.XString.ReplaceChars*"></a>
-  <h4 id="Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__Galaxon_Core_Strings_InvalidCharAction_" data-uid="Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},Galaxon.Core.Strings.InvalidCharAction)">ReplaceChars(String, Dictionary&lt;Char, String&gt;, InvalidCharAction)</h4>
+  <h4 id="Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__System_Boolean_" data-uid="Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)">ReplaceChars(String, Dictionary&lt;Char, String&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Replace characters in a string with other characters by using a character map.
 Example use cases:</p>
 <ul>
@@ -380,7 +380,7 @@ Example use cases:</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ReplaceChars(this string str, Dictionary&lt;char, string&gt; charMap, InvalidCharAction action = InvalidCharAction.Keep)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ReplaceChars(this string str, Dictionary&lt;char, string&gt; charMap, bool keepCharsNotInMap = true)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -405,13 +405,10 @@ Example use cases:</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="Galaxon.Core.Strings.InvalidCharAction.html">InvalidCharAction</a></td>
-        <td><span class="parametername">action</span></td>
-        <td><p>Code that tells the algorithm what to do if a character is encountered that is not in the
-character map.
-Throw = Throw an exception.
-Skip  = Skip it, excluding it from the output.
-Keep  = Keep the original, untransformed character.</p>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keepCharsNotInMap</span></td>
+        <td><p>If a character is encountered that is not in the character
+map, either keep it (true) or skip it (false).</p>
 </td>
       </tr>
     </tbody>
@@ -432,30 +429,14 @@ Keep  = Keep the original, untransformed character.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Galaxon.Core.Exceptions.ArgumentInvalidException.html">ArgumentInvalidException</a></td>
-        <td><p>If the original character isn't found in the character map.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__Galaxon_Core_Strings_InvalidCharAction_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ReplaceChars(System.String%2CDictionary%7BSystem.Char%2CSystem.String%7D%2CGalaxon.Core.Strings.InvalidCharAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__System_Boolean_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ReplaceChars(System.String%2CDictionary%7BSystem.Char%2CSystem.String%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L70">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L59">View Source</a>
               </span>
       </div>
   
@@ -533,7 +514,7 @@ Keep  = Keep the original, untransformed character.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripBrackets_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripBrackets(System.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L154">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L123">View Source</a>
               </span>
       </div>
   
@@ -587,7 +568,7 @@ Keep  = Keep the original, untransformed character.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripTags_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripTags(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L183">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L152">View Source</a>
               </span>
       </div>
   
@@ -641,7 +622,7 @@ Keep  = Keep the original, untransformed character.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripWhitespace_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripWhitespace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L141">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L110">View Source</a>
               </span>
       </div>
   
@@ -805,12 +786,12 @@ If the string cannot be parsed into an int, return null.</p>
       </div>
   
   <a id="Galaxon_Core_Strings_XString_ToSmallCaps_" data-uid="Galaxon.Core.Strings.XString.ToSmallCaps*"></a>
-  <h4 id="Galaxon_Core_Strings_XString_ToSmallCaps_System_String_Galaxon_Core_Strings_InvalidCharAction_" data-uid="Galaxon.Core.Strings.XString.ToSmallCaps(System.String,Galaxon.Core.Strings.InvalidCharAction)">ToSmallCaps(String, InvalidCharAction)</h4>
+  <h4 id="Galaxon_Core_Strings_XString_ToSmallCaps_System_String_" data-uid="Galaxon.Core.Strings.XString.ToSmallCaps(System.String)">ToSmallCaps(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToSmallCaps(this string str, InvalidCharAction action = InvalidCharAction.Keep)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string ToSmallCaps(this string str)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -825,11 +806,6 @@ If the string cannot be parsed into an int, return null.</p>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">str</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="Galaxon.Core.Strings.InvalidCharAction.html">InvalidCharAction</a></td>
-        <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -853,10 +829,10 @@ If the string cannot be parsed into an int, return null.</p>
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToSmallCaps_System_String_Galaxon_Core_Strings_InvalidCharAction_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToSmallCaps(System.String%2CGalaxon.Core.Strings.InvalidCharAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToSmallCaps_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToSmallCaps(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L112">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Strings/XString.cs/#L82">View Source</a>
               </span>
       </div>
   
