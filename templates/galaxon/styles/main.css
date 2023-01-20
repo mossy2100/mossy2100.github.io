@@ -58,31 +58,44 @@ header #profile-link a {
 
 [role="main"] {
   background-color: white; }
-  [role="main"] .sidenav .sidetoc,
-  [role="main"] .sidenav .sidefilter {
-    border: none;
-    background-color: transparent; }
-    [role="main"] .sidenav .sidetoc li,
-    [role="main"] .sidenav .sidefilter li {
-      text-align: left; }
-  [role="main"] .sidenav .sidefilter {
-    padding: 10px; }
-    [role="main"] .sidenav .sidefilter .toc-filter {
-      margin: 0;
-      border: solid 1px #bde0ff; }
-      [role="main"] .sidenav .sidefilter .toc-filter > .filter-icon {
-        top: 15px;
-        left: 9px; }
-      [role="main"] .sidenav .sidefilter .toc-filter > .clear-icon {
-        top: 13px; }
-      [role="main"] .sidenav .sidefilter .toc-filter > input {
-        padding-top: 5px;
-        padding-bottom: 5px;
-        padding-left: 25px; }
-  [role="main"] .sidenav .toc {
-    background-color: transparent !important; }
-    [role="main"] .sidenav .toc .level1 > li {
-      font-size: 14px; }
+  [role="main"] .sidenav {
+    background-color: aliceblue;
+    border: solid 1px #bde0ff;
+    border-width: 0 0 1px; }
+    [role="main"] .sidenav .toc-toggle {
+      background-color: #d7ecff;
+      color: #666; }
+      [role="main"] .sidenav .toc-toggle:hover {
+        color: black; }
+      [role="main"] .sidenav .toc-toggle[aria-expanded="true"]::before {
+        content: "Hide"; }
+      [role="main"] .sidenav .toc-toggle[aria-expanded="false"]::before {
+        content: "Show"; }
+    [role="main"] .sidenav .sidetoc,
+    [role="main"] .sidenav .sidefilter {
+      border: none;
+      background-color: transparent; }
+      [role="main"] .sidenav .sidetoc li,
+      [role="main"] .sidenav .sidefilter li {
+        text-align: left; }
+    [role="main"] .sidenav .sidefilter {
+      padding: 15px; }
+      [role="main"] .sidenav .sidefilter .toc-filter {
+        margin: 0;
+        border: solid 1px #bde0ff; }
+        [role="main"] .sidenav .sidefilter .toc-filter > .filter-icon {
+          top: 15px;
+          left: 9px; }
+        [role="main"] .sidenav .sidefilter .toc-filter > .clear-icon {
+          top: 13px; }
+        [role="main"] .sidenav .sidefilter .toc-filter > input {
+          padding-top: 5px;
+          padding-bottom: 5px;
+          padding-left: 25px; }
+    [role="main"] .sidenav .toc {
+      background-color: transparent !important; }
+      [role="main"] .sidenav .toc .level1 > li {
+        font-size: 14px; }
   [role="main"] .article {
     width: 100%;
     padding-bottom: 51px;
@@ -126,12 +139,11 @@ header #profile-link a {
     display: flex;
     background-color: transparent; }
     [role="main"] .sidenav {
-      width: 260px;
-      padding: 0;
       background-color: aliceblue;
       border: solid 1px #bde0ff;
-      border-top-width: 0;
-      border-bottom-width: 0; }
+      width: 260px;
+      padding: 0;
+      border-width: 0 1px 0; }
       [role="main"] .sidenav .sidetoc {
         padding-bottom: 20px; }
         [role="main"] .sidenav .sidetoc.shiftup {
@@ -141,7 +153,7 @@ header #profile-link a {
       padding-top: 92px;
       background-color: white;
       display: flex; }
-      [role="main"] .article.grid-right {
+      [role="main"] .article.row {
         margin-left: 0;
         margin-right: 0; }
       [role="main"] .article .col-md-10 {
@@ -161,12 +173,11 @@ header #profile-link a {
     [role="main"] .article .col-md-10 {
       width: 420px; }
     [role="main"] .article .col-md-2 {
-      width: 260px;
-      padding: 0;
       background-color: aliceblue;
       border: solid 1px #bde0ff;
-      border-top-width: 0;
-      border-bottom-width: 0;
+      width: 260px;
+      padding: 0;
+      border-width: 0 1px 0;
       display: flex; }
       [role="main"] .article .col-md-2 .sideaffix {
         margin-top: 0; }
