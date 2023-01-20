@@ -126,11 +126,11 @@ header {
                 color: black;
             }
 
-            &::before {
+            &[aria-expanded="true"]::before {
                 content: "Hide";
             }
 
-            &.collapsed::before {
+            &[aria-expanded="false"]::before {
                 content: "Show";
             }
         }

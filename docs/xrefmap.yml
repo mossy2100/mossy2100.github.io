@@ -2042,145 +2042,12 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XUshort.GetRandom
   nameWithType: XUshort.GetRandom
-- uid: Galaxon.Core.Program
-  name: Galaxon.Core.Program
-  href: api/Galaxon.Core.Program.html
-  commentId: N:Galaxon.Core.Program
-  fullName: Galaxon.Core.Program
-  nameWithType: Galaxon.Core.Program
-- uid: Galaxon.Core.Program.ProcessText
-  name: ProcessText
-  href: api/Galaxon.Core.Program.ProcessText.html
-  commentId: T:Galaxon.Core.Program.ProcessText
-  fullName: Galaxon.Core.Program.ProcessText
-  nameWithType: ProcessText
-- uid: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
-  name: ProcessDiacriticsHtml()
-  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessDiacriticsHtml
-  commentId: M:Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
-  fullName: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml()
-  nameWithType: ProcessText.ProcessDiacriticsHtml()
-- uid: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml*
-  name: ProcessDiacriticsHtml
-  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessDiacriticsHtml_
-  commentId: Overload:Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
-  isSpec: "True"
-  fullName: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
-  nameWithType: ProcessText.ProcessDiacriticsHtml
-- uid: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
-  name: ProcessLigaturesHtml()
-  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessLigaturesHtml
-  commentId: M:Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
-  fullName: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml()
-  nameWithType: ProcessText.ProcessLigaturesHtml()
-- uid: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml*
-  name: ProcessLigaturesHtml
-  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessLigaturesHtml_
-  commentId: Overload:Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
-  isSpec: "True"
-  fullName: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
-  nameWithType: ProcessText.ProcessLigaturesHtml
 - uid: Galaxon.Core.Strings
   name: Galaxon.Core.Strings
   href: api/Galaxon.Core.Strings.html
   commentId: N:Galaxon.Core.Strings
   fullName: Galaxon.Core.Strings
   nameWithType: Galaxon.Core.Strings
-- uid: Galaxon.Core.Strings.Translate
-  name: Galaxon.Core.Strings.Translate
-  href: api/Galaxon.Core.Strings.Translate.html
-  commentId: N:Galaxon.Core.Strings.Translate
-  fullName: Galaxon.Core.Strings.Translate
-  nameWithType: Galaxon.Core.Strings.Translate
-- uid: Galaxon.Core.Strings.Translate.ITranslateProvider
-  name: ITranslateProvider
-  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html
-  commentId: T:Galaxon.Core.Strings.Translate.ITranslateProvider
-  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider
-  nameWithType: ITranslateProvider
-- uid: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
-  name: ExecuteAsync(String, String, CancellationToken)
-  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html#Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_
-  commentId: M:Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
-  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String, System.String, CancellationToken)
-  nameWithType: ITranslateProvider.ExecuteAsync(String, String, CancellationToken)
-- uid: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync*
-  name: ExecuteAsync
-  href: api/Galaxon.Core.Strings.Translate.ITranslateProvider.html#Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_
-  commentId: Overload:Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync
-  nameWithType: ITranslateProvider.ExecuteAsync
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider
-  name: TranslateProvider
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html
-  commentId: T:Galaxon.Core.Strings.Translate.TranslateProvider
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider
-  nameWithType: TranslateProvider
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String,System.String)
-  name: Execute(String, String)
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_Execute_System_String_System_String_
-  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String,System.String)
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.Execute(System.String, System.String)
-  nameWithType: TranslateProvider.Execute(String, String)
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.Execute*
-  name: Execute
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_Execute_
-  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.Execute
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.Execute
-  nameWithType: TranslateProvider.Execute
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
-  name: ExecuteAsync(String, String, CancellationToken)
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_
-  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync(System.String, System.String, CancellationToken)
-  nameWithType: TranslateProvider.ExecuteAsync(String, String, CancellationToken)
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync*
-  name: ExecuteAsync
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_ExecuteAsync_
-  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.ExecuteAsync
-  nameWithType: TranslateProvider.ExecuteAsync
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
-  name: GetSupportedLanguages()
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_GetSupportedLanguages
-  commentId: M:Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages()
-  nameWithType: TranslateProvider.GetSupportedLanguages()
-- uid: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages*
-  name: GetSupportedLanguages
-  href: api/Galaxon.Core.Strings.Translate.TranslateProvider.html#Galaxon_Core_Strings_Translate_TranslateProvider_GetSupportedLanguages_
-  commentId: Overload:Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
-  nameWithType: TranslateProvider.GetSupportedLanguages
-- uid: Galaxon.Core.Strings.Transliterate
-  name: Transliterate
-  href: api/Galaxon.Core.Strings.Transliterate.html
-  commentId: T:Galaxon.Core.Strings.Transliterate
-  fullName: Galaxon.Core.Strings.Transliterate
-  nameWithType: Transliterate
-- uid: Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
-  name: AsciiSubstitutionMap
-  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_AsciiSubstitutionMap
-  commentId: F:Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
-  fullName: Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
-  nameWithType: Transliterate.AsciiSubstitutionMap
-- uid: Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
-  name: ToAsciiLetters(String)
-  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_ToAsciiLetters_System_String_
-  commentId: M:Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
-  fullName: Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
-  nameWithType: Transliterate.ToAsciiLetters(String)
-- uid: Galaxon.Core.Strings.Transliterate.ToAsciiLetters*
-  name: ToAsciiLetters
-  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_ToAsciiLetters_
-  commentId: Overload:Galaxon.Core.Strings.Transliterate.ToAsciiLetters
-  isSpec: "True"
-  fullName: Galaxon.Core.Strings.Transliterate.ToAsciiLetters
-  nameWithType: Transliterate.ToAsciiLetters
 - uid: Galaxon.Core.Strings.XString
   name: XString
   href: api/Galaxon.Core.Strings.XString.html
@@ -3194,19 +3061,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
   nameWithType: TestXString.TestMakeSlug
-- uid: Galaxon.Core.Tests.TestXString.TestTranslation
-  name: TestTranslation()
-  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestTranslation
-  commentId: M:Galaxon.Core.Tests.TestXString.TestTranslation
-  fullName: Galaxon.Core.Tests.TestXString.TestTranslation()
-  nameWithType: TestXString.TestTranslation()
-- uid: Galaxon.Core.Tests.TestXString.TestTranslation*
-  name: TestTranslation
-  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestTranslation_
-  commentId: Overload:Galaxon.Core.Tests.TestXString.TestTranslation
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestXString.TestTranslation
-  nameWithType: TestXString.TestTranslation
 - uid: Galaxon.Core.Tests.TestXUlong
   name: TestXUlong
   href: api/Galaxon.Core.Tests.TestXUlong.html
