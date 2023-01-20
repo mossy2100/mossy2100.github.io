@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Interface ITranslateProvider
+    <title>Class Transliterate
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Interface ITranslateProvider
+    <meta name="title" content="Class Transliterate
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -68,28 +68,75 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Galaxon.Core.Strings.Translate.ITranslateProvider">
+            <article class="content wrap" id="_content" data-uid="Galaxon.Core.Strings.Transliterate">
   
   
-  <h1 id="Galaxon_Core_Strings_Translate_ITranslateProvider" data-uid="Galaxon.Core.Strings.Translate.ITranslateProvider" class="text-break">Interface ITranslateProvider
+  <h1 id="Galaxon_Core_Strings_Transliterate" data-uid="Galaxon.Core.Strings.Transliterate" class="text-break">Class Transliterate
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Extension method to transliterate between character sets.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Galaxon.Core.Strings.Translate.html">Galaxon.Core.Strings.Translate</a></h6>
-  <h6><strong>Assembly</strong>: Galaxon.Core.dll</h6>
-  <h5 id="Galaxon_Core_Strings_Translate_ITranslateProvider_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public interface ITranslateProvider</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Transliterate</span></div>
   </div>
-  <h3 id="methods">Methods
+  <h6><strong>Namespace</strong>: <a class="xref" href="Galaxon.Core.Strings.html">Galaxon.Core.Strings</a></h6>
+  <h6><strong>Assembly</strong>: Galaxon.Core.dll</h6>
+  <h5 id="Galaxon_Core_Strings_Transliterate_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Transliterate : object</code></pre>
+  </div>
+  <h3 id="fields">Fields
   </h3>
-  <a id="Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_" data-uid="Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync*"></a>
-  <h4 id="Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_" data-uid="Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String,System.String,CancellationToken)">ExecuteAsync(String, String, CancellationToken)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Galaxon_Core_Strings_Transliterate_AsciiSubstitutionMap" data-uid="Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap">AsciiSubstitutionMap</h4>
+  <div class="markdown level1 summary"><p>Map from digraphs, ligatures, and letters with diacritics, to sane ASCII equivalents.
+I doubt every possible character is included, but it's a pretty good set.
+Unicode letters without similar-looking ASCII equivalents are not included.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">Task&lt;string&gt; ExecuteAsync(string text, string targetLangCode, CancellationToken cancellationToken)</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly Dictionary&lt;char, string&gt; AsciiSubstitutionMap</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.Char</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_Transliterate_AsciiSubstitutionMap.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/old/Transliterate.cs/#L17">View Source</a>
+              </span>
+      </div>
+  
+  <h3 id="methods">Methods
+  </h3>
+  <a id="Galaxon_Core_Strings_Transliterate_ToAsciiLetters_" data-uid="Galaxon.Core.Strings.Transliterate.ToAsciiLetters*"></a>
+  <h4 id="Galaxon_Core_Strings_Transliterate_ToAsciiLetters_System_String_" data-uid="Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)">ToAsciiLetters(String)</h4>
+  <div class="markdown level1 summary"><p>Remove diacritics, and expand ligature and digraph characters, by replacing them with
+similar-looking ASCII equivalents.
+This can be useful when generating friendly URLs from page titles.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static string ToAsciiLetters(this string str)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -103,18 +150,9 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">text</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">targetLangCode</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td></td>
+        <td><span class="parametername">str</span></td>
+        <td><p>The string to process.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -128,8 +166,9 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.String</span>&gt;</td>
-        <td></td>
+        <td><span class="xref">System.String</span></td>
+        <td><p>The string with letters changed.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -137,10 +176,10 @@
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_Translate_ITranslateProvider_ExecuteAsync_System_String_System_String_CancellationToken_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.Translate.ITranslateProvider.ExecuteAsync(System.String%2CSystem.String%2CCancellationToken)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_Transliterate_ToAsciiLetters_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/Translate/ITranslateProvider.cs/#L5">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/old/Transliterate.cs/#L554">View Source</a>
               </span>
       </div>
   
@@ -152,10 +191,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_Translate_ITranslateProvider.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.Translate.ITranslateProvider%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_Transliterate.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.Transliterate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/Translate/ITranslateProvider.cs/#L3" class="contribution-link">View Source</a>
+                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/old/Transliterate.cs/#L6" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

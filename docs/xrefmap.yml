@@ -2042,6 +2042,44 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XUshort.GetRandom
   nameWithType: XUshort.GetRandom
+- uid: Galaxon.Core.Program
+  name: Galaxon.Core.Program
+  href: api/Galaxon.Core.Program.html
+  commentId: N:Galaxon.Core.Program
+  fullName: Galaxon.Core.Program
+  nameWithType: Galaxon.Core.Program
+- uid: Galaxon.Core.Program.ProcessText
+  name: ProcessText
+  href: api/Galaxon.Core.Program.ProcessText.html
+  commentId: T:Galaxon.Core.Program.ProcessText
+  fullName: Galaxon.Core.Program.ProcessText
+  nameWithType: ProcessText
+- uid: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
+  name: ProcessDiacriticsHtml()
+  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessDiacriticsHtml
+  commentId: M:Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
+  fullName: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml()
+  nameWithType: ProcessText.ProcessDiacriticsHtml()
+- uid: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml*
+  name: ProcessDiacriticsHtml
+  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessDiacriticsHtml_
+  commentId: Overload:Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
+  isSpec: "True"
+  fullName: Galaxon.Core.Program.ProcessText.ProcessDiacriticsHtml
+  nameWithType: ProcessText.ProcessDiacriticsHtml
+- uid: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
+  name: ProcessLigaturesHtml()
+  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessLigaturesHtml
+  commentId: M:Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
+  fullName: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml()
+  nameWithType: ProcessText.ProcessLigaturesHtml()
+- uid: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml*
+  name: ProcessLigaturesHtml
+  href: api/Galaxon.Core.Program.ProcessText.html#Galaxon_Core_Program_ProcessText_ProcessLigaturesHtml_
+  commentId: Overload:Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
+  isSpec: "True"
+  fullName: Galaxon.Core.Program.ProcessText.ProcessLigaturesHtml
+  nameWithType: ProcessText.ProcessLigaturesHtml
 - uid: Galaxon.Core.Strings
   name: Galaxon.Core.Strings
   href: api/Galaxon.Core.Strings.html
@@ -2118,6 +2156,31 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.Translate.TranslateProvider.GetSupportedLanguages
   nameWithType: TranslateProvider.GetSupportedLanguages
+- uid: Galaxon.Core.Strings.Transliterate
+  name: Transliterate
+  href: api/Galaxon.Core.Strings.Transliterate.html
+  commentId: T:Galaxon.Core.Strings.Transliterate
+  fullName: Galaxon.Core.Strings.Transliterate
+  nameWithType: Transliterate
+- uid: Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
+  name: AsciiSubstitutionMap
+  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_AsciiSubstitutionMap
+  commentId: F:Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
+  fullName: Galaxon.Core.Strings.Transliterate.AsciiSubstitutionMap
+  nameWithType: Transliterate.AsciiSubstitutionMap
+- uid: Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
+  name: ToAsciiLetters(String)
+  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_ToAsciiLetters_System_String_
+  commentId: M:Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
+  fullName: Galaxon.Core.Strings.Transliterate.ToAsciiLetters(System.String)
+  nameWithType: Transliterate.ToAsciiLetters(String)
+- uid: Galaxon.Core.Strings.Transliterate.ToAsciiLetters*
+  name: ToAsciiLetters
+  href: api/Galaxon.Core.Strings.Transliterate.html#Galaxon_Core_Strings_Transliterate_ToAsciiLetters_
+  commentId: Overload:Galaxon.Core.Strings.Transliterate.ToAsciiLetters
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.Transliterate.ToAsciiLetters
+  nameWithType: Transliterate.ToAsciiLetters
 - uid: Galaxon.Core.Strings.XString
   name: XString
   href: api/Galaxon.Core.Strings.XString.html
@@ -3131,19 +3194,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
   nameWithType: TestXString.TestMakeSlug
-- uid: Galaxon.Core.Tests.TestXString.TestRomanization
-  name: TestRomanization()
-  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestRomanization
-  commentId: M:Galaxon.Core.Tests.TestXString.TestRomanization
-  fullName: Galaxon.Core.Tests.TestXString.TestRomanization()
-  nameWithType: TestXString.TestRomanization()
-- uid: Galaxon.Core.Tests.TestXString.TestRomanization*
-  name: TestRomanization
-  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestRomanization_
-  commentId: Overload:Galaxon.Core.Tests.TestXString.TestRomanization
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestXString.TestRomanization
-  nameWithType: TestXString.TestRomanization
 - uid: Galaxon.Core.Tests.TestXString.TestTranslation
   name: TestTranslation()
   href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestTranslation
