@@ -77,8 +77,19 @@
 <p>Mostly constants.
 As in TimeSpan, I've used long as the type for any integer constants.
 I've used double for non-integer constants.</p>
-<p>The word Month, Year, Decade, Century, or Millennium in a constant name refers to the average
-length of that time unit in the Gregorian Calendar.</p>
+<p>The following are already provided by the TimeSpan class and not reproduced here:</p>
+<ul>
+<li>TicksPerMicrosecond</li>
+<li>TicksPerMillisecond</li>
+<li>TicksPerSecond</li>
+<li>TicksPerMinute</li>
+<li>TicksPerHour</li>
+<li>TicksPerDay</li>
+</ul>
+<p><strong>NOTE: Any constants or methods for converting between time units will become obsolete
+with the completion of Galaxon.Quantities. So, don't use these for anything permanent.</strong></p>
+<p>The word Month, Year, Decade, Century, or Millennium in a constant name usually refers to the
+average length of that time unit in the Gregorian.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,8 +105,43 @@ length of that time unit in the Gregorian Calendar.</p>
   </div>
   <h3 id="fields">Fields
   </h3>
+  <h4 id="Galaxon_Core_Time_XTimeSpan_CommonYearsPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.CommonYearsPerSolarCycle">CommonYearsPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The number of common years in a Gregorian solar cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long CommonYearsPerSolarCycle = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_CommonYearsPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.CommonYearsPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L336">View Source</a>
+              </span>
+      </div>
+  
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerCentury" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerCentury">DaysPerCentury</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of solar days in a Gregorian century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -123,45 +169,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerCentury.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerCentury%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L130">View Source</a>
-              </span>
-      </div>
-  
-  <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerCycle" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerCycle">DaysPerCycle</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const long DaysPerCycle = null</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L172">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L233">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerDecade" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerDecade">DaysPerDecade</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of solar days in a Gregorian decade.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -189,12 +203,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerDecade.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerDecade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L129">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L228">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerJulianCentury" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerJulianCentury">DaysPerJulianCentury</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of solar days in a Julian Calendar century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -222,12 +237,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerJulianCentury.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerJulianCentury%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L135">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L253">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerJulianDecade" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerJulianDecade">DaysPerJulianDecade</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of solar days in a Julian Calendar decade.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -255,12 +271,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerJulianDecade.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerJulianDecade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L134">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L248">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerJulianMillennium" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerJulianMillennium">DaysPerJulianMillennium</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of solar days in a Julian Calendar millennium.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -288,12 +305,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerJulianMillennium.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerJulianMillennium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L136">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L258">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerJulianYear" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerJulianYear">DaysPerJulianYear</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of solar days in a Julian Calendar year.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -321,7 +339,7 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerJulianYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerJulianYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L133">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L243">View Source</a>
               </span>
       </div>
   
@@ -355,12 +373,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerLunation.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerLunation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L156">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L270">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerMillennium" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerMillennium">DaysPerMillennium</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of solar days in a Gregorian millennium.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -388,12 +407,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerMillennium.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerMillennium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L131">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L238">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerMonth" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerMonth">DaysPerMonth</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of days in a Gregorian month.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -421,12 +441,48 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerMonth.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerMonth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L128">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L218">View Source</a>
+              </span>
+      </div>
+  
+  <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerSolarCycle">DaysPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The number of days in a Gregorian solar cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long DaysPerSolarCycle = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L351">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerTropicalYear" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerTropicalYear">DaysPerTropicalYear</h4>
-  <div class="markdown level1 summary"><p>Length of tropical year B1900 (days) (value copied from SOFA).</p>
+  <div class="markdown level1 summary"><p>The number of days in the mean tropical year B1900 (days).
+This value is taken from the SOFA (Standards of Fundamental Astronomy) library, which is
+assumed to be authoritative.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -455,12 +511,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerTropicalYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerTropicalYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L141">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L265">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerWeek" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerWeek">DaysPerWeek</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of solar days in a week.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -488,12 +545,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerWeek.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerWeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L76">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L213">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_DaysPerYear" data-uid="Galaxon.Core.Time.XTimeSpan.DaysPerYear">DaysPerYear</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of solar days in a Gregorian year.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -521,12 +579,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_DaysPerYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.DaysPerYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L79">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L223">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_HoursPerDay" data-uid="Galaxon.Core.Time.XTimeSpan.HoursPerDay">HoursPerDay</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of hours in an ephemeris (or SI) day.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -554,16 +613,17 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_HoursPerDay.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.HoursPerDay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L74">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L90">View Source</a>
               </span>
       </div>
   
-  <h4 id="Galaxon_Core_Time_XTimeSpan_LeapYearsPerCycle" data-uid="Galaxon.Core.Time.XTimeSpan.LeapYearsPerCycle">LeapYearsPerCycle</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Galaxon_Core_Time_XTimeSpan_LeapYearsPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle">LeapYearsPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The number of leap years in a Gregorian solar cycle.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const long LeapYearsPerCycle = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const long LeapYearsPerSolarCycle = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -584,15 +644,16 @@ length of that time unit in the Gregorian Calendar.</p>
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_LeapYearsPerCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.LeapYearsPerCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_LeapYearsPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L170">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L331">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_MinutesPerHour" data-uid="Galaxon.Core.Time.XTimeSpan.MinutesPerHour">MinutesPerHour</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of minutes in an hour.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -620,16 +681,17 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_MinutesPerHour.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.MinutesPerHour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L73">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L85">View Source</a>
               </span>
       </div>
   
-  <h4 id="Galaxon_Core_Time_XTimeSpan_MonthsPerCycle" data-uid="Galaxon.Core.Time.XTimeSpan.MonthsPerCycle">MonthsPerCycle</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Galaxon_Core_Time_XTimeSpan_MonthsPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.MonthsPerSolarCycle">MonthsPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The number of months in a Gregorian solar cycle.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const long MonthsPerCycle = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const long MonthsPerSolarCycle = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -650,15 +712,16 @@ length of that time unit in the Gregorian Calendar.</p>
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_MonthsPerCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.MonthsPerCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_MonthsPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.MonthsPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L171">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L341">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_MonthsPerYear" data-uid="Galaxon.Core.Time.XTimeSpan.MonthsPerYear">MonthsPerYear</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of calendar months in a Gregorian year.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -686,12 +749,47 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_MonthsPerYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.MonthsPerYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L82">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L95">View Source</a>
+              </span>
+      </div>
+  
+  <h4 id="Galaxon_Core_Time_XTimeSpan_OlympiadsPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.OlympiadsPerSolarCycle">OlympiadsPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>Number of olympiads in an Gregorian solar cycle.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long OlympiadsPerSolarCycle = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_OlympiadsPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.OlympiadsPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L326">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerCentury" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerCentury">SecondsPerCentury</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of seconds in a Gregorian century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -719,12 +817,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerCentury.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerCentury%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L121">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L199">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerDay" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerDay">SecondsPerDay</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in an ephemeris day.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -752,12 +851,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerDay.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerDay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L116">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L168">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerDecade" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerDecade">SecondsPerDecade</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of seconds in a Gregorian decade.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -785,12 +885,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerDecade.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerDecade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L120">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L194">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerHour" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerHour">SecondsPerHour</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in an hour.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -818,12 +919,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerHour.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerHour%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L115">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L163">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerMicrosecond" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerMicrosecond">SecondsPerMicrosecond</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in a microsecond.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -851,12 +953,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerMicrosecond.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerMicrosecond%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L113">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L148">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerMillennium" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerMillennium">SecondsPerMillennium</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of seconds in a Gregorian millennium.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -884,12 +987,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerMillennium.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerMillennium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L122">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L204">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerMillisecond" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerMillisecond">SecondsPerMillisecond</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in a millisecond.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -917,12 +1021,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerMillisecond.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerMillisecond%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L114">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L153">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerMinute" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerMinute">SecondsPerMinute</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in a minute.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -950,12 +1055,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerMinute.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerMinute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L72">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L158">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerMonth" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerMonth">SecondsPerMonth</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of seconds in a month.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -983,16 +1089,18 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerMonth.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerMonth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L118">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L184">View Source</a>
               </span>
       </div>
   
-  <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerNanosecond" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerNanosecond">SecondsPerNanosecond</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerSolarDay" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerSolarDay">SecondsPerSolarDay</h4>
+  <div class="markdown level1 summary"><p>The number of seconds in a solar day (as at 2023).
+It is increasing by about 2 milliseconds per century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const double SecondsPerNanosecond = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const double SecondsPerSolarDay = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1013,15 +1121,16 @@ length of that time unit in the Gregorian Calendar.</p>
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerNanosecond.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerNanosecond%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerSolarDay.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerSolarDay%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L111">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L174">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerTick" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerTick">SecondsPerTick</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in a nanosecond.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1049,12 +1158,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerTick.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerTick%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L112">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L143">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerWeek" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerWeek">SecondsPerWeek</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of seconds in a week.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1082,12 +1192,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerWeek.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerWeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L117">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L179">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_SecondsPerYear" data-uid="Galaxon.Core.Time.XTimeSpan.SecondsPerYear">SecondsPerYear</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The average number of seconds in a Gregorian year.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1115,12 +1226,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_SecondsPerYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.SecondsPerYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L119">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L189">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerCentury" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerCentury">TicksPerCentury</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a Gregorian century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1148,12 +1260,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerCentury.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerCentury%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L96">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L129">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerDecade" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerDecade">TicksPerDecade</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a Gregorian decade.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1181,12 +1294,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerDecade.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerDecade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L95">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L124">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerMillennium" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerMillennium">TicksPerMillennium</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a Gregorian millennium.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1214,12 +1328,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerMillennium.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerMillennium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L97">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L134">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerMonth" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerMonth">TicksPerMonth</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a month.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1247,12 +1362,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerMonth.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerMonth%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L93">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L114">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerNanosecond" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerNanosecond">TicksPerNanosecond</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a nanosecond.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1280,12 +1396,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerNanosecond.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerNanosecond%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L91">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L104">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerWeek" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerWeek">TicksPerWeek</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a week.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1313,12 +1430,13 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerWeek.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerWeek%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L92">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L109">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_TicksPerYear" data-uid="Galaxon.Core.Time.XTimeSpan.TicksPerYear">TicksPerYear</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of ticks in a Gregorian year.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1346,16 +1464,17 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_TicksPerYear.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.TicksPerYear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L94">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L119">View Source</a>
               </span>
       </div>
   
-  <h4 id="Galaxon_Core_Time_XTimeSpan_WeeksPerCycle" data-uid="Galaxon.Core.Time.XTimeSpan.WeeksPerCycle">WeeksPerCycle</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="Galaxon_Core_Time_XTimeSpan_WeeksPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle">WeeksPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The number of weeks in a Gregorian solar cycle.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const long WeeksPerCycle = null</code></pre>
+    <pre><code class="lang-csharp hljs">public const long WeeksPerSolarCycle = null</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1376,15 +1495,16 @@ length of that time unit in the Gregorian Calendar.</p>
       <div class="contrib">
               <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_WeeksPerCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.WeeksPerCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_WeeksPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L173">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L346">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerCentury" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerCentury">YearsPerCentury</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of years in a century.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1412,49 +1532,17 @@ length of that time unit in the Gregorian Calendar.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerCentury.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerCentury%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L84">View Source</a>
-              </span>
-      </div>
-  
-  <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerCycle" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerCycle">YearsPerCycle</h4>
-  <div class="markdown level1 summary"><p>The Gregorian Calendars repeats on a 400-year cycle.
-There are 97 leap years in that period, giving an average calendar year length of
-365 + (97/400) = 365.2425 days/year
-There are a whole number of months, weeks, and days in that period.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public const long YearsPerCycle = null</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L168">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L293">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerDecade" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerDecade">YearsPerDecade</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of years in a decade.
+The precise length of a decade depends on what year is being used.
+For a example, a Gregorian decade (3652.425 d on average) will have a different
+length to an Islamic Calendar decade (about 3543.67 d on average) or a tropical decade
+(3652.42198781 d on average).</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1482,12 +1570,13 @@ There are a whole number of months, weeks, and days in that period.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerDecade.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerDecade%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L83">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L288">View Source</a>
               </span>
       </div>
   
   <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerMillennium" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerMillennium">YearsPerMillennium</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>The number of years in a millennium.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -1515,7 +1604,86 @@ There are a whole number of months, weeks, and days in that period.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerMillennium.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerMillennium%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L85">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L298">View Source</a>
+              </span>
+      </div>
+  
+  <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerOlympiad" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerOlympiad">YearsPerOlympiad</h4>
+  <div class="markdown level1 summary"><p>Number of years in an olympiad.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long YearsPerOlympiad = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerOlympiad.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerOlympiad%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L279">View Source</a>
+              </span>
+      </div>
+  
+  <h4 id="Galaxon_Core_Time_XTimeSpan_YearsPerSolarCycle" data-uid="Galaxon.Core.Time.XTimeSpan.YearsPerSolarCycle">YearsPerSolarCycle</h4>
+  <div class="markdown level1 summary"><p>The Gregorian Calendars repeats on a 400-year cycle called the solar cycle.
+There are 97 leap years in that period, giving an average calendar year length of
+365 + (97/400) = 365.2425 days/year</p>
+<p>1 Gregorian solar cycle = 400 y = 4800 mon = 20,871 w = 146,097 d
+5 Gregorian solar cycles = 2 ky</p>
+<p>Solar cycles are not ordinarily numbered, nor are they given a specific start date.
+However, within the proleptic Gregorian epoch (the one used by .NET), which began on 1 Jan,
+1 AD, we are currently in the 6th solar cycle. It began on Monday, 1 Jan, 2001 (also the
+first day of the 3rd millennium A.D), and will end on Sunday, 31 Dec, 2400.
+This aligns nicely with the ISO standard of beginning weeks on a Monday.</p>
+<p>See: <a href="https://en.wikipedia.org/wiki/Solar_cycle_(calendar)">https://en.wikipedia.org/wiki/Solar_cycle_(calendar)</a>
+See: <a href="https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar">https://en.wikipedia.org/wiki/Proleptic_Gregorian_calendar</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public const long YearsPerSolarCycle = null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+      <div class="contrib">
+              <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_YearsPerSolarCycle.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.YearsPerSolarCycle%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+              <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L321">View Source</a>
               </span>
       </div>
   
@@ -1529,7 +1697,7 @@ TODO Replace with Quantity methods.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double Convert(double amount, ETimeUnit fromUnit, ETimeUnit toUnit = ETimeUnit.Ticks)</code></pre>
+    <pre><code class="lang-csharp hljs">public static double Convert(double amount, ETimeUnit fromUnit, ETimeUnit toUnit = ETimeUnit.Tick)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1584,7 +1752,7 @@ TODO Replace with Quantity methods.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan_Convert_System_Double_Galaxon_Core_Time_ETimeUnit_Galaxon_Core_Time_ETimeUnit_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan.Convert(System.Double%2CGalaxon.Core.Time.ETimeUnit%2CGalaxon.Core.Time.ETimeUnit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
               <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L25">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L36">View Source</a>
               </span>
       </div>
   
@@ -1599,7 +1767,7 @@ TODO Replace with Quantity methods.</p>
                     <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XTimeSpan.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XTimeSpan%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L13" class="contribution-link">View Source</a>
+                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XTimeSpan.cs/#L24" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

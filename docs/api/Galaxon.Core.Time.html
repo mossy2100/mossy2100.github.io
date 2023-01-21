@@ -88,13 +88,26 @@
 <p>Mostly constants.
 As in TimeSpan, I've used long as the type for any integer constants.
 I've used double for non-integer constants.</p>
-<p>The word Month, Year, Decade, Century, or Millennium in a constant name refers to the average
-length of that time unit in the Gregorian Calendar.</p>
+<p>The following are already provided by the TimeSpan class and not reproduced here:</p>
+<ul>
+<li>TicksPerMicrosecond</li>
+<li>TicksPerMillisecond</li>
+<li>TicksPerSecond</li>
+<li>TicksPerMinute</li>
+<li>TicksPerHour</li>
+<li>TicksPerDay</li>
+</ul>
+<p><strong>NOTE: Any constants or methods for converting between time units will become obsolete
+with the completion of Galaxon.Quantities. So, don't use these for anything permanent.</strong></p>
+<p>The word Month, Year, Decade, Century, or Millennium in a constant name usually refers to the
+average length of that time unit in the Gregorian.</p>
 </section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Galaxon.Core.Time.ETimeUnit.html">ETimeUnit</a></h4>
-      <section></section>
+      <section><p>The time units supported by the conversion functions.
+Note: This will be deprecated once Galaxon.Quantities is complete.</p>
+</section>
 </article>
           </div>
           

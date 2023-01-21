@@ -477,68 +477,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.ConvertBase.ZeroPad
   nameWithType: ConvertBase.ZeroPad
-- uid: Galaxon.Core.Numbers.SuperAndSubscript
-  name: SuperAndSubscript
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html
-  commentId: T:Galaxon.Core.Numbers.SuperAndSubscript
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript
-  nameWithType: SuperAndSubscript
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
-  name: SubscriptChars
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_SubscriptChars
-  commentId: F:Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.SubscriptChars
-  nameWithType: SuperAndSubscript.SubscriptChars
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
-  name: SuperscriptChars
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_SuperscriptChars
-  commentId: F:Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.SuperscriptChars
-  nameWithType: SuperAndSubscript.SuperscriptChars
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
-  name: ToSubscript(String)
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript_System_String_
-  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(System.String)
-  nameWithType: SuperAndSubscript.ToSubscript(String)
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript*
-  name: ToSubscript
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript_
-  commentId: Overload:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript
-  nameWithType: SuperAndSubscript.ToSubscript
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript``1(``0)
-  name: ToSubscript<T>(T)
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSubscript__1___0_
-  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript``1(``0)
-  name.vb: ToSubscript(Of T)(T)
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript<T>(T)
-  fullName.vb: Galaxon.Core.Numbers.SuperAndSubscript.ToSubscript(Of T)(T)
-  nameWithType: SuperAndSubscript.ToSubscript<T>(T)
-  nameWithType.vb: SuperAndSubscript.ToSubscript(Of T)(T)
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
-  name: ToSuperscript(String)
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript_System_String_
-  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(System.String)
-  nameWithType: SuperAndSubscript.ToSuperscript(String)
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript*
-  name: ToSuperscript
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript_
-  commentId: Overload:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript
-  nameWithType: SuperAndSubscript.ToSuperscript
-- uid: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript``1(``0)
-  name: ToSuperscript<T>(T)
-  href: api/Galaxon.Core.Numbers.SuperAndSubscript.html#Galaxon_Core_Numbers_SuperAndSubscript_ToSuperscript__1___0_
-  commentId: M:Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript``1(``0)
-  name.vb: ToSuperscript(Of T)(T)
-  fullName: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript<T>(T)
-  fullName.vb: Galaxon.Core.Numbers.SuperAndSubscript.ToSuperscript(Of T)(T)
-  nameWithType: SuperAndSubscript.ToSuperscript<T>(T)
-  nameWithType.vb: SuperAndSubscript.ToSuperscript(Of T)(T)
 - uid: Galaxon.Core.Numbers.XBigInteger
   name: XBigInteger
   href: api/Galaxon.Core.Numbers.XBigInteger.html
@@ -661,6 +599,56 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Numbers.XBigInteger.ToUnsigned
   nameWithType: XBigInteger.ToUnsigned
+- uid: Galaxon.Core.Numbers.XBinaryInteger
+  name: XBinaryInteger
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html
+  commentId: T:Galaxon.Core.Numbers.XBinaryInteger
+  fullName: Galaxon.Core.Numbers.XBinaryInteger
+  nameWithType: XBinaryInteger
+- uid: Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  name: SubscriptChars
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_SubscriptChars
+  commentId: F:Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  nameWithType: XBinaryInteger.SubscriptChars
+- uid: Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  name: SuperscriptChars
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_SuperscriptChars
+  commentId: F:Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  nameWithType: XBinaryInteger.SuperscriptChars
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript*
+  name: ToSubscript
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_ToSubscript_
+  commentId: Overload:Galaxon.Core.Numbers.XBinaryInteger.ToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript
+  nameWithType: XBinaryInteger.ToSubscript
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript``1(``0)
+  name: ToSubscript<T>(T)
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_ToSubscript__1___0_
+  commentId: M:Galaxon.Core.Numbers.XBinaryInteger.ToSubscript``1(``0)
+  name.vb: ToSubscript(Of T)(T)
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript(Of T)(T)
+  nameWithType: XBinaryInteger.ToSubscript<T>(T)
+  nameWithType.vb: XBinaryInteger.ToSubscript(Of T)(T)
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript*
+  name: ToSuperscript
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_ToSuperscript_
+  commentId: Overload:Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript
+  nameWithType: XBinaryInteger.ToSuperscript
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript``1(``0)
+  name: ToSuperscript<T>(T)
+  href: api/Galaxon.Core.Numbers.XBinaryInteger.html#Galaxon_Core_Numbers_XBinaryInteger_ToSuperscript__1___0_
+  commentId: M:Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript``1(``0)
+  name.vb: ToSuperscript(Of T)(T)
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript<T>(T)
+  fullName.vb: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript(Of T)(T)
+  nameWithType: XBinaryInteger.ToSuperscript<T>(T)
+  nameWithType.vb: XBinaryInteger.ToSuperscript(Of T)(T)
 - uid: Galaxon.Core.Numbers.XDecimal
   name: XDecimal
   href: api/Galaxon.Core.Numbers.XDecimal.html
@@ -2138,6 +2126,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.ReplaceChars
   nameWithType: XString.ReplaceChars
+- uid: Galaxon.Core.Strings.XString.Reverse(System.String)
+  name: Reverse(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_Reverse_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.Reverse(System.String)
+  fullName: Galaxon.Core.Strings.XString.Reverse(System.String)
+  nameWithType: XString.Reverse(String)
+- uid: Galaxon.Core.Strings.XString.Reverse*
+  name: Reverse
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_Reverse_
+  commentId: Overload:Galaxon.Core.Strings.XString.Reverse
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.Reverse
+  nameWithType: XString.Reverse
 - uid: Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   name: StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripBrackets_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
@@ -2216,19 +2217,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.ToInt
   nameWithType: XString.ToInt
-- uid: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
-  name: ToSmallCaps(String)
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_System_String_
-  commentId: M:Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
-  fullName: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
-  nameWithType: XString.ToSmallCaps(String)
-- uid: Galaxon.Core.Strings.XString.ToSmallCaps*
-  name: ToSmallCaps
-  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_
-  commentId: Overload:Galaxon.Core.Strings.XString.ToSmallCaps
+- uid: Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  name: ToSubscript(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSubscript_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  fullName: Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  nameWithType: XString.ToSubscript(String)
+- uid: Galaxon.Core.Strings.XString.ToSubscript*
+  name: ToSubscript
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSubscript_
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSubscript
   isSpec: "True"
-  fullName: Galaxon.Core.Strings.XString.ToSmallCaps
-  nameWithType: XString.ToSmallCaps
+  fullName: Galaxon.Core.Strings.XString.ToSubscript
+  nameWithType: XString.ToSubscript
+- uid: Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  name: ToSuperscript(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSuperscript_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  fullName: Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  nameWithType: XString.ToSuperscript(String)
+- uid: Galaxon.Core.Strings.XString.ToSuperscript*
+  name: ToSuperscript
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSuperscript_
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.ToSuperscript
+  nameWithType: XString.ToSuperscript
 - uid: Galaxon.Core.Strings.XStringBuilder
   name: XStringBuilder
   href: api/Galaxon.Core.Strings.XStringBuilder.html
@@ -2455,64 +2469,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestConvertBase.TestToBaseInvalidBase
   nameWithType: TestConvertBase.TestToBaseInvalidBase
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript
-  name: TestSuperscriptAndSubscript
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html
-  commentId: T:Galaxon.Core.Tests.TestSuperscriptAndSubscript
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript
-  nameWithType: TestSuperscriptAndSubscript
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
-  name: TestIntToSubscript()
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSubscript
-  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript()
-  nameWithType: TestSuperscriptAndSubscript.TestIntToSubscript()
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript*
-  name: TestIntToSubscript
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSubscript_
-  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSubscript
-  nameWithType: TestSuperscriptAndSubscript.TestIntToSubscript
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
-  name: TestIntToSuperscript()
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSuperscript
-  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript()
-  nameWithType: TestSuperscriptAndSubscript.TestIntToSuperscript()
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript*
-  name: TestIntToSuperscript
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestIntToSuperscript_
-  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestIntToSuperscript
-  nameWithType: TestSuperscriptAndSubscript.TestIntToSuperscript
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
-  name: TestStringToSubscript()
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSubscript
-  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript()
-  nameWithType: TestSuperscriptAndSubscript.TestStringToSubscript()
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript*
-  name: TestStringToSubscript
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSubscript_
-  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSubscript
-  nameWithType: TestSuperscriptAndSubscript.TestStringToSubscript
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
-  name: TestStringToSuperscript()
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSuperscript
-  commentId: M:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript()
-  nameWithType: TestSuperscriptAndSubscript.TestStringToSuperscript()
-- uid: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript*
-  name: TestStringToSuperscript
-  href: api/Galaxon.Core.Tests.TestSuperscriptAndSubscript.html#Galaxon_Core_Tests_TestSuperscriptAndSubscript_TestStringToSuperscript_
-  commentId: Overload:Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestSuperscriptAndSubscript.TestStringToSuperscript
-  nameWithType: TestSuperscriptAndSubscript.TestStringToSuperscript
 - uid: Galaxon.Core.Tests.TestXBigInteger
   name: TestXBigInteger
   href: api/Galaxon.Core.Tests.TestXBigInteger.html
@@ -2610,6 +2566,38 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXBigInteger.TestToUnsignedZero
   nameWithType: TestXBigInteger.TestToUnsignedZero
+- uid: Galaxon.Core.Tests.TestXBinaryInteger
+  name: TestXBinaryInteger
+  href: api/Galaxon.Core.Tests.TestXBinaryInteger.html
+  commentId: T:Galaxon.Core.Tests.TestXBinaryInteger
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger
+  nameWithType: TestXBinaryInteger
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  name: TestIntToSubscript()
+  href: api/Galaxon.Core.Tests.TestXBinaryInteger.html#Galaxon_Core_Tests_TestXBinaryInteger_TestIntToSubscript
+  commentId: M:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript()
+  nameWithType: TestXBinaryInteger.TestIntToSubscript()
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript*
+  name: TestIntToSubscript
+  href: api/Galaxon.Core.Tests.TestXBinaryInteger.html#Galaxon_Core_Tests_TestXBinaryInteger_TestIntToSubscript_
+  commentId: Overload:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  nameWithType: TestXBinaryInteger.TestIntToSubscript
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  name: TestIntToSuperscript()
+  href: api/Galaxon.Core.Tests.TestXBinaryInteger.html#Galaxon_Core_Tests_TestXBinaryInteger_TestIntToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript()
+  nameWithType: TestXBinaryInteger.TestIntToSuperscript()
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript*
+  name: TestIntToSuperscript
+  href: api/Galaxon.Core.Tests.TestXBinaryInteger.html#Galaxon_Core_Tests_TestXBinaryInteger_TestIntToSuperscript_
+  commentId: Overload:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  nameWithType: TestXBinaryInteger.TestIntToSuperscript
 - uid: Galaxon.Core.Tests.TestXDateOnly
   name: TestXDateOnly
   href: api/Galaxon.Core.Tests.TestXDateOnly.html
@@ -3061,6 +3049,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
   nameWithType: TestXString.TestMakeSlug
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  name: TestStringToSubscript()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSubscript
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSubscript()
+  nameWithType: TestXString.TestStringToSubscript()
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSubscript*
+  name: TestStringToSubscript
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSubscript_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  nameWithType: TestXString.TestStringToSubscript
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  name: TestStringToSuperscript()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSuperscript()
+  nameWithType: TestXString.TestStringToSuperscript()
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSuperscript*
+  name: TestStringToSuperscript
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSuperscript_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  nameWithType: TestXString.TestStringToSuperscript
 - uid: Galaxon.Core.Tests.TestXUlong
   name: TestXUlong
   href: api/Galaxon.Core.Tests.TestXUlong.html
@@ -3079,90 +3093,90 @@ references:
   commentId: T:Galaxon.Core.Time.ETimeUnit
   fullName: Galaxon.Core.Time.ETimeUnit
   nameWithType: ETimeUnit
-- uid: Galaxon.Core.Time.ETimeUnit.Centuries
-  name: Centuries
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Centuries
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Centuries
-  fullName: Galaxon.Core.Time.ETimeUnit.Centuries
-  nameWithType: ETimeUnit.Centuries
-- uid: Galaxon.Core.Time.ETimeUnit.Days
-  name: Days
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Days
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Days
-  fullName: Galaxon.Core.Time.ETimeUnit.Days
-  nameWithType: ETimeUnit.Days
-- uid: Galaxon.Core.Time.ETimeUnit.Decades
-  name: Decades
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Decades
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Decades
-  fullName: Galaxon.Core.Time.ETimeUnit.Decades
-  nameWithType: ETimeUnit.Decades
-- uid: Galaxon.Core.Time.ETimeUnit.Hours
-  name: Hours
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Hours
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Hours
-  fullName: Galaxon.Core.Time.ETimeUnit.Hours
-  nameWithType: ETimeUnit.Hours
-- uid: Galaxon.Core.Time.ETimeUnit.Microseconds
-  name: Microseconds
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Microseconds
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Microseconds
-  fullName: Galaxon.Core.Time.ETimeUnit.Microseconds
-  nameWithType: ETimeUnit.Microseconds
-- uid: Galaxon.Core.Time.ETimeUnit.Millennia
-  name: Millennia
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Millennia
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Millennia
-  fullName: Galaxon.Core.Time.ETimeUnit.Millennia
-  nameWithType: ETimeUnit.Millennia
-- uid: Galaxon.Core.Time.ETimeUnit.Milliseconds
-  name: Milliseconds
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Milliseconds
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Milliseconds
-  fullName: Galaxon.Core.Time.ETimeUnit.Milliseconds
-  nameWithType: ETimeUnit.Milliseconds
-- uid: Galaxon.Core.Time.ETimeUnit.Minutes
-  name: Minutes
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Minutes
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Minutes
-  fullName: Galaxon.Core.Time.ETimeUnit.Minutes
-  nameWithType: ETimeUnit.Minutes
-- uid: Galaxon.Core.Time.ETimeUnit.Months
-  name: Months
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Months
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Months
-  fullName: Galaxon.Core.Time.ETimeUnit.Months
-  nameWithType: ETimeUnit.Months
-- uid: Galaxon.Core.Time.ETimeUnit.Nanoseconds
-  name: Nanoseconds
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Nanoseconds
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Nanoseconds
-  fullName: Galaxon.Core.Time.ETimeUnit.Nanoseconds
-  nameWithType: ETimeUnit.Nanoseconds
-- uid: Galaxon.Core.Time.ETimeUnit.Seconds
-  name: Seconds
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Seconds
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Seconds
-  fullName: Galaxon.Core.Time.ETimeUnit.Seconds
-  nameWithType: ETimeUnit.Seconds
-- uid: Galaxon.Core.Time.ETimeUnit.Ticks
-  name: Ticks
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Ticks
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Ticks
-  fullName: Galaxon.Core.Time.ETimeUnit.Ticks
-  nameWithType: ETimeUnit.Ticks
-- uid: Galaxon.Core.Time.ETimeUnit.Weeks
-  name: Weeks
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Weeks
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Weeks
-  fullName: Galaxon.Core.Time.ETimeUnit.Weeks
-  nameWithType: ETimeUnit.Weeks
-- uid: Galaxon.Core.Time.ETimeUnit.Years
-  name: Years
-  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Years
-  commentId: F:Galaxon.Core.Time.ETimeUnit.Years
-  fullName: Galaxon.Core.Time.ETimeUnit.Years
-  nameWithType: ETimeUnit.Years
+- uid: Galaxon.Core.Time.ETimeUnit.Century
+  name: Century
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Century
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Century
+  fullName: Galaxon.Core.Time.ETimeUnit.Century
+  nameWithType: ETimeUnit.Century
+- uid: Galaxon.Core.Time.ETimeUnit.Day
+  name: Day
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Day
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Day
+  fullName: Galaxon.Core.Time.ETimeUnit.Day
+  nameWithType: ETimeUnit.Day
+- uid: Galaxon.Core.Time.ETimeUnit.Decade
+  name: Decade
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Decade
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Decade
+  fullName: Galaxon.Core.Time.ETimeUnit.Decade
+  nameWithType: ETimeUnit.Decade
+- uid: Galaxon.Core.Time.ETimeUnit.Hour
+  name: Hour
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Hour
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Hour
+  fullName: Galaxon.Core.Time.ETimeUnit.Hour
+  nameWithType: ETimeUnit.Hour
+- uid: Galaxon.Core.Time.ETimeUnit.Microsecond
+  name: Microsecond
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Microsecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Microsecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Microsecond
+  nameWithType: ETimeUnit.Microsecond
+- uid: Galaxon.Core.Time.ETimeUnit.Millennium
+  name: Millennium
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Millennium
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Millennium
+  fullName: Galaxon.Core.Time.ETimeUnit.Millennium
+  nameWithType: ETimeUnit.Millennium
+- uid: Galaxon.Core.Time.ETimeUnit.Millisecond
+  name: Millisecond
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Millisecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Millisecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Millisecond
+  nameWithType: ETimeUnit.Millisecond
+- uid: Galaxon.Core.Time.ETimeUnit.Minute
+  name: Minute
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Minute
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Minute
+  fullName: Galaxon.Core.Time.ETimeUnit.Minute
+  nameWithType: ETimeUnit.Minute
+- uid: Galaxon.Core.Time.ETimeUnit.Month
+  name: Month
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Month
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Month
+  fullName: Galaxon.Core.Time.ETimeUnit.Month
+  nameWithType: ETimeUnit.Month
+- uid: Galaxon.Core.Time.ETimeUnit.Nanosecond
+  name: Nanosecond
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Nanosecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Nanosecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Nanosecond
+  nameWithType: ETimeUnit.Nanosecond
+- uid: Galaxon.Core.Time.ETimeUnit.Second
+  name: Second
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Second
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Second
+  fullName: Galaxon.Core.Time.ETimeUnit.Second
+  nameWithType: ETimeUnit.Second
+- uid: Galaxon.Core.Time.ETimeUnit.Tick
+  name: Tick
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Tick
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Tick
+  fullName: Galaxon.Core.Time.ETimeUnit.Tick
+  nameWithType: ETimeUnit.Tick
+- uid: Galaxon.Core.Time.ETimeUnit.Week
+  name: Week
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Week
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Week
+  fullName: Galaxon.Core.Time.ETimeUnit.Week
+  nameWithType: ETimeUnit.Week
+- uid: Galaxon.Core.Time.ETimeUnit.Year
+  name: Year
+  href: api/Galaxon.Core.Time.ETimeUnit.html#Galaxon_Core_Time_ETimeUnit_Year
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Year
+  fullName: Galaxon.Core.Time.ETimeUnit.Year
+  nameWithType: ETimeUnit.Year
 - uid: Galaxon.Core.Time.XDateOnly
   name: XDateOnly
   href: api/Galaxon.Core.Time.XDateOnly.html
@@ -3537,6 +3551,12 @@ references:
   commentId: T:Galaxon.Core.Time.XTimeSpan
   fullName: Galaxon.Core.Time.XTimeSpan
   nameWithType: XTimeSpan
+- uid: Galaxon.Core.Time.XTimeSpan.CommonYearsPerSolarCycle
+  name: CommonYearsPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_CommonYearsPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.CommonYearsPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.CommonYearsPerSolarCycle
+  nameWithType: XTimeSpan.CommonYearsPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.Convert(System.Double,Galaxon.Core.Time.ETimeUnit,Galaxon.Core.Time.ETimeUnit)
   name: Convert(Double, ETimeUnit, ETimeUnit)
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_Convert_System_Double_Galaxon_Core_Time_ETimeUnit_Galaxon_Core_Time_ETimeUnit_
@@ -3556,12 +3576,6 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.DaysPerCentury
   fullName: Galaxon.Core.Time.XTimeSpan.DaysPerCentury
   nameWithType: XTimeSpan.DaysPerCentury
-- uid: Galaxon.Core.Time.XTimeSpan.DaysPerCycle
-  name: DaysPerCycle
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_DaysPerCycle
-  commentId: F:Galaxon.Core.Time.XTimeSpan.DaysPerCycle
-  fullName: Galaxon.Core.Time.XTimeSpan.DaysPerCycle
-  nameWithType: XTimeSpan.DaysPerCycle
 - uid: Galaxon.Core.Time.XTimeSpan.DaysPerDecade
   name: DaysPerDecade
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_DaysPerDecade
@@ -3610,6 +3624,12 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.DaysPerMonth
   fullName: Galaxon.Core.Time.XTimeSpan.DaysPerMonth
   nameWithType: XTimeSpan.DaysPerMonth
+- uid: Galaxon.Core.Time.XTimeSpan.DaysPerSolarCycle
+  name: DaysPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_DaysPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.DaysPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.DaysPerSolarCycle
+  nameWithType: XTimeSpan.DaysPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.DaysPerTropicalYear
   name: DaysPerTropicalYear
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_DaysPerTropicalYear
@@ -3634,30 +3654,36 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.HoursPerDay
   fullName: Galaxon.Core.Time.XTimeSpan.HoursPerDay
   nameWithType: XTimeSpan.HoursPerDay
-- uid: Galaxon.Core.Time.XTimeSpan.LeapYearsPerCycle
-  name: LeapYearsPerCycle
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_LeapYearsPerCycle
-  commentId: F:Galaxon.Core.Time.XTimeSpan.LeapYearsPerCycle
-  fullName: Galaxon.Core.Time.XTimeSpan.LeapYearsPerCycle
-  nameWithType: XTimeSpan.LeapYearsPerCycle
+- uid: Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
+  name: LeapYearsPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_LeapYearsPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
+  nameWithType: XTimeSpan.LeapYearsPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.MinutesPerHour
   name: MinutesPerHour
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MinutesPerHour
   commentId: F:Galaxon.Core.Time.XTimeSpan.MinutesPerHour
   fullName: Galaxon.Core.Time.XTimeSpan.MinutesPerHour
   nameWithType: XTimeSpan.MinutesPerHour
-- uid: Galaxon.Core.Time.XTimeSpan.MonthsPerCycle
-  name: MonthsPerCycle
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MonthsPerCycle
-  commentId: F:Galaxon.Core.Time.XTimeSpan.MonthsPerCycle
-  fullName: Galaxon.Core.Time.XTimeSpan.MonthsPerCycle
-  nameWithType: XTimeSpan.MonthsPerCycle
+- uid: Galaxon.Core.Time.XTimeSpan.MonthsPerSolarCycle
+  name: MonthsPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MonthsPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.MonthsPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.MonthsPerSolarCycle
+  nameWithType: XTimeSpan.MonthsPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.MonthsPerYear
   name: MonthsPerYear
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MonthsPerYear
   commentId: F:Galaxon.Core.Time.XTimeSpan.MonthsPerYear
   fullName: Galaxon.Core.Time.XTimeSpan.MonthsPerYear
   nameWithType: XTimeSpan.MonthsPerYear
+- uid: Galaxon.Core.Time.XTimeSpan.OlympiadsPerSolarCycle
+  name: OlympiadsPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_OlympiadsPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.OlympiadsPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.OlympiadsPerSolarCycle
+  nameWithType: XTimeSpan.OlympiadsPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.SecondsPerCentury
   name: SecondsPerCentury
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_SecondsPerCentury
@@ -3712,12 +3738,12 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.SecondsPerMonth
   fullName: Galaxon.Core.Time.XTimeSpan.SecondsPerMonth
   nameWithType: XTimeSpan.SecondsPerMonth
-- uid: Galaxon.Core.Time.XTimeSpan.SecondsPerNanosecond
-  name: SecondsPerNanosecond
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_SecondsPerNanosecond
-  commentId: F:Galaxon.Core.Time.XTimeSpan.SecondsPerNanosecond
-  fullName: Galaxon.Core.Time.XTimeSpan.SecondsPerNanosecond
-  nameWithType: XTimeSpan.SecondsPerNanosecond
+- uid: Galaxon.Core.Time.XTimeSpan.SecondsPerSolarDay
+  name: SecondsPerSolarDay
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_SecondsPerSolarDay
+  commentId: F:Galaxon.Core.Time.XTimeSpan.SecondsPerSolarDay
+  fullName: Galaxon.Core.Time.XTimeSpan.SecondsPerSolarDay
+  nameWithType: XTimeSpan.SecondsPerSolarDay
 - uid: Galaxon.Core.Time.XTimeSpan.SecondsPerTick
   name: SecondsPerTick
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_SecondsPerTick
@@ -3778,24 +3804,18 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.TicksPerYear
   fullName: Galaxon.Core.Time.XTimeSpan.TicksPerYear
   nameWithType: XTimeSpan.TicksPerYear
-- uid: Galaxon.Core.Time.XTimeSpan.WeeksPerCycle
-  name: WeeksPerCycle
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_WeeksPerCycle
-  commentId: F:Galaxon.Core.Time.XTimeSpan.WeeksPerCycle
-  fullName: Galaxon.Core.Time.XTimeSpan.WeeksPerCycle
-  nameWithType: XTimeSpan.WeeksPerCycle
+- uid: Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
+  name: WeeksPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_WeeksPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
+  nameWithType: XTimeSpan.WeeksPerSolarCycle
 - uid: Galaxon.Core.Time.XTimeSpan.YearsPerCentury
   name: YearsPerCentury
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerCentury
   commentId: F:Galaxon.Core.Time.XTimeSpan.YearsPerCentury
   fullName: Galaxon.Core.Time.XTimeSpan.YearsPerCentury
   nameWithType: XTimeSpan.YearsPerCentury
-- uid: Galaxon.Core.Time.XTimeSpan.YearsPerCycle
-  name: YearsPerCycle
-  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerCycle
-  commentId: F:Galaxon.Core.Time.XTimeSpan.YearsPerCycle
-  fullName: Galaxon.Core.Time.XTimeSpan.YearsPerCycle
-  nameWithType: XTimeSpan.YearsPerCycle
 - uid: Galaxon.Core.Time.XTimeSpan.YearsPerDecade
   name: YearsPerDecade
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerDecade
@@ -3808,3 +3828,15 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.YearsPerMillennium
   fullName: Galaxon.Core.Time.XTimeSpan.YearsPerMillennium
   nameWithType: XTimeSpan.YearsPerMillennium
+- uid: Galaxon.Core.Time.XTimeSpan.YearsPerOlympiad
+  name: YearsPerOlympiad
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerOlympiad
+  commentId: F:Galaxon.Core.Time.XTimeSpan.YearsPerOlympiad
+  fullName: Galaxon.Core.Time.XTimeSpan.YearsPerOlympiad
+  nameWithType: XTimeSpan.YearsPerOlympiad
+- uid: Galaxon.Core.Time.XTimeSpan.YearsPerSolarCycle
+  name: YearsPerSolarCycle
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerSolarCycle
+  commentId: F:Galaxon.Core.Time.XTimeSpan.YearsPerSolarCycle
+  fullName: Galaxon.Core.Time.XTimeSpan.YearsPerSolarCycle
+  nameWithType: XTimeSpan.YearsPerSolarCycle
