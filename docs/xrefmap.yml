@@ -2139,6 +2139,12 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.Reverse
   nameWithType: XString.Reverse
+- uid: Galaxon.Core.Strings.XString.SmallCapsChars
+  name: SmallCapsChars
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_SmallCapsChars
+  commentId: F:Galaxon.Core.Strings.XString.SmallCapsChars
+  fullName: Galaxon.Core.Strings.XString.SmallCapsChars
+  nameWithType: XString.SmallCapsChars
 - uid: Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
   name: StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_StripBrackets_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_
@@ -2217,6 +2223,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Strings.XString.ToInt
   nameWithType: XString.ToInt
+- uid: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  name: ToSmallCaps(String)
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_System_String_
+  commentId: M:Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  fullName: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  nameWithType: XString.ToSmallCaps(String)
+- uid: Galaxon.Core.Strings.XString.ToSmallCaps*
+  name: ToSmallCaps
+  href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSmallCaps_
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSmallCaps
+  isSpec: "True"
+  fullName: Galaxon.Core.Strings.XString.ToSmallCaps
+  nameWithType: XString.ToSmallCaps
 - uid: Galaxon.Core.Strings.XString.ToSubscript(System.String)
   name: ToSubscript(String)
   href: api/Galaxon.Core.Strings.XString.html#Galaxon_Core_Strings_XString_ToSubscript_System_String_
@@ -3049,6 +3068,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
   nameWithType: TestXString.TestMakeSlug
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  name: TestStringToSmallCaps()
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSmallCaps
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps()
+  nameWithType: TestXString.TestStringToSmallCaps()
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps*
+  name: TestStringToSmallCaps
+  href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSmallCaps_
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  nameWithType: TestXString.TestStringToSmallCaps
 - uid: Galaxon.Core.Tests.TestXString.TestStringToSubscript
   name: TestStringToSubscript()
   href: api/Galaxon.Core.Tests.TestXString.html#Galaxon_Core_Tests_TestXString_TestStringToSubscript
@@ -3545,6 +3577,90 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateTime.ToJulianDay
   nameWithType: XDateTime.ToJulianDay
+- uid: Galaxon.Core.Time.XTimeOnly
+  name: XTimeOnly
+  href: api/Galaxon.Core.Time.XTimeOnly.html
+  commentId: T:Galaxon.Core.Time.XTimeOnly
+  fullName: Galaxon.Core.Time.XTimeOnly
+  nameWithType: XTimeOnly
+- uid: Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
+  name: IsAfternoon(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAfternoon_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
+  nameWithType: XTimeOnly.IsAfternoon(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsAfternoon*
+  name: IsAfternoon
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAfternoon_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsAfternoon
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsAfternoon
+  nameWithType: XTimeOnly.IsAfternoon
+- uid: Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
+  name: IsAm(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAm_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
+  nameWithType: XTimeOnly.IsAm(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsAm*
+  name: IsAm
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAm_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsAm
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsAm
+  nameWithType: XTimeOnly.IsAm
+- uid: Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
+  name: IsEvening(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsEvening_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
+  nameWithType: XTimeOnly.IsEvening(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsEvening*
+  name: IsEvening
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsEvening_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsEvening
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsEvening
+  nameWithType: XTimeOnly.IsEvening
+- uid: Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
+  name: IsMorning(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsMorning_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
+  nameWithType: XTimeOnly.IsMorning(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsMorning*
+  name: IsMorning
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsMorning_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsMorning
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsMorning
+  nameWithType: XTimeOnly.IsMorning
+- uid: Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
+  name: IsPm(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsPm_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
+  nameWithType: XTimeOnly.IsPm(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsPm*
+  name: IsPm
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsPm_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsPm
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsPm
+  nameWithType: XTimeOnly.IsPm
+- uid: Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
+  name: IsSmallHours(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsSmallHours_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
+  nameWithType: XTimeOnly.IsSmallHours(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.IsSmallHours*
+  name: IsSmallHours
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsSmallHours_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsSmallHours
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XTimeOnly.IsSmallHours
+  nameWithType: XTimeOnly.IsSmallHours
 - uid: Galaxon.Core.Time.XTimeSpan
   name: XTimeSpan
   href: api/Galaxon.Core.Time.XTimeSpan.html
