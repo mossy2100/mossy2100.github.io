@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/Users/shaun/Documents/Web & software development/C#/Projects/Galaxon/docfx_project",
+  "source_base_path": "/Users/shaun/Documents/Web & software development/C#/Projects/Galaxon/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.ConvertBase.html",
-          "hash": "NEbkacMe3MWU1nDjMVxTMZwR/rRzCrBaw0TfBw43ZGY="
+          "hash": "XuZ5Exk4UU7pYDxLnbUj8SFZBZxWjUEOpcW1gNksxlM="
         }
       },
       "is_incremental": false,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XBinaryInteger.html",
-          "hash": "/LUooAK/FKLyXdcTzIQWfrNh8HzrrBRXW8SevTcWNMA="
+          "hash": "lSjhl9EZbx+4ml6w+RHZO0TN7HXTV8H34VvUfuDJIqM="
         }
       },
       "is_incremental": false,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XFloatingPoint.html",
-          "hash": "6ZVbHLu2Tpy8NuCTUQD4rVqTOqSM6HPaCbba0CKTyhM="
+          "hash": "ZigD/HyiwWRG21tz7+/uD7WDGoZxZ4CDUAVlgsYw3yw="
         }
       },
       "is_incremental": false,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XNumber.html",
-          "hash": "oftp9Ngp00+Xs96GnOHc93HR9X48YQhsEfj76AcdZYo="
+          "hash": "I5yYTJhbf0AHPDpbDVB0iPMTwgAV5kyyy/IIalFGlgM="
         }
       },
       "is_incremental": false,
@@ -525,7 +525,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.ETimeUnit.html",
-          "hash": "UBQArcoxqvqJB5cF5OIMUZpoanTsQWm7t/4NJNIvMKM="
+          "hash": "Vrf93IgNx8JFuJ0C4Nz9ipe1xpi3l5O8Qd6bSr+LNNg="
         }
       },
       "is_incremental": false,
@@ -624,7 +624,7 @@
           "hash": "6IdPZ1N70BAdNLagx3yxEpi+ZQTOACQYMnrAZRCg0pw="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -659,7 +659,7 @@
           "hash": "yX3yGj22EX5Z7ZgRDOpAcAd+u7TUwsUCOYm0U/DSy/c="
         }
       },
-      "is_incremental": true,
+      "is_incremental": false,
       "version": ""
     },
     {
@@ -694,7 +694,7 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 49,
-          "skipped_file_count": 44
+          "skipped_file_count": 49
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

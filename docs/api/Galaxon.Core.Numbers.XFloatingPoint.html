@@ -97,6 +97,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Assemble&lt;T&gt;(byte signBit, ushort expBits, ulong fracBits)
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -180,6 +181,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static (byte signBit, ushort expBits, ulong fracBits) Disassemble&lt;T&gt;(this T x)
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -248,6 +250,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static short GetMaxExp&lt;T&gt;()
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -299,6 +302,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static short GetMinExp&lt;T&gt;()
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -350,6 +354,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T GetMinPosNormalValue&lt;T&gt;()
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -401,6 +406,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static byte GetNumExpBits&lt;T&gt;()
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>
@@ -452,6 +458,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static byte GetNumFracBits&lt;T&gt;()
+
     where T : IFloatingPoint&lt;T&gt;</code></pre>
   </div>
   <h5 class="returns">Returns</h5>

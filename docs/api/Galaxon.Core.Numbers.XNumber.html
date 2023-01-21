@@ -100,6 +100,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Div&lt;T&gt;(T a, T b)
+
     where T : INumberBase&lt;T&gt;, IModulusOperators&lt;T, T, T&gt;, IComparisonOperators&lt;T, T, bool&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -181,6 +182,7 @@ In this case, if num is negative 0, num % 2 == -1</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static (T div, T mod) DivMod&lt;T&gt;(T a, T b)
+
     where T : INumberBase&lt;T&gt;, IModulusOperators&lt;T, T, T&gt;, IComparisonOperators&lt;T, T, bool&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -675,6 +677,7 @@ In this case, if num is negative 0, num % 2 == -1</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Mod&lt;T&gt;(T a, T b)
+
     where T : INumberBase&lt;T&gt;, IModulusOperators&lt;T, T, T&gt;, IComparisonOperators&lt;T, T, bool&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -749,6 +752,7 @@ of numbers.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this IEnumerable&lt;T&gt; source)
+
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -818,6 +822,7 @@ function.</p>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static T Product&lt;T&gt;(this IEnumerable&lt;T&gt; source, Func&lt;T, T&gt; func)
+
     where T : INumberBase&lt;T&gt;</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

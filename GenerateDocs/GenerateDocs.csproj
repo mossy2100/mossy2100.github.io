@@ -5,6 +5,8 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <RootNamespace>Galaxon.GenerateDocs</RootNamespace>
+        <AssemblyName>Galaxon.GenerateDocs</AssemblyName>
     </PropertyGroup>
 
 </Project>
