@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class XDateOnly
+    <title>    Class XDateOnly
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class XDateOnly
+    <meta name="title" content="    Class XDateOnly
    ">
     <meta name="generator" content="docfx 2.59.4.0">
     
@@ -71,7 +71,7 @@
             <article class="content wrap" id="_content" data-uid="Galaxon.Core.Time.XDateOnly">
   
   
-  <h1 id="Galaxon_Core_Time_XDateOnly" data-uid="Galaxon.Core.Time.XDateOnly" class="text-break">Class XDateOnly
+  <h1 id="Galaxon_Core_Time_XDateOnly" data-uid="Galaxon.Core.Time.XDateOnly" class="text-break">    Class XDateOnly
   </h1>
   <div class="markdown level0 summary"><p>Extension methods for the DateOnly class.</p>
 </div>
@@ -87,814 +87,1190 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class XDateOnly : object</code></pre>
   </div>
-  <h3 id="methods">Methods
+      <h3 id="methods">Methods
   </h3>
-  <a id="Galaxon_Core_Time_XDateOnly_FromDayOfYear_" data-uid="Galaxon.Core.Time.XDateOnly.FromDayOfYear*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_FromDayOfYear_System_Int32_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.FromDayOfYear(System.Int32,System.Int32)">FromDayOfYear(Int32, Int32)</h4>
-  <div class="markdown level1 summary"><p>Construct a new DateOnly instance given a year and the day of the year.
-Formula from Meeus (Astronomical Algorithms 2 ed., p66).</p>
+              <a id="Galaxon_Core_Time_XDateOnly_Add_" data-uid="Galaxon.Core.Time.XDateOnly.Add*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeOnly_" data-uid="Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeOnly)">Add(DateOnly, TimeOnly)</h4>
+          <div class="markdown level1 summary"><p>Add a time of day to a date to find a new DateTime.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly FromDayOfYear(int year, int dayOfYear)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">year</span></td>
-        <td><p>The year (1..9999).</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateTime Add(this DateOnly date, TimeOnly time)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The date.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">dayOfYear</span></td>
-        <td><p>The day of the year (1..366).</p>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">TimeOnly</span></td>
+                      <td><span class="parametername">time</span></td>
+                      <td><p>The time of day to add.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateTime</span></td>
+                          <td><p>The resulting DateTime.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.Add(DateOnly%2CTimeOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L109">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_Add_" data-uid="Galaxon.Core.Time.XDateOnly.Add*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeSpan_" data-uid="Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeSpan)">Add(DateOnly, TimeSpan)</h4>
+          <div class="markdown level1 summary"><p>Add a period of time to a date to find a new DateTime.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateTime Add(this DateOnly date, TimeSpan period)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The date.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">TimeSpan</span></td>
+                      <td><span class="parametername">period</span></td>
+                      <td><p>The time period to add.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateTime</span></td>
+                          <td><p>The resulting DateTime.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeSpan_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.Add(DateOnly%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L100">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_AddWeeks_" data-uid="Galaxon.Core.Time.XDateOnly.AddWeeks*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_AddWeeks_DateOnly_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.AddWeeks(DateOnly,System.Int32)">AddWeeks(DateOnly, Int32)</h4>
+          <div class="markdown level1 summary"><p>Add a number of weeks to a date.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly AddWeeks(this DateOnly date, int weeks)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The date.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">weeks</span></td>
+                      <td><p>The number of weeks to add.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The resulting date.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_AddWeeks_DateOnly_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.AddWeeks(DateOnly%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L118">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_FromDayOfYear_" data-uid="Galaxon.Core.Time.XDateOnly.FromDayOfYear*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_FromDayOfYear_System_Int32_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.FromDayOfYear(System.Int32,System.Int32)">FromDayOfYear(Int32, Int32)</h4>
+          <div class="markdown level1 summary"><p>Find a date given a year and the day of the year.</p>
+<p>Formula from Meeus (Astronomical Algorithms 2 ed. p66).</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly FromDayOfYear(int year, int dayOfYear)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">year</span></td>
+                      <td><p>The year (1..9999).</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">dayOfYear</span></td>
+                      <td><p>The day of the year (1..366).</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The resulting date.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_FromDayOfYear_System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.FromDayOfYear(System.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L137">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L163">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_FromJulianDay_" data-uid="Galaxon.Core.Time.XDateOnly.FromJulianDay*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_FromJulianDay_System_Double_" data-uid="Galaxon.Core.Time.XDateOnly.FromJulianDay(System.Double)">FromJulianDay(Double)</h4>
-  <div class="markdown level1 summary"><p>Convert a Julian Day value to a DateOnly object.
-<a class="xref" href="Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_FromJulianDay_System_Double_">FromJulianDay(Double)</a></p>
+              <a id="Galaxon_Core_Time_XDateOnly_FromJulianDay_" data-uid="Galaxon.Core.Time.XDateOnly.FromJulianDay*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_FromJulianDay_System_Double_" data-uid="Galaxon.Core.Time.XDateOnly.FromJulianDay(System.Double)">FromJulianDay(Double)</h4>
+          <div class="markdown level1 summary"><p>Convert a Julian Day value to a date.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly FromJulianDay(double jd)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">jd</span></td>
-        <td><p>The Julian Day value. If a fractional part indicating the time of day is included, this
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly FromJulianDay(double jd)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Double</span></td>
+                      <td><span class="parametername">jd</span></td>
+                      <td><p>The Julian Day value. If a fractional part indicating the time of day is included, this
 information will be discarded.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><p>A new DateOnly object.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>A new DateOnly object.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_FromJulianDay_System_Double_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.FromJulianDay(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L186">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L213">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_FromTotalDays_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalDays*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_FromTotalDays_System_Int64_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalDays(System.Int64)">FromTotalDays(Int64)</h4>
-  <div class="markdown level1 summary"><p>Determine the date given the number of days from the start of the epoch (0001-01-01).</p>
-<p>See <a class="xref" href="Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_FromTotalDays_System_Double_">FromTotalDays(Double)</a></p>
+              <a id="Galaxon_Core_Time_XDateOnly_FromTotalDays_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalDays*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_FromTotalDays_System_Int64_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalDays(System.Int64)">FromTotalDays(Int64)</h4>
+          <div class="markdown level1 summary"><p>Find a date given the number of days from the start of the epoch.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly FromTotalDays(long days)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><span class="parametername">days</span></td>
-        <td><p>The number of days.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly FromTotalDays(long days)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int64</span></td>
+                      <td><span class="parametername">days</span></td>
+                      <td><p>The number of days.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><p>A new DateOnly object.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The resulting date.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_FromTotalDays_System_Int64_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.FromTotalDays(System.Int64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L127">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L144">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_GetChristmas_" data-uid="Galaxon.Core.Time.XDateOnly.GetChristmas*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_GetChristmas_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)">GetChristmas(Int32)</h4>
-  <div class="markdown level1 summary"><p>Get the date of Christmas Day in the given year, in the Gregorian Calendar.</p>
+              <a id="Galaxon_Core_Time_XDateOnly_FromTotalYears_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalYears*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_FromTotalYears_System_Double_" data-uid="Galaxon.Core.Time.XDateOnly.FromTotalYears(System.Double)">FromTotalYears(Double)</h4>
+          <div class="markdown level1 summary"><p>Find the date given the number of years since the start of the epoch.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly GetChristmas(int y)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">y</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly FromTotalYears(double years)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Double</span></td>
+                      <td><span class="parametername">years</span></td>
+                      <td><p>The number of years. May include a fractional part.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The resulting date.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_FromTotalYears_System_Double_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.FromTotalYears(System.Double)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L152">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_GetChristmas_" data-uid="Galaxon.Core.Time.XDateOnly.GetChristmas*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetChristmas_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)">GetChristmas(Int32)</h4>
+          <div class="markdown level1 summary"><p>Get the date of Christmas Day in the given year.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly GetChristmas(int year)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">year</span></td>
+                      <td><p>The year.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The date of Christmas in the given year.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetChristmas_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L227">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L256">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_GetEaster_" data-uid="Galaxon.Core.Time.XDateOnly.GetEaster*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_GetEaster_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)">GetEaster(Int32)</h4>
-  <div class="markdown level1 summary"><p>Get the date of Easter Sunday in the given year, in the Gregorian Calendar.
+              <a id="Galaxon_Core_Time_XDateOnly_GetEaster_" data-uid="Galaxon.Core.Time.XDateOnly.GetEaster*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetEaster_System_Int32_" data-uid="Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)">GetEaster(Int32)</h4>
+          <div class="markdown level1 summary"><p>Get the date of Easter Sunday in the given year.
 Formula is from Wikipedia.
 This method uses the &quot;Meeus/Jones/Butcher&quot; algorithm from 1876, with the New Scientist
 modifications from 1961.
 Tested for years 1600..2299.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly GetEaster(int year)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
-        <td><span class="parametername">year</span></td>
-        <td><p>The Gregorian year number.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly GetEaster(int year)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">year</span></td>
+                      <td><p>The Gregorian year number.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><p>The date of Easter Sunday for the given year.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The date of Easter Sunday for the given year.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetEaster_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetEaster(System.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L205">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L232">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_GetTicks_" data-uid="Galaxon.Core.Time.XDateOnly.GetTicks*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_GetTicks_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTicks(DateOnly)">GetTicks(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Get the number of ticks between the start of the epoch (0001-01-01 00:00:00) and the start
-of the date.
-If extension properties are added to the language I may change this to a property &quot;Ticks&quot;
-later, for consistency with DateTime.
-<a href="https://learn.microsoft.com/en-us/dotnet/api/system.datetime.ticks?view=net-7.0">https://learn.microsoft.com/en-us/dotnet/api/system.datetime.ticks?view=net-7.0</a></p>
+              <a id="Galaxon_Core_Time_XDateOnly_GetNthWeekdayInMonth_" data-uid="Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetNthWeekdayInMonth_System_Int32_System_Int32_System_Int32_DayOfWeek_" data-uid="Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth(System.Int32,System.Int32,System.Int32,DayOfWeek)">GetNthWeekdayInMonth(Int32, Int32, Int32, DayOfWeek)</h4>
+          <div class="markdown level1 summary"><p>Find the nth weekday in a given month.
+Example:</p>
+<pre><code>// Get the 4th Thursday in January, 2023.
+DateOnly meetup = XDateOnly.GetNthWeekdayInMonth(2023, 1, 4, DayOfWeek.Thursday);</code></pre>
+<p>A negative value for n means count from the end of the month.
+n = -1 means the last one in the month. n = -2 means the second-last, etc.
+Example:</p>
+<pre><code>// Get the last Monday in November, 2025.
+DateOnly meetup = XDateOnly.GetNthWeekdayInMonth(2025, 11, -1, DayOfWeek.Monday);</code></pre>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long GetTicks(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly GetNthWeekdayInMonth(int year, int month, int n, DayOfWeek dayOfWeek)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">year</span></td>
+                      <td><p>The year.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><p>The number of ticks.</p>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">month</span></td>
+                      <td><p>The month.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">n</span></td>
+                      <td><p>Which occurence of the day of the week within the month.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">DayOfWeek</span></td>
+                      <td><span class="parametername">dayOfWeek</span></td>
+                      <td><p>The day of the week.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The requested date.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetNthWeekdayInMonth_System_Int32_System_Int32_System_Int32_DayOfWeek_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth(System.Int32%2CSystem.Int32%2CSystem.Int32%2CDayOfWeek)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L281">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_GetThanksgiving_" data-uid="Galaxon.Core.Time.XDateOnly.GetThanksgiving*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetThanksgiving_System_Int32_System_String_" data-uid="Galaxon.Core.Time.XDateOnly.GetThanksgiving(System.Int32,System.String)">GetThanksgiving(Int32, String)</h4>
+          <div class="markdown level1 summary"><p>Find the date of Thanksgiving for a specified country in a given year.
+Only years with a holiday called &quot;Thanksgiving&quot; are supported. The default is &quot;US&quot;.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateOnly GetThanksgiving(int year, string countryCode = &quot;US&quot;)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">year</span></td>
+                      <td><p>The year.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.String</span></td>
+                      <td><span class="parametername">countryCode</span></td>
+                      <td><p>The ISO 2-letter country code.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateOnly</span></td>
+                          <td><p>The date of Thanksgiving.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+              <h5 class="exceptions">Exceptions</h5>
+              <table class="table table-bordered table-striped table-condensed">
+                  <thead>
+                  <tr>
+                      <th>Type</th>
+                      <th>Condition</th>
+                  </tr>
+                  </thead>
+              <tbody>
+              <tr>
+                  <td><a class="xref" href="Galaxon.Core.Exceptions.ArgumentInvalidException.html">ArgumentInvalidException</a></td>
+                  <td><p>Either this country doesn't celebrate Thanksgiving, or the method doesn't support it.</p>
+</td>
+              </tr>
+              </tbody>
+              </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetThanksgiving_System_Int32_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetThanksgiving(System.Int32%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L339">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_GetTicks_" data-uid="Galaxon.Core.Time.XDateOnly.GetTicks*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetTicks_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTicks(DateOnly)">GetTicks(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Get the number of ticks between the start of the epoch (0001-01-01 00:00:00) and the start
+of the date.</p>
+<p>If extension properties are added to the language I may change this to a property &quot;Ticks&quot;
+later, for consistency with DateTime.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static long GetTicks(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Int64</span></td>
+                          <td><p>The number of ticks.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetTicks_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetTicks(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
+                      <span class="small pull-right mobile-hide">
                   <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L60">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_GetTotalDays_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalDays*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_GetTotalDays_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalDays(DateOnly)">GetTotalDays(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Get the number of days between the start of the epoch and the start of the date.</p>
+              <a id="Galaxon_Core_Time_XDateOnly_GetTotalDays_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalDays*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetTotalDays_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalDays(DateOnly)">GetTotalDays(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Get the number of days between the start of the epoch and the given date.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long GetTotalDays(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static long GetTotalDays(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><p>The number of days since the epoch start.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Int64</span></td>
+                          <td><p>The number of days since the epoch start.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetTotalDays_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetTotalDays(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
+                      <span class="small pull-right mobile-hide">
                   <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L76">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_GetTotalSeconds_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalSeconds*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_GetTotalSeconds_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalSeconds(DateOnly)">GetTotalSeconds(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Get the number of seconds between the start of the epoch and the start of the date.</p>
+              <a id="Galaxon_Core_Time_XDateOnly_GetTotalSeconds_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalSeconds*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetTotalSeconds_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalSeconds(DateOnly)">GetTotalSeconds(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Get the number of seconds between the start of the epoch and the start of the date.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static long GetTotalSeconds(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static long GetTotalSeconds(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int64</span></td>
-        <td><p>The number of seconds since the epoch start.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Int64</span></td>
+                          <td><p>The number of seconds since the epoch start.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetTotalSeconds_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetTotalSeconds(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
+                      <span class="small pull-right mobile-hide">
                   <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L68">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_Subtract_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,DateOnly)">Subtract(DateOnly, DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Returns the difference between two dates (as DateOnly objects) as a TimeSpan.
-Emulates the DateTime.Subtract(DateTime) method.
-Because we're subtracting dates without time of day information, the result will contain
-only a whole number of days; the hours, minutes, and seconds parts of the TimeSpan will
-be 0.
-If the DateOnly instance date is later than the parameter date, the result will be
-positive.
-If they are the same dates, the result will be zero.
-Otherwise, the result will be negative.
-<a href="https://learn.microsoft.com/en-us/dotnet/api/system.datetime.subtract?view=net-7.0#system-datetime-subtract(system-datetime)">https://learn.microsoft.com/en-us/dotnet/api/system.datetime.subtract?view=net-7.0#system-datetime-subtract(system-datetime)</a></p>
+              <a id="Galaxon_Core_Time_XDateOnly_GetTotalYears_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalYears*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_GetTotalYears_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.GetTotalYears(DateOnly)">GetTotalYears(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Get the number of years between the start of the epoch and the start of the date.</p>
+<p>The result will be greater than or equal to <code>date.Year - 1</code> and less than <code>date.Year</code>.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TimeSpan Subtract(this DateOnly date, DateOnly date2)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static double GetTotalYears(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date2</span></td>
-        <td><p>The DateOnly to be subtracted.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Double</span></td>
+                          <td><p>The number of years since the epoch start.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><p>The difference between the two dates as a TimeSpan.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_GetTotalYears_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.GetTotalYears(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L86">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Time_XDateOnly_Subtract_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,DateOnly)">Subtract(DateOnly, DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Returns the difference between two dates as a number of days.
+Emulates the <see cref="!:DateTime.Subtract(DateTime)"></see> method.</p>
+<p>If the end date is later than the start date, the result will be positive.
+If they are equal, the result will be zero. Otherwise, the result will be negative.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static long Subtract(this DateOnly end, DateOnly start)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">end</span></td>
+                      <td><p>The end date.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">start</span></td>
+                      <td><p>The start date.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Int64</span></td>
+                          <td><p>The number of days difference between the two dates.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.Subtract(DateOnly%2CDateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L100">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L131">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_Subtract_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_TimeSpan_" data-uid="Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,TimeSpan)">Subtract(DateOnly, TimeSpan)</h4>
-  <div class="markdown level1 summary"><p>Returns a DateTime with a TimeSpan subtracted.
-Emulates the DateTime.Subtract(TimeSpan) method.
-Because time of day information is discarded, the TimeSpan parameter is effectively
-rounded up to the nearest whole day.
-<a href="https://learn.microsoft.com/en-us/dotnet/api/system.datetime.subtract?view=net-7.0#system-datetime-subtract(system-timespan)">https://learn.microsoft.com/en-us/dotnet/api/system.datetime.subtract?view=net-7.0#system-datetime-subtract(system-timespan)</a></p>
+              <a id="Galaxon_Core_Time_XDateOnly_ToDateTime_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly)">ToDateTime(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Convert a DateOnly to a DateTime, with default time 00:00:00.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateOnly Subtract(this DateOnly date, TimeSpan span)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateTime ToDateTime(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">TimeSpan</span></td>
-        <td><span class="parametername">span</span></td>
-        <td><p>The TimeSpan to be subtracted.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateTime</span></td>
+                          <td><p>The new DateTime object</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><p>The resulting date.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_TimeSpan_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.Subtract(DateOnly%2CTimeSpan)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L113">View Source</a>
-              </span>
-      </div>
-  
-  <a id="Galaxon_Core_Time_XDateOnly_ToDateTime_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly)">ToDateTime(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Convert a DateOnly to a DateTime, with default time 00:00:00.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateTime ToDateTime(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateTime</span></td>
-        <td><p>The new DateTime object</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L30">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L31">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_ToDateTime_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_DateTimeKind_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly,DateTimeKind)">ToDateTime(DateOnly, DateTimeKind)</h4>
-  <div class="markdown level1 summary"><p>Convert a DateOnly to a DateTime, with default time 00:00:00 and specified DateTimeKind.</p>
+              <a id="Galaxon_Core_Time_XDateOnly_ToDateTime_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_DateTimeKind_" data-uid="Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly,DateTimeKind)">ToDateTime(DateOnly, DateTimeKind)</h4>
+          <div class="markdown level1 summary"><p>Convert a DateOnly to a DateTime, with default time 00:00:00 and specified DateTimeKind.</p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static DateTime ToDateTime(this DateOnly date, DateTimeKind kind)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static DateTime ToDateTime(this DateOnly date, DateTimeKind kind)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-      <tr>
-        <td><span class="xref">DateTimeKind</span></td>
-        <td><span class="parametername">kind</span></td>
-        <td><p>The DateTimeKind.</p>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">DateTimeKind</span></td>
+                      <td><span class="parametername">kind</span></td>
+                      <td><p>The DateTimeKind.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateTime</span></td>
-        <td><p>The new DateTime object</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">DateTime</span></td>
+                          <td><p>The new DateTime object</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_ToDateTime_DateOnly_DateTimeKind_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.ToDateTime(DateOnly%2CDateTimeKind)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L39">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L40">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_ToIsoString_" data-uid="Galaxon.Core.Time.XDateOnly.ToIsoString*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_ToIsoString_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToIsoString(DateOnly)">ToIsoString(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Format the date using ISO 8601 format YYYY-MM-DD.
+              <a id="Galaxon_Core_Time_XDateOnly_ToIsoString_" data-uid="Galaxon.Core.Time.XDateOnly.ToIsoString*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_ToIsoString_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToIsoString(DateOnly)">ToIsoString(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Format the date using ISO 8601 format YYYY-MM-DD.
 <a href="https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates">https://en.wikipedia.org/wiki/ISO_8601#Calendar_dates</a></p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string ToIsoString(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static string ToIsoString(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><p>A string representing the date in ISO format.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.String</span></td>
+                          <td><p>A string representing the date in ISO format.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_ToIsoString_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.ToIsoString(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L18">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L19">View Source</a>
               </span>
-      </div>
+              </div>
   
-  <a id="Galaxon_Core_Time_XDateOnly_ToJulianDay_" data-uid="Galaxon.Core.Time.XDateOnly.ToJulianDay*"></a>
-  <h4 id="Galaxon_Core_Time_XDateOnly_ToJulianDay_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToJulianDay(DateOnly)">ToJulianDay(DateOnly)</h4>
-  <div class="markdown level1 summary"><p>Convert a  DateOnly object to a Julian Day value.
+              <a id="Galaxon_Core_Time_XDateOnly_ToJulianDay_" data-uid="Galaxon.Core.Time.XDateOnly.ToJulianDay*"></a>
+          <h4 id="Galaxon_Core_Time_XDateOnly_ToJulianDay_DateOnly_" data-uid="Galaxon.Core.Time.XDateOnly.ToJulianDay(DateOnly)">ToJulianDay(DateOnly)</h4>
+          <div class="markdown level1 summary"><p>Convert a  DateOnly object to a Julian Day value.
 The result gives the Julian Day at the start of the given date
 (00:00:00, i.e. midnight), which will always have a fraction of 0.5, since a Julian Day
 starts at 12:00:00 (noon).
 <a class="xref" href="Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_ToJulianDay_DateTime_">ToJulianDay(DateTime)</a></p>
 </div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static double ToJulianDay(this DateOnly date)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DateOnly</span></td>
-        <td><span class="parametername">date</span></td>
-        <td><p>The DateOnly instance.</p>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static double ToJulianDay(this DateOnly date)</code></pre>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">DateOnly</span></td>
+                      <td><span class="parametername">date</span></td>
+                      <td><p>The DateOnly instance.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><p>The Julian Day value.</p>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.Double</span></td>
+                          <td><p>The Julian Day value.</p>
 </td>
-      </tr>
-    </tbody>
-  </table>
+                      </tr>
+                      </tbody>
+                  </table>
   
-      <div class="contrib">
-              <span class="small pull-right mobile-hide">
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
                   <span class="divider">|</span>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly_ToJulianDay_DateOnly_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly.ToJulianDay(DateOnly)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
-              <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L174">View Source</a>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L201">View Source</a>
               </span>
-      </div>
+              </div>
   
 </article>
           </div>
@@ -907,7 +1283,7 @@ starts at 12:00:00 (noon).
                     <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Time_XDateOnly.md&amp;value=---%0Auid%3A%20Galaxon.Core.Time.XDateOnly%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/mossy2100/Core/blob/main/Core/Time/XDateOnly.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

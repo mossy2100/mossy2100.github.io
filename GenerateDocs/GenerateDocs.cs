@@ -5,17 +5,12 @@ DirectoryInfo dir = new (Environment.CurrentDirectory + "/../../../..");
 Console.WriteLine("Generating docs...");
 Console.WriteLine($"{dir.FullName}/docfx ./docfx.json");
 
-Process p = new ()
+using Process p = new ();
+p.StartInfo = new ProcessStartInfo
 {
-    StartInfo =
-    {
-        WorkingDirectory = dir.FullName,
-        FileName = "docfx",
-        Arguments = "./docfx.json",
-        RedirectStandardOutput = true,
-        RedirectStandardError = true,
-    }
+    WorkingDirectory = dir.FullName,
+    FileName = "docfx",
+    Arguments = "./docfx.json",
 };
-
 p.Start();
 p.WaitForExit();

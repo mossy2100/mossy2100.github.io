@@ -2701,19 +2701,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXDateOnly.TestEaster
   nameWithType: TestXDateOnly.TestEaster
-- uid: Galaxon.Core.Tests.TestXDateOnly.TestEaster2
-  name: TestEaster2()
-  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestEaster2
-  commentId: M:Galaxon.Core.Tests.TestXDateOnly.TestEaster2
-  fullName: Galaxon.Core.Tests.TestXDateOnly.TestEaster2()
-  nameWithType: TestXDateOnly.TestEaster2()
-- uid: Galaxon.Core.Tests.TestXDateOnly.TestEaster2*
-  name: TestEaster2
-  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestEaster2_
-  commentId: Overload:Galaxon.Core.Tests.TestXDateOnly.TestEaster2
-  isSpec: "True"
-  fullName: Galaxon.Core.Tests.TestXDateOnly.TestEaster2
-  nameWithType: TestXDateOnly.TestEaster2
 - uid: Galaxon.Core.Tests.TestXDateOnly.TestFromDayOfYear
   name: TestFromDayOfYear()
   href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestFromDayOfYear
@@ -2727,6 +2714,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Tests.TestXDateOnly.TestFromDayOfYear
   nameWithType: TestXDateOnly.TestFromDayOfYear
+- uid: Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth
+  name: TestGetNthWeekdayInMonth()
+  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestGetNthWeekdayInMonth
+  commentId: M:Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth
+  fullName: Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth()
+  nameWithType: TestXDateOnly.TestGetNthWeekdayInMonth()
+- uid: Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth*
+  name: TestGetNthWeekdayInMonth
+  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestGetNthWeekdayInMonth_
+  commentId: Overload:Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXDateOnly.TestGetNthWeekdayInMonth
+  nameWithType: TestXDateOnly.TestGetNthWeekdayInMonth
+- uid: Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving
+  name: TestGetThanksgiving()
+  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestGetThanksgiving
+  commentId: M:Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving
+  fullName: Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving()
+  nameWithType: TestXDateOnly.TestGetThanksgiving()
+- uid: Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving*
+  name: TestGetThanksgiving
+  href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestGetThanksgiving_
+  commentId: Overload:Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving
+  isSpec: "True"
+  fullName: Galaxon.Core.Tests.TestXDateOnly.TestGetThanksgiving
+  nameWithType: TestXDateOnly.TestGetThanksgiving
 - uid: Galaxon.Core.Tests.TestXDateOnly.TestSubtract
   name: TestSubtract()
   href: api/Galaxon.Core.Tests.TestXDateOnly.html#Galaxon_Core_Tests_TestXDateOnly_TestSubtract
@@ -3215,6 +3228,38 @@ references:
   commentId: T:Galaxon.Core.Time.XDateOnly
   fullName: Galaxon.Core.Time.XDateOnly
   nameWithType: XDateOnly
+- uid: Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeOnly)
+  name: Add(DateOnly, TimeOnly)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeOnly)
+  fullName: Galaxon.Core.Time.XDateOnly.Add(DateOnly, TimeOnly)
+  nameWithType: XDateOnly.Add(DateOnly, TimeOnly)
+- uid: Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeSpan)
+  name: Add(DateOnly, TimeSpan)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Add_DateOnly_TimeSpan_
+  commentId: M:Galaxon.Core.Time.XDateOnly.Add(DateOnly,TimeSpan)
+  fullName: Galaxon.Core.Time.XDateOnly.Add(DateOnly, TimeSpan)
+  nameWithType: XDateOnly.Add(DateOnly, TimeSpan)
+- uid: Galaxon.Core.Time.XDateOnly.Add*
+  name: Add
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Add_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.Add
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.Add
+  nameWithType: XDateOnly.Add
+- uid: Galaxon.Core.Time.XDateOnly.AddWeeks(DateOnly,System.Int32)
+  name: AddWeeks(DateOnly, Int32)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_AddWeeks_DateOnly_System_Int32_
+  commentId: M:Galaxon.Core.Time.XDateOnly.AddWeeks(DateOnly,System.Int32)
+  fullName: Galaxon.Core.Time.XDateOnly.AddWeeks(DateOnly, System.Int32)
+  nameWithType: XDateOnly.AddWeeks(DateOnly, Int32)
+- uid: Galaxon.Core.Time.XDateOnly.AddWeeks*
+  name: AddWeeks
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_AddWeeks_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.AddWeeks
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.AddWeeks
+  nameWithType: XDateOnly.AddWeeks
 - uid: Galaxon.Core.Time.XDateOnly.FromDayOfYear(System.Int32,System.Int32)
   name: FromDayOfYear(Int32, Int32)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_FromDayOfYear_System_Int32_System_Int32_
@@ -3254,6 +3299,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateOnly.FromTotalDays
   nameWithType: XDateOnly.FromTotalDays
+- uid: Galaxon.Core.Time.XDateOnly.FromTotalYears(System.Double)
+  name: FromTotalYears(Double)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_FromTotalYears_System_Double_
+  commentId: M:Galaxon.Core.Time.XDateOnly.FromTotalYears(System.Double)
+  fullName: Galaxon.Core.Time.XDateOnly.FromTotalYears(System.Double)
+  nameWithType: XDateOnly.FromTotalYears(Double)
+- uid: Galaxon.Core.Time.XDateOnly.FromTotalYears*
+  name: FromTotalYears
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_FromTotalYears_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.FromTotalYears
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.FromTotalYears
+  nameWithType: XDateOnly.FromTotalYears
 - uid: Galaxon.Core.Time.XDateOnly.GetChristmas(System.Int32)
   name: GetChristmas(Int32)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetChristmas_System_Int32_
@@ -3280,6 +3338,32 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateOnly.GetEaster
   nameWithType: XDateOnly.GetEaster
+- uid: Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth(System.Int32,System.Int32,System.Int32,DayOfWeek)
+  name: GetNthWeekdayInMonth(Int32, Int32, Int32, DayOfWeek)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetNthWeekdayInMonth_System_Int32_System_Int32_System_Int32_DayOfWeek_
+  commentId: M:Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth(System.Int32,System.Int32,System.Int32,DayOfWeek)
+  fullName: Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth(System.Int32, System.Int32, System.Int32, DayOfWeek)
+  nameWithType: XDateOnly.GetNthWeekdayInMonth(Int32, Int32, Int32, DayOfWeek)
+- uid: Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth*
+  name: GetNthWeekdayInMonth
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetNthWeekdayInMonth_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.GetNthWeekdayInMonth
+  nameWithType: XDateOnly.GetNthWeekdayInMonth
+- uid: Galaxon.Core.Time.XDateOnly.GetThanksgiving(System.Int32,System.String)
+  name: GetThanksgiving(Int32, String)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetThanksgiving_System_Int32_System_String_
+  commentId: M:Galaxon.Core.Time.XDateOnly.GetThanksgiving(System.Int32,System.String)
+  fullName: Galaxon.Core.Time.XDateOnly.GetThanksgiving(System.Int32, System.String)
+  nameWithType: XDateOnly.GetThanksgiving(Int32, String)
+- uid: Galaxon.Core.Time.XDateOnly.GetThanksgiving*
+  name: GetThanksgiving
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetThanksgiving_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.GetThanksgiving
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.GetThanksgiving
+  nameWithType: XDateOnly.GetThanksgiving
 - uid: Galaxon.Core.Time.XDateOnly.GetTicks(DateOnly)
   name: GetTicks(DateOnly)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetTicks_DateOnly_
@@ -3319,18 +3403,25 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateOnly.GetTotalSeconds
   nameWithType: XDateOnly.GetTotalSeconds
+- uid: Galaxon.Core.Time.XDateOnly.GetTotalYears(DateOnly)
+  name: GetTotalYears(DateOnly)
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetTotalYears_DateOnly_
+  commentId: M:Galaxon.Core.Time.XDateOnly.GetTotalYears(DateOnly)
+  fullName: Galaxon.Core.Time.XDateOnly.GetTotalYears(DateOnly)
+  nameWithType: XDateOnly.GetTotalYears(DateOnly)
+- uid: Galaxon.Core.Time.XDateOnly.GetTotalYears*
+  name: GetTotalYears
+  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_GetTotalYears_
+  commentId: Overload:Galaxon.Core.Time.XDateOnly.GetTotalYears
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateOnly.GetTotalYears
+  nameWithType: XDateOnly.GetTotalYears
 - uid: Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,DateOnly)
   name: Subtract(DateOnly, DateOnly)
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_DateOnly_
   commentId: M:Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,DateOnly)
   fullName: Galaxon.Core.Time.XDateOnly.Subtract(DateOnly, DateOnly)
   nameWithType: XDateOnly.Subtract(DateOnly, DateOnly)
-- uid: Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,TimeSpan)
-  name: Subtract(DateOnly, TimeSpan)
-  href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Subtract_DateOnly_TimeSpan_
-  commentId: M:Galaxon.Core.Time.XDateOnly.Subtract(DateOnly,TimeSpan)
-  fullName: Galaxon.Core.Time.XDateOnly.Subtract(DateOnly, TimeSpan)
-  nameWithType: XDateOnly.Subtract(DateOnly, TimeSpan)
 - uid: Galaxon.Core.Time.XDateOnly.Subtract*
   name: Subtract
   href: api/Galaxon.Core.Time.XDateOnly.html#Galaxon_Core_Time_XDateOnly_Subtract_
@@ -3389,6 +3480,19 @@ references:
   commentId: T:Galaxon.Core.Time.XDateTime
   fullName: Galaxon.Core.Time.XDateTime
   nameWithType: XDateTime
+- uid: Galaxon.Core.Time.XDateTime.AddWeeks(DateTime,System.Double)
+  name: AddWeeks(DateTime, Double)
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_AddWeeks_DateTime_System_Double_
+  commentId: M:Galaxon.Core.Time.XDateTime.AddWeeks(DateTime,System.Double)
+  fullName: Galaxon.Core.Time.XDateTime.AddWeeks(DateTime, System.Double)
+  nameWithType: XDateTime.AddWeeks(DateTime, Double)
+- uid: Galaxon.Core.Time.XDateTime.AddWeeks*
+  name: AddWeeks
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_AddWeeks_
+  commentId: Overload:Galaxon.Core.Time.XDateTime.AddWeeks
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateTime.AddWeeks
+  nameWithType: XDateTime.AddWeeks
 - uid: Galaxon.Core.Time.XDateTime.FromJulianDay(System.Double)
   name: FromJulianDay(Double)
   href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_FromJulianDay_System_Double_
@@ -3428,6 +3532,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateTime.FromTotalSeconds
   nameWithType: XDateTime.FromTotalSeconds
+- uid: Galaxon.Core.Time.XDateTime.FromTotalYears(System.Double)
+  name: FromTotalYears(Double)
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_FromTotalYears_System_Double_
+  commentId: M:Galaxon.Core.Time.XDateTime.FromTotalYears(System.Double)
+  fullName: Galaxon.Core.Time.XDateTime.FromTotalYears(System.Double)
+  nameWithType: XDateTime.FromTotalYears(Double)
+- uid: Galaxon.Core.Time.XDateTime.FromTotalYears*
+  name: FromTotalYears
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_FromTotalYears_
+  commentId: Overload:Galaxon.Core.Time.XDateTime.FromTotalYears
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateTime.FromTotalYears
+  nameWithType: XDateTime.FromTotalYears
 - uid: Galaxon.Core.Time.XDateTime.GetDateOnly(DateTime)
   name: GetDateOnly(DateTime)
   href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetDateOnly_DateTime_
@@ -3467,71 +3584,6 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateTime.GetTotalDays
   nameWithType: XDateTime.GetTotalDays
-- uid: Galaxon.Core.Time.XDateTime.GetTotalHours(DateTime)
-  name: GetTotalHours(DateTime)
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalHours_DateTime_
-  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalHours(DateTime)
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalHours(DateTime)
-  nameWithType: XDateTime.GetTotalHours(DateTime)
-- uid: Galaxon.Core.Time.XDateTime.GetTotalHours*
-  name: GetTotalHours
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalHours_
-  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalHours
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalHours
-  nameWithType: XDateTime.GetTotalHours
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMicroseconds(DateTime)
-  name: GetTotalMicroseconds(DateTime)
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMicroseconds_DateTime_
-  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalMicroseconds(DateTime)
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMicroseconds(DateTime)
-  nameWithType: XDateTime.GetTotalMicroseconds(DateTime)
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMicroseconds*
-  name: GetTotalMicroseconds
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMicroseconds_
-  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalMicroseconds
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMicroseconds
-  nameWithType: XDateTime.GetTotalMicroseconds
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMilliseconds(DateTime)
-  name: GetTotalMilliseconds(DateTime)
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMilliseconds_DateTime_
-  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalMilliseconds(DateTime)
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMilliseconds(DateTime)
-  nameWithType: XDateTime.GetTotalMilliseconds(DateTime)
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMilliseconds*
-  name: GetTotalMilliseconds
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMilliseconds_
-  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalMilliseconds
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMilliseconds
-  nameWithType: XDateTime.GetTotalMilliseconds
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMinutes(DateTime)
-  name: GetTotalMinutes(DateTime)
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMinutes_DateTime_
-  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalMinutes(DateTime)
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMinutes(DateTime)
-  nameWithType: XDateTime.GetTotalMinutes(DateTime)
-- uid: Galaxon.Core.Time.XDateTime.GetTotalMinutes*
-  name: GetTotalMinutes
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalMinutes_
-  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalMinutes
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalMinutes
-  nameWithType: XDateTime.GetTotalMinutes
-- uid: Galaxon.Core.Time.XDateTime.GetTotalNanoseconds(DateTime)
-  name: GetTotalNanoseconds(DateTime)
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalNanoseconds_DateTime_
-  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalNanoseconds(DateTime)
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalNanoseconds(DateTime)
-  nameWithType: XDateTime.GetTotalNanoseconds(DateTime)
-- uid: Galaxon.Core.Time.XDateTime.GetTotalNanoseconds*
-  name: GetTotalNanoseconds
-  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalNanoseconds_
-  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalNanoseconds
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XDateTime.GetTotalNanoseconds
-  nameWithType: XDateTime.GetTotalNanoseconds
 - uid: Galaxon.Core.Time.XDateTime.GetTotalSeconds(DateTime)
   name: GetTotalSeconds(DateTime)
   href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalSeconds_DateTime_
@@ -3545,6 +3597,19 @@ references:
   isSpec: "True"
   fullName: Galaxon.Core.Time.XDateTime.GetTotalSeconds
   nameWithType: XDateTime.GetTotalSeconds
+- uid: Galaxon.Core.Time.XDateTime.GetTotalYears(DateTime)
+  name: GetTotalYears(DateTime)
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalYears_DateTime_
+  commentId: M:Galaxon.Core.Time.XDateTime.GetTotalYears(DateTime)
+  fullName: Galaxon.Core.Time.XDateTime.GetTotalYears(DateTime)
+  nameWithType: XDateTime.GetTotalYears(DateTime)
+- uid: Galaxon.Core.Time.XDateTime.GetTotalYears*
+  name: GetTotalYears
+  href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_GetTotalYears_
+  commentId: Overload:Galaxon.Core.Time.XDateTime.GetTotalYears
+  isSpec: "True"
+  fullName: Galaxon.Core.Time.XDateTime.GetTotalYears
+  nameWithType: XDateTime.GetTotalYears
 - uid: Galaxon.Core.Time.XDateTime.JulianPeriodOffset
   name: JulianPeriodOffset
   href: api/Galaxon.Core.Time.XDateTime.html#Galaxon_Core_Time_XDateTime_JulianPeriodOffset
@@ -3583,84 +3648,32 @@ references:
   commentId: T:Galaxon.Core.Time.XTimeOnly
   fullName: Galaxon.Core.Time.XTimeOnly
   nameWithType: XTimeOnly
-- uid: Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
-  name: IsAfternoon(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAfternoon_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsAfternoon(TimeOnly)
-  nameWithType: XTimeOnly.IsAfternoon(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsAfternoon*
-  name: IsAfternoon
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAfternoon_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsAfternoon
+- uid: Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly,TimeOnly)
+  name: Subtract(TimeOnly, TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_Subtract_TimeOnly_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly,TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly, TimeOnly)
+  nameWithType: XTimeOnly.Subtract(TimeOnly, TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.Subtract*
+  name: Subtract
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_Subtract_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.Subtract
   isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsAfternoon
-  nameWithType: XTimeOnly.IsAfternoon
-- uid: Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
-  name: IsAm(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAm_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsAm(TimeOnly)
-  nameWithType: XTimeOnly.IsAm(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsAm*
-  name: IsAm
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsAm_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsAm
+  fullName: Galaxon.Core.Time.XTimeOnly.Subtract
+  nameWithType: XTimeOnly.Subtract
+- uid: Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  name: ToTimeSpan(TimeOnly)
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_ToTimeSpan_TimeOnly_
+  commentId: M:Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  nameWithType: XTimeOnly.ToTimeSpan(TimeOnly)
+- uid: Galaxon.Core.Time.XTimeOnly.ToTimeSpan*
+  name: ToTimeSpan
+  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_ToTimeSpan_
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.ToTimeSpan
   isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsAm
-  nameWithType: XTimeOnly.IsAm
-- uid: Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
-  name: IsEvening(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsEvening_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsEvening(TimeOnly)
-  nameWithType: XTimeOnly.IsEvening(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsEvening*
-  name: IsEvening
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsEvening_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsEvening
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsEvening
-  nameWithType: XTimeOnly.IsEvening
-- uid: Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
-  name: IsMorning(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsMorning_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsMorning(TimeOnly)
-  nameWithType: XTimeOnly.IsMorning(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsMorning*
-  name: IsMorning
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsMorning_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsMorning
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsMorning
-  nameWithType: XTimeOnly.IsMorning
-- uid: Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
-  name: IsPm(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsPm_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsPm(TimeOnly)
-  nameWithType: XTimeOnly.IsPm(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsPm*
-  name: IsPm
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsPm_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsPm
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsPm
-  nameWithType: XTimeOnly.IsPm
-- uid: Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
-  name: IsSmallHours(TimeOnly)
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsSmallHours_TimeOnly_
-  commentId: M:Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
-  fullName: Galaxon.Core.Time.XTimeOnly.IsSmallHours(TimeOnly)
-  nameWithType: XTimeOnly.IsSmallHours(TimeOnly)
-- uid: Galaxon.Core.Time.XTimeOnly.IsSmallHours*
-  name: IsSmallHours
-  href: api/Galaxon.Core.Time.XTimeOnly.html#Galaxon_Core_Time_XTimeOnly_IsSmallHours_
-  commentId: Overload:Galaxon.Core.Time.XTimeOnly.IsSmallHours
-  isSpec: "True"
-  fullName: Galaxon.Core.Time.XTimeOnly.IsSmallHours
-  nameWithType: XTimeOnly.IsSmallHours
+  fullName: Galaxon.Core.Time.XTimeOnly.ToTimeSpan
+  nameWithType: XTimeOnly.ToTimeSpan
 - uid: Galaxon.Core.Time.XTimeSpan
   name: XTimeSpan
   href: api/Galaxon.Core.Time.XTimeSpan.html
@@ -3770,12 +3783,24 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.HoursPerDay
   fullName: Galaxon.Core.Time.XTimeSpan.HoursPerDay
   nameWithType: XTimeSpan.HoursPerDay
+- uid: Galaxon.Core.Time.XTimeSpan.HoursPerWeek
+  name: HoursPerWeek
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_HoursPerWeek
+  commentId: F:Galaxon.Core.Time.XTimeSpan.HoursPerWeek
+  fullName: Galaxon.Core.Time.XTimeSpan.HoursPerWeek
+  nameWithType: XTimeSpan.HoursPerWeek
 - uid: Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
   name: LeapYearsPerSolarCycle
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_LeapYearsPerSolarCycle
   commentId: F:Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
   fullName: Galaxon.Core.Time.XTimeSpan.LeapYearsPerSolarCycle
   nameWithType: XTimeSpan.LeapYearsPerSolarCycle
+- uid: Galaxon.Core.Time.XTimeSpan.MinutesPerDay
+  name: MinutesPerDay
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MinutesPerDay
+  commentId: F:Galaxon.Core.Time.XTimeSpan.MinutesPerDay
+  fullName: Galaxon.Core.Time.XTimeSpan.MinutesPerDay
+  nameWithType: XTimeSpan.MinutesPerDay
 - uid: Galaxon.Core.Time.XTimeSpan.MinutesPerHour
   name: MinutesPerHour
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_MinutesPerHour
@@ -3920,12 +3945,24 @@ references:
   commentId: F:Galaxon.Core.Time.XTimeSpan.TicksPerYear
   fullName: Galaxon.Core.Time.XTimeSpan.TicksPerYear
   nameWithType: XTimeSpan.TicksPerYear
+- uid: Galaxon.Core.Time.XTimeSpan.WeeksPerMonth
+  name: WeeksPerMonth
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_WeeksPerMonth
+  commentId: F:Galaxon.Core.Time.XTimeSpan.WeeksPerMonth
+  fullName: Galaxon.Core.Time.XTimeSpan.WeeksPerMonth
+  nameWithType: XTimeSpan.WeeksPerMonth
 - uid: Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
   name: WeeksPerSolarCycle
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_WeeksPerSolarCycle
   commentId: F:Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
   fullName: Galaxon.Core.Time.XTimeSpan.WeeksPerSolarCycle
   nameWithType: XTimeSpan.WeeksPerSolarCycle
+- uid: Galaxon.Core.Time.XTimeSpan.WeeksPerYear
+  name: WeeksPerYear
+  href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_WeeksPerYear
+  commentId: F:Galaxon.Core.Time.XTimeSpan.WeeksPerYear
+  fullName: Galaxon.Core.Time.XTimeSpan.WeeksPerYear
+  nameWithType: XTimeSpan.WeeksPerYear
 - uid: Galaxon.Core.Time.XTimeSpan.YearsPerCentury
   name: YearsPerCentury
   href: api/Galaxon.Core.Time.XTimeSpan.html#Galaxon_Core_Time_XTimeSpan_YearsPerCentury
