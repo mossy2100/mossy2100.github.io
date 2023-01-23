@@ -1,0 +1,99 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XUshort
+  commentId: T:Galaxon.Core.Numbers.XUshort
+  id: XUshort
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XUshort.GetRandom
+  langs:
+  - csharp
+  - vb
+  name: XUshort
+  nameWithType: XUshort
+  fullName: Galaxon.Core.Numbers.XUshort
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XUshort.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XUshort
+    path: ../Core/Core/Numbers/XUshort.cs
+    startLine: 3
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods for ushort.
+  example: []
+  syntax:
+    content: 'public static class XUshort : object'
+    content.vb: >-
+      Public Module XUshort
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XUshort.GetRandom
+  commentId: M:Galaxon.Core.Numbers.XUshort.GetRandom
+  id: GetRandom
+  parent: Galaxon.Core.Numbers.XUshort
+  langs:
+  - csharp
+  - vb
+  name: GetRandom()
+  nameWithType: XUshort.GetRandom()
+  fullName: Galaxon.Core.Numbers.XUshort.GetRandom()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XUshort.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetRandom
+    path: ../Core/Core/Numbers/XUshort.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet a random ushort.\n"
+  example: []
+  syntax:
+    content: public static ushort GetRandom()
+    return:
+      type: System.UInt16
+    content.vb: Public Shared Function GetRandom As UShort
+  overload: Galaxon.Core.Numbers.XUshort.GetRandom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Numbers.XUshort.GetRandom*
+  commentId: Overload:Galaxon.Core.Numbers.XUshort.GetRandom
+  name: GetRandom
+  nameWithType: XUshort.GetRandom
+  fullName: Galaxon.Core.Numbers.XUshort.GetRandom
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16

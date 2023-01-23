@@ -1,0 +1,697 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestConvert
+  id: TestConvert
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble
+  - Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt
+  langs:
+  - csharp
+  - vb
+  name: TestConvert
+  nameWithType: TestConvert
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestConvert
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestConvert : object'
+    content.vb: >-
+      Public Class TestConvert
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt
+  id: TestCastToInt
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToInt()
+  nameWithType: TestConvert.TestCastToInt()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToInt
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToInt()
+    content.vb: Public Sub TestCastToInt
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig
+  id: TestCastToIntTooBig
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToIntTooBig()
+  nameWithType: TestConvert.TestCastToIntTooBig()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToIntTooBig
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 24
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToIntTooBig()
+    content.vb: Public Sub TestCastToIntTooBig
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative
+  id: TestCastToIntTooBigNegative
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToIntTooBigNegative()
+  nameWithType: TestConvert.TestCastToIntTooBigNegative()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToIntTooBigNegative
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 31
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToIntTooBigNegative()
+    content.vb: Public Sub TestCastToIntTooBigNegative
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal
+  id: TestCastFromDecimal
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastFromDecimal()
+  nameWithType: TestConvert.TestCastFromDecimal()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastFromDecimal
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 38
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastFromDecimal()
+    content.vb: Public Sub TestCastFromDecimal
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1
+  id: TestCastToDecimal1
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDecimal1()
+  nameWithType: TestConvert.TestCastToDecimal1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDecimal1
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 75
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDecimal1()
+    content.vb: Public Sub TestCastToDecimal1
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2
+  id: TestCastToDecimal2
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDecimal2()
+  nameWithType: TestConvert.TestCastToDecimal2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDecimal2
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 98
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDecimal2()
+    content.vb: Public Sub TestCastToDecimal2
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig
+  id: TestCastToDecimalTooBig
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDecimalTooBig()
+  nameWithType: TestConvert.TestCastToDecimalTooBig()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDecimalTooBig
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 135
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDecimalTooBig()
+    content.vb: Public Sub TestCastToDecimalTooBig
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall
+  id: TestCastToDecimalTooSmall
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDecimalTooSmall()
+  nameWithType: TestConvert.TestCastToDecimalTooSmall()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDecimalTooSmall
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 142
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDecimalTooSmall()
+    content.vb: Public Sub TestCastToDecimalTooSmall
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative
+  id: TestCastToDecimalTooBigNegative
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDecimalTooBigNegative()
+  nameWithType: TestConvert.TestCastToDecimalTooBigNegative()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDecimalTooBigNegative
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 149
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDecimalTooBigNegative()
+    content.vb: Public Sub TestCastToDecimalTooBigNegative
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal
+  id: TestCastToFloatPosNormal
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToFloatPosNormal()
+  nameWithType: TestConvert.TestCastToFloatPosNormal()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToFloatPosNormal
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 156
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToFloatPosNormal()
+    content.vb: Public Sub TestCastToFloatPosNormal
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal
+  id: TestCastToFloatNegNormal
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToFloatNegNormal()
+  nameWithType: TestConvert.TestCastToFloatNegNormal()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToFloatNegNormal
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 178
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToFloatNegNormal()
+    content.vb: Public Sub TestCastToFloatNegNormal
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal
+  id: TestCastToFloatPosSubnormal
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToFloatPosSubnormal()
+  nameWithType: TestConvert.TestCastToFloatPosSubnormal()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToFloatPosSubnormal
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 200
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToFloatPosSubnormal()
+    content.vb: Public Sub TestCastToFloatPosSubnormal
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal
+  id: TestCastToFloatNegSubnormal
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToFloatNegSubnormal()
+  nameWithType: TestConvert.TestCastToFloatNegSubnormal()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToFloatNegSubnormal
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 227
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToFloatNegSubnormal()
+    content.vb: Public Sub TestCastToFloatNegSubnormal
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods
+  id: SpeedTestConvertToFloatMethods
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: SpeedTestConvertToFloatMethods()
+  nameWithType: TestConvert.SpeedTestConvertToFloatMethods()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: SpeedTestConvertToFloatMethods
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 254
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void SpeedTestConvertToFloatMethods()
+    content.vb: Public Sub SpeedTestConvertToFloatMethods
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble
+  id: TestCastToDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastToDouble()
+  nameWithType: TestConvert.TestCastToDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastToDouble
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 294
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastToDouble()
+    content.vb: Public Sub TestCastToDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble
+  id: TestCastFromDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestCastFromDouble()
+  nameWithType: TestConvert.TestCastFromDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCastFromDouble
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 331
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCastFromDouble()
+    content.vb: Public Sub TestCastFromDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt
+  id: TestTryConvertFromCheckedInt
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestTryConvertFromCheckedInt()
+  nameWithType: TestConvert.TestTryConvertFromCheckedInt()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestTryConvertFromCheckedInt
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 386
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestTryConvertFromCheckedInt()
+    content.vb: Public Sub TestTryConvertFromCheckedInt
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble
+  id: TestTryConvertFromCheckedDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestConvert
+  langs:
+  - csharp
+  - vb
+  name: TestTryConvertFromCheckedDouble()
+  nameWithType: TestConvert.TestTryConvertFromCheckedDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConvert.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestTryConvertFromCheckedDouble
+    path: ../BigDecimal/BigDecimalTests/TestConvert.cs
+    startLine: 396
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestTryConvertFromCheckedDouble()
+    content.vb: Public Sub TestTryConvertFromCheckedDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt
+  name: TestCastToInt
+  nameWithType: TestConvert.TestCastToInt
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToInt
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig
+  name: TestCastToIntTooBig
+  nameWithType: TestConvert.TestCastToIntTooBig
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBig
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative
+  name: TestCastToIntTooBigNegative
+  nameWithType: TestConvert.TestCastToIntTooBigNegative
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToIntTooBigNegative
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal
+  name: TestCastFromDecimal
+  nameWithType: TestConvert.TestCastFromDecimal
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDecimal
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1
+  name: TestCastToDecimal1
+  nameWithType: TestConvert.TestCastToDecimal1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal1
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2
+  name: TestCastToDecimal2
+  nameWithType: TestConvert.TestCastToDecimal2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimal2
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig
+  name: TestCastToDecimalTooBig
+  nameWithType: TestConvert.TestCastToDecimalTooBig
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBig
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall
+  name: TestCastToDecimalTooSmall
+  nameWithType: TestConvert.TestCastToDecimalTooSmall
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooSmall
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative
+  name: TestCastToDecimalTooBigNegative
+  nameWithType: TestConvert.TestCastToDecimalTooBigNegative
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDecimalTooBigNegative
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal
+  name: TestCastToFloatPosNormal
+  nameWithType: TestConvert.TestCastToFloatPosNormal
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosNormal
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal
+  name: TestCastToFloatNegNormal
+  nameWithType: TestConvert.TestCastToFloatNegNormal
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegNormal
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal
+  name: TestCastToFloatPosSubnormal
+  nameWithType: TestConvert.TestCastToFloatPosSubnormal
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatPosSubnormal
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal
+  name: TestCastToFloatNegSubnormal
+  nameWithType: TestConvert.TestCastToFloatNegSubnormal
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToFloatNegSubnormal
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods
+  name: SpeedTestConvertToFloatMethods
+  nameWithType: TestConvert.SpeedTestConvertToFloatMethods
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.SpeedTestConvertToFloatMethods
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble
+  name: TestCastToDouble
+  nameWithType: TestConvert.TestCastToDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastToDouble
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble
+  name: TestCastFromDouble
+  nameWithType: TestConvert.TestCastFromDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestCastFromDouble
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt
+  name: TestTryConvertFromCheckedInt
+  nameWithType: TestConvert.TestTryConvertFromCheckedInt
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedInt
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble
+  name: TestTryConvertFromCheckedDouble
+  nameWithType: TestConvert.TestTryConvertFromCheckedDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert.TestTryConvertFromCheckedDouble

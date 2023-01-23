@@ -1,0 +1,667 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  id: TestComputeConstants
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50
+  langs:
+  - csharp
+  - vb
+  name: TestComputeConstants
+  nameWithType: TestComputeConstants
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeConstants
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 2
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestComputeConstants : object'
+    content.vb: >-
+      Public Class TestComputeConstants
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50
+  id: TestComputeE50
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeE50()
+  nameWithType: TestComputeConstants.TestComputeE50()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeE50
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeE50()
+    content.vb: Public Sub TestComputeE50
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100
+  id: TestComputeE100
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeE100()
+  nameWithType: TestComputeConstants.TestComputeE100()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeE100
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 15
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeE100()
+    content.vb: Public Sub TestComputeE100
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200
+  id: TestComputeE200
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeE200()
+  nameWithType: TestComputeConstants.TestComputeE200()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeE200
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 26
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeE200()
+    content.vb: Public Sub TestComputeE200
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000
+  id: TestComputeE1000
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeE1000()
+  nameWithType: TestComputeConstants.TestComputeE1000()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeE1000
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 39
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeE1000()
+    content.vb: Public Sub TestComputeE1000
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50
+  id: TestComputePi50
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePi50()
+  nameWithType: TestComputeConstants.TestComputePi50()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePi50
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 68
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePi50()
+    content.vb: Public Sub TestComputePi50
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100
+  id: TestComputePi100
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePi100()
+  nameWithType: TestComputeConstants.TestComputePi100()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePi100
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 78
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePi100()
+    content.vb: Public Sub TestComputePi100
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200
+  id: TestComputePi200
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePi200()
+  nameWithType: TestComputeConstants.TestComputePi200()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePi200
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 89
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePi200()
+    content.vb: Public Sub TestComputePi200
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000
+  id: TestComputePi1000
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePi1000()
+  nameWithType: TestComputeConstants.TestComputePi1000()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePi1000
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 102
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePi1000()
+    content.vb: Public Sub TestComputePi1000
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000
+  id: TestComputePi10000
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePi10000()
+  nameWithType: TestComputeConstants.TestComputePi10000()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePi10000
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 136
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  remarks: "\nThis takes a few minutes (about 7 on my computer), so sit back, relax, sip your coffee,\nand enjoy the relentless march of time.\n"
+  example: []
+  syntax:
+    content: public void TestComputePi10000()
+    content.vb: Public Sub TestComputePi10000
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000*
+  see:
+  - linkType: HRef
+    linkId: http://newton.ex.ac.uk/research/qsystems/collabs/pi/pi5.txt
+    altText: http://newton.ex.ac.uk/research/qsystems/collabs/pi/pi5.txt
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50
+  id: TestComputeTau50
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeTau50()
+  nameWithType: TestComputeConstants.TestComputeTau50()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeTau50
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 146
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeTau50()
+    content.vb: Public Sub TestComputeTau50
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100
+  id: TestComputeTau100
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeTau100()
+  nameWithType: TestComputeConstants.TestComputeTau100()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeTau100
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 156
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeTau100()
+    content.vb: Public Sub TestComputeTau100
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200
+  id: TestComputeTau200
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeTau200()
+  nameWithType: TestComputeConstants.TestComputeTau200()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeTau200
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 167
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeTau200()
+    content.vb: Public Sub TestComputeTau200
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000
+  id: TestComputeTau1000
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputeTau1000()
+  nameWithType: TestComputeConstants.TestComputeTau1000()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputeTau1000
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 180
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputeTau1000()
+    content.vb: Public Sub TestComputeTau1000
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50
+  id: TestComputePhi50
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePhi50()
+  nameWithType: TestComputeConstants.TestComputePhi50()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePhi50
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 209
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePhi50()
+    content.vb: Public Sub TestComputePhi50
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100
+  id: TestComputePhi100
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePhi100()
+  nameWithType: TestComputeConstants.TestComputePhi100()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePhi100
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 219
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePhi100()
+    content.vb: Public Sub TestComputePhi100
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200
+  id: TestComputePhi200
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePhi200()
+  nameWithType: TestComputeConstants.TestComputePhi200()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePhi200
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 230
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePhi200()
+    content.vb: Public Sub TestComputePhi200
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000
+  id: TestComputePhi1000
+  parent: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  langs:
+  - csharp
+  - vb
+  name: TestComputePhi1000()
+  nameWithType: TestComputeConstants.TestComputePhi1000()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestConstants.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestComputePhi1000
+    path: ../BigDecimal/BigDecimalTests/TestConstants.cs
+    startLine: 243
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestComputePhi1000()
+    content.vb: Public Sub TestComputePhi1000
+  overload: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50
+  name: TestComputeE50
+  nameWithType: TestComputeConstants.TestComputeE50
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE50
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100
+  name: TestComputeE100
+  nameWithType: TestComputeConstants.TestComputeE100
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE100
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200
+  name: TestComputeE200
+  nameWithType: TestComputeConstants.TestComputeE200
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE200
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000
+  name: TestComputeE1000
+  nameWithType: TestComputeConstants.TestComputeE1000
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeE1000
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50
+  name: TestComputePi50
+  nameWithType: TestComputeConstants.TestComputePi50
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi50
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100
+  name: TestComputePi100
+  nameWithType: TestComputeConstants.TestComputePi100
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi100
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200
+  name: TestComputePi200
+  nameWithType: TestComputeConstants.TestComputePi200
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi200
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000
+  name: TestComputePi1000
+  nameWithType: TestComputeConstants.TestComputePi1000
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi1000
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000
+  name: TestComputePi10000
+  nameWithType: TestComputeConstants.TestComputePi10000
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePi10000
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50
+  name: TestComputeTau50
+  nameWithType: TestComputeConstants.TestComputeTau50
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau50
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100
+  name: TestComputeTau100
+  nameWithType: TestComputeConstants.TestComputeTau100
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau100
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200
+  name: TestComputeTau200
+  nameWithType: TestComputeConstants.TestComputeTau200
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau200
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000
+  name: TestComputeTau1000
+  nameWithType: TestComputeConstants.TestComputeTau1000
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputeTau1000
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50
+  name: TestComputePhi50
+  nameWithType: TestComputeConstants.TestComputePhi50
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi50
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100
+  name: TestComputePhi100
+  nameWithType: TestComputeConstants.TestComputePhi100
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi100
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200
+  name: TestComputePhi200
+  nameWithType: TestComputeConstants.TestComputePhi200
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi200
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000
+  name: TestComputePhi1000
+  nameWithType: TestComputeConstants.TestComputePhi1000
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants.TestComputePhi1000

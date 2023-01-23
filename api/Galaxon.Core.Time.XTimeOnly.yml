@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Time.XTimeOnly
+  commentId: T:Galaxon.Core.Time.XTimeOnly
+  id: XTimeOnly
+  parent: Galaxon.Core.Time
+  children:
+  - Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly,TimeOnly)
+  - Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  langs:
+  - csharp
+  - vb
+  name: XTimeOnly
+  nameWithType: XTimeOnly
+  fullName: Galaxon.Core.Time.XTimeOnly
+  type: Class
+  source:
+    remote:
+      path: Core/Time/XTimeOnly.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XTimeOnly
+    path: ../Core/Core/Time/XTimeOnly.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nExtension methods for TimeOnly.\n"
+  example: []
+  syntax:
+    content: 'public static class XTimeOnly : object'
+    content.vb: >-
+      Public Module XTimeOnly
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  commentId: M:Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  id: ToTimeSpan(TimeOnly)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Time.XTimeOnly
+  langs:
+  - csharp
+  - vb
+  name: ToTimeSpan(TimeOnly)
+  nameWithType: XTimeOnly.ToTimeSpan(TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.ToTimeSpan(TimeOnly)
+  type: Method
+  source:
+    remote:
+      path: Core/Time/XTimeOnly.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToTimeSpan
+    path: ../Core/Core/Time/XTimeOnly.cs
+    startLine: 14
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nConvert a TimeOnly to a TimeSpan.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan ToTimeSpan(this TimeOnly time)
+    parameters:
+    - id: time
+      type: TimeOnly
+      description: The TimeOnly instance.
+    return:
+      type: TimeSpan
+      description: The new TimeSpan object
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToTimeSpan(time As TimeOnly) As TimeSpan
+  overload: Galaxon.Core.Time.XTimeOnly.ToTimeSpan*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly,TimeOnly)
+  commentId: M:Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly,TimeOnly)
+  id: Subtract(TimeOnly,TimeOnly)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Time.XTimeOnly
+  langs:
+  - csharp
+  - vb
+  name: Subtract(TimeOnly, TimeOnly)
+  nameWithType: XTimeOnly.Subtract(TimeOnly, TimeOnly)
+  fullName: Galaxon.Core.Time.XTimeOnly.Subtract(TimeOnly, TimeOnly)
+  type: Method
+  source:
+    remote:
+      path: Core/Time/XTimeOnly.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Subtract
+    path: ../Core/Core/Time/XTimeOnly.cs
+    startLine: 27
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nSubtract a start time from an end time to find the difference.\n"
+  example: []
+  syntax:
+    content: public static TimeSpan Subtract(this TimeOnly end, TimeOnly start)
+    parameters:
+    - id: end
+      type: TimeOnly
+      description: The end time.
+    - id: start
+      type: TimeOnly
+      description: The start time.
+    return:
+      type: TimeSpan
+      description: The time elapsed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Subtract(end As TimeOnly, start As TimeOnly) As TimeSpan
+  overload: Galaxon.Core.Time.XTimeOnly.Subtract*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Time
+  commentId: N:Galaxon.Core.Time
+  name: Galaxon.Core.Time
+  nameWithType: Galaxon.Core.Time
+  fullName: Galaxon.Core.Time
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Time.XTimeOnly.ToTimeSpan*
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.ToTimeSpan
+  name: ToTimeSpan
+  nameWithType: XTimeOnly.ToTimeSpan
+  fullName: Galaxon.Core.Time.XTimeOnly.ToTimeSpan
+- uid: TimeOnly
+  isExternal: true
+  name: TimeOnly
+  nameWithType: TimeOnly
+  fullName: TimeOnly
+- uid: TimeSpan
+  isExternal: true
+  name: TimeSpan
+  nameWithType: TimeSpan
+  fullName: TimeSpan
+- uid: Galaxon.Core.Time.XTimeOnly.Subtract*
+  commentId: Overload:Galaxon.Core.Time.XTimeOnly.Subtract
+  name: Subtract
+  nameWithType: XTimeOnly.Subtract
+  fullName: Galaxon.Core.Time.XTimeOnly.Subtract

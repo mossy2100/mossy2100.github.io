@@ -37,5 +37,10 @@ exports.postTransform = function (model) {
         model.children[0].children = childrens.sort(compare);
     }
 
+    if (model.type == "field")
+    {
+        model.json = JSON.stringify(model);
+    }
+
     return model;
 }

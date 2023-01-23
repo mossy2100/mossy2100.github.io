@@ -1,0 +1,596 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XFloat
+  commentId: T:Galaxon.Core.Numbers.XFloat
+  id: XFloat
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XFloat.Assemble(System.Byte,System.UInt16,System.UInt64)
+  - Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  - Galaxon.Core.Numbers.XFloat.GetRandom
+  - Galaxon.Core.Numbers.XFloat.MaxExp
+  - Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  - Galaxon.Core.Numbers.XFloat.MinExp
+  - Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  - Galaxon.Core.Numbers.XFloat.NumExpBits
+  - Galaxon.Core.Numbers.XFloat.NumFracBits
+  langs:
+  - csharp
+  - vb
+  name: XFloat
+  nameWithType: XFloat
+  fullName: Galaxon.Core.Numbers.XFloat
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XFloat
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 3
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods and other bonus stuff for float.
+  example: []
+  syntax:
+    content: 'public static class XFloat : object'
+    content.vb: >-
+      Public Module XFloat
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XFloat.NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XFloat.NumExpBits
+  id: NumExpBits
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: NumExpBits
+  nameWithType: XFloat.NumExpBits
+  fullName: Galaxon.Core.Numbers.XFloat.NumExpBits
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: NumExpBits
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 6
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The number of bits in the exponent.
+  example: []
+  syntax:
+    content: public const byte NumExpBits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const NumExpBits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XFloat.NumFracBits
+  commentId: F:Galaxon.Core.Numbers.XFloat.NumFracBits
+  id: NumFracBits
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: NumFracBits
+  nameWithType: XFloat.NumFracBits
+  fullName: Galaxon.Core.Numbers.XFloat.NumFracBits
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: NumFracBits
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 9
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The number of bits in the fraction.
+  example: []
+  syntax:
+    content: public const byte NumFracBits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const NumFracBits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XFloat.MinExp
+  commentId: F:Galaxon.Core.Numbers.XFloat.MinExp
+  id: MinExp
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: MinExp
+  nameWithType: XFloat.MinExp
+  fullName: Galaxon.Core.Numbers.XFloat.MinExp
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MinExp
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 12
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The minimum binary exponent supported by the type.
+  example: []
+  syntax:
+    content: public const short MinExp = null
+    return:
+      type: System.Int16
+    content.vb: Public Const MinExp As Short = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XFloat.MaxExp
+  commentId: F:Galaxon.Core.Numbers.XFloat.MaxExp
+  id: MaxExp
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: MaxExp
+  nameWithType: XFloat.MaxExp
+  fullName: Galaxon.Core.Numbers.XFloat.MaxExp
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MaxExp
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 15
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The maximum binary exponent supported by the type.
+  example: []
+  syntax:
+    content: public const short MaxExp = null
+    return:
+      type: System.Int16
+    content.vb: Public Const MaxExp As Short = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  commentId: P:Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  id: MaxPosSubnormalValue
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: MaxPosSubnormalValue
+  nameWithType: XFloat.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  type: Property
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MaxPosSubnormalValue
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 20
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nThe maximum positive subnormal value.\n"
+  example: []
+  syntax:
+    content: public static float MaxPosSubnormalValue { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property MaxPosSubnormalValue As Single
+  overload: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  commentId: P:Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  id: MinPosNormalValue
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: MinPosNormalValue
+  nameWithType: XFloat.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  type: Property
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MinPosNormalValue
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 25
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nThe minimum positive normal value.\n"
+  example: []
+  syntax:
+    content: public static float MinPosNormalValue { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property MinPosNormalValue As Single
+  overload: Galaxon.Core.Numbers.XFloat.MinPosNormalValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  commentId: M:Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  id: Disassemble(System.Single)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: Disassemble(Single)
+  nameWithType: XFloat.Disassemble(Single)
+  fullName: Galaxon.Core.Numbers.XFloat.Disassemble(System.Single)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Disassemble
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 31
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nDisassemble the float into its bitwise components.\n"
+  example: []
+  syntax:
+    content: public static (byte signBit, ushort expBits, ulong fracBits) Disassemble(this float x)
+    parameters:
+    - id: x
+      type: System.Single
+    return:
+      type: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Disassemble(x As Single) As(signBit As Byte, expBits As UShort, fracBits As ULong)(Of Byte , UShort, ULong)
+  overload: Galaxon.Core.Numbers.XFloat.Disassemble*
+  see:
+  - linkType: HRef
+    linkId: https://en.wikipedia.org/wiki/Single-precision_floating-point_format
+    altText: https://en.wikipedia.org/wiki/Single-precision_floating-point_format
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XFloat.Assemble(System.Byte,System.UInt16,System.UInt64)
+  commentId: M:Galaxon.Core.Numbers.XFloat.Assemble(System.Byte,System.UInt16,System.UInt64)
+  id: Assemble(System.Byte,System.UInt16,System.UInt64)
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: Assemble(Byte, UInt16, UInt64)
+  nameWithType: XFloat.Assemble(Byte, UInt16, UInt64)
+  fullName: Galaxon.Core.Numbers.XFloat.Assemble(System.Byte, System.UInt16, System.UInt64)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Assemble
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 41
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nAssemble a new float from parts.\n"
+  example: []
+  syntax:
+    content: public static float Assemble(byte signBit, ushort expBits, ulong fracBits)
+    parameters:
+    - id: signBit
+      type: System.Byte
+      description: The sign bit (1 or 0).
+    - id: expBits
+      type: System.UInt16
+      description: The exponent bits.
+    - id: fracBits
+      type: System.UInt64
+      description: The fraction bits.
+    return:
+      type: System.Single
+      description: The new float.
+    content.vb: Public Shared Function Assemble(signBit As Byte, expBits As UShort, fracBits As ULong) As Single
+  overload: Galaxon.Core.Numbers.XFloat.Assemble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XFloat.GetRandom
+  commentId: M:Galaxon.Core.Numbers.XFloat.GetRandom
+  id: GetRandom
+  parent: Galaxon.Core.Numbers.XFloat
+  langs:
+  - csharp
+  - vb
+  name: GetRandom()
+  nameWithType: XFloat.GetRandom()
+  fullName: Galaxon.Core.Numbers.XFloat.GetRandom()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloat.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetRandom
+    path: ../Core/Core/Numbers/XFloat.cs
+    startLine: 47
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet a random float.\n"
+  example: []
+  syntax:
+    content: public static float GetRandom()
+    return:
+      type: System.Single
+    content.vb: Public Shared Function GetRandom As Single
+  overload: Galaxon.Core.Numbers.XFloat.GetRandom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue*
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+  name: MaxPosSubnormalValue
+  nameWithType: XFloat.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MaxPosSubnormalValue
+- uid: System.Single
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Galaxon.Core.Numbers.XFloat.MinPosNormalValue*
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+  name: MinPosNormalValue
+  nameWithType: XFloat.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XFloat.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XFloat.Disassemble*
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.Disassemble
+  name: Disassemble
+  nameWithType: XFloat.Disassemble
+  fullName: Galaxon.Core.Numbers.XFloat.Disassemble
+- uid: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+  commentId: '!:System.ValueTuple{System.Byte,System.UInt16,System.UInt64}'
+  definition: System.ValueTuple`3
+  name: (, , )<Byte, UInt16, UInt64>
+  nameWithType: (, , )<Byte, UInt16, UInt64>
+  fullName: System.ValueTuple<System.Byte, System.UInt16, System.UInt64>
+  nameWithType.vb: (, , )(Of Byte, UInt16, UInt64)
+  fullName.vb: System.ValueTuple(Of System.Byte, System.UInt16, System.UInt64)
+  name.vb: (, , )(Of Byte, UInt16, UInt64)
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`3
+  isExternal: true
+  name: (, , )<, , >
+  nameWithType: (, , )<, , >
+  fullName: System.ValueTuple<, , >
+  nameWithType.vb: (, , )(Of , , )
+  fullName.vb: System.ValueTuple(Of , , )
+  name.vb: (, , )(Of , , )
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Numbers.XFloat.Assemble*
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.Assemble
+  name: Assemble
+  nameWithType: XFloat.Assemble
+  fullName: Galaxon.Core.Numbers.XFloat.Assemble
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt64
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: Galaxon.Core.Numbers.XFloat.GetRandom*
+  commentId: Overload:Galaxon.Core.Numbers.XFloat.GetRandom
+  name: GetRandom
+  nameWithType: XFloat.GetRandom
+  fullName: Galaxon.Core.Numbers.XFloat.GetRandom

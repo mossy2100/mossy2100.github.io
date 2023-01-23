@@ -1,0 +1,337 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestTrig
+  id: TestTrig
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh
+  - Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan
+  langs:
+  - csharp
+  - vb
+  name: TestTrig
+  nameWithType: TestTrig
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestTrig
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 2
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestTrig : object'
+    content.vb: >-
+      Public Class TestTrig
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin
+  id: TestSin
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestSin()
+  nameWithType: TestTrig.TestSin()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSin
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSin()
+    content.vb: Public Sub TestSin
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos
+  id: TestCos
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestCos()
+  nameWithType: TestTrig.TestCos()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCos
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 27
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCos()
+    content.vb: Public Sub TestCos
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan
+  id: TestTan
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestTan()
+  nameWithType: TestTrig.TestTan()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestTan
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 49
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestTan()
+    content.vb: Public Sub TestTan
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin
+  id: TestAsin
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestAsin()
+  nameWithType: TestTrig.TestAsin()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestAsin
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 77
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestAsin()
+    content.vb: Public Sub TestAsin
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos
+  id: TestAcos
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestAcos()
+  nameWithType: TestTrig.TestAcos()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestAcos
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 142
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestAcos()
+    content.vb: Public Sub TestAcos
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan
+  id: TestAtan
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestAtan()
+  nameWithType: TestTrig.TestAtan()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestAtan
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 164
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestAtan()
+    content.vb: Public Sub TestAtan
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh
+  id: TestSinh
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestSinh()
+  nameWithType: TestTrig.TestSinh()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSinh
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 186
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSinh()
+    content.vb: Public Sub TestSinh
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh
+  id: TestCosh
+  parent: Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: TestCosh()
+  nameWithType: TestTrig.TestCosh()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestTrig.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCosh
+    path: ../BigDecimal/BigDecimalTests/TestTrig.cs
+    startLine: 208
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCosh()
+    content.vb: Public Sub TestCosh
+  overload: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin
+  name: TestSin
+  nameWithType: TestTrig.TestSin
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSin
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos
+  name: TestCos
+  nameWithType: TestTrig.TestCos
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCos
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan
+  name: TestTan
+  nameWithType: TestTrig.TestTan
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestTan
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin
+  name: TestAsin
+  nameWithType: TestTrig.TestAsin
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAsin
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos
+  name: TestAcos
+  nameWithType: TestTrig.TestAcos
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAcos
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan
+  name: TestAtan
+  nameWithType: TestTrig.TestAtan
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestAtan
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh
+  name: TestSinh
+  nameWithType: TestTrig.TestSinh
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestSinh
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh
+  name: TestCosh
+  nameWithType: TestTrig.TestCosh
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig.TestCosh

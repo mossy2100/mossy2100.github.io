@@ -1,0 +1,345 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.XEnumerableBigDecimal
+  commentId: T:Galaxon.Numerics.XEnumerableBigDecimal
+  id: XEnumerableBigDecimal
+  parent: Galaxon.Numerics
+  children:
+  - Galaxon.Numerics.XEnumerableBigDecimal.Average(IEnumerable{Galaxon.Numerics.BigDecimal})
+  - Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean(IEnumerable{Galaxon.Numerics.BigDecimal})
+  - Galaxon.Numerics.XEnumerableBigDecimal.Product(IEnumerable{Galaxon.Numerics.BigDecimal})
+  - Galaxon.Numerics.XEnumerableBigDecimal.Sum(IEnumerable{Galaxon.Numerics.BigDecimal})
+  langs:
+  - csharp
+  - vb
+  name: XEnumerableBigDecimal
+  nameWithType: XEnumerableBigDecimal
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal
+  type: Class
+  source:
+    remote:
+      path: BigDecimal/XEnumerableBigDecimal.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: XEnumerableBigDecimal
+    path: ../BigDecimal/BigDecimal/XEnumerableBigDecimal.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+  namespace: Galaxon.Numerics
+  summary: "\nLINQ methods for IEnumerable{BigDecimal}.\n"
+  example: []
+  syntax:
+    content: 'public static class XEnumerableBigDecimal : object'
+    content.vb: >-
+      Public Module XEnumerableBigDecimal
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Sum(IEnumerable{Galaxon.Numerics.BigDecimal})
+  commentId: M:Galaxon.Numerics.XEnumerableBigDecimal.Sum(IEnumerable{Galaxon.Numerics.BigDecimal})
+  id: Sum(IEnumerable{Galaxon.Numerics.BigDecimal})
+  isExtensionMethod: true
+  parent: Galaxon.Numerics.XEnumerableBigDecimal
+  langs:
+  - csharp
+  - vb
+  name: Sum(IEnumerable<BigDecimal>)
+  nameWithType: XEnumerableBigDecimal.Sum(IEnumerable<BigDecimal>)
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Sum(IEnumerable<Galaxon.Numerics.BigDecimal>)
+  type: Method
+  source:
+    remote:
+      path: BigDecimal/XEnumerableBigDecimal.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: Sum
+    path: ../BigDecimal/BigDecimal/XEnumerableBigDecimal.cs
+    startLine: 10
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+  namespace: Galaxon.Numerics
+  summary: "\nGiven a collection of BigDecimal values, get the sum of the values.\n"
+  example: []
+  syntax:
+    content: public static BigDecimal Sum(this IEnumerable<BigDecimal> source)
+    parameters:
+    - id: source
+      type: IEnumerable{Galaxon.Numerics.BigDecimal}
+    return:
+      type: Galaxon.Numerics.BigDecimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(source As IEnumerable(Of BigDecimal)) As BigDecimal
+  overload: Galaxon.Numerics.XEnumerableBigDecimal.Sum*
+  nameWithType.vb: XEnumerableBigDecimal.Sum(IEnumerable(Of BigDecimal))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Numerics.XEnumerableBigDecimal.Sum(IEnumerable(Of Galaxon.Numerics.BigDecimal))
+  name.vb: Sum(IEnumerable(Of BigDecimal))
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Average(IEnumerable{Galaxon.Numerics.BigDecimal})
+  commentId: M:Galaxon.Numerics.XEnumerableBigDecimal.Average(IEnumerable{Galaxon.Numerics.BigDecimal})
+  id: Average(IEnumerable{Galaxon.Numerics.BigDecimal})
+  isExtensionMethod: true
+  parent: Galaxon.Numerics.XEnumerableBigDecimal
+  langs:
+  - csharp
+  - vb
+  name: Average(IEnumerable<BigDecimal>)
+  nameWithType: XEnumerableBigDecimal.Average(IEnumerable<BigDecimal>)
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Average(IEnumerable<Galaxon.Numerics.BigDecimal>)
+  type: Method
+  source:
+    remote:
+      path: BigDecimal/XEnumerableBigDecimal.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: Average
+    path: ../BigDecimal/BigDecimal/XEnumerableBigDecimal.cs
+    startLine: 16
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+  namespace: Galaxon.Numerics
+  summary: "\nGiven a collection of BigDecimal values, get the average.\n"
+  example: []
+  syntax:
+    content: public static BigDecimal Average(this IEnumerable<BigDecimal> source)
+    parameters:
+    - id: source
+      type: IEnumerable{Galaxon.Numerics.BigDecimal}
+    return:
+      type: Galaxon.Numerics.BigDecimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Average(source As IEnumerable(Of BigDecimal)) As BigDecimal
+  overload: Galaxon.Numerics.XEnumerableBigDecimal.Average*
+  nameWithType.vb: XEnumerableBigDecimal.Average(IEnumerable(Of BigDecimal))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Numerics.XEnumerableBigDecimal.Average(IEnumerable(Of Galaxon.Numerics.BigDecimal))
+  name.vb: Average(IEnumerable(Of BigDecimal))
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Product(IEnumerable{Galaxon.Numerics.BigDecimal})
+  commentId: M:Galaxon.Numerics.XEnumerableBigDecimal.Product(IEnumerable{Galaxon.Numerics.BigDecimal})
+  id: Product(IEnumerable{Galaxon.Numerics.BigDecimal})
+  isExtensionMethod: true
+  parent: Galaxon.Numerics.XEnumerableBigDecimal
+  langs:
+  - csharp
+  - vb
+  name: Product(IEnumerable<BigDecimal>)
+  nameWithType: XEnumerableBigDecimal.Product(IEnumerable<BigDecimal>)
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Product(IEnumerable<Galaxon.Numerics.BigDecimal>)
+  type: Method
+  source:
+    remote:
+      path: BigDecimal/XEnumerableBigDecimal.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: Product
+    path: ../BigDecimal/BigDecimal/XEnumerableBigDecimal.cs
+    startLine: 38
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+  namespace: Galaxon.Numerics
+  summary: "\nGiven a collection of BigDecimal values, get the product of the values.\n"
+  example: []
+  syntax:
+    content: public static BigDecimal Product(this IEnumerable<BigDecimal> source)
+    parameters:
+    - id: source
+      type: IEnumerable{Galaxon.Numerics.BigDecimal}
+    return:
+      type: Galaxon.Numerics.BigDecimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Product(source As IEnumerable(Of BigDecimal)) As BigDecimal
+  overload: Galaxon.Numerics.XEnumerableBigDecimal.Product*
+  nameWithType.vb: XEnumerableBigDecimal.Product(IEnumerable(Of BigDecimal))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Numerics.XEnumerableBigDecimal.Product(IEnumerable(Of Galaxon.Numerics.BigDecimal))
+  name.vb: Product(IEnumerable(Of BigDecimal))
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean(IEnumerable{Galaxon.Numerics.BigDecimal})
+  commentId: M:Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean(IEnumerable{Galaxon.Numerics.BigDecimal})
+  id: GeometricMean(IEnumerable{Galaxon.Numerics.BigDecimal})
+  isExtensionMethod: true
+  parent: Galaxon.Numerics.XEnumerableBigDecimal
+  langs:
+  - csharp
+  - vb
+  name: GeometricMean(IEnumerable<BigDecimal>)
+  nameWithType: XEnumerableBigDecimal.GeometricMean(IEnumerable<BigDecimal>)
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean(IEnumerable<Galaxon.Numerics.BigDecimal>)
+  type: Method
+  source:
+    remote:
+      path: BigDecimal/XEnumerableBigDecimal.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: GeometricMean
+    path: ../BigDecimal/BigDecimal/XEnumerableBigDecimal.cs
+    startLine: 44
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+  namespace: Galaxon.Numerics
+  summary: "\nGiven a collection of BigDecimal values, get the geometric mean.\n"
+  example: []
+  syntax:
+    content: public static BigDecimal GeometricMean(this IEnumerable<BigDecimal> source)
+    parameters:
+    - id: source
+      type: IEnumerable{Galaxon.Numerics.BigDecimal}
+    return:
+      type: Galaxon.Numerics.BigDecimal
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GeometricMean(source As IEnumerable(Of BigDecimal)) As BigDecimal
+  overload: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean*
+  nameWithType.vb: XEnumerableBigDecimal.GeometricMean(IEnumerable(Of BigDecimal))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean(IEnumerable(Of Galaxon.Numerics.BigDecimal))
+  name.vb: GeometricMean(IEnumerable(Of BigDecimal))
+references:
+- uid: Galaxon.Numerics
+  commentId: N:Galaxon.Numerics
+  name: Galaxon.Numerics
+  nameWithType: Galaxon.Numerics
+  fullName: Galaxon.Numerics
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Sum*
+  commentId: Overload:Galaxon.Numerics.XEnumerableBigDecimal.Sum
+  name: Sum
+  nameWithType: XEnumerableBigDecimal.Sum
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Sum
+- uid: IEnumerable{Galaxon.Numerics.BigDecimal}
+  commentId: '!:IEnumerable{Galaxon.Numerics.BigDecimal}'
+  definition: IEnumerable`1
+  name: IEnumerable<BigDecimal>
+  nameWithType: IEnumerable<BigDecimal>
+  fullName: IEnumerable<Galaxon.Numerics.BigDecimal>
+  nameWithType.vb: IEnumerable(Of BigDecimal)
+  fullName.vb: IEnumerable(Of Galaxon.Numerics.BigDecimal)
+  name.vb: IEnumerable(Of BigDecimal)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Galaxon.Numerics.BigDecimal
+    name: BigDecimal
+    nameWithType: BigDecimal
+    fullName: Galaxon.Numerics.BigDecimal
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Galaxon.Numerics.BigDecimal
+    name: BigDecimal
+    nameWithType: BigDecimal
+    fullName: Galaxon.Numerics.BigDecimal
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Numerics.BigDecimal
+  commentId: T:Galaxon.Numerics.BigDecimal
+  parent: Galaxon.Numerics
+  name: BigDecimal
+  nameWithType: BigDecimal
+  fullName: Galaxon.Numerics.BigDecimal
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Average*
+  commentId: Overload:Galaxon.Numerics.XEnumerableBigDecimal.Average
+  name: Average
+  nameWithType: XEnumerableBigDecimal.Average
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Average
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.Product*
+  commentId: Overload:Galaxon.Numerics.XEnumerableBigDecimal.Product
+  name: Product
+  nameWithType: XEnumerableBigDecimal.Product
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.Product
+- uid: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean*
+  commentId: Overload:Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean
+  name: GeometricMean
+  nameWithType: XEnumerableBigDecimal.GeometricMean
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal.GeometricMean

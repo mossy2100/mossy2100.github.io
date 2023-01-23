@@ -1,0 +1,700 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XBigInteger
+  commentId: T:Galaxon.Core.Numbers.XBigInteger
+  id: XBigInteger
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XBigInteger.DigitSum(BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger,BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.IsPalindromic(BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger,BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.NumDigits(BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.Reverse(BigInteger)
+  - Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger})
+  - Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  - Galaxon.Core.Numbers.XBigInteger.ToUnsigned(BigInteger)
+  langs:
+  - csharp
+  - vb
+  name: XBigInteger
+  nameWithType: XBigInteger
+  fullName: Galaxon.Core.Numbers.XBigInteger
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XBigInteger
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 6
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods for BigInteger.
+  example: []
+  syntax:
+    content: 'public static class XBigInteger : object'
+    content.vb: >-
+      Public Module XBigInteger
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XBigInteger.Reverse(BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.Reverse(BigInteger)
+  id: Reverse(BigInteger)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: Reverse(BigInteger)
+  nameWithType: XBigInteger.Reverse(BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.Reverse(BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Reverse
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 23
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nReverse a BigInteger.\ne.g. 123 becomes 321.\n"
+  example: []
+  syntax:
+    content: public static BigInteger Reverse(this BigInteger n)
+    parameters:
+    - id: n
+      type: BigInteger
+    return:
+      type: BigInteger
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Reverse(n As BigInteger) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.Reverse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.IsPalindromic(BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.IsPalindromic(BigInteger)
+  id: IsPalindromic(BigInteger)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: IsPalindromic(BigInteger)
+  nameWithType: XBigInteger.IsPalindromic(BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.IsPalindromic(BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: IsPalindromic
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 29
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nCheck if a BigInteger is palindromic.\n"
+  example: []
+  syntax:
+    content: public static bool IsPalindromic(this BigInteger n)
+    parameters:
+    - id: n
+      type: BigInteger
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsPalindromic(n As BigInteger) As Boolean
+  overload: Galaxon.Core.Numbers.XBigInteger.IsPalindromic*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.DigitSum(BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.DigitSum(BigInteger)
+  id: DigitSum(BigInteger)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: DigitSum(BigInteger)
+  nameWithType: XBigInteger.DigitSum(BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.DigitSum(BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: DigitSum
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 36
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nSum of the digits in a BigInteger.\nIf present, a negative sign is ignored.\n"
+  example: []
+  syntax:
+    content: public static BigInteger DigitSum(this BigInteger n)
+    parameters:
+    - id: n
+      type: BigInteger
+    return:
+      type: BigInteger
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function DigitSum(n As BigInteger) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.DigitSum*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.NumDigits(BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.NumDigits(BigInteger)
+  id: NumDigits(BigInteger)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: NumDigits(BigInteger)
+  nameWithType: XBigInteger.NumDigits(BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.NumDigits(BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: NumDigits
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 45
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the number of digits in the BigInteger.\nThe result will be the same for a positive or negative value.\nI tried doing this with double.Log() but because double is imprecise it gives wrong results\nfor values close to but less than powers of 10.\n"
+  example: []
+  syntax:
+    content: public static int NumDigits(this BigInteger n)
+    parameters:
+    - id: n
+      type: BigInteger
+    return:
+      type: System.Int32
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function NumDigits(n As BigInteger) As Integer
+  overload: Galaxon.Core.Numbers.XBigInteger.NumDigits*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.ToUnsigned(BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.ToUnsigned(BigInteger)
+  id: ToUnsigned(BigInteger)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: ToUnsigned(BigInteger)
+  nameWithType: XBigInteger.ToUnsigned(BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.ToUnsigned(BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToUnsigned
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 56
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the unsigned, twos-complement version of the value, containing the fewest number of\nbytes.\n"
+  example: []
+  syntax:
+    content: public static BigInteger ToUnsigned(this BigInteger n)
+    parameters:
+    - id: n
+      type: BigInteger
+    return:
+      type: BigInteger
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToUnsigned(n As BigInteger) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.ToUnsigned*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger,BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger,BigInteger)
+  id: LeastCommonMultiple(BigInteger,BigInteger)
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: LeastCommonMultiple(BigInteger, BigInteger)
+  nameWithType: XBigInteger.LeastCommonMultiple(BigInteger, BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple(BigInteger, BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: LeastCommonMultiple
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 92
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nFind the smallest integer which is a multiple of both arguments.\nSynonyms: lowest common multiple, smallest common multiple.\nFor example, the LCM of 4 and 6 is 12.\nWhen adding fractions, the lowest common denominator is equal to the LCM of the\ndenominators.\n"
+  example: []
+  syntax:
+    content: public static BigInteger LeastCommonMultiple(BigInteger a, BigInteger b)
+    parameters:
+    - id: a
+      type: BigInteger
+      description: First integer.
+    - id: b
+      type: BigInteger
+      description: Second integer.
+    return:
+      type: BigInteger
+      description: The least common multiple.
+    content.vb: Public Shared Function LeastCommonMultiple(a As BigInteger, b As BigInteger) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger,BigInteger)
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger,BigInteger)
+  id: GreatestCommonDivisor(BigInteger,BigInteger)
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: GreatestCommonDivisor(BigInteger, BigInteger)
+  nameWithType: XBigInteger.GreatestCommonDivisor(BigInteger, BigInteger)
+  fullName: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor(BigInteger, BigInteger)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GreatestCommonDivisor
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 115
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nDetermine the greatest common divisor of two integers.\nSynonyms: greatest common factor, highest common factor.\n"
+  example: []
+  syntax:
+    content: public static BigInteger GreatestCommonDivisor(BigInteger a, BigInteger b)
+    parameters:
+    - id: a
+      type: BigInteger
+    - id: b
+      type: BigInteger
+    return:
+      type: BigInteger
+    content.vb: Public Shared Function GreatestCommonDivisor(a As BigInteger, b As BigInteger) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger})
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger})
+  id: Sum(IEnumerable{BigInteger})
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: Sum(IEnumerable<BigInteger>)
+  nameWithType: XBigInteger.Sum(IEnumerable<BigInteger>)
+  fullName: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable<BigInteger>)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Sum
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 160
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the sum of all values in the collection.\n"
+  example: []
+  syntax:
+    content: public static BigInteger Sum(this IEnumerable<BigInteger> nums)
+    parameters:
+    - id: nums
+      type: IEnumerable{BigInteger}
+    return:
+      type: BigInteger
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(nums As IEnumerable(Of BigInteger)) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.Sum*
+  nameWithType.vb: XBigInteger.Sum(IEnumerable(Of BigInteger))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable(Of BigInteger))
+  name.vb: Sum(IEnumerable(Of BigInteger))
+- uid: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  commentId: M:Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  id: Sum(IEnumerable{BigInteger},Func{BigInteger,BigInteger})
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBigInteger
+  langs:
+  - csharp
+  - vb
+  name: Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  nameWithType: XBigInteger.Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  fullName: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable<BigInteger>, Func<BigInteger, BigInteger>)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBigInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Sum
+    path: ../Core/Core/Numbers/XBigInteger.cs
+    startLine: 166
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the sum of all values in the collection, transformed by the supplied function.\n"
+  example: []
+  syntax:
+    content: public static BigInteger Sum(this IEnumerable<BigInteger> source, Func<BigInteger, BigInteger> func)
+    parameters:
+    - id: source
+      type: IEnumerable{BigInteger}
+    - id: func
+      type: Func{BigInteger,BigInteger}
+    return:
+      type: BigInteger
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Sum(source As IEnumerable(Of BigInteger), func As Func(Of BigInteger, BigInteger)) As BigInteger
+  overload: Galaxon.Core.Numbers.XBigInteger.Sum*
+  nameWithType.vb: XBigInteger.Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XBigInteger.Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
+  name.vb: Sum(IEnumerable(Of BigInteger), Func(Of BigInteger, BigInteger))
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Numbers.XBigInteger.Reverse*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.Reverse
+  name: Reverse
+  nameWithType: XBigInteger.Reverse
+  fullName: Galaxon.Core.Numbers.XBigInteger.Reverse
+- uid: BigInteger
+  isExternal: true
+  name: BigInteger
+  nameWithType: BigInteger
+  fullName: BigInteger
+- uid: Galaxon.Core.Numbers.XBigInteger.IsPalindromic*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.IsPalindromic
+  name: IsPalindromic
+  nameWithType: XBigInteger.IsPalindromic
+  fullName: Galaxon.Core.Numbers.XBigInteger.IsPalindromic
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Galaxon.Core.Numbers.XBigInteger.DigitSum*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.DigitSum
+  name: DigitSum
+  nameWithType: XBigInteger.DigitSum
+  fullName: Galaxon.Core.Numbers.XBigInteger.DigitSum
+- uid: Galaxon.Core.Numbers.XBigInteger.NumDigits*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.NumDigits
+  name: NumDigits
+  nameWithType: XBigInteger.NumDigits
+  fullName: Galaxon.Core.Numbers.XBigInteger.NumDigits
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Galaxon.Core.Numbers.XBigInteger.ToUnsigned*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.ToUnsigned
+  name: ToUnsigned
+  nameWithType: XBigInteger.ToUnsigned
+  fullName: Galaxon.Core.Numbers.XBigInteger.ToUnsigned
+- uid: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple
+  name: LeastCommonMultiple
+  nameWithType: XBigInteger.LeastCommonMultiple
+  fullName: Galaxon.Core.Numbers.XBigInteger.LeastCommonMultiple
+- uid: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor
+  name: GreatestCommonDivisor
+  nameWithType: XBigInteger.GreatestCommonDivisor
+  fullName: Galaxon.Core.Numbers.XBigInteger.GreatestCommonDivisor
+- uid: Galaxon.Core.Numbers.XBigInteger.Sum*
+  commentId: Overload:Galaxon.Core.Numbers.XBigInteger.Sum
+  name: Sum
+  nameWithType: XBigInteger.Sum
+  fullName: Galaxon.Core.Numbers.XBigInteger.Sum
+- uid: IEnumerable{BigInteger}
+  commentId: '!:IEnumerable{BigInteger}'
+  definition: IEnumerable`1
+  name: IEnumerable<BigInteger>
+  nameWithType: IEnumerable<BigInteger>
+  fullName: IEnumerable<BigInteger>
+  nameWithType.vb: IEnumerable(Of BigInteger)
+  fullName.vb: IEnumerable(Of BigInteger)
+  name.vb: IEnumerable(Of BigInteger)
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: IEnumerable`1
+  isExternal: true
+  name: IEnumerable<>
+  nameWithType: IEnumerable<>
+  fullName: IEnumerable<>
+  nameWithType.vb: IEnumerable(Of )
+  fullName.vb: IEnumerable(Of )
+  name.vb: IEnumerable(Of )
+  spec.csharp:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func{BigInteger,BigInteger}
+  commentId: '!:Func{BigInteger,BigInteger}'
+  definition: Func`2
+  name: Func<BigInteger, BigInteger>
+  nameWithType: Func<BigInteger, BigInteger>
+  fullName: Func<BigInteger, BigInteger>
+  nameWithType.vb: Func(Of BigInteger, BigInteger)
+  fullName.vb: Func(Of BigInteger, BigInteger)
+  name.vb: Func(Of BigInteger, BigInteger)
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: BigInteger
+    name: BigInteger
+    nameWithType: BigInteger
+    fullName: BigInteger
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Func`2
+  isExternal: true
+  name: Func<, >
+  nameWithType: Func<, >
+  fullName: Func<, >
+  nameWithType.vb: Func(Of , )
+  fullName.vb: Func(Of , )
+  name.vb: Func(Of , )
+  spec.csharp:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Func`2
+    name: Func
+    nameWithType: Func
+    fullName: Func
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

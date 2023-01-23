@@ -96,6 +96,7 @@
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static readonly Dictionary&lt;char, string&gt; SmallCapsChars</code></pre>
+                  <div></div>
               </div>
                   <h5 class="fieldValue">Field Value</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -133,6 +134,7 @@
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static bool EqualsIgnoreCase(this string str1, string? str2)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -182,6 +184,83 @@
               </span>
               </div>
   
+              <a id="Galaxon_Core_Strings_XString_GroupDigits_" data-uid="Galaxon.Core.Strings.XString.GroupDigits*"></a>
+          <h4 id="Galaxon_Core_Strings_XString_GroupDigits_System_String_System_Char_System_Byte_" data-uid="Galaxon.Core.Strings.XString.GroupDigits(System.String,System.Char,System.Byte)">GroupDigits(String, Char, Byte)</h4>
+          <div class="markdown level1 summary"><p>Given a string of digits, format in groups using the specified group separator and group
+size.</p>
+<p>This method is designed for formatting numbers but it could be used for other purposes,
+since the method doesn't check if the characters are actually digits. It just assumes they
+are. Apart from saving time, it allows the method to be used for hexadecimal or other bases.</p>
+<p>Grouping starts from the right. Here's how you would format an integer:
+&quot;12345678&quot;.GroupDigits(',', 3) =&gt; &quot;12,345,678&quot;</p>
+<p>You can chain methods if you need to, e.g.
+&quot;11111000000001010101&quot;.GroupDigits('<em>', 8) =&gt; &quot;1111_10000000_01010101&quot;
+&quot;11111000000001010101&quot;.ZeroPad(24).GroupDigits('</em>', 8) =&gt; &quot;00001111_10000000_01010101&quot;
+123456789.ToHex().ZeroPad(8).GroupDigits(' ') =&gt; &quot;075b cd15&quot;</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static string GroupDigits(this string str, char separator = '_', byte size = null)</code></pre>
+                  <div></div>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.String</span></td>
+                      <td><span class="parametername">str</span></td>
+                      <td><p>The string, nominally of digits, but can be whatever.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Char</span></td>
+                      <td><span class="parametername">separator</span></td>
+                      <td><p>The group separator character.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Byte</span></td>
+                      <td><span class="parametername">size</span></td>
+                      <td><p>The group size.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.String</span></td>
+                          <td><p>The formatted string.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_GroupDigits_System_String_System_Char_System_Byte_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.GroupDigits(System.String%2CSystem.Char%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L268">View Source</a>
+              </span>
+              </div>
+  
               <a id="Galaxon_Core_Strings_XString_IsAscii_" data-uid="Galaxon.Core.Strings.XString.IsAscii*"></a>
           <h4 id="Galaxon_Core_Strings_XString_IsAscii_System_String_" data-uid="Galaxon.Core.Strings.XString.IsAscii(System.String)">IsAscii(String)</h4>
           <div class="markdown level1 summary"><p>Check if a string contains only ASCII characters.</p>
@@ -190,6 +269,7 @@
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static bool IsAscii(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -231,7 +311,7 @@
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_IsAscii_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.IsAscii(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L204">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L183">View Source</a>
               </span>
               </div>
   
@@ -243,6 +323,7 @@
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static bool IsPalindrome(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -283,7 +364,7 @@
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_IsPalindrome_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.IsPalindrome(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L145">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L124">View Source</a>
               </span>
               </div>
   
@@ -299,6 +380,7 @@ do. I don't perceive this as necessary - please let me know if you disagree.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string MakeSlug(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -341,7 +423,7 @@ do. I don't perceive this as necessary - please let me know if you disagree.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_MakeSlug_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.MakeSlug(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L216">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L195">View Source</a>
               </span>
               </div>
   
@@ -353,6 +435,7 @@ do. I don't perceive this as necessary - please let me know if you disagree.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string Repeat(string s, int n)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -398,7 +481,7 @@ do. I don't perceive this as necessary - please let me know if you disagree.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_Repeat_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.Repeat(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L115">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L94">View Source</a>
               </span>
               </div>
   
@@ -417,6 +500,7 @@ Example use cases:</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string ReplaceChars(this string str, Dictionary&lt;char, string&gt; charMap, bool keepCharsNotInMap = true)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -472,7 +556,7 @@ map, either keep it (true) or skip it (false).</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ReplaceChars_System_String_Dictionary_System_Char_System_String__System_Boolean_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ReplaceChars(System.String%2CDictionary%7BSystem.Char%2CSystem.String%7D%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L89">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L68">View Source</a>
               </span>
               </div>
   
@@ -485,6 +569,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string Reverse(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -525,7 +610,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_Reverse_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.Reverse(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L135">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L114">View Source</a>
               </span>
               </div>
   
@@ -537,6 +622,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string StripBrackets(this string str, bool round = true, bool square = true, bool curly = true, bool angle = true)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -603,7 +689,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripBrackets_System_String_System_Boolean_System_Boolean_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripBrackets(System.String%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L167">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L146">View Source</a>
               </span>
               </div>
   
@@ -615,6 +701,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string StripTags(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -657,7 +744,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripTags_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripTags(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L196">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L175">View Source</a>
               </span>
               </div>
   
@@ -669,6 +756,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string StripWhitespace(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -711,166 +799,7 @@ e.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_StripWhitespace_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.StripWhitespace(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L154">View Source</a>
-              </span>
-              </div>
-  
-              <a id="Galaxon_Core_Strings_XString_ToDecimal_" data-uid="Galaxon.Core.Strings.XString.ToDecimal*"></a>
-          <h4 id="Galaxon_Core_Strings_XString_ToDecimal_System_String_" data-uid="Galaxon.Core.Strings.XString.ToDecimal(System.String)">ToDecimal(String)</h4>
-          <div class="markdown level1 summary"><p>Convert string to decimal without throwing.
-If the string cannot be parsed into a decimal, return null.</p>
-</div>
-          <div class="markdown level1 conceptual"></div>
-          <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                  <pre><code class="lang-csharp hljs">public static decimal? ToDecimal(this string str)</code></pre>
-              </div>
-                  <h5 class="parameters">Parameters</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Name</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                  <tbody>
-                  <tr>
-                      <td><span class="xref">System.String</span></td>
-                      <td><span class="parametername">str</span></td>
-                      <td></td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  <h5 class="returns">Returns</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      <tr>
-                          <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Decimal</span>&gt;</td>
-                          <td></td>
-                      </tr>
-                      </tbody>
-                  </table>
-  
-              <div class="contrib">
-                      <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToDecimal_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToDecimal(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-                      <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L73">View Source</a>
-              </span>
-              </div>
-  
-              <a id="Galaxon_Core_Strings_XString_ToDouble_" data-uid="Galaxon.Core.Strings.XString.ToDouble*"></a>
-          <h4 id="Galaxon_Core_Strings_XString_ToDouble_System_String_" data-uid="Galaxon.Core.Strings.XString.ToDouble(System.String)">ToDouble(String)</h4>
-          <div class="markdown level1 summary"><p>Convert string to double without throwing.
-If the string cannot be parsed into a double, return null.</p>
-</div>
-          <div class="markdown level1 conceptual"></div>
-          <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                  <pre><code class="lang-csharp hljs">public static double? ToDouble(this string str)</code></pre>
-              </div>
-                  <h5 class="parameters">Parameters</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Name</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                  <tbody>
-                  <tr>
-                      <td><span class="xref">System.String</span></td>
-                      <td><span class="parametername">str</span></td>
-                      <td></td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  <h5 class="returns">Returns</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      <tr>
-                          <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
-                          <td></td>
-                      </tr>
-                      </tbody>
-                  </table>
-  
-              <div class="contrib">
-                      <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToDouble_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToDouble(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-                      <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L66">View Source</a>
-              </span>
-              </div>
-  
-              <a id="Galaxon_Core_Strings_XString_ToInt_" data-uid="Galaxon.Core.Strings.XString.ToInt*"></a>
-          <h4 id="Galaxon_Core_Strings_XString_ToInt_System_String_" data-uid="Galaxon.Core.Strings.XString.ToInt(System.String)">ToInt(String)</h4>
-          <div class="markdown level1 summary"><p>Convert string to int without throwing.
-If the string cannot be parsed into an int, return null.</p>
-</div>
-          <div class="markdown level1 conceptual"></div>
-          <h5 class="decalaration">Declaration</h5>
-              <div class="codewrapper">
-                  <pre><code class="lang-csharp hljs">public static int? ToInt(this string str)</code></pre>
-              </div>
-                  <h5 class="parameters">Parameters</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Name</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                  <tbody>
-                  <tr>
-                      <td><span class="xref">System.String</span></td>
-                      <td><span class="parametername">str</span></td>
-                      <td></td>
-                  </tr>
-                  </tbody>
-                  </table>
-                  <h5 class="returns">Returns</h5>
-                  <table class="table table-bordered table-striped table-condensed">
-                      <thead>
-                      <tr>
-                          <th>Type</th>
-                          <th>Description</th>
-                      </tr>
-                      </thead>
-                      <tbody>
-                      <tr>
-                          <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
-                          <td></td>
-                      </tr>
-                      </tbody>
-                  </table>
-  
-              <div class="contrib">
-                      <span class="small pull-right mobile-hide">
-                  <span class="divider">|</span>
-                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToInt_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToInt(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-              </span>
-                      <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L59">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L133">View Source</a>
               </span>
               </div>
   
@@ -884,6 +813,7 @@ language), you may wish to call AnyAscii.Transliterate() on the string first.</p
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string ToSmallCaps(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -924,7 +854,7 @@ language), you may wish to call AnyAscii.Transliterate() on the string first.</p
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToSmallCaps_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToSmallCaps(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L255">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L216">View Source</a>
               </span>
               </div>
   
@@ -937,6 +867,7 @@ Unicode subscript versions.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string ToSubscript(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -979,7 +910,7 @@ Unicode subscript versions.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToSubscript_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToSubscript(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L246">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L236">View Source</a>
               </span>
               </div>
   
@@ -992,6 +923,7 @@ Unicode superscript versions.</p>
           <h5 class="decalaration">Declaration</h5>
               <div class="codewrapper">
                   <pre><code class="lang-csharp hljs">public static string ToSuperscript(this string str)</code></pre>
+                  <div></div>
               </div>
                   <h5 class="parameters">Parameters</h5>
                   <table class="table table-bordered table-striped table-condensed">
@@ -1034,7 +966,68 @@ Unicode superscript versions.</p>
                   <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ToSuperscript_System_String_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ToSuperscript(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
               </span>
                       <span class="small pull-right mobile-hide">
-                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L237">View Source</a>
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L227">View Source</a>
+              </span>
+              </div>
+  
+              <a id="Galaxon_Core_Strings_XString_ZeroPad_" data-uid="Galaxon.Core.Strings.XString.ZeroPad*"></a>
+          <h4 id="Galaxon_Core_Strings_XString_ZeroPad_System_String_System_Int32_" data-uid="Galaxon.Core.Strings.XString.ZeroPad(System.String,System.Int32)">ZeroPad(String, Int32)</h4>
+          <div class="markdown level1 summary"><p>Pad a string on the left with 0s to make it up to a certain width.</p>
+</div>
+          <div class="markdown level1 conceptual"></div>
+          <h5 class="decalaration">Declaration</h5>
+              <div class="codewrapper">
+                  <pre><code class="lang-csharp hljs">public static string ZeroPad(this string str, int width)</code></pre>
+                  <div></div>
+              </div>
+                  <h5 class="parameters">Parameters</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Name</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                  <tbody>
+                  <tr>
+                      <td><span class="xref">System.String</span></td>
+                      <td><span class="parametername">str</span></td>
+                      <td><p>The string.</p>
+</td>
+                  </tr>
+                  <tr>
+                      <td><span class="xref">System.Int32</span></td>
+                      <td><span class="parametername">width</span></td>
+                      <td><p>The minimum number of characters in the the result.</p>
+</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  <h5 class="returns">Returns</h5>
+                  <table class="table table-bordered table-striped table-condensed">
+                      <thead>
+                      <tr>
+                          <th>Type</th>
+                          <th>Description</th>
+                      </tr>
+                      </thead>
+                      <tbody>
+                      <tr>
+                          <td><span class="xref">System.String</span></td>
+                          <td><p>The zero-padded string.</p>
+</td>
+                      </tr>
+                      </tbody>
+                  </table>
+  
+              <div class="contrib">
+                      <span class="small pull-right mobile-hide">
+                  <span class="divider">|</span>
+                  <a href="https://github.com/mossy2100/Core/new/main/apiSpec/new?filename=Galaxon_Core_Strings_XString_ZeroPad_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20Galaxon.Core.Strings.XString.ZeroPad(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+              </span>
+                      <span class="small pull-right mobile-hide">
+                  <a href="https://github.com/mossy2100/Core/blob/main/Core/Strings/XString.cs/#L245">View Source</a>
               </span>
               </div>
   

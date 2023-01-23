@@ -1,0 +1,851 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestExpLog
+  id: TestExpLog
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts
+  langs:
+  - csharp
+  - vb
+  name: TestExpLog
+  nameWithType: TestExpLog
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestExpLog
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestExpLog : object'
+    content.vb: >-
+      Public Class TestExpLog
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0
+  id: TestSqrt0
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrt0()
+  nameWithType: TestExpLog.TestSqrt0()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrt0
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSqrt0()
+    content.vb: Public Sub TestSqrt0
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1
+  id: TestSqrt1
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrt1()
+  nameWithType: TestExpLog.TestSqrt1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrt1
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 14
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSqrt1()
+    content.vb: Public Sub TestSqrt1
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared
+  id: TestSqrtPiSquared
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtPiSquared()
+  nameWithType: TestExpLog.TestSqrtPiSquared()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtPiSquared
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 20
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSqrtPiSquared()
+    content.vb: Public Sub TestSqrtPiSquared
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts
+  id: TestSqrtSmallInts
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtSmallInts()
+  nameWithType: TestExpLog.TestSqrtSmallInts()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtSmallInts
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 29
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSqrtSmallInts()
+    content.vb: Public Sub TestSqrtSmallInts
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig
+  id: TestSqrtBig
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtBig()
+  nameWithType: TestExpLog.TestSqrtBig()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtBig
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 45
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nUsed https://keisan.casio.com/calculator to get expected result.\n"
+  example: []
+  syntax:
+    content: public void TestSqrtBig()
+    content.vb: Public Sub TestSqrtBig
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall
+  id: TestSqrtSmall
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtSmall()
+  nameWithType: TestExpLog.TestSqrtSmall()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtSmall
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 59
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nUsed https://keisan.casio.com/calculator to get expected result.\n"
+  example: []
+  syntax:
+    content: public void TestSqrtSmall()
+    content.vb: Public Sub TestSqrtSmall
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble
+  id: TestSqrtBiggerThanBiggestDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtBiggerThanBiggestDouble()
+  nameWithType: TestExpLog.TestSqrtBiggerThanBiggestDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtBiggerThanBiggestDouble
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 75
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nIn this test, both the initial argument and the square root are larger than the largest\npossible double value.\nUsed https://keisan.casio.com/calculator to get expected result.\n"
+  example: []
+  syntax:
+    content: public void TestSqrtBiggerThanBiggestDouble()
+    content.vb: Public Sub TestSqrtBiggerThanBiggestDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble
+  id: TestSqrtSmallerThanSmallestDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtSmallerThanSmallestDouble()
+  nameWithType: TestExpLog.TestSqrtSmallerThanSmallestDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtSmallerThanSmallestDouble
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 91
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nIn this test, both the initial argument and the square root are smaller than the largest\npossible double value.\nUsed https://keisan.casio.com/calculator to get expected result.\n"
+  example: []
+  syntax:
+    content: public void TestSqrtSmallerThanSmallestDouble()
+    content.vb: Public Sub TestSqrtSmallerThanSmallestDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative
+  id: TestSqrtNegative
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestSqrtNegative()
+  nameWithType: TestExpLog.TestSqrtNegative()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestSqrtNegative
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 102
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestSqrtNegative()
+    content.vb: Public Sub TestSqrtNegative
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0
+  id: TestCbrt0
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestCbrt0()
+  nameWithType: TestExpLog.TestCbrt0()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCbrt0
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 108
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCbrt0()
+    content.vb: Public Sub TestCbrt0
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1
+  id: TestCbrt1
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestCbrt1()
+  nameWithType: TestExpLog.TestCbrt1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCbrt1
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 114
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCbrt1()
+    content.vb: Public Sub TestCbrt1
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues
+  id: TestCbrtSmallValues
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestCbrtSmallValues()
+  nameWithType: TestExpLog.TestCbrtSmallValues()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCbrtSmallValues
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 122
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestCbrtSmallValues()
+    content.vb: Public Sub TestCbrtSmallValues
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA
+  id: TestRootNLargeNIntegerA
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestRootNLargeNIntegerA()
+  nameWithType: TestExpLog.TestRootNLargeNIntegerA()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRootNLargeNIntegerA
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 135
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRootNLargeNIntegerA()
+    content.vb: Public Sub TestRootNLargeNIntegerA
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA
+  id: TestRootNLargeNDecimalA
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestRootNLargeNDecimalA()
+  nameWithType: TestExpLog.TestRootNLargeNDecimalA()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRootNLargeNDecimalA
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 144
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRootNLargeNDecimalA()
+    content.vb: Public Sub TestRootNLargeNDecimalA
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp
+  id: TestExp
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestExp()
+  nameWithType: TestExpLog.TestExp()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestExp
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 155
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestExp()
+    content.vb: Public Sub TestExp
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp
+  id: TestPowNegativeBaseFractionalExp
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestPowNegativeBaseFractionalExp()
+  nameWithType: TestExpLog.TestPowNegativeBaseFractionalExp()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestPowNegativeBaseFractionalExp
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 196
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestPowNegativeBaseFractionalExp()
+    content.vb: Public Sub TestPowNegativeBaseFractionalExp
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+  id: TestRootNWithNegativeArgumentAndOddRoot
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestRootNWithNegativeArgumentAndOddRoot()
+  nameWithType: TestExpLog.TestRootNWithNegativeArgumentAndOddRoot()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRootNWithNegativeArgumentAndOddRoot
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 204
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRootNWithNegativeArgumentAndOddRoot()
+    content.vb: Public Sub TestRootNWithNegativeArgumentAndOddRoot
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+  id: TestRootNWithNegativeArgumentAndEvenRoot
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestRootNWithNegativeArgumentAndEvenRoot()
+  nameWithType: TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRootNWithNegativeArgumentAndEvenRoot
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 213
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRootNWithNegativeArgumentAndEvenRoot()
+    content.vb: Public Sub TestRootNWithNegativeArgumentAndEvenRoot
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow
+  id: TestCubeRootOfNegativeValueUsingPow
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestCubeRootOfNegativeValueUsingPow()
+  nameWithType: TestExpLog.TestCubeRootOfNegativeValueUsingPow()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestCubeRootOfNegativeValueUsingPow
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 225
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nThis shows how the cube root of a negative value cannot be achieved using Pow(), because a\nBigDecimal cannot represent 1/3 exactly. You have to use Cbrt() or RootN().\n"
+  example: []
+  syntax:
+    content: public void TestCubeRootOfNegativeValueUsingPow()
+    content.vb: Public Sub TestCubeRootOfNegativeValueUsingPow
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog
+  id: TestLog
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestLog()
+  nameWithType: TestExpLog.TestLog()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestLog
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 232
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestLog()
+    content.vb: Public Sub TestLog
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble
+  id: TestLogDouble
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: TestLogDouble()
+  nameWithType: TestExpLog.TestLogDouble()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestLogDouble
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 290
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestLogDouble()
+    content.vb: Public Sub TestLogDouble
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest
+  id: LogSpeedTest
+  parent: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  langs:
+  - csharp
+  - vb
+  name: LogSpeedTest()
+  nameWithType: TestExpLog.LogSpeedTest()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestExpLog.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: LogSpeedTest
+    path: ../BigDecimal/BigDecimalTests/TestExpLog.cs
+    startLine: 315
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void LogSpeedTest()
+    content.vb: Public Sub LogSpeedTest
+  overload: Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0
+  name: TestSqrt0
+  nameWithType: TestExpLog.TestSqrt0
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt0
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1
+  name: TestSqrt1
+  nameWithType: TestExpLog.TestSqrt1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrt1
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared
+  name: TestSqrtPiSquared
+  nameWithType: TestExpLog.TestSqrtPiSquared
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtPiSquared
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts
+  name: TestSqrtSmallInts
+  nameWithType: TestExpLog.TestSqrtSmallInts
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallInts
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig
+  name: TestSqrtBig
+  nameWithType: TestExpLog.TestSqrtBig
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBig
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall
+  name: TestSqrtSmall
+  nameWithType: TestExpLog.TestSqrtSmall
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmall
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble
+  name: TestSqrtBiggerThanBiggestDouble
+  nameWithType: TestExpLog.TestSqrtBiggerThanBiggestDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtBiggerThanBiggestDouble
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble
+  name: TestSqrtSmallerThanSmallestDouble
+  nameWithType: TestExpLog.TestSqrtSmallerThanSmallestDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtSmallerThanSmallestDouble
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative
+  name: TestSqrtNegative
+  nameWithType: TestExpLog.TestSqrtNegative
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestSqrtNegative
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0
+  name: TestCbrt0
+  nameWithType: TestExpLog.TestCbrt0
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt0
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1
+  name: TestCbrt1
+  nameWithType: TestExpLog.TestCbrt1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrt1
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues
+  name: TestCbrtSmallValues
+  nameWithType: TestExpLog.TestCbrtSmallValues
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCbrtSmallValues
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA
+  name: TestRootNLargeNIntegerA
+  nameWithType: TestExpLog.TestRootNLargeNIntegerA
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNIntegerA
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA
+  name: TestRootNLargeNDecimalA
+  nameWithType: TestExpLog.TestRootNLargeNDecimalA
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNLargeNDecimalA
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp
+  name: TestExp
+  nameWithType: TestExpLog.TestExp
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestExp
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp
+  name: TestPowNegativeBaseFractionalExp
+  nameWithType: TestExpLog.TestPowNegativeBaseFractionalExp
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestPowNegativeBaseFractionalExp
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+  name: TestRootNWithNegativeArgumentAndOddRoot
+  nameWithType: TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndOddRoot
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+  name: TestRootNWithNegativeArgumentAndEvenRoot
+  nameWithType: TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestRootNWithNegativeArgumentAndEvenRoot
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow
+  name: TestCubeRootOfNegativeValueUsingPow
+  nameWithType: TestExpLog.TestCubeRootOfNegativeValueUsingPow
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestCubeRootOfNegativeValueUsingPow
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog
+  name: TestLog
+  nameWithType: TestExpLog.TestLog
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLog
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble
+  name: TestLogDouble
+  nameWithType: TestExpLog.TestLogDouble
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.TestLogDouble
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest
+  name: LogSpeedTest
+  nameWithType: TestExpLog.LogSpeedTest
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog.LogSpeedTest

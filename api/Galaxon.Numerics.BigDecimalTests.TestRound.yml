@@ -1,0 +1,483 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestRound
+  id: TestRound
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero
+  - Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives
+  langs:
+  - csharp
+  - vb
+  name: TestRound
+  nameWithType: TestRound
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRound
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 2
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestRound : object'
+    content.vb: >-
+      Public Class TestRound
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods
+  id: TestRoundingMethods
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundingMethods()
+  nameWithType: TestRound.TestRoundingMethods()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundingMethods
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  summary: "\nCheck BigDecimal.Round() matches decimal.Round() for all rounding methods.\n"
+  example: []
+  syntax:
+    content: public void TestRoundingMethods()
+    content.vb: Public Sub TestRoundingMethods
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi
+  id: TestRoundPi
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundPi()
+  nameWithType: TestRound.TestRoundPi()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundPi
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 27
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundPi()
+    content.vb: Public Sub TestRoundPi
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven
+  id: TestRoundSigFigsToEven
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToEven()
+  nameWithType: TestRound.TestRoundSigFigsToEven()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToEven
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 34
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToEven()
+    content.vb: Public Sub TestRoundSigFigsToEven
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives
+  id: TestRoundSigFigsToEvenNegatives
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToEvenNegatives()
+  nameWithType: TestRound.TestRoundSigFigsToEvenNegatives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToEvenNegatives
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 61
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToEvenNegatives()
+    content.vb: Public Sub TestRoundSigFigsToEvenNegatives
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero
+  id: TestRoundSigFigsAwayFromZero
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsAwayFromZero()
+  nameWithType: TestRound.TestRoundSigFigsAwayFromZero()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsAwayFromZero
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 88
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsAwayFromZero()
+    content.vb: Public Sub TestRoundSigFigsAwayFromZero
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives
+  id: TestRoundSigFigsAwayFromZeroNegatives
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsAwayFromZeroNegatives()
+  nameWithType: TestRound.TestRoundSigFigsAwayFromZeroNegatives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsAwayFromZeroNegatives
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 115
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsAwayFromZeroNegatives()
+    content.vb: Public Sub TestRoundSigFigsAwayFromZeroNegatives
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity
+  id: TestRoundSigFigsToNegativeInfinity
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToNegativeInfinity()
+  nameWithType: TestRound.TestRoundSigFigsToNegativeInfinity()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToNegativeInfinity
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 142
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToNegativeInfinity()
+    content.vb: Public Sub TestRoundSigFigsToNegativeInfinity
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+  id: TestRoundSigFigsToNegativeInfinityNegatives
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToNegativeInfinityNegatives()
+  nameWithType: TestRound.TestRoundSigFigsToNegativeInfinityNegatives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToNegativeInfinityNegatives
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 169
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToNegativeInfinityNegatives()
+    content.vb: Public Sub TestRoundSigFigsToNegativeInfinityNegatives
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity
+  id: TestRoundSigFigsToPositiveInfinity
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToPositiveInfinity()
+  nameWithType: TestRound.TestRoundSigFigsToPositiveInfinity()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToPositiveInfinity
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 196
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToPositiveInfinity()
+    content.vb: Public Sub TestRoundSigFigsToPositiveInfinity
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives
+  id: TestRoundSigFigsToPositiveInfinityPositives
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToPositiveInfinityPositives()
+  nameWithType: TestRound.TestRoundSigFigsToPositiveInfinityPositives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToPositiveInfinityPositives
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 223
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToPositiveInfinityPositives()
+    content.vb: Public Sub TestRoundSigFigsToPositiveInfinityPositives
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero
+  id: TestRoundSigFigsToZero
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToZero()
+  nameWithType: TestRound.TestRoundSigFigsToZero()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToZero
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 250
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToZero()
+    content.vb: Public Sub TestRoundSigFigsToZero
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives
+  id: TestRoundSigFigsToZeroPositives
+  parent: Galaxon.Numerics.BigDecimalTests.TestRound
+  langs:
+  - csharp
+  - vb
+  name: TestRoundSigFigsToZeroPositives()
+  nameWithType: TestRound.TestRoundSigFigsToZeroPositives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestRound.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestRoundSigFigsToZeroPositives
+    path: ../BigDecimal/BigDecimalTests/TestRound.cs
+    startLine: 277
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestRoundSigFigsToZeroPositives()
+    content.vb: Public Sub TestRoundSigFigsToZeroPositives
+  overload: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods
+  name: TestRoundingMethods
+  nameWithType: TestRound.TestRoundingMethods
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundingMethods
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi
+  name: TestRoundPi
+  nameWithType: TestRound.TestRoundPi
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundPi
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven
+  name: TestRoundSigFigsToEven
+  nameWithType: TestRound.TestRoundSigFigsToEven
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEven
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives
+  name: TestRoundSigFigsToEvenNegatives
+  nameWithType: TestRound.TestRoundSigFigsToEvenNegatives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToEvenNegatives
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero
+  name: TestRoundSigFigsAwayFromZero
+  nameWithType: TestRound.TestRoundSigFigsAwayFromZero
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZero
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives
+  name: TestRoundSigFigsAwayFromZeroNegatives
+  nameWithType: TestRound.TestRoundSigFigsAwayFromZeroNegatives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsAwayFromZeroNegatives
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity
+  name: TestRoundSigFigsToNegativeInfinity
+  nameWithType: TestRound.TestRoundSigFigsToNegativeInfinity
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinity
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+  name: TestRoundSigFigsToNegativeInfinityNegatives
+  nameWithType: TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToNegativeInfinityNegatives
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity
+  name: TestRoundSigFigsToPositiveInfinity
+  nameWithType: TestRound.TestRoundSigFigsToPositiveInfinity
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinity
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives
+  name: TestRoundSigFigsToPositiveInfinityPositives
+  nameWithType: TestRound.TestRoundSigFigsToPositiveInfinityPositives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToPositiveInfinityPositives
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero
+  name: TestRoundSigFigsToZero
+  nameWithType: TestRound.TestRoundSigFigsToZero
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZero
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives
+  name: TestRoundSigFigsToZeroPositives
+  nameWithType: TestRound.TestRoundSigFigsToZeroPositives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound.TestRoundSigFigsToZeroPositives

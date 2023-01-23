@@ -1,0 +1,589 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestToString
+  id: TestToString
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0
+  - Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2
+  langs:
+  - csharp
+  - vb
+  name: TestToString
+  nameWithType: TestToString
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToString
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 4
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestToString : object'
+    content.vb: >-
+      Public Class TestToString
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD
+  id: TestToStringD
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringD()
+  nameWithType: TestToString.TestToStringD()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringD
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 7
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringD()
+    content.vb: Public Sub TestToStringD
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU
+  id: TestToStringDU
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringDU()
+  nameWithType: TestToString.TestToStringDU()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringDU
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 40
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringDU()
+    content.vb: Public Sub TestToStringDU
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE
+  id: TestToStringE
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringE()
+  nameWithType: TestToString.TestToStringE()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringE
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 72
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringE()
+    content.vb: Public Sub TestToStringE
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2
+  id: TestToStringE2
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringE2()
+  nameWithType: TestToString.TestToStringE2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringE2
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 105
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringE2()
+    content.vb: Public Sub TestToStringE2
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU
+  id: TestToStringEU
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringEU()
+  nameWithType: TestToString.TestToStringEU()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringEU
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 140
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringEU()
+    content.vb: Public Sub TestToStringEU
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U
+  id: TestToStringE2U
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringE2U()
+  nameWithType: TestToString.TestToStringE2U()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringE2U
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 173
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringE2U()
+    content.vb: Public Sub TestToStringE2U
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF
+  id: TestToStringF
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringF()
+  nameWithType: TestToString.TestToStringF()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringF
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 208
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringF()
+    content.vb: Public Sub TestToStringF
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0
+  id: TestToStringF0
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringF0()
+  nameWithType: TestToString.TestToStringF0()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringF0
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 253
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringF0()
+    content.vb: Public Sub TestToStringF0
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2
+  id: TestToStringF2
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringF2()
+  nameWithType: TestToString.TestToStringF2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringF2
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 308
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringF2()
+    content.vb: Public Sub TestToStringF2
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG
+  id: TestToStringG
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringG()
+  nameWithType: TestToString.TestToStringG()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringG
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 355
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringG()
+    content.vb: Public Sub TestToStringG
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3
+  id: TestToStringG3
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringG3()
+  nameWithType: TestToString.TestToStringG3()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringG3
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 416
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringG3()
+    content.vb: Public Sub TestToStringG3
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU
+  id: TestToStringGU
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringGU()
+  nameWithType: TestToString.TestToStringGU()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringGU
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 483
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringGU()
+    content.vb: Public Sub TestToStringGU
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN
+  id: TestToStringN
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringN()
+  nameWithType: TestToString.TestToStringN()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringN
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 544
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringN()
+    content.vb: Public Sub TestToStringN
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0
+  id: TestToStringN0
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringN0()
+  nameWithType: TestToString.TestToStringN0()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringN0
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 589
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringN0()
+    content.vb: Public Sub TestToStringN0
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2
+  id: TestToStringN2
+  parent: Galaxon.Numerics.BigDecimalTests.TestToString
+  langs:
+  - csharp
+  - vb
+  name: TestToStringN2()
+  nameWithType: TestToString.TestToStringN2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestToString.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestToStringN2
+    path: ../BigDecimal/BigDecimalTests/TestToString.cs
+    startLine: 616
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestToStringN2()
+    content.vb: Public Sub TestToStringN2
+  overload: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD
+  name: TestToStringD
+  nameWithType: TestToString.TestToStringD
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringD
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU
+  name: TestToStringDU
+  nameWithType: TestToString.TestToStringDU
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringDU
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE
+  name: TestToStringE
+  nameWithType: TestToString.TestToStringE
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2
+  name: TestToStringE2
+  nameWithType: TestToString.TestToStringE2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU
+  name: TestToStringEU
+  nameWithType: TestToString.TestToStringEU
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringEU
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U
+  name: TestToStringE2U
+  nameWithType: TestToString.TestToStringE2U
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringE2U
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF
+  name: TestToStringF
+  nameWithType: TestToString.TestToStringF
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0
+  name: TestToStringF0
+  nameWithType: TestToString.TestToStringF0
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF0
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2
+  name: TestToStringF2
+  nameWithType: TestToString.TestToStringF2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringF2
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG
+  name: TestToStringG
+  nameWithType: TestToString.TestToStringG
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3
+  name: TestToStringG3
+  nameWithType: TestToString.TestToStringG3
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringG3
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU
+  name: TestToStringGU
+  nameWithType: TestToString.TestToStringGU
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringGU
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN
+  name: TestToStringN
+  nameWithType: TestToString.TestToStringN
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0
+  name: TestToStringN0
+  nameWithType: TestToString.TestToStringN0
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN0
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2
+  name: TestToStringN2
+  nameWithType: TestToString.TestToStringN2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString.TestToStringN2

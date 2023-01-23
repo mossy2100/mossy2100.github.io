@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  id: TestArithmeticOperators
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts
+  langs:
+  - csharp
+  - vb
+  name: TestArithmeticOperators
+  nameWithType: TestArithmeticOperators
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestArithmeticOperators
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestArithmeticOperators : object'
+    content.vb: >-
+      Public Class TestArithmeticOperators
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts
+  id: TestMultiplySmallInts
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestMultiplySmallInts()
+  nameWithType: TestArithmeticOperators.TestMultiplySmallInts()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestMultiplySmallInts
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestMultiplySmallInts()
+    content.vb: Public Sub TestMultiplySmallInts
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats
+  id: TestMultiplySmallFloats
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestMultiplySmallFloats()
+  nameWithType: TestArithmeticOperators.TestMultiplySmallFloats()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestMultiplySmallFloats
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 18
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestMultiplySmallFloats()
+    content.vb: Public Sub TestMultiplySmallFloats
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues
+  id: TestMultiplyLargeValues
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestMultiplyLargeValues()
+  nameWithType: TestArithmeticOperators.TestMultiplyLargeValues()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestMultiplyLargeValues
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 28
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestMultiplyLargeValues()
+    content.vb: Public Sub TestMultiplyLargeValues
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives
+  id: TestMultiplyNegatives
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestMultiplyNegatives()
+  nameWithType: TestArithmeticOperators.TestMultiplyNegatives()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestMultiplyNegatives
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 39
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestMultiplyNegatives()
+    content.vb: Public Sub TestMultiplyNegatives
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall
+  id: TestDivisionSmall
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestDivisionSmall()
+  nameWithType: TestArithmeticOperators.TestDivisionSmall()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestDivisionSmall
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 59
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestDivisionSmall()
+    content.vb: Public Sub TestDivisionSmall
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts
+  id: TestDivisionInts
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestDivisionInts()
+  nameWithType: TestArithmeticOperators.TestDivisionInts()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestDivisionInts
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 69
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestDivisionInts()
+    content.vb: Public Sub TestDivisionInts
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction
+  id: TestDivisionFraction
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestDivisionFraction()
+  nameWithType: TestArithmeticOperators.TestDivisionFraction()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestDivisionFraction
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 79
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestDivisionFraction()
+    content.vb: Public Sub TestDivisionFraction
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats
+  id: TestDivisionFloats
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestDivisionFloats()
+  nameWithType: TestArithmeticOperators.TestDivisionFloats()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestDivisionFloats
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 92
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestDivisionFloats()
+    content.vb: Public Sub TestDivisionFloats
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts
+  id: TestModSmallInts
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestModSmallInts()
+  nameWithType: TestArithmeticOperators.TestModSmallInts()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestModSmallInts
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 102
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestModSmallInts()
+    content.vb: Public Sub TestModSmallInts
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals
+  id: TestModSmallDecimals
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestModSmallDecimals()
+  nameWithType: TestArithmeticOperators.TestModSmallDecimals()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestModSmallDecimals
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 112
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestModSmallDecimals()
+    content.vb: Public Sub TestModSmallDecimals
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor
+  id: TestModNegativeIntDivisor
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestModNegativeIntDivisor()
+  nameWithType: TestArithmeticOperators.TestModNegativeIntDivisor()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestModNegativeIntDivisor
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 122
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestModNegativeIntDivisor()
+    content.vb: Public Sub TestModNegativeIntDivisor
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend
+  id: TestModNegativeIntDividend
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestModNegativeIntDividend()
+  nameWithType: TestArithmeticOperators.TestModNegativeIntDividend()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestModNegativeIntDividend
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 132
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestModNegativeIntDividend()
+    content.vb: Public Sub TestModNegativeIntDividend
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1
+  id: TestModAngle1
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestModAngle1()
+  nameWithType: TestArithmeticOperators.TestModAngle1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestModAngle1
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 142
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestModAngle1()
+    content.vb: Public Sub TestModAngle1
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1
+  id: TestAgm1
+  parent: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  langs:
+  - csharp
+  - vb
+  name: TestAgm1()
+  nameWithType: TestArithmeticOperators.TestAgm1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestMath.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestAgm1
+    path: ../BigDecimal/BigDecimalTests/TestMath.cs
+    startLine: 155
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestAgm1()
+    content.vb: Public Sub TestAgm1
+  overload: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts
+  name: TestMultiplySmallInts
+  nameWithType: TestArithmeticOperators.TestMultiplySmallInts
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallInts
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats
+  name: TestMultiplySmallFloats
+  nameWithType: TestArithmeticOperators.TestMultiplySmallFloats
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplySmallFloats
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues
+  name: TestMultiplyLargeValues
+  nameWithType: TestArithmeticOperators.TestMultiplyLargeValues
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyLargeValues
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives
+  name: TestMultiplyNegatives
+  nameWithType: TestArithmeticOperators.TestMultiplyNegatives
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestMultiplyNegatives
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall
+  name: TestDivisionSmall
+  nameWithType: TestArithmeticOperators.TestDivisionSmall
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionSmall
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts
+  name: TestDivisionInts
+  nameWithType: TestArithmeticOperators.TestDivisionInts
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionInts
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction
+  name: TestDivisionFraction
+  nameWithType: TestArithmeticOperators.TestDivisionFraction
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFraction
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats
+  name: TestDivisionFloats
+  nameWithType: TestArithmeticOperators.TestDivisionFloats
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestDivisionFloats
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts
+  name: TestModSmallInts
+  nameWithType: TestArithmeticOperators.TestModSmallInts
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallInts
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals
+  name: TestModSmallDecimals
+  nameWithType: TestArithmeticOperators.TestModSmallDecimals
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModSmallDecimals
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor
+  name: TestModNegativeIntDivisor
+  nameWithType: TestArithmeticOperators.TestModNegativeIntDivisor
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDivisor
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend
+  name: TestModNegativeIntDividend
+  nameWithType: TestArithmeticOperators.TestModNegativeIntDividend
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModNegativeIntDividend
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1
+  name: TestModAngle1
+  nameWithType: TestArithmeticOperators.TestModAngle1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestModAngle1
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1
+  name: TestAgm1
+  nameWithType: TestArithmeticOperators.TestAgm1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.TestAgm1

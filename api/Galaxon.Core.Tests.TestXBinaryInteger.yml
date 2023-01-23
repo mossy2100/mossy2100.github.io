@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Tests.TestXBinaryInteger
+  commentId: T:Galaxon.Core.Tests.TestXBinaryInteger
+  id: TestXBinaryInteger
+  parent: Galaxon.Core.Tests
+  children:
+  - Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  - Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  langs:
+  - csharp
+  - vb
+  name: TestXBinaryInteger
+  nameWithType: TestXBinaryInteger
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger
+  type: Class
+  source:
+    remote:
+      path: CoreTests/TestXBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestXBinaryInteger
+    path: ../Core/CoreTests/TestXBinaryInteger.cs
+    startLine: 4
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: 'public class TestXBinaryInteger : object'
+    content.vb: >-
+      Public Class TestXBinaryInteger
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  id: TestIntToSuperscript
+  parent: Galaxon.Core.Tests.TestXBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: TestIntToSuperscript()
+  nameWithType: TestXBinaryInteger.TestIntToSuperscript()
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestIntToSuperscript
+    path: ../Core/CoreTests/TestXBinaryInteger.cs
+    startLine: 7
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestIntToSuperscript()
+    content.vb: Public Sub TestIntToSuperscript
+  overload: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  commentId: M:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  id: TestIntToSubscript
+  parent: Galaxon.Core.Tests.TestXBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: TestIntToSubscript()
+  nameWithType: TestXBinaryInteger.TestIntToSubscript()
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestIntToSubscript
+    path: ../Core/CoreTests/TestXBinaryInteger.cs
+    startLine: 26
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestIntToSubscript()
+    content.vb: Public Sub TestIntToSubscript
+  overload: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Core.Tests
+  commentId: N:Galaxon.Core.Tests
+  name: Galaxon.Core.Tests
+  nameWithType: Galaxon.Core.Tests
+  fullName: Galaxon.Core.Tests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript*
+  commentId: Overload:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+  name: TestIntToSuperscript
+  nameWithType: TestXBinaryInteger.TestIntToSuperscript
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSuperscript
+- uid: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript*
+  commentId: Overload:Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript
+  name: TestIntToSubscript
+  nameWithType: TestXBinaryInteger.TestIntToSubscript
+  fullName: Galaxon.Core.Tests.TestXBinaryInteger.TestIntToSubscript

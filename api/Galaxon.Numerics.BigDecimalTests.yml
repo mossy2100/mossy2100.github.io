@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  id: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  - Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  - Galaxon.Numerics.BigDecimalTests.TestConvert
+  - Galaxon.Numerics.BigDecimalTests.TestExpLog
+  - Galaxon.Numerics.BigDecimalTests.TestParse
+  - Galaxon.Numerics.BigDecimalTests.TestRound
+  - Galaxon.Numerics.BigDecimalTests.TestToString
+  - Galaxon.Numerics.BigDecimalTests.TestTrig
+  langs:
+  - csharp
+  - vb
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+  type: Namespace
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+references:
+- uid: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+  name: TestComputeConstants
+  nameWithType: TestComputeConstants
+  fullName: Galaxon.Numerics.BigDecimalTests.TestComputeConstants
+- uid: Galaxon.Numerics.BigDecimalTests.TestConvert
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestConvert
+  name: TestConvert
+  nameWithType: TestConvert
+  fullName: Galaxon.Numerics.BigDecimalTests.TestConvert
+- uid: Galaxon.Numerics.BigDecimalTests.TestExpLog
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestExpLog
+  name: TestExpLog
+  nameWithType: TestExpLog
+  fullName: Galaxon.Numerics.BigDecimalTests.TestExpLog
+- uid: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+  name: TestArithmeticOperators
+  nameWithType: TestArithmeticOperators
+  fullName: Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestParse
+  name: TestParse
+  nameWithType: TestParse
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse
+- uid: Galaxon.Numerics.BigDecimalTests.TestRound
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestRound
+  name: TestRound
+  nameWithType: TestRound
+  fullName: Galaxon.Numerics.BigDecimalTests.TestRound
+- uid: Galaxon.Numerics.BigDecimalTests.TestToString
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestToString
+  name: TestToString
+  nameWithType: TestToString
+  fullName: Galaxon.Numerics.BigDecimalTests.TestToString
+- uid: Galaxon.Numerics.BigDecimalTests.TestTrig
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestTrig
+  name: TestTrig
+  nameWithType: TestTrig
+  fullName: Galaxon.Numerics.BigDecimalTests.TestTrig

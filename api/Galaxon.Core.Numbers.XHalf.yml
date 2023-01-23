@@ -1,0 +1,596 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XHalf
+  commentId: T:Galaxon.Core.Numbers.XHalf
+  id: XHalf
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XHalf.Assemble(System.Byte,System.UInt16,System.UInt64)
+  - Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  - Galaxon.Core.Numbers.XHalf.GetRandom
+  - Galaxon.Core.Numbers.XHalf.MaxExp
+  - Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  - Galaxon.Core.Numbers.XHalf.MinExp
+  - Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  - Galaxon.Core.Numbers.XHalf.NumExpBits
+  - Galaxon.Core.Numbers.XHalf.NumFracBits
+  langs:
+  - csharp
+  - vb
+  name: XHalf
+  nameWithType: XHalf
+  fullName: Galaxon.Core.Numbers.XHalf
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XHalf
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 3
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods and other bonus stuff for Half.
+  example: []
+  syntax:
+    content: 'public static class XHalf : object'
+    content.vb: >-
+      Public Module XHalf
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XHalf.NumExpBits
+  commentId: F:Galaxon.Core.Numbers.XHalf.NumExpBits
+  id: NumExpBits
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: NumExpBits
+  nameWithType: XHalf.NumExpBits
+  fullName: Galaxon.Core.Numbers.XHalf.NumExpBits
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: NumExpBits
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 6
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The number of bits in the exponent.
+  example: []
+  syntax:
+    content: public const byte NumExpBits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const NumExpBits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XHalf.NumFracBits
+  commentId: F:Galaxon.Core.Numbers.XHalf.NumFracBits
+  id: NumFracBits
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: NumFracBits
+  nameWithType: XHalf.NumFracBits
+  fullName: Galaxon.Core.Numbers.XHalf.NumFracBits
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: NumFracBits
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 9
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The number of bits in the fraction.
+  example: []
+  syntax:
+    content: public const byte NumFracBits = null
+    return:
+      type: System.Byte
+    content.vb: Public Const NumFracBits As Byte = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XHalf.MinExp
+  commentId: F:Galaxon.Core.Numbers.XHalf.MinExp
+  id: MinExp
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: MinExp
+  nameWithType: XHalf.MinExp
+  fullName: Galaxon.Core.Numbers.XHalf.MinExp
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MinExp
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 12
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The minimum binary exponent supported by the type.
+  example: []
+  syntax:
+    content: public const short MinExp = null
+    return:
+      type: System.Int16
+    content.vb: Public Const MinExp As Short = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XHalf.MaxExp
+  commentId: F:Galaxon.Core.Numbers.XHalf.MaxExp
+  id: MaxExp
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: MaxExp
+  nameWithType: XHalf.MaxExp
+  fullName: Galaxon.Core.Numbers.XHalf.MaxExp
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MaxExp
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 15
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: The maximum binary exponent supported by the type.
+  example: []
+  syntax:
+    content: public const short MaxExp = null
+    return:
+      type: System.Int16
+    content.vb: Public Const MaxExp As Short = Nothing
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  commentId: P:Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  id: MaxPosSubnormalValue
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: MaxPosSubnormalValue
+  nameWithType: XHalf.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  type: Property
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MaxPosSubnormalValue
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 20
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nThe maximum positive subnormal value.\n"
+  example: []
+  syntax:
+    content: public static Half MaxPosSubnormalValue { get; }
+    parameters: []
+    return:
+      type: Half
+    content.vb: Public Shared ReadOnly Property MaxPosSubnormalValue As Half
+  overload: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  commentId: P:Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  id: MinPosNormalValue
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: MinPosNormalValue
+  nameWithType: XHalf.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  type: Property
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MinPosNormalValue
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 25
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nThe minimum positive normal value.\n"
+  example: []
+  syntax:
+    content: public static Half MinPosNormalValue { get; }
+    parameters: []
+    return:
+      type: Half
+    content.vb: Public Shared ReadOnly Property MinPosNormalValue As Half
+  overload: Galaxon.Core.Numbers.XHalf.MinPosNormalValue*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  commentId: M:Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  id: Disassemble(Half)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: Disassemble(Half)
+  nameWithType: XHalf.Disassemble(Half)
+  fullName: Galaxon.Core.Numbers.XHalf.Disassemble(Half)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Disassemble
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 31
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nDisassemble the Half into its bitwise components.\n"
+  example: []
+  syntax:
+    content: public static (byte signBit, ushort expBits, ulong fracBits) Disassemble(this Half x)
+    parameters:
+    - id: x
+      type: Half
+    return:
+      type: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Disassemble(x As Half) As(signBit As Byte, expBits As UShort, fracBits As ULong)(Of Byte , UShort, ULong)
+  overload: Galaxon.Core.Numbers.XHalf.Disassemble*
+  see:
+  - linkType: HRef
+    linkId: https://en.wikipedia.org/wiki/Half-precision_floating-point_format
+    altText: https://en.wikipedia.org/wiki/Half-precision_floating-point_format
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XHalf.Assemble(System.Byte,System.UInt16,System.UInt64)
+  commentId: M:Galaxon.Core.Numbers.XHalf.Assemble(System.Byte,System.UInt16,System.UInt64)
+  id: Assemble(System.Byte,System.UInt16,System.UInt64)
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: Assemble(Byte, UInt16, UInt64)
+  nameWithType: XHalf.Assemble(Byte, UInt16, UInt64)
+  fullName: Galaxon.Core.Numbers.XHalf.Assemble(System.Byte, System.UInt16, System.UInt64)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Assemble
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 41
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nAssemble a new Half from parts.\n"
+  example: []
+  syntax:
+    content: public static Half Assemble(byte signBit, ushort expBits, ulong fracBits)
+    parameters:
+    - id: signBit
+      type: System.Byte
+      description: The sign bit (1 or 0).
+    - id: expBits
+      type: System.UInt16
+      description: The exponent bits.
+    - id: fracBits
+      type: System.UInt64
+      description: The fraction bits.
+    return:
+      type: Half
+      description: The new Half.
+    content.vb: Public Shared Function Assemble(signBit As Byte, expBits As UShort, fracBits As ULong) As Half
+  overload: Galaxon.Core.Numbers.XHalf.Assemble*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XHalf.GetRandom
+  commentId: M:Galaxon.Core.Numbers.XHalf.GetRandom
+  id: GetRandom
+  parent: Galaxon.Core.Numbers.XHalf
+  langs:
+  - csharp
+  - vb
+  name: GetRandom()
+  nameWithType: XHalf.GetRandom()
+  fullName: Galaxon.Core.Numbers.XHalf.GetRandom()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XHalf.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetRandom
+    path: ../Core/Core/Numbers/XHalf.cs
+    startLine: 47
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet a random Half.\n"
+  example: []
+  syntax:
+    content: public static Half GetRandom()
+    return:
+      type: Half
+    content.vb: Public Shared Function GetRandom As Half
+  overload: Galaxon.Core.Numbers.XHalf.GetRandom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue*
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+  name: MaxPosSubnormalValue
+  nameWithType: XHalf.MaxPosSubnormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MaxPosSubnormalValue
+- uid: Half
+  isExternal: true
+  name: Half
+  nameWithType: Half
+  fullName: Half
+- uid: Galaxon.Core.Numbers.XHalf.MinPosNormalValue*
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+  name: MinPosNormalValue
+  nameWithType: XHalf.MinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XHalf.MinPosNormalValue
+- uid: Galaxon.Core.Numbers.XHalf.Disassemble*
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.Disassemble
+  name: Disassemble
+  nameWithType: XHalf.Disassemble
+  fullName: Galaxon.Core.Numbers.XHalf.Disassemble
+- uid: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+  commentId: '!:System.ValueTuple{System.Byte,System.UInt16,System.UInt64}'
+  definition: System.ValueTuple`3
+  name: (, , )<Byte, UInt16, UInt64>
+  nameWithType: (, , )<Byte, UInt16, UInt64>
+  fullName: System.ValueTuple<System.Byte, System.UInt16, System.UInt64>
+  nameWithType.vb: (, , )(Of Byte, UInt16, UInt64)
+  fullName.vb: System.ValueTuple(Of System.Byte, System.UInt16, System.UInt64)
+  name.vb: (, , )(Of Byte, UInt16, UInt64)
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`3
+  isExternal: true
+  name: (, , )<, , >
+  nameWithType: (, , )<, , >
+  fullName: System.ValueTuple<, , >
+  nameWithType.vb: (, , )(Of , , )
+  fullName.vb: System.ValueTuple(Of , , )
+  name.vb: (, , )(Of , , )
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Numbers.XHalf.Assemble*
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.Assemble
+  name: Assemble
+  nameWithType: XHalf.Assemble
+  fullName: Galaxon.Core.Numbers.XHalf.Assemble
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt64
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64
+- uid: Galaxon.Core.Numbers.XHalf.GetRandom*
+  commentId: Overload:Galaxon.Core.Numbers.XHalf.GetRandom
+  name: GetRandom
+  nameWithType: XHalf.GetRandom
+  fullName: Galaxon.Core.Numbers.XHalf.GetRandom

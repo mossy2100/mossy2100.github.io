@@ -1,0 +1,34 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics
+  commentId: N:Galaxon.Numerics
+  id: Galaxon.Numerics
+  children:
+  - Galaxon.Numerics.BigDecimal
+  - Galaxon.Numerics.XEnumerableBigDecimal
+  langs:
+  - csharp
+  - vb
+  name: Galaxon.Numerics
+  nameWithType: Galaxon.Numerics
+  fullName: Galaxon.Numerics
+  type: Namespace
+  assemblies:
+  - Galaxon.Numerics.BigDecimal
+references:
+- uid: Galaxon.Numerics.BigDecimal
+  commentId: T:Galaxon.Numerics.BigDecimal
+  parent: Galaxon.Numerics
+  name: BigDecimal
+  nameWithType: BigDecimal
+  fullName: Galaxon.Numerics.BigDecimal
+- uid: Galaxon.Numerics.XEnumerableBigDecimal
+  commentId: T:Galaxon.Numerics.XEnumerableBigDecimal
+  name: XEnumerableBigDecimal
+  nameWithType: XEnumerableBigDecimal
+  fullName: Galaxon.Numerics.XEnumerableBigDecimal
+- uid: Galaxon.Numerics
+  commentId: N:Galaxon.Numerics
+  name: Galaxon.Numerics
+  nameWithType: Galaxon.Numerics
+  fullName: Galaxon.Numerics

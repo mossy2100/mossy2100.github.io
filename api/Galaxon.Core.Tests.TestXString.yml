@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Tests.TestXString
+  commentId: T:Galaxon.Core.Tests.TestXString
+  id: TestXString
+  parent: Galaxon.Core.Tests
+  children:
+  - Galaxon.Core.Tests.TestXString.TestMakeSlug
+  - Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  - Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  - Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  langs:
+  - csharp
+  - vb
+  name: TestXString
+  nameWithType: TestXString
+  fullName: Galaxon.Core.Tests.TestXString
+  type: Class
+  source:
+    remote:
+      path: CoreTests/TestXString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestXString
+    path: ../Core/CoreTests/TestXString.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: 'public class TestXString : object'
+    content.vb: >-
+      Public Class TestXString
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Core.Tests.TestXString.TestMakeSlug
+  commentId: M:Galaxon.Core.Tests.TestXString.TestMakeSlug
+  id: TestMakeSlug
+  parent: Galaxon.Core.Tests.TestXString
+  langs:
+  - csharp
+  - vb
+  name: TestMakeSlug()
+  nameWithType: TestXString.TestMakeSlug()
+  fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestMakeSlug
+    path: ../Core/CoreTests/TestXString.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestMakeSlug()
+    content.vb: Public Sub TestMakeSlug
+  overload: Galaxon.Core.Tests.TestXString.TestMakeSlug*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  id: TestStringToSuperscript
+  parent: Galaxon.Core.Tests.TestXString
+  langs:
+  - csharp
+  - vb
+  name: TestStringToSuperscript()
+  nameWithType: TestXString.TestStringToSuperscript()
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSuperscript()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestStringToSuperscript
+    path: ../Core/CoreTests/TestXString.cs
+    startLine: 70
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestStringToSuperscript()
+    content.vb: Public Sub TestStringToSuperscript
+  overload: Galaxon.Core.Tests.TestXString.TestStringToSuperscript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  id: TestStringToSubscript
+  parent: Galaxon.Core.Tests.TestXString
+  langs:
+  - csharp
+  - vb
+  name: TestStringToSubscript()
+  nameWithType: TestXString.TestStringToSubscript()
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSubscript()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestStringToSubscript
+    path: ../Core/CoreTests/TestXString.cs
+    startLine: 89
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestStringToSubscript()
+    content.vb: Public Sub TestStringToSubscript
+  overload: Galaxon.Core.Tests.TestXString.TestStringToSubscript*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  commentId: M:Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  id: TestStringToSmallCaps
+  parent: Galaxon.Core.Tests.TestXString
+  langs:
+  - csharp
+  - vb
+  name: TestStringToSmallCaps()
+  nameWithType: TestXString.TestStringToSmallCaps()
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps()
+  type: Method
+  source:
+    remote:
+      path: CoreTests/TestXString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: TestStringToSmallCaps
+    path: ../Core/CoreTests/TestXString.cs
+    startLine: 108
+  assemblies:
+  - Galaxon.Core.Tests
+  namespace: Galaxon.Core.Tests
+  syntax:
+    content: public void TestStringToSmallCaps()
+    content.vb: Public Sub TestStringToSmallCaps
+  overload: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Core.Tests
+  commentId: N:Galaxon.Core.Tests
+  name: Galaxon.Core.Tests
+  nameWithType: Galaxon.Core.Tests
+  fullName: Galaxon.Core.Tests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Tests.TestXString.TestMakeSlug*
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestMakeSlug
+  name: TestMakeSlug
+  nameWithType: TestXString.TestMakeSlug
+  fullName: Galaxon.Core.Tests.TestXString.TestMakeSlug
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSuperscript*
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+  name: TestStringToSuperscript
+  nameWithType: TestXString.TestStringToSuperscript
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSuperscript
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSubscript*
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSubscript
+  name: TestStringToSubscript
+  nameWithType: TestXString.TestStringToSubscript
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSubscript
+- uid: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps*
+  commentId: Overload:Galaxon.Core.Tests.TestXString.TestStringToSmallCaps
+  name: TestStringToSmallCaps
+  nameWithType: TestXString.TestStringToSmallCaps
+  fullName: Galaxon.Core.Tests.TestXString.TestStringToSmallCaps

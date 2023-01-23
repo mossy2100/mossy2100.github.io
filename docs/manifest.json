@@ -9,7 +9,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XCollection.html",
-          "hash": "3LJca+jPFklIMzJJ9ooTdFvruk0FfHw2lw6p8v2xmWc="
+          "hash": "uZpKQ0ro6CPwbrrSFEuOJm6RT03NiheMFOGinBRFCPw="
         }
       },
       "is_incremental": true,
@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XDictionary.html",
-          "hash": "ldp2WcFoikQrGnAYgw3yL8BGZa0gN4H/dW0oz/WCKNc="
+          "hash": "z9ud+p33SSZY4l6DI7XkHHDlLDCgINW+9uWrfzbmty8="
         }
       },
       "is_incremental": true,
@@ -33,7 +33,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Collections.XEnumerable.html",
-          "hash": "K4cyh3+4QX/OWKCLB+NovEk6jeMOOxEbqHgl2kmaBGM="
+          "hash": "n04N3KM3CntO1VTUWYH2DtQPwKxxRxn1v0VjeMbCfWA="
         }
       },
       "is_incremental": true,
@@ -57,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.ArgumentFormatException.html",
-          "hash": "ouwwigD5pk8InNcnQM4d0EacncthHSD/1Wm4owRuT3Y="
+          "hash": "W+jbzKSYWVElhvrciq0hnWVo8+moE2eVJbEGXG957g8="
         }
       },
       "is_incremental": true,
@@ -69,7 +69,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.ArgumentInvalidException.html",
-          "hash": "8tCWaksfduL/u3UcTQFMXvuc7QLX0csWoxF5NDhjH+A="
+          "hash": "B1p4t7qNuSLBmdcPFBULuQXlOK0ZeBjQaWW/Ef9d+eQ="
         }
       },
       "is_incremental": true,
@@ -81,7 +81,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Exceptions.DataNotFoundException.html",
-          "hash": "/8xGbVEbxhntyH7l24RuZ4ORb1Afoqr6XNYPvkwnDkU="
+          "hash": "LSqSz6yx36wzoRYFEHFOU11SiSug5g5rUFT7e9cNa44="
         }
       },
       "is_incremental": true,
@@ -105,7 +105,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.ConvertBase.html",
-          "hash": "vZqbwh1YSLKVDakBXU8QL7EYqYbx2IkKCxl6/mnyag0="
+          "hash": "k4S6A9sH9JbLj5xJAZALv0mvjpg+b28B0Jq7iiOj6TA="
         }
       },
       "is_incremental": true,
@@ -117,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XBigInteger.html",
-          "hash": "nkkGb/Oy0NKUXR3mVC1yDeHyEdGwDH3y7U06PuiGR/A="
+          "hash": "vkrvOu9tqq8AHu0HPJl3X5m9u5m5kC7rq8jbcyc3ZaY="
         }
       },
       "is_incremental": true,
@@ -129,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XBinaryInteger.html",
-          "hash": "bDJkfEESkLcf/fdKPEduM4exv+vnF2k6+w7sSZ3oWm8="
+          "hash": "qwz52DEZyfld5VowHWzk8NFos6+SSTsX8CUxmnedSEo="
         }
       },
       "is_incremental": true,
@@ -141,7 +141,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XDecimal.html",
-          "hash": "VpDMS+LnsHFlO5/+TBvPPs6GgQBYKY2QaSfndlxZYbU="
+          "hash": "MKWXGxhFpCitcYBE8lX3xOJx7KMpyduf3qMFawtk7bg="
         }
       },
       "is_incremental": true,
@@ -153,7 +153,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XDouble.html",
-          "hash": "9LrMAD1UWvHkAubxGLLqB8sMbk5zkxERX2tQBqa3BcM="
+          "hash": "FotTcBsANhS/x4CK+rKJzf2IZ/doNkn2vgetscL3xHU="
         }
       },
       "is_incremental": true,
@@ -165,7 +165,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XFloat.html",
-          "hash": "h/V9mDlgoB65wHXVFuUFOyRU/I61K4k10Fy04jS9dIg="
+          "hash": "3cC59o0hMyTlnv6Pe1aSGF0VjubHXfa4xdrLaET20Gc="
         }
       },
       "is_incremental": true,
@@ -177,7 +177,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XFloatingPoint.html",
-          "hash": "IS8NI8hfJI38mghvmHih5Wy2lcCEzm8DpGRi0glPbHo="
+          "hash": "9ve3n/x2teriZxNpqn5Y0Qh/Nj1G52Q5d9DPuuDvIGI="
         }
       },
       "is_incremental": true,
@@ -189,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XHalf.html",
-          "hash": "4RV+NrSfhgfds9pdRyqvzd/CfMNc5L3UNFYhseWifdw="
+          "hash": "hd/Ugq5FJP2r9wZkjBxT5TbT+cpTVH0cyFottHFVheA="
         }
       },
       "is_incremental": true,
@@ -201,7 +201,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XInt.html",
-          "hash": "I+ZVd7J7RhXc0UjDXTb3JXR6T8+S239h8suHZte+rLw="
+          "hash": "ibLIwSt1uRNJGLL7divfBvcasXpufF0slSRzGRdBcvM="
         }
       },
       "is_incremental": true,
@@ -213,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XLong.html",
-          "hash": "mhLySrTyKEXoyozPvA/9vPoNAtcVUw7cGmhh8nWmUSk="
+          "hash": "cal+6CFaXU8hPE9VHW+e0H1aRWKdvag6How/72P3dm8="
         }
       },
       "is_incremental": true,
@@ -225,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XNumber.html",
-          "hash": "f/7Oyvxm02tj6KnaAeTcoSsdGs8apzNpY1cEElZa5qM="
+          "hash": "plFUTpAuI0VxP0bIz+Z1dOis9IU8Es9B8P6aU4E/oXA="
         }
       },
       "is_incremental": true,
@@ -237,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XSbyte.html",
-          "hash": "+jQdZzzWGxan0FN4DfREcTncgnPROepg3aMYiD+tP1A="
+          "hash": "nGp8rMlZntgTIS599UCVxRi+SPkNzQm3V+40017GScU="
         }
       },
       "is_incremental": true,
@@ -249,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XShort.html",
-          "hash": "s0UyXpaBiPjifH6Bg8qsTFwGR9T8VWgH9QX36XCiGIM="
+          "hash": "ndjdc01WKncLWG4LmlZTkT78EARfvQy9QbTrZ274bqw="
         }
       },
       "is_incremental": true,
@@ -261,7 +261,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XUint.html",
-          "hash": "wwuGc35ne83//9turHae3EJR+rOuXerjRl1hS77JAcs="
+          "hash": "fo27ur7Kx1INo4BFHwMjd5igpOD2LC38ImpMJ+WOIgk="
         }
       },
       "is_incremental": true,
@@ -273,7 +273,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XUlong.html",
-          "hash": "ppbjEKHzyRZG7GZ7P+k+EWBcTFeQQXTaw3jVUT+jTZU="
+          "hash": "twAeMLGYGsTVFGz4j7K2vUa0qeANLx513tWn1wAZU4U="
         }
       },
       "is_incremental": true,
@@ -285,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Numbers.XUshort.html",
-          "hash": "xJFPeU8UKsm36CXQgbIXuEh79fm3UQ5jMqSFIzMwlQc="
+          "hash": "Z1GkUHmXcmLIDmSq5VKQGtI2SXet0pUL3TSMW14U7g0="
         }
       },
       "is_incremental": true,
@@ -309,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.XString.html",
-          "hash": "VZxOmZ3UbnJFk/vnKGPgffcg1HB3y3bPpP0t6Xz9TGQ="
+          "hash": "g2PhwnlI0fOF9lIv1Dk24IIE4xfdhcddo4+adZih+G0="
         }
       },
       "is_incremental": true,
@@ -321,7 +321,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Strings.XStringBuilder.html",
-          "hash": "jhYDPn7+M0rsBcIkbMtuUe3c8qfiOwERuemyA5VYmfw="
+          "hash": "SBCqgpW29O5l0iPQhLKAtW8GAAqYNIYDRR7bqVQbSao="
         }
       },
       "is_incremental": true,
@@ -345,7 +345,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Testing.XAssert.html",
-          "hash": "p1jWPVwyvWmRuFNJ+8+Oy2LUCXDgwHPH5WPO151Aoa4="
+          "hash": "+hR9TFUVEaM9TOY58QTaM0SuloQpZnVTkufdX9stp2g="
         }
       },
       "is_incremental": true,
@@ -369,7 +369,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestConvertBase.html",
-          "hash": "YIR4HreULbyzI+4S+dl/I9u1VUvM99lPIj0qogOYadY="
+          "hash": "ViqzChkmulbiR2BMArW7sDhDF24EY1EV5Ioyv/zY+Xw="
         }
       },
       "is_incremental": true,
@@ -381,7 +381,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXBigInteger.html",
-          "hash": "aftC6tkPX104Sja9kilo74WvsMD3+LaJDdUA9uGgh3Q="
+          "hash": "gwlnfHWNlW6wXWxAOddxarBhsJr7XWDC7Bb9Dd8ruQA="
         }
       },
       "is_incremental": true,
@@ -393,7 +393,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXBinaryInteger.html",
-          "hash": "NDRzGmf0s9bXLst6pAhju1Ndf+nV9bJZva3oeDw3lZM="
+          "hash": "HLMYZxE3/JKYTJ24hO5Hl8tYtTco0/DaiftHdD7fps8="
         }
       },
       "is_incremental": true,
@@ -405,7 +405,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDateOnly.html",
-          "hash": "XxR4wXtAbauFX/TqWdRuUmuFrBaFqW3KRnhRlO23hu4="
+          "hash": "LUbF3i4qRP5ZSsyJwtlQILgs6OTjv47WWMVyaDhGIFg="
         }
       },
       "is_incremental": true,
@@ -417,7 +417,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDateTime.html",
-          "hash": "VFUpThZcy6trPkbOv3jgmQ7bFPgjqlB8iyLDSQyC8RU="
+          "hash": "IwsGYqpNEVaiQHZE6aDVOikGMyQ02vj4CtRd2CCXpaQ="
         }
       },
       "is_incremental": true,
@@ -429,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDecimal.html",
-          "hash": "kBQe0DhWdcF1EzKY2B0dBHkiJ4n0AI9GsO9BOXeDjw8="
+          "hash": "lEGjmk01xWzw927sHxroVWQAIX37oLEy5wSpJP0v1K4="
         }
       },
       "is_incremental": true,
@@ -441,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDictionary.html",
-          "hash": "g0leBWUh9ZYF1wElMaXW6siZIkd0y9qFz6u3YJ1AYv8="
+          "hash": "GOsBzH89po/wGzz7DKAl2whR18utHEbaB5Bo3VHoKsU="
         }
       },
       "is_incremental": true,
@@ -453,7 +453,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXDouble.html",
-          "hash": "fjCUrM8VM9VMAmodkDPpJYFr+i6wtljC1/8JAz04+h0="
+          "hash": "0v1lI5H7T0T3EvkhHubDz/VzHBwBSTsne0ABo1wVt+M="
         }
       },
       "is_incremental": true,
@@ -465,7 +465,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXEnumerable.html",
-          "hash": "bFT9MAXNUEkPI6vDfBvmBlHD4LuBB4zItd1hDX4JoaA="
+          "hash": "JAOiA+1bdG9e/7MeYL+EF7QCbR1umbjjb4ZsQ1ZgNDY="
         }
       },
       "is_incremental": true,
@@ -477,7 +477,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXInt.html",
-          "hash": "LWueBJCR4pDdRke+FqbwDcz4kms9ZydxVEZYvhHd4ME="
+          "hash": "I5KPRkEiXVzubon3jkKNuY5RyLrbLg31gw5OwolVz5A="
         }
       },
       "is_incremental": true,
@@ -489,7 +489,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Tests.TestXString.html",
-          "hash": "5Vqol2nr+DVUnDOnE6Aw+BRnw+ju5yDioKQuzo8gRE4="
+          "hash": "LG2vQ1+9daja9Uzofj0RW+DyeATTTRiDJm+pTD4uiUY="
         }
       },
       "is_incremental": true,
@@ -537,7 +537,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XDateOnly.html",
-          "hash": "Ke8jT8ofZS2AaG8ftfow1kWC4r30/rNYtSvqNmDnX4s="
+          "hash": "Cu7VSBeAj0Fy3x1sj/7ExJ8qt55D1id2MiW83U7zawE="
         }
       },
       "is_incremental": true,
@@ -549,7 +549,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XDateTime.html",
-          "hash": "DnuLpJEUDwJg84ArhZW23jX1H2klaLwh4Z4PghJ01NA="
+          "hash": "dAENfRKm55o093og/z92LuFTuWsyiUxYitPJczHJcbE="
         }
       },
       "is_incremental": true,
@@ -561,7 +561,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XTimeOnly.html",
-          "hash": "k79mv922FSYv04CkrcnWbK3PZ6NyAeK/Zmcy1BBbimU="
+          "hash": "E1QdGy9GrKsolZ0HWwH6zY7234nHMBvLJ4LqykigB8U="
         }
       },
       "is_incremental": true,
@@ -573,10 +573,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.XTimeSpan.html",
-          "hash": "qxph3zafCthDEAuQi2bCC6U1xxQcmXEl9mf+7dge6Ns="
+          "hash": "zWyTpGvmbOXZBQINP67MDWctNLzVZxjQTb20o1P6a2w="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -585,19 +585,151 @@
       "output": {
         ".html": {
           "relative_path": "api/Galaxon.Core.Time.html",
-          "hash": "zignAhkgFTlrWAtjNqom+7pZY6Z4me/iiSWxDVIthag="
+          "hash": "zwpOUI4eEsYKFt/L/he3fpJlRsBsAyKboa2cH/U2Jxg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
-      "type": "Conceptual",
-      "source_relative_path": "api/index.md",
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimal.yml",
       "output": {
         ".html": {
-          "relative_path": "api/index.html",
-          "hash": "BqvqnyBjCObc0Pp3nRZV/ZJp3z/VtEIc2eKyvDoFOx4="
+          "relative_path": "api/Galaxon.Numerics.BigDecimal.html",
+          "hash": "Y8/bOR7jdsBWcyaxpTOiFgZ1KFq3RlNEJcwta1/LHeI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestArithmeticOperators.html",
+          "hash": "I+FXvtlV+2RWc4U7n94uUpcyY6sF+lVv+FmOb17LWDw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestComputeConstants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestComputeConstants.html",
+          "hash": "DEGaKja4nnQJoK8QCYufHJmSjb8EeB7QdOlK/tPazwA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestConvert.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestConvert.html",
+          "hash": "JeG1voVe1L2ofw9WmkCRXOTAQ1BDNbCQ44P9cMvWhQM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestExpLog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestExpLog.html",
+          "hash": "pmrylHzkEhN4IdyE2jP/la6iaTDUN5l8GSaPf5JroLI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestParse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestParse.html",
+          "hash": "YaQ9h9AxeteBdsadYOJzEc5Ya2OKzaW3BffLW4Edfjo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestRound.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestRound.html",
+          "hash": "C1j+oSpwIHJq1UZLxfSeb+dsmudYfVViCdYmDkcf3L0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestToString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestToString.html",
+          "hash": "VZZ0EWKR19gKqhOX+HB5MRYtdKnVEaXqQENbE1PW2nA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestTrig.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.TestTrig.html",
+          "hash": "/ZLVjtvSdVtnwu3z89xNW4dyOs6/Y1ILghKeZxFaRTw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.BigDecimalTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.BigDecimalTests.html",
+          "hash": "BOvspYBmexKIu4UFk+/j04ObunYzv7b9St4MiOJyW1M="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.XEnumerableBigDecimal.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.XEnumerableBigDecimal.html",
+          "hash": "H5ng+tev5AcMJqE1RPzalPNp6LgjXcU98dOe3ozXnaY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Galaxon.Numerics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Galaxon.Numerics.html",
+          "hash": "dIC6WhyaTQFoEfD18CdTTc7eP5M23h5On+2DEpfI5wU="
         }
       },
       "is_incremental": true,
@@ -609,7 +741,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gLKz0XhQrDOx/8vHMiHrmHlpkNJxHkmJeq2Z2nrgvHw="
+          "hash": "gwieEvC7m7nHJmxMKutRSvGsKEGajnSQybgY+ZUOdBM="
         }
       },
       "is_incremental": false,
@@ -668,7 +800,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "Oa9PuD4E1hvZnCkVjUgzNBX6S00Zo5YilamTERTZo54="
+          "hash": "OOIbEHgIS/DMfRfLxv+YarPEbF3mFck5ZdlcUjuASb0="
         }
       },
       "is_incremental": false,
@@ -687,14 +819,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 3,
-          "skipped_file_count": 3
+          "total_file_count": 2,
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 49,
-          "skipped_file_count": 48
+          "total_file_count": 61,
+          "skipped_file_count": 61
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

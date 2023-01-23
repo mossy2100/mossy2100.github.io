@@ -1,0 +1,538 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Time.ETimeUnit
+  commentId: T:Galaxon.Core.Time.ETimeUnit
+  id: ETimeUnit
+  parent: Galaxon.Core.Time
+  children:
+  - Galaxon.Core.Time.ETimeUnit.Century
+  - Galaxon.Core.Time.ETimeUnit.Day
+  - Galaxon.Core.Time.ETimeUnit.Decade
+  - Galaxon.Core.Time.ETimeUnit.Hour
+  - Galaxon.Core.Time.ETimeUnit.Microsecond
+  - Galaxon.Core.Time.ETimeUnit.Millennium
+  - Galaxon.Core.Time.ETimeUnit.Millisecond
+  - Galaxon.Core.Time.ETimeUnit.Minute
+  - Galaxon.Core.Time.ETimeUnit.Month
+  - Galaxon.Core.Time.ETimeUnit.Nanosecond
+  - Galaxon.Core.Time.ETimeUnit.Second
+  - Galaxon.Core.Time.ETimeUnit.Tick
+  - Galaxon.Core.Time.ETimeUnit.Week
+  - Galaxon.Core.Time.ETimeUnit.Year
+  langs:
+  - csharp
+  - vb
+  name: ETimeUnit
+  nameWithType: ETimeUnit
+  fullName: Galaxon.Core.Time.ETimeUnit
+  type: Enum
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ETimeUnit
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 7
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nThe time units supported by the conversion functions.\n\n**Note: This will be deprecated once Galaxon.Quantities is complete.**\n"
+  example: []
+  syntax:
+    content: 'public enum ETimeUnit : int'
+    content.vb: Public Enum ETimeUnit As Integer
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Galaxon.Core.Time.ETimeUnit.Nanosecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Nanosecond
+  id: Nanosecond
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Nanosecond
+  nameWithType: ETimeUnit.Nanosecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Nanosecond
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Nanosecond
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 12
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nNanosecond (ns). 1 ns = 10<sup>-9</sup> s = 0.01 ticks\n"
+  example: []
+  syntax:
+    content: Nanosecond = 0
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Tick
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Tick
+  id: Tick
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Tick
+  nameWithType: ETimeUnit.Tick
+  fullName: Galaxon.Core.Time.ETimeUnit.Tick
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Tick
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 17
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nThe core time unit used by .NET. 1 tick = 100 ns = 0.1 µs = 10<sup>-7</sup> s\n"
+  example: []
+  syntax:
+    content: Tick = 1
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Microsecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Microsecond
+  id: Microsecond
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Microsecond
+  nameWithType: ETimeUnit.Microsecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Microsecond
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Microsecond
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 22
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nMicrosecond (µs). 1 µs = 10<sup>-6</sup> s = 1000 ns = 10 ticks\n"
+  example: []
+  syntax:
+    content: Microsecond = 2
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Millisecond
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Millisecond
+  id: Millisecond
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Millisecond
+  nameWithType: ETimeUnit.Millisecond
+  fullName: Galaxon.Core.Time.ETimeUnit.Millisecond
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Millisecond
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 27
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nMillisecond (ms). 1 ms = 10<sup>-3</sup> s = 1000 µs\n"
+  example: []
+  syntax:
+    content: Millisecond = 3
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Second
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Second
+  id: Second
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Second
+  nameWithType: ETimeUnit.Second
+  fullName: Galaxon.Core.Time.ETimeUnit.Second
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Second
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 32
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nSecond (s). 1 second = 10,000,000 ticks\n"
+  example: []
+  syntax:
+    content: Second = 4
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Minute
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Minute
+  id: Minute
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Minute
+  nameWithType: ETimeUnit.Minute
+  fullName: Galaxon.Core.Time.ETimeUnit.Minute
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Minute
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 37
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nMinute (min). 1 min = 60 s\n"
+  example: []
+  syntax:
+    content: Minute = 5
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Hour
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Hour
+  id: Hour
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Hour
+  nameWithType: ETimeUnit.Hour
+  fullName: Galaxon.Core.Time.ETimeUnit.Hour
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Hour
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 42
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nHour (h). 1 h = 60 min = 3600 sec\n"
+  example: []
+  syntax:
+    content: Hour = 6
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Day
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Day
+  id: Day
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Day
+  nameWithType: ETimeUnit.Day
+  fullName: Galaxon.Core.Time.ETimeUnit.Day
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Day
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 49
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nDay (d). 1 d = 24 h = 86,400 min.\nDepending on context, this may refers to an ephemeris day (exactly 86,400 SI seconds), or a\nsolar day, which is slightly longer.\n"
+  example: []
+  syntax:
+    content: Day = 7
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Week
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Week
+  id: Week
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Week
+  nameWithType: ETimeUnit.Week
+  fullName: Galaxon.Core.Time.ETimeUnit.Week
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Week
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 54
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nWeek (w). 1 w = 7 d = 168 h\n"
+  example: []
+  syntax:
+    content: Week = 8
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Month
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Month
+  id: Month
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Month
+  nameWithType: ETimeUnit.Month
+  fullName: Galaxon.Core.Time.ETimeUnit.Month
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Month
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 60
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nMonth (mon). Ranges in length from 28-31 days.\nThe average Gregorian calendar month length is 30.436875 d = 4.348125 w = 31,556,952 s\n"
+  example: []
+  syntax:
+    content: Month = 9
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Year
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Year
+  id: Year
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Year
+  nameWithType: ETimeUnit.Year
+  fullName: Galaxon.Core.Time.ETimeUnit.Year
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Year
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 66
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nYear (y). This refers to a Gregorian calendar year, which is 365 or 366 days.\nThe average is 365.2425 days. 1 y = 12 mon\n"
+  example: []
+  syntax:
+    content: Year = 10
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Decade
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Decade
+  id: Decade
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Decade
+  nameWithType: ETimeUnit.Decade
+  fullName: Galaxon.Core.Time.ETimeUnit.Decade
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Decade
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 71
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nDecade (dec). 1 dec = 10 y\n"
+  example: []
+  syntax:
+    content: Decade = 11
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Century
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Century
+  id: Century
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Century
+  nameWithType: ETimeUnit.Century
+  fullName: Galaxon.Core.Time.ETimeUnit.Century
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Century
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 76
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nCentury (c). 1 c = 10 dec = 100 y\n"
+  example: []
+  syntax:
+    content: Century = 12
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Galaxon.Core.Time.ETimeUnit.Millennium
+  commentId: F:Galaxon.Core.Time.ETimeUnit.Millennium
+  id: Millennium
+  parent: Galaxon.Core.Time.ETimeUnit
+  langs:
+  - csharp
+  - vb
+  name: Millennium
+  nameWithType: ETimeUnit.Millennium
+  fullName: Galaxon.Core.Time.ETimeUnit.Millennium
+  type: Field
+  source:
+    remote:
+      path: Core/Time/ETimeUnit.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Millennium
+    path: ../Core/Core/Time/ETimeUnit.cs
+    startLine: 81
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Time
+  summary: "\nMillennium (ky). 1 ky = 10 c = 100 dec = 1000 y\n"
+  example: []
+  syntax:
+    content: Millennium = 13
+    return:
+      type: Galaxon.Core.Time.ETimeUnit
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Galaxon.Core.Time
+  commentId: N:Galaxon.Core.Time
+  name: Galaxon.Core.Time
+  nameWithType: Galaxon.Core.Time
+  fullName: Galaxon.Core.Time
+- uid: Galaxon.Core.Time.ETimeUnit
+  commentId: T:Galaxon.Core.Time.ETimeUnit
+  parent: Galaxon.Core.Time
+  name: ETimeUnit
+  nameWithType: ETimeUnit
+  fullName: Galaxon.Core.Time.ETimeUnit

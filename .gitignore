@@ -10,3 +10,6 @@ _site
 
 # JetBrains
 .idea
+
+# Node JS packages
+node_modules

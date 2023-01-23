@@ -5,7 +5,8 @@
         {
           "src" : "../",
           "files": [
-            "Core/**.csproj"
+            "Core/**.csproj",
+            "BigDecimal/**.csproj"
           ],
           "exclude": [ "**/bin/**", "**/obj/**" ]
         }

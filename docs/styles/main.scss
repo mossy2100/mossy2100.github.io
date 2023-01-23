@@ -178,7 +178,7 @@ header {
         }
     }
 
-    .article {
+    > .article {
         width: 100%;
         padding-bottom: 51px;
         margin-top: 0 !important;
@@ -262,7 +262,7 @@ header {
             }
         }
 
-        .article {
+        > .article {
             width: 460px;
             padding-top: 92px;
             background-color: white;
@@ -297,7 +297,7 @@ header {
 
 @media (min-width: 992px) {
     [role="main"] {
-        .article {
+        > .article {
             width: 680px;
 
             .col-md-10 {
@@ -332,7 +332,7 @@ header {
 
 @media (min-width: 1200px) {
     [role="main"] {
-        .article {
+        > .article {
             width: 880px;
 
             .col-md-10 {

@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XShort
+  commentId: T:Galaxon.Core.Numbers.XShort
+  id: XShort
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  - Galaxon.Core.Numbers.XShort.GetRandom
+  langs:
+  - csharp
+  - vb
+  name: XShort
+  nameWithType: XShort
+  fullName: Galaxon.Core.Numbers.XShort
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XShort.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XShort
+    path: ../Core/Core/Numbers/XShort.cs
+    startLine: 3
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods for short.
+  example: []
+  syntax:
+    content: 'public static class XShort : object'
+    content.vb: >-
+      Public Module XShort
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  commentId: M:Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  id: Abs(System.Int16)
+  parent: Galaxon.Core.Numbers.XShort
+  langs:
+  - csharp
+  - vb
+  name: Abs(Int16)
+  nameWithType: XShort.Abs(Int16)
+  fullName: Galaxon.Core.Numbers.XShort.Abs(System.Int16)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XShort.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Abs
+    path: ../Core/Core/Numbers/XShort.cs
+    startLine: 13
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nReturn the absolute value of a short as a ushort.\nThis addresses an issue with short.Abs(), which is that Abs(short.MinValue) can&apos;t be expressed\nas a short, and so wrap-around occurs.\nUnsigned integer types don&apos;t have an Abs() method, so there&apos;s no collision.\n"
+  example: []
+  syntax:
+    content: public static ushort Abs(short n)
+    parameters:
+    - id: n
+      type: System.Int16
+      description: A short value.
+    return:
+      type: System.UInt16
+      description: The absolute value as a ushort.
+    content.vb: Public Shared Function Abs(n As Short) As UShort
+  overload: Galaxon.Core.Numbers.XShort.Abs*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Numbers.XShort.GetRandom
+  commentId: M:Galaxon.Core.Numbers.XShort.GetRandom
+  id: GetRandom
+  parent: Galaxon.Core.Numbers.XShort
+  langs:
+  - csharp
+  - vb
+  name: GetRandom()
+  nameWithType: XShort.GetRandom()
+  fullName: Galaxon.Core.Numbers.XShort.GetRandom()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XShort.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetRandom
+    path: ../Core/Core/Numbers/XShort.cs
+    startLine: 24
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet a random short.\n"
+  example: []
+  syntax:
+    content: public static short GetRandom()
+    return:
+      type: System.Int16
+    content.vb: Public Shared Function GetRandom As Short
+  overload: Galaxon.Core.Numbers.XShort.GetRandom*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Numbers.XShort.Abs*
+  commentId: Overload:Galaxon.Core.Numbers.XShort.Abs
+  name: Abs
+  nameWithType: XShort.Abs
+  fullName: Galaxon.Core.Numbers.XShort.Abs
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: Galaxon.Core.Numbers.XShort.GetRandom*
+  commentId: Overload:Galaxon.Core.Numbers.XShort.GetRandom
+  name: GetRandom
+  nameWithType: XShort.GetRandom
+  fullName: Galaxon.Core.Numbers.XShort.GetRandom

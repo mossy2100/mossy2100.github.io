@@ -1,0 +1,1100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Strings.XString
+  commentId: T:Galaxon.Core.Strings.XString
+  id: XString
+  parent: Galaxon.Core.Strings
+  children:
+  - Galaxon.Core.Strings.XString.EqualsIgnoreCase(System.String,System.Nullable{System.String})
+  - Galaxon.Core.Strings.XString.GroupDigits(System.String,System.Char,System.Byte)
+  - Galaxon.Core.Strings.XString.IsAscii(System.String)
+  - Galaxon.Core.Strings.XString.IsPalindrome(System.String)
+  - Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  - Galaxon.Core.Strings.XString.Repeat(System.String,System.Int32)
+  - Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  - Galaxon.Core.Strings.XString.Reverse(System.String)
+  - Galaxon.Core.Strings.XString.SmallCapsChars
+  - Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  - Galaxon.Core.Strings.XString.StripTags(System.String)
+  - Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  - Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  - Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  - Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  - Galaxon.Core.Strings.XString.ZeroPad(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: XString
+  nameWithType: XString
+  fullName: Galaxon.Core.Strings.XString
+  type: Class
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XString
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 10
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nExtension methods for String.\n"
+  example: []
+  syntax:
+    content: 'public static class XString : object'
+    content.vb: >-
+      Public Module XString
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Strings.XString.SmallCapsChars
+  commentId: F:Galaxon.Core.Strings.XString.SmallCapsChars
+  id: SmallCapsChars
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: SmallCapsChars
+  nameWithType: XString.SmallCapsChars
+  fullName: Galaxon.Core.Strings.XString.SmallCapsChars
+  type: Field
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: SmallCapsChars
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 15
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nMap from lower-case letters to their Unicode small caps equivalents.\n"
+  example: []
+  syntax:
+    content: public static readonly Dictionary<char, string> SmallCapsChars
+    return:
+      type: Dictionary{System.Char,System.String}
+    content.vb: Public Shared ReadOnly SmallCapsChars As Dictionary(Of Char, String)
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Strings.XString.EqualsIgnoreCase(System.String,System.Nullable{System.String})
+  commentId: M:Galaxon.Core.Strings.XString.EqualsIgnoreCase(System.String,System.Nullable{System.String})
+  id: EqualsIgnoreCase(System.String,System.Nullable{System.String})
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: EqualsIgnoreCase(String, Nullable<String>)
+  nameWithType: XString.EqualsIgnoreCase(String, Nullable<String>)
+  fullName: Galaxon.Core.Strings.XString.EqualsIgnoreCase(System.String, System.Nullable<System.String>)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: EqualsIgnoreCase
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 51
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nSee if 2 strings are equal, ignoring case.\n"
+  example: []
+  syntax:
+    content: public static bool EqualsIgnoreCase(this string str1, string? str2)
+    parameters:
+    - id: str1
+      type: System.String
+    - id: str2
+      type: System.Nullable{System.String}
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function EqualsIgnoreCase(str1 As String, str2 As String?) As Boolean
+  overload: Galaxon.Core.Strings.XString.EqualsIgnoreCase*
+  nameWithType.vb: XString.EqualsIgnoreCase(String, Nullable(Of String))
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Strings.XString.EqualsIgnoreCase(System.String, System.Nullable(Of System.String))
+  name.vb: EqualsIgnoreCase(String, Nullable(Of String))
+- uid: Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  commentId: M:Galaxon.Core.Strings.XString.ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  id: ReplaceChars(System.String,Dictionary{System.Char,System.String},System.Boolean)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: ReplaceChars(String, Dictionary<Char, String>, Boolean)
+  nameWithType: XString.ReplaceChars(String, Dictionary<Char, String>, Boolean)
+  fullName: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary<System.Char, System.String>, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ReplaceChars
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 67
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nReplace characters in a string with other characters by using a character map.\nExample use cases:\n* making a string upper- or lower-case\n* converting lowercase characters to small caps\n* making a string superscript or subscript\n* transliteration/removal of diacritics\n"
+  example: []
+  syntax:
+    content: public static string ReplaceChars(this string str, Dictionary<char, string> charMap, bool keepCharsNotInMap = true)
+    parameters:
+    - id: str
+      type: System.String
+      description: The original string.
+    - id: charMap
+      type: Dictionary{System.Char,System.String}
+      description: The character map.
+    - id: keepCharsNotInMap
+      type: System.Boolean
+      description: >-
+        If a character is encountered that is not in the character
+
+        map, either keep it (true) or skip it (false).
+    return:
+      type: System.String
+      description: The transformed string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ReplaceChars(str As String, charMap As Dictionary(Of Char, String), keepCharsNotInMap As Boolean = True) As String
+  overload: Galaxon.Core.Strings.XString.ReplaceChars*
+  nameWithType.vb: XString.ReplaceChars(String, Dictionary(Of Char, String), Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Strings.XString.ReplaceChars(System.String, Dictionary(Of System.Char, System.String), System.Boolean)
+  name.vb: ReplaceChars(String, Dictionary(Of Char, String), Boolean)
+- uid: Galaxon.Core.Strings.XString.Repeat(System.String,System.Int32)
+  commentId: M:Galaxon.Core.Strings.XString.Repeat(System.String,System.Int32)
+  id: Repeat(System.String,System.Int32)
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: Repeat(String, Int32)
+  nameWithType: XString.Repeat(String, Int32)
+  fullName: Galaxon.Core.Strings.XString.Repeat(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Repeat
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 93
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nConstruct a new string by repeating a string multiple times.\n"
+  example: []
+  syntax:
+    content: public static string Repeat(string s, int n)
+    parameters:
+    - id: s
+      type: System.String
+    - id: n
+      type: System.Int32
+    return:
+      type: System.String
+    content.vb: Public Shared Function Repeat(s As String, n As Integer) As String
+  overload: Galaxon.Core.Strings.XString.Repeat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.Reverse(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.Reverse(System.String)
+  id: Reverse(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: Reverse(String)
+  nameWithType: XString.Reverse(String)
+  fullName: Galaxon.Core.Strings.XString.Reverse(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Reverse
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 113
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nReverse a string.\ne.g. &quot;You are awesome.&quot; becomes &quot;.emosewa era uoY&quot;.\n"
+  example: []
+  syntax:
+    content: public static string Reverse(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Reverse(str As String) As String
+  overload: Galaxon.Core.Strings.XString.Reverse*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.IsPalindrome(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.IsPalindrome(System.String)
+  id: IsPalindrome(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: IsPalindrome(String)
+  nameWithType: XString.IsPalindrome(String)
+  fullName: Galaxon.Core.Strings.XString.IsPalindrome(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: IsPalindrome
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 123
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nCheck if a string is a palindrome.\n"
+  example: []
+  syntax:
+    content: public static bool IsPalindrome(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsPalindrome(str As String) As Boolean
+  overload: Galaxon.Core.Strings.XString.IsPalindrome*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  id: StripWhitespace(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: StripWhitespace(String)
+  nameWithType: XString.StripWhitespace(String)
+  fullName: Galaxon.Core.Strings.XString.StripWhitespace(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: StripWhitespace
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 132
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nRemove whitespace from a string.\n"
+  example: []
+  syntax:
+    content: public static string StripWhitespace(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to process.
+    return:
+      type: System.String
+      description: The string with whitespace characters removed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StripWhitespace(str As String) As String
+  overload: Galaxon.Core.Strings.XString.StripWhitespace*
+  see:
+  - linkType: HRef
+    linkId: https://www.compart.com/en/unicode/category/Zs
+    altText: https://www.compart.com/en/unicode/category/Zs
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  commentId: M:Galaxon.Core.Strings.XString.StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  id: StripBrackets(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
+  nameWithType: XString.StripBrackets(String, Boolean, Boolean, Boolean, Boolean)
+  fullName: Galaxon.Core.Strings.XString.StripBrackets(System.String, System.Boolean, System.Boolean, System.Boolean, System.Boolean)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: StripBrackets
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 145
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nRemove brackets (and whatever&apos;s between them) from a string.\n"
+  example: []
+  syntax:
+    content: public static string StripBrackets(this string str, bool round = true, bool square = true, bool curly = true, bool angle = true)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to process.
+    - id: round
+      type: System.Boolean
+      description: If round brackets should be removed.
+    - id: square
+      type: System.Boolean
+      description: If square brackets should be removed
+    - id: curly
+      type: System.Boolean
+      description: If curly brackets should be removed
+    - id: angle
+      type: System.Boolean
+      description: If angle brackets should be removed
+    return:
+      type: System.String
+      description: The string with brackets removed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StripBrackets(str As String, round As Boolean = True, square As Boolean = True, curly As Boolean = True, angle As Boolean = True) As String
+  overload: Galaxon.Core.Strings.XString.StripBrackets*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.StripTags(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.StripTags(System.String)
+  id: StripTags(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: StripTags(String)
+  nameWithType: XString.StripTags(String)
+  fullName: Galaxon.Core.Strings.XString.StripTags(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: StripTags
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 174
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: Strip HTML tags from a string.
+  example: []
+  syntax:
+    content: public static string StripTags(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to process.
+    return:
+      type: System.String
+      description: The string with HTML tags removed.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function StripTags(str As String) As String
+  overload: Galaxon.Core.Strings.XString.StripTags*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.IsAscii(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.IsAscii(System.String)
+  id: IsAscii(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: IsAscii(String)
+  nameWithType: XString.IsAscii(String)
+  fullName: Galaxon.Core.Strings.XString.IsAscii(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: IsAscii
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 182
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nCheck if a string contains only ASCII characters.\n"
+  example: []
+  syntax:
+    content: public static bool IsAscii(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to check.
+    return:
+      type: System.Boolean
+      description: ''
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function IsAscii(str As String) As Boolean
+  overload: Galaxon.Core.Strings.XString.IsAscii*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  id: MakeSlug(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: MakeSlug(String)
+  nameWithType: XString.MakeSlug(String)
+  fullName: Galaxon.Core.Strings.XString.MakeSlug(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: MakeSlug
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 194
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nConvert a Unicode string (for example, a page title) to a user-, browser-, and search\nengine-friendly URL slug containing only lower-case alphanumeric ASCII characters and\nhyphens.\nThis method does not remove short words like &quot;a&quot;, &quot;the&quot;, &quot;of&quot;, etc., like some algorithms\ndo. I don&apos;t perceive this as necessary - please let me know if you disagree.\n"
+  example: []
+  syntax:
+    content: public static string MakeSlug(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string to process.
+    return:
+      type: System.String
+      description: The ASCII slug.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function MakeSlug(str As String) As String
+  overload: Galaxon.Core.Strings.XString.MakeSlug*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  id: ToSmallCaps(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: ToSmallCaps(String)
+  nameWithType: XString.ToSmallCaps(String)
+  fullName: Galaxon.Core.Strings.XString.ToSmallCaps(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToSmallCaps
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 215
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nConvert all lower-case letters in a string to their Unicode small caps variant.\nOnly works for English letters, so, if necessary (e.g. if the string is in a different\nlanguage), you may wish to call AnyAscii.Transliterate() on the string first.\n"
+  example: []
+  syntax:
+    content: public static string ToSmallCaps(this string str)
+    parameters:
+    - id: str
+      type: System.String
+    return:
+      type: System.String
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSmallCaps(str As String) As String
+  overload: Galaxon.Core.Strings.XString.ToSmallCaps*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  id: ToSuperscript(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: ToSuperscript(String)
+  nameWithType: XString.ToSuperscript(String)
+  fullName: Galaxon.Core.Strings.XString.ToSuperscript(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToSuperscript
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 226
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nRender a string with valid integer characters (i.e. minus sign or digits) converted to their\nUnicode superscript versions.\n"
+  example: []
+  syntax:
+    content: public static string ToSuperscript(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string.
+    return:
+      type: System.String
+      description: The string of superscript characters.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSuperscript(str As String) As String
+  overload: Galaxon.Core.Strings.XString.ToSuperscript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  commentId: M:Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  id: ToSubscript(System.String)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: ToSubscript(String)
+  nameWithType: XString.ToSubscript(String)
+  fullName: Galaxon.Core.Strings.XString.ToSubscript(System.String)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToSubscript
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 235
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nRender a string with valid integer characters (i.e. minus sign or digits) converted to their\nUnicode subscript versions.\n"
+  example: []
+  syntax:
+    content: public static string ToSubscript(this string str)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string.
+    return:
+      type: System.String
+      description: The string of subscript characters.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSubscript(str As String) As String
+  overload: Galaxon.Core.Strings.XString.ToSubscript*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.ZeroPad(System.String,System.Int32)
+  commentId: M:Galaxon.Core.Strings.XString.ZeroPad(System.String,System.Int32)
+  id: ZeroPad(System.String,System.Int32)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: ZeroPad(String, Int32)
+  nameWithType: XString.ZeroPad(String, Int32)
+  fullName: Galaxon.Core.Strings.XString.ZeroPad(System.String, System.Int32)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ZeroPad
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 244
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nPad a string on the left with 0s to make it up to a certain width.\n"
+  example: []
+  syntax:
+    content: public static string ZeroPad(this string str, int width)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string.
+    - id: width
+      type: System.Int32
+      description: The minimum number of characters in the the result.
+    return:
+      type: System.String
+      description: The zero-padded string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ZeroPad(str As String, width As Integer) As String
+  overload: Galaxon.Core.Strings.XString.ZeroPad*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Galaxon.Core.Strings.XString.GroupDigits(System.String,System.Char,System.Byte)
+  commentId: M:Galaxon.Core.Strings.XString.GroupDigits(System.String,System.Char,System.Byte)
+  id: GroupDigits(System.String,System.Char,System.Byte)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Strings.XString
+  langs:
+  - csharp
+  - vb
+  name: GroupDigits(String, Char, Byte)
+  nameWithType: XString.GroupDigits(String, Char, Byte)
+  fullName: Galaxon.Core.Strings.XString.GroupDigits(System.String, System.Char, System.Byte)
+  type: Method
+  source:
+    remote:
+      path: Core/Strings/XString.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GroupDigits
+    path: ../Core/Core/Strings/XString.cs
+    startLine: 267
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Strings
+  summary: "\nGiven a string of digits, format in groups using the specified group separator and group\nsize.\n\nThis method is designed for formatting numbers but it could be used for other purposes,\nsince the method doesn&apos;t check if the characters are actually digits. It just assumes they\nare. Apart from saving time, it allows the method to be used for hexadecimal or other bases.\n\nGrouping starts from the right. Here&apos;s how you would format an integer:\n&quot;12345678&quot;.GroupDigits(&apos;,&apos;, 3) => &quot;12,345,678&quot;\n\nYou can chain methods if you need to, e.g.\n&quot;11111000000001010101&quot;.GroupDigits(&apos;_&apos;, 8) => &quot;1111_10000000_01010101&quot;\n&quot;11111000000001010101&quot;.ZeroPad(24).GroupDigits(&apos;_&apos;, 8) => &quot;00001111_10000000_01010101&quot;\n123456789.ToHex().ZeroPad(8).GroupDigits(&apos; &apos;) => &quot;075b cd15&quot;\n"
+  example: []
+  syntax:
+    content: public static string GroupDigits(this string str, char separator = '_', byte size = null)
+    parameters:
+    - id: str
+      type: System.String
+      description: The string, nominally of digits, but can be whatever.
+    - id: separator
+      type: System.Char
+      description: The group separator character.
+    - id: size
+      type: System.Byte
+      description: The group size.
+    return:
+      type: System.String
+      description: The formatted string.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GroupDigits(str As String, separator As Char = "_"c, size As Byte = Nothing) As String
+  overload: Galaxon.Core.Strings.XString.GroupDigits*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Galaxon.Core.Strings
+  commentId: N:Galaxon.Core.Strings
+  name: Galaxon.Core.Strings
+  nameWithType: Galaxon.Core.Strings
+  fullName: Galaxon.Core.Strings
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dictionary{System.Char,System.String}
+  commentId: '!:Dictionary{System.Char,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<Char, String>
+  nameWithType: Dictionary<Char, String>
+  fullName: Dictionary<System.Char, System.String>
+  nameWithType.vb: Dictionary(Of Char, String)
+  fullName.vb: Dictionary(Of System.Char, System.String)
+  name.vb: Dictionary(Of Char, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Strings.XString.EqualsIgnoreCase*
+  commentId: Overload:Galaxon.Core.Strings.XString.EqualsIgnoreCase
+  name: EqualsIgnoreCase
+  nameWithType: XString.EqualsIgnoreCase
+  fullName: Galaxon.Core.Strings.XString.EqualsIgnoreCase
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Nullable{System.String}
+  commentId: '!:System.Nullable{System.String}'
+  definition: System.Nullable`1
+  name: Nullable<String>
+  nameWithType: Nullable<String>
+  fullName: System.Nullable<System.String>
+  nameWithType.vb: Nullable(Of String)
+  fullName.vb: System.Nullable(Of System.String)
+  name.vb: Nullable(Of String)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Nullable`1
+  isExternal: true
+  name: Nullable<>
+  nameWithType: Nullable<>
+  fullName: System.Nullable<>
+  nameWithType.vb: Nullable(Of )
+  fullName.vb: System.Nullable(Of )
+  name.vb: Nullable(Of )
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Strings.XString.ReplaceChars*
+  commentId: Overload:Galaxon.Core.Strings.XString.ReplaceChars
+  name: ReplaceChars
+  nameWithType: XString.ReplaceChars
+  fullName: Galaxon.Core.Strings.XString.ReplaceChars
+- uid: Galaxon.Core.Strings.XString.Repeat*
+  commentId: Overload:Galaxon.Core.Strings.XString.Repeat
+  name: Repeat
+  nameWithType: XString.Repeat
+  fullName: Galaxon.Core.Strings.XString.Repeat
+- uid: System.Int32
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Galaxon.Core.Strings.XString.Reverse*
+  commentId: Overload:Galaxon.Core.Strings.XString.Reverse
+  name: Reverse
+  nameWithType: XString.Reverse
+  fullName: Galaxon.Core.Strings.XString.Reverse
+- uid: Galaxon.Core.Strings.XString.IsPalindrome*
+  commentId: Overload:Galaxon.Core.Strings.XString.IsPalindrome
+  name: IsPalindrome
+  nameWithType: XString.IsPalindrome
+  fullName: Galaxon.Core.Strings.XString.IsPalindrome
+- uid: Galaxon.Core.Strings.XString.StripWhitespace*
+  commentId: Overload:Galaxon.Core.Strings.XString.StripWhitespace
+  name: StripWhitespace
+  nameWithType: XString.StripWhitespace
+  fullName: Galaxon.Core.Strings.XString.StripWhitespace
+- uid: Galaxon.Core.Strings.XString.StripBrackets*
+  commentId: Overload:Galaxon.Core.Strings.XString.StripBrackets
+  name: StripBrackets
+  nameWithType: XString.StripBrackets
+  fullName: Galaxon.Core.Strings.XString.StripBrackets
+- uid: Galaxon.Core.Strings.XString.StripTags*
+  commentId: Overload:Galaxon.Core.Strings.XString.StripTags
+  name: StripTags
+  nameWithType: XString.StripTags
+  fullName: Galaxon.Core.Strings.XString.StripTags
+- uid: Galaxon.Core.Strings.XString.IsAscii*
+  commentId: Overload:Galaxon.Core.Strings.XString.IsAscii
+  name: IsAscii
+  nameWithType: XString.IsAscii
+  fullName: Galaxon.Core.Strings.XString.IsAscii
+- uid: Galaxon.Core.Strings.XString.MakeSlug*
+  commentId: Overload:Galaxon.Core.Strings.XString.MakeSlug
+  name: MakeSlug
+  nameWithType: XString.MakeSlug
+  fullName: Galaxon.Core.Strings.XString.MakeSlug
+- uid: Galaxon.Core.Strings.XString.ToSmallCaps*
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSmallCaps
+  name: ToSmallCaps
+  nameWithType: XString.ToSmallCaps
+  fullName: Galaxon.Core.Strings.XString.ToSmallCaps
+- uid: Galaxon.Core.Strings.XString.ToSuperscript*
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSuperscript
+  name: ToSuperscript
+  nameWithType: XString.ToSuperscript
+  fullName: Galaxon.Core.Strings.XString.ToSuperscript
+- uid: Galaxon.Core.Strings.XString.ToSubscript*
+  commentId: Overload:Galaxon.Core.Strings.XString.ToSubscript
+  name: ToSubscript
+  nameWithType: XString.ToSubscript
+  fullName: Galaxon.Core.Strings.XString.ToSubscript
+- uid: Galaxon.Core.Strings.XString.ZeroPad*
+  commentId: Overload:Galaxon.Core.Strings.XString.ZeroPad
+  name: ZeroPad
+  nameWithType: XString.ZeroPad
+  fullName: Galaxon.Core.Strings.XString.ZeroPad
+- uid: Galaxon.Core.Strings.XString.GroupDigits*
+  commentId: Overload:Galaxon.Core.Strings.XString.GroupDigits
+  name: GroupDigits
+  nameWithType: XString.GroupDigits
+  fullName: Galaxon.Core.Strings.XString.GroupDigits
+- uid: System.Char
+  isExternal: true
+  name: Char
+  nameWithType: Char
+  fullName: System.Char
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte

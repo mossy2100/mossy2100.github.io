@@ -1,0 +1,581 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XFloatingPoint
+  commentId: T:Galaxon.Core.Numbers.XFloatingPoint
+  id: XFloatingPoint
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XFloatingPoint.Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  - Galaxon.Core.Numbers.XFloatingPoint.Disassemble``1(``0)
+  - Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp``1
+  - Galaxon.Core.Numbers.XFloatingPoint.GetMinExp``1
+  - Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue``1
+  - Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits``1
+  - Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits``1
+  langs:
+  - csharp
+  - vb
+  name: XFloatingPoint
+  nameWithType: XFloatingPoint
+  fullName: Galaxon.Core.Numbers.XFloatingPoint
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XFloatingPoint
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: Extension methods for IFloatingPoint{T}.
+  example: []
+  syntax:
+    content: 'public static class XFloatingPoint : object'
+    content.vb: >-
+      Public Module XFloatingPoint
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits``1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits``1
+  id: GetNumExpBits``1
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: GetNumExpBits<T>()
+  nameWithType: XFloatingPoint.GetNumExpBits<T>()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits<T>()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetNumExpBits
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 11
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the number of exponent bits.\n"
+  example: []
+  syntax:
+    content: >-
+      public static byte GetNumExpBits<T>()
+          where T : IFloatingPoint<T>
+    typeParameters:
+    - id: T
+    return:
+      type: System.Byte
+    content.vb: Public Shared Function GetNumExpBits(Of T As IFloatingPoint(Of T)) As Byte
+  overload: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits*
+  nameWithType.vb: XFloatingPoint.GetNumExpBits(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits(Of T)()
+  name.vb: GetNumExpBits(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits``1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits``1
+  id: GetNumFracBits``1
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: GetNumFracBits<T>()
+  nameWithType: XFloatingPoint.GetNumFracBits<T>()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits<T>()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetNumFracBits
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 24
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the number of fraction bits.\n"
+  example: []
+  syntax:
+    content: >-
+      public static byte GetNumFracBits<T>()
+          where T : IFloatingPoint<T>
+    typeParameters:
+    - id: T
+    return:
+      type: System.Byte
+    content.vb: Public Shared Function GetNumFracBits(Of T As IFloatingPoint(Of T)) As Byte
+  overload: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits*
+  nameWithType.vb: XFloatingPoint.GetNumFracBits(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits(Of T)()
+  name.vb: GetNumFracBits(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp``1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMinExp``1
+  id: GetMinExp``1
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: GetMinExp<T>()
+  nameWithType: XFloatingPoint.GetMinExp<T>()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp<T>()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetMinExp
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 37
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the minimum exponent for the type.\n"
+  example: []
+  syntax:
+    content: >-
+      public static short GetMinExp<T>()
+          where T : IFloatingPoint<T>
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int16
+    content.vb: Public Shared Function GetMinExp(Of T As IFloatingPoint(Of T)) As Short
+  overload: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp*
+  nameWithType.vb: XFloatingPoint.GetMinExp(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp(Of T)()
+  name.vb: GetMinExp(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp``1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp``1
+  id: GetMaxExp``1
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: GetMaxExp<T>()
+  nameWithType: XFloatingPoint.GetMaxExp<T>()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp<T>()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetMaxExp
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 44
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the maximum exponent for the type.\n"
+  example: []
+  syntax:
+    content: >-
+      public static short GetMaxExp<T>()
+          where T : IFloatingPoint<T>
+    typeParameters:
+    - id: T
+    return:
+      type: System.Int16
+    content.vb: Public Shared Function GetMaxExp(Of T As IFloatingPoint(Of T)) As Short
+  overload: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp*
+  nameWithType.vb: XFloatingPoint.GetMaxExp(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp(Of T)()
+  name.vb: GetMaxExp(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue``1
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue``1
+  id: GetMinPosNormalValue``1
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: GetMinPosNormalValue<T>()
+  nameWithType: XFloatingPoint.GetMinPosNormalValue<T>()
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue<T>()
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: GetMinPosNormalValue
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 51
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nGet the minimum positive normal value for the type.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T GetMinPosNormalValue<T>()
+          where T : IFloatingPoint<T>
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function GetMinPosNormalValue(Of T As IFloatingPoint(Of T)) As T
+  overload: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue*
+  nameWithType.vb: XFloatingPoint.GetMinPosNormalValue(Of T)()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue(Of T)()
+  name.vb: GetMinPosNormalValue(Of T)()
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Disassemble``1(``0)
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.Disassemble``1(``0)
+  id: Disassemble``1(``0)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: Disassemble<T>(T)
+  nameWithType: XFloatingPoint.Disassemble<T>(T)
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Disassemble<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Disassemble
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 63
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nDisassemble the floating point value into its bitwise components.\n"
+  example: []
+  syntax:
+    content: >-
+      public static (byte signBit, ushort expBits, ulong fracBits) Disassemble<T>(this T x)
+          where T : IFloatingPoint<T>
+    parameters:
+    - id: x
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Disassemble(Of T As IFloatingPoint(Of T))(x As T) As(signBit As Byte, expBits As UShort, fracBits As ULong)(Of Byte , UShort, ULong)
+  overload: Galaxon.Core.Numbers.XFloatingPoint.Disassemble*
+  nameWithType.vb: XFloatingPoint.Disassemble(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.Disassemble(Of T)(T)
+  name.vb: Disassemble(Of T)(T)
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  commentId: M:Galaxon.Core.Numbers.XFloatingPoint.Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  id: Assemble``1(System.Byte,System.UInt16,System.UInt64)
+  parent: Galaxon.Core.Numbers.XFloatingPoint
+  langs:
+  - csharp
+  - vb
+  name: Assemble<T>(Byte, UInt16, UInt64)
+  nameWithType: XFloatingPoint.Assemble<T>(Byte, UInt16, UInt64)
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Assemble<T>(System.Byte, System.UInt16, System.UInt64)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XFloatingPoint.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: Assemble
+    path: ../Core/Core/Numbers/XFloatingPoint.cs
+    startLine: 125
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nAssemble a new floating point value from parts.\n"
+  example: []
+  syntax:
+    content: >-
+      public static T Assemble<T>(byte signBit, ushort expBits, ulong fracBits)
+          where T : IFloatingPoint<T>
+    parameters:
+    - id: signBit
+      type: System.Byte
+      description: The sign bit (1 or 0).
+    - id: expBits
+      type: System.UInt16
+      description: The exponent bits.
+    - id: fracBits
+      type: System.UInt64
+      description: The fraction bits.
+    typeParameters:
+    - id: T
+      description: A floating point type.
+    return:
+      type: '{T}'
+      description: The new floating point value.
+    content.vb: Public Shared Function Assemble(Of T As IFloatingPoint(Of T))(signBit As Byte, expBits As UShort, fracBits As ULong) As T
+  overload: Galaxon.Core.Numbers.XFloatingPoint.Assemble*
+  nameWithType.vb: XFloatingPoint.Assemble(Of T)(Byte, UInt16, UInt64)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XFloatingPoint.Assemble(Of T)(System.Byte, System.UInt16, System.UInt64)
+  name.vb: Assemble(Of T)(Byte, UInt16, UInt64)
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits
+  name: GetNumExpBits
+  nameWithType: XFloatingPoint.GetNumExpBits
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumExpBits
+- uid: System.Byte
+  isExternal: true
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits
+  name: GetNumFracBits
+  nameWithType: XFloatingPoint.GetNumFracBits
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetNumFracBits
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMinExp
+  name: GetMinExp
+  nameWithType: XFloatingPoint.GetMinExp
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinExp
+- uid: System.Int16
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp
+  name: GetMaxExp
+  nameWithType: XFloatingPoint.GetMaxExp
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMaxExp
+- uid: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue
+  name: GetMinPosNormalValue
+  nameWithType: XFloatingPoint.GetMinPosNormalValue
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.GetMinPosNormalValue
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Disassemble*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.Disassemble
+  name: Disassemble
+  nameWithType: XFloatingPoint.Disassemble
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Disassemble
+- uid: System.ValueTuple{System.Byte,System.UInt16,System.UInt64}
+  commentId: '!:System.ValueTuple{System.Byte,System.UInt16,System.UInt64}'
+  definition: System.ValueTuple`3
+  name: (, , )<Byte, UInt16, UInt64>
+  nameWithType: (, , )<Byte, UInt16, UInt64>
+  fullName: System.ValueTuple<System.Byte, System.UInt16, System.UInt64>
+  nameWithType.vb: (, , )(Of Byte, UInt16, UInt64)
+  fullName.vb: System.ValueTuple(Of System.Byte, System.UInt16, System.UInt64)
+  name.vb: (, , )(Of Byte, UInt16, UInt64)
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt16
+    name: UInt16
+    nameWithType: UInt16
+    fullName: System.UInt16
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.UInt64
+    name: UInt64
+    nameWithType: UInt64
+    fullName: System.UInt64
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.ValueTuple`3
+  isExternal: true
+  name: (, , )<, , >
+  nameWithType: (, , )<, , >
+  fullName: System.ValueTuple<, , >
+  nameWithType.vb: (, , )(Of , , )
+  fullName.vb: System.ValueTuple(Of , , )
+  name.vb: (, , )(Of , , )
+  spec.csharp:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`3
+    name: (, , )
+    nameWithType: (, , )
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Numbers.XFloatingPoint.Assemble*
+  commentId: Overload:Galaxon.Core.Numbers.XFloatingPoint.Assemble
+  name: Assemble
+  nameWithType: XFloatingPoint.Assemble
+  fullName: Galaxon.Core.Numbers.XFloatingPoint.Assemble
+- uid: System.UInt16
+  isExternal: true
+  name: UInt16
+  nameWithType: UInt16
+  fullName: System.UInt16
+- uid: System.UInt64
+  isExternal: true
+  name: UInt64
+  nameWithType: UInt64
+  fullName: System.UInt64

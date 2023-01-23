@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Core.Numbers.XBinaryInteger
+  commentId: T:Galaxon.Core.Numbers.XBinaryInteger
+  id: XBinaryInteger
+  parent: Galaxon.Core.Numbers
+  children:
+  - Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  - Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  - Galaxon.Core.Numbers.XBinaryInteger.ToSubscript``1(``0)
+  - Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript``1(``0)
+  langs:
+  - csharp
+  - vb
+  name: XBinaryInteger
+  nameWithType: XBinaryInteger
+  fullName: Galaxon.Core.Numbers.XBinaryInteger
+  type: Class
+  source:
+    remote:
+      path: Core/Numbers/XBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: XBinaryInteger
+    path: ../Core/Core/Numbers/XBinaryInteger.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nExtension methods for IBinaryInteger{T}.\n"
+  example: []
+  syntax:
+    content: 'public static class XBinaryInteger : object'
+    content.vb: >-
+      Public Module XBinaryInteger
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  commentId: F:Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  id: SuperscriptChars
+  parent: Galaxon.Core.Numbers.XBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: SuperscriptChars
+  nameWithType: XBinaryInteger.SuperscriptChars
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.SuperscriptChars
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: SuperscriptChars
+    path: ../Core/Core/Numbers/XBinaryInteger.cs
+    startLine: 15
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nMap from normal integer characters to their superscript versions.\n"
+  example: []
+  syntax:
+    content: public static readonly Dictionary<char, string> SuperscriptChars
+    return:
+      type: Dictionary{System.Char,System.String}
+    content.vb: Public Shared ReadOnly SuperscriptChars As Dictionary(Of Char, String)
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  commentId: F:Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  id: SubscriptChars
+  parent: Galaxon.Core.Numbers.XBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: SubscriptChars
+  nameWithType: XBinaryInteger.SubscriptChars
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.SubscriptChars
+  type: Field
+  source:
+    remote:
+      path: Core/Numbers/XBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: SubscriptChars
+    path: ../Core/Core/Numbers/XBinaryInteger.cs
+    startLine: 33
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nMap from normal integer characters to their subscript versions.\n"
+  example: []
+  syntax:
+    content: public static readonly Dictionary<char, string> SubscriptChars
+    return:
+      type: Dictionary{System.Char,System.String}
+    content.vb: Public Shared ReadOnly SubscriptChars As Dictionary(Of Char, String)
+  modifiers.csharp:
+  - public
+  - static
+  - readonly
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript``1(``0)
+  commentId: M:Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript``1(``0)
+  id: ToSuperscript``1(``0)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: ToSuperscript<T>(T)
+  nameWithType: XBinaryInteger.ToSuperscript<T>(T)
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToSuperscript
+    path: ../Core/Core/Numbers/XBinaryInteger.cs
+    startLine: 60
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nRender an integer as a superscript string.\n\nThis is useful for formatting exponents, numerators, and other numeric superscripts when\nHTML is unavailable.\n\nSee <a href=\"https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts\">https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts</a>\nSee <a href=\"https://rupertshepherd.info/resource_pages/superscript-letters-in-unicode\">https://rupertshepherd.info/resource_pages/superscript-letters-in-unicode</a>\nSee <a href=\"https://unicode-table.com/en/\">https://unicode-table.com/en/</a>\n"
+  example: []
+  syntax:
+    content: >-
+      public static string ToSuperscript<T>(this T n)
+          where T : IBinaryInteger<T>
+    parameters:
+    - id: n
+      type: '{T}'
+      description: The integer.
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+      description: The string of superscript characters.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSuperscript(Of T As IBinaryInteger(Of T))(n As T) As String
+  overload: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript*
+  nameWithType.vb: XBinaryInteger.ToSuperscript(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript(Of T)(T)
+  name.vb: ToSuperscript(Of T)(T)
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript``1(``0)
+  commentId: M:Galaxon.Core.Numbers.XBinaryInteger.ToSubscript``1(``0)
+  id: ToSubscript``1(``0)
+  isExtensionMethod: true
+  parent: Galaxon.Core.Numbers.XBinaryInteger
+  langs:
+  - csharp
+  - vb
+  name: ToSubscript<T>(T)
+  nameWithType: XBinaryInteger.ToSubscript<T>(T)
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript<T>(T)
+  type: Method
+  source:
+    remote:
+      path: Core/Numbers/XBinaryInteger.cs
+      branch: main
+      repo: git@github.com:mossy2100/Core.git
+    id: ToSubscript
+    path: ../Core/Core/Numbers/XBinaryInteger.cs
+    startLine: 71
+  assemblies:
+  - Galaxon.Core
+  namespace: Galaxon.Core.Numbers
+  summary: "\nRender an integer as a subscript string.\n\nThis is useful for formatting denominators, the number of atoms in a molecule, atomic\nnumbers, and other numeric subscripts when HTML is unavailable.\n"
+  example: []
+  syntax:
+    content: >-
+      public static string ToSubscript<T>(this T n)
+          where T : IBinaryInteger<T>
+    parameters:
+    - id: n
+      type: '{T}'
+      description: The integer.
+    typeParameters:
+    - id: T
+    return:
+      type: System.String
+      description: The string of subscript characters.
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ToSubscript(Of T As IBinaryInteger(Of T))(n As T) As String
+  overload: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript*
+  nameWithType.vb: XBinaryInteger.ToSubscript(Of T)(T)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript(Of T)(T)
+  name.vb: ToSubscript(Of T)(T)
+references:
+- uid: Galaxon.Core.Numbers
+  commentId: N:Galaxon.Core.Numbers
+  name: Galaxon.Core.Numbers
+  nameWithType: Galaxon.Core.Numbers
+  fullName: Galaxon.Core.Numbers
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Dictionary{System.Char,System.String}
+  commentId: '!:Dictionary{System.Char,System.String}'
+  definition: Dictionary`2
+  name: Dictionary<Char, String>
+  nameWithType: Dictionary<Char, String>
+  fullName: Dictionary<System.Char, System.String>
+  nameWithType.vb: Dictionary(Of Char, String)
+  fullName.vb: Dictionary(Of System.Char, System.String)
+  name.vb: Dictionary(Of Char, String)
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Char
+    name: Char
+    nameWithType: Char
+    fullName: System.Char
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript*
+  commentId: Overload:Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript
+  name: ToSuperscript
+  nameWithType: XBinaryInteger.ToSuperscript
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSuperscript
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System.String
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript*
+  commentId: Overload:Galaxon.Core.Numbers.XBinaryInteger.ToSubscript
+  name: ToSubscript
+  nameWithType: XBinaryInteger.ToSubscript
+  fullName: Galaxon.Core.Numbers.XBinaryInteger.ToSubscript

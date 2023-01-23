@@ -1,0 +1,1093 @@
+### YamlMime:ManagedReference
+items:
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse
+  commentId: T:Galaxon.Numerics.BigDecimalTests.TestParse
+  id: TestParse
+  parent: Galaxon.Numerics.BigDecimalTests
+  children:
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger
+  - Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2
+  langs:
+  - csharp
+  - vb
+  name: TestParse
+  nameWithType: TestParse
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse
+  type: Class
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParse
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 5
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: 'public class TestParse : object'
+    content.vb: >-
+      Public Class TestParse
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0
+  id: TestParse0
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParse0()
+  nameWithType: TestParse.TestParse0()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParse0
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 8
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParse0()
+    content.vb: Public Sub TestParse0
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1
+  id: TestParse1
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParse1()
+  nameWithType: TestParse.TestParse1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParse1
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 16
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParse1()
+    content.vb: Public Sub TestParse1
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2
+  id: TestParse2
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParse2()
+  nameWithType: TestParse.TestParse2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParse2
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 24
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParse2()
+    content.vb: Public Sub TestParse2
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1
+  id: TestParseMinus1
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseMinus1()
+  nameWithType: TestParse.TestParseMinus1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseMinus1
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 32
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseMinus1()
+    content.vb: Public Sub TestParseMinus1
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1
+  id: TestParsePlus1
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParsePlus1()
+  nameWithType: TestParse.TestParsePlus1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParsePlus1
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 40
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParsePlus1()
+    content.vb: Public Sub TestParsePlus1
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10
+  id: TestParse10
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParse10()
+  nameWithType: TestParse.TestParse10()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParse10
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 48
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParse10()
+    content.vb: Public Sub TestParse10
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200
+  id: TestParseMinus200
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseMinus200()
+  nameWithType: TestParse.TestParseMinus200()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseMinus200
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 56
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseMinus200()
+    content.vb: Public Sub TestParseMinus200
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat
+  id: TestParsePositiveFloat
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParsePositiveFloat()
+  nameWithType: TestParse.TestParsePositiveFloat()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParsePositiveFloat
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 64
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParsePositiveFloat()
+    content.vb: Public Sub TestParsePositiveFloat
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat
+  id: TestParseNegativeFloat
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseNegativeFloat()
+  nameWithType: TestParse.TestParseNegativeFloat()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseNegativeFloat
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 72
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseNegativeFloat()
+    content.vb: Public Sub TestParseNegativeFloat
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi
+  id: TestParsePi
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParsePi()
+  nameWithType: TestParse.TestParsePi()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParsePi
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 80
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParsePi()
+    content.vb: Public Sub TestParsePi
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent
+  id: TestParseFloatWithPositiveExponent
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseFloatWithPositiveExponent()
+  nameWithType: TestParse.TestParseFloatWithPositiveExponent()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseFloatWithPositiveExponent
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 92
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseFloatWithPositiveExponent()
+    content.vb: Public Sub TestParseFloatWithPositiveExponent
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE
+  id: TestParseFloatWithPositiveExponentNoE
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseFloatWithPositiveExponentNoE()
+  nameWithType: TestParse.TestParseFloatWithPositiveExponentNoE()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseFloatWithPositiveExponentNoE
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 101
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseFloatWithPositiveExponentNoE()
+    content.vb: Public Sub TestParseFloatWithPositiveExponentNoE
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent
+  id: TestParseFloatWithNegativeExponent
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseFloatWithNegativeExponent()
+  nameWithType: TestParse.TestParseFloatWithNegativeExponent()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseFloatWithNegativeExponent
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 110
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseFloatWithNegativeExponent()
+    content.vb: Public Sub TestParseFloatWithNegativeExponent
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators
+  id: TestParseNumberWithCommasForThousandsSeparators
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseNumberWithCommasForThousandsSeparators()
+  nameWithType: TestParse.TestParseNumberWithCommasForThousandsSeparators()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseNumberWithCommasForThousandsSeparators
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 119
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseNumberWithCommasForThousandsSeparators()
+    content.vb: Public Sub TestParseNumberWithCommasForThousandsSeparators
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators
+  id: TestParseNumberWithSpacesForThousandsSeparators
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseNumberWithSpacesForThousandsSeparators()
+  nameWithType: TestParse.TestParseNumberWithSpacesForThousandsSeparators()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseNumberWithSpacesForThousandsSeparators
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 128
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseNumberWithSpacesForThousandsSeparators()
+    content.vb: Public Sub TestParseNumberWithSpacesForThousandsSeparators
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+  id: TestParseNumberWithUnderscoresForThousandsSeparators
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseNumberWithUnderscoresForThousandsSeparators()
+  nameWithType: TestParse.TestParseNumberWithUnderscoresForThousandsSeparators()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseNumberWithUnderscoresForThousandsSeparators
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 137
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseNumberWithUnderscoresForThousandsSeparators()
+    content.vb: Public Sub TestParseNumberWithUnderscoresForThousandsSeparators
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction
+  id: TestParseZeroFraction
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseZeroFraction()
+  nameWithType: TestParse.TestParseZeroFraction()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseZeroFraction
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 146
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseZeroFraction()
+    content.vb: Public Sub TestParseZeroFraction
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2
+  id: TestParseZeroFraction2
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseZeroFraction2()
+  nameWithType: TestParse.TestParseZeroFraction2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseZeroFraction2
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 154
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseZeroFraction2()
+    content.vb: Public Sub TestParseZeroFraction2
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger
+  id: TestParseZeroInteger
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseZeroInteger()
+  nameWithType: TestParse.TestParseZeroInteger()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseZeroInteger
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 162
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseZeroInteger()
+    content.vb: Public Sub TestParseZeroInteger
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2
+  id: TestParseZeroInteger2
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseZeroInteger2()
+  nameWithType: TestParse.TestParseZeroInteger2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseZeroInteger2
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 170
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseZeroInteger2()
+    content.vb: Public Sub TestParseZeroInteger2
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent
+  id: TestParseZeroExponent
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseZeroExponent()
+  nameWithType: TestParse.TestParseZeroExponent()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseZeroExponent
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 178
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseZeroExponent()
+    content.vb: Public Sub TestParseZeroExponent
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1
+  id: TestParseInvalidFormat1
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseInvalidFormat1()
+  nameWithType: TestParse.TestParseInvalidFormat1()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseInvalidFormat1
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 186
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseInvalidFormat1()
+    content.vb: Public Sub TestParseInvalidFormat1
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2
+  id: TestParseInvalidFormat2
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseInvalidFormat2()
+  nameWithType: TestParse.TestParseInvalidFormat2()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseInvalidFormat2
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 192
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseInvalidFormat2()
+    content.vb: Public Sub TestParseInvalidFormat2
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3
+  id: TestParseInvalidFormat3
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseInvalidFormat3()
+  nameWithType: TestParse.TestParseInvalidFormat3()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseInvalidFormat3
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 198
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseInvalidFormat3()
+    content.vb: Public Sub TestParseInvalidFormat3
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits
+  id: TestParseMissingIntegerDigits
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseMissingIntegerDigits()
+  nameWithType: TestParse.TestParseMissingIntegerDigits()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseMissingIntegerDigits
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 204
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseMissingIntegerDigits()
+    content.vb: Public Sub TestParseMissingIntegerDigits
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits
+  id: TestParseMissingFractionDigits
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseMissingFractionDigits()
+  nameWithType: TestParse.TestParseMissingFractionDigits()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseMissingFractionDigits
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 210
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseMissingFractionDigits()
+    content.vb: Public Sub TestParseMissingFractionDigits
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits
+  id: TestParseMissingExponentDigits
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseMissingExponentDigits()
+  nameWithType: TestParse.TestParseMissingExponentDigits()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseMissingExponentDigits
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 216
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseMissingExponentDigits()
+    content.vb: Public Sub TestParseMissingExponentDigits
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord
+  id: TestParseWord
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseWord()
+  nameWithType: TestParse.TestParseWord()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseWord
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 222
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseWord()
+    content.vb: Public Sub TestParseWord
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity
+  commentId: M:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity
+  id: TestParseQuantity
+  parent: Galaxon.Numerics.BigDecimalTests.TestParse
+  langs:
+  - csharp
+  - vb
+  name: TestParseQuantity()
+  nameWithType: TestParse.TestParseQuantity()
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity()
+  type: Method
+  source:
+    remote:
+      path: BigDecimalTests/TestParse.cs
+      branch: main
+      repo: git@github.com:mossy2100/BigDecimal.git
+    id: TestParseQuantity
+    path: ../BigDecimal/BigDecimalTests/TestParse.cs
+    startLine: 228
+  assemblies:
+  - Galaxon.Numerics.BigDecimalTests
+  namespace: Galaxon.Numerics.BigDecimalTests
+  syntax:
+    content: public void TestParseQuantity()
+    content.vb: Public Sub TestParseQuantity
+  overload: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Galaxon.Numerics.BigDecimalTests
+  commentId: N:Galaxon.Numerics.BigDecimalTests
+  name: Galaxon.Numerics.BigDecimalTests
+  nameWithType: Galaxon.Numerics.BigDecimalTests
+  fullName: Galaxon.Numerics.BigDecimalTests
+- uid: System.Object
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0
+  name: TestParse0
+  nameWithType: TestParse.TestParse0
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse0
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1
+  name: TestParse1
+  nameWithType: TestParse.TestParse1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse1
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2
+  name: TestParse2
+  nameWithType: TestParse.TestParse2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse2
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1
+  name: TestParseMinus1
+  nameWithType: TestParse.TestParseMinus1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus1
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1
+  name: TestParsePlus1
+  nameWithType: TestParse.TestParsePlus1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePlus1
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10
+  name: TestParse10
+  nameWithType: TestParse.TestParse10
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParse10
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200
+  name: TestParseMinus200
+  nameWithType: TestParse.TestParseMinus200
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMinus200
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat
+  name: TestParsePositiveFloat
+  nameWithType: TestParse.TestParsePositiveFloat
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePositiveFloat
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat
+  name: TestParseNegativeFloat
+  nameWithType: TestParse.TestParseNegativeFloat
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNegativeFloat
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi
+  name: TestParsePi
+  nameWithType: TestParse.TestParsePi
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParsePi
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent
+  name: TestParseFloatWithPositiveExponent
+  nameWithType: TestParse.TestParseFloatWithPositiveExponent
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponent
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE
+  name: TestParseFloatWithPositiveExponentNoE
+  nameWithType: TestParse.TestParseFloatWithPositiveExponentNoE
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithPositiveExponentNoE
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent
+  name: TestParseFloatWithNegativeExponent
+  nameWithType: TestParse.TestParseFloatWithNegativeExponent
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseFloatWithNegativeExponent
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators
+  name: TestParseNumberWithCommasForThousandsSeparators
+  nameWithType: TestParse.TestParseNumberWithCommasForThousandsSeparators
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithCommasForThousandsSeparators
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators
+  name: TestParseNumberWithSpacesForThousandsSeparators
+  nameWithType: TestParse.TestParseNumberWithSpacesForThousandsSeparators
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithSpacesForThousandsSeparators
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+  name: TestParseNumberWithUnderscoresForThousandsSeparators
+  nameWithType: TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseNumberWithUnderscoresForThousandsSeparators
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction
+  name: TestParseZeroFraction
+  nameWithType: TestParse.TestParseZeroFraction
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2
+  name: TestParseZeroFraction2
+  nameWithType: TestParse.TestParseZeroFraction2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroFraction2
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger
+  name: TestParseZeroInteger
+  nameWithType: TestParse.TestParseZeroInteger
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2
+  name: TestParseZeroInteger2
+  nameWithType: TestParse.TestParseZeroInteger2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroInteger2
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent
+  name: TestParseZeroExponent
+  nameWithType: TestParse.TestParseZeroExponent
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseZeroExponent
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1
+  name: TestParseInvalidFormat1
+  nameWithType: TestParse.TestParseInvalidFormat1
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat1
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2
+  name: TestParseInvalidFormat2
+  nameWithType: TestParse.TestParseInvalidFormat2
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat2
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3
+  name: TestParseInvalidFormat3
+  nameWithType: TestParse.TestParseInvalidFormat3
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseInvalidFormat3
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits
+  name: TestParseMissingIntegerDigits
+  nameWithType: TestParse.TestParseMissingIntegerDigits
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingIntegerDigits
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits
+  name: TestParseMissingFractionDigits
+  nameWithType: TestParse.TestParseMissingFractionDigits
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingFractionDigits
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits
+  name: TestParseMissingExponentDigits
+  nameWithType: TestParse.TestParseMissingExponentDigits
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseMissingExponentDigits
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord
+  name: TestParseWord
+  nameWithType: TestParse.TestParseWord
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseWord
+- uid: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity*
+  commentId: Overload:Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity
+  name: TestParseQuantity
+  nameWithType: TestParse.TestParseQuantity
+  fullName: Galaxon.Numerics.BigDecimalTests.TestParse.TestParseQuantity
