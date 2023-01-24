@@ -4,6 +4,7 @@ $active-menu-item-color: steelblue;
 $hover-menu-item-color: lighten(steelblue, 10%);
 $panel-bg-color: aliceblue;
 $panel-border-color: darken(aliceblue, 10%);
+$panel-hover-color: darken(aliceblue, 5%);
 
 body {
     background-color: $body-bg-color;
@@ -119,8 +120,8 @@ header {
         border-width: 0 0 1px;
 
         .toc-toggle {
-            background-color: darken(aliceblue, 5%);
-            color: #666;
+            background-color: $panel-hover-color;
+            color: #555;
 
             &:hover {
                 color: black;
@@ -178,7 +179,7 @@ header {
         }
     }
 
-    > .article {
+    .article {
         width: 100%;
         padding-bottom: 51px;
         margin-top: 0 !important;
@@ -211,6 +212,25 @@ header {
 
         h4 .anchorjs-link {
             margin-left: -16px !important;
+        }
+
+        .features {
+            a {
+                display: block;
+                border-radius: 10px;
+                padding: 10px;
+                margin: 10px 0;
+                color: white;
+                background-color: $active-menu-item-color;
+
+                &:hover {
+                    background-color: $hover-menu-item-color;
+                }
+
+                .h3 {
+                    margin-top: 0;
+                }
+            }
         }
     }
 }
@@ -262,7 +282,7 @@ header {
             }
         }
 
-        > .article {
+        .article {
             width: 460px;
             padding-top: 92px;
             background-color: white;
@@ -297,7 +317,7 @@ header {
 
 @media (min-width: 992px) {
     [role="main"] {
-        > .article {
+        .article {
             width: 680px;
 
             .col-md-10 {
@@ -332,7 +352,7 @@ header {
 
 @media (min-width: 1200px) {
     [role="main"] {
-        > .article {
+        .article {
             width: 880px;
 
             .col-md-10 {

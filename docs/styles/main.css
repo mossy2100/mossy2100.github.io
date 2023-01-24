@@ -67,7 +67,7 @@ header #profile-link a {
     border-width: 0 0 1px; }
     [role="main"] .sidenav .toc-toggle {
       background-color: #d7ecff;
-      color: #666; }
+      color: #555; }
       [role="main"] .sidenav .toc-toggle:hover {
         color: black; }
       [role="main"] .sidenav .toc-toggle[aria-expanded="true"]::before {
@@ -99,28 +99,39 @@ header #profile-link a {
       background-color: transparent !important; }
       [role="main"] .sidenav .toc .level1 > li {
         font-size: 14px; }
-  [role="main"] > .article {
+  [role="main"] .article {
     width: 100%;
     padding-bottom: 51px;
     margin-top: 0 !important;
     margin-bottom: 0; }
-    [role="main"] > .article .col-md-10 {
+    [role="main"] .article .col-md-10 {
       padding-top: 20px;
       padding-bottom: 20px; }
-      [role="main"] > .article .col-md-10 section {
+      [role="main"] .article .col-md-10 section {
         margin-left: 0; }
-      [role="main"] > .article .col-md-10 .inheritance {
+      [role="main"] .article .col-md-10 .inheritance {
         margin-bottom: 10px; }
-        [role="main"] > .article .col-md-10 .inheritance h5 {
+        [role="main"] .article .col-md-10 .inheritance h5 {
           padding-bottom: 0;
           border-bottom: none;
           font-weight: bold; }
-    [role="main"] > .article h3 .anchorjs-link {
+    [role="main"] .article h3 .anchorjs-link {
       font-size: 20px !important;
       margin-left: -17px !important;
       padding-top: 3px; }
-    [role="main"] > .article h4 .anchorjs-link {
+    [role="main"] .article h4 .anchorjs-link {
       margin-left: -16px !important; }
+    [role="main"] .article .features a {
+      display: block;
+      border-radius: 10px;
+      padding: 10px;
+      margin: 10px 0;
+      color: white;
+      background-color: steelblue; }
+      [role="main"] .article .features a:hover {
+        background-color: #699bc4; }
+      [role="main"] .article .features a .h3 {
+        margin-top: 0; }
 
 @media (min-width: 768px) {
   #wrapper {
@@ -149,50 +160,50 @@ header #profile-link a {
         padding-bottom: 20px; }
         [role="main"] .sidenav .sidetoc.shiftup {
           bottom: 51px; }
-    [role="main"] > .article {
+    [role="main"] .article {
       width: 460px;
       padding-top: 92px;
       background-color: white;
       display: flex; }
-      [role="main"] > .article.row {
+      [role="main"] .article.row {
         margin-left: 0;
         margin-right: 0; }
-      [role="main"] > .article .col-md-10 {
+      [role="main"] .article .col-md-10 {
         width: 460px;
         padding: 0 20px 20px; }
-      [role="main"] > .article .contrib {
+      [role="main"] .article .contrib {
         height: 20px;
         border-bottom: solid 1px #bde0ff;
         margin-top: 10px; }
-        [role="main"] > .article .contrib .divider {
+        [role="main"] .article .contrib .divider {
           margin-right: 0; }
-        [role="main"] > .article .contrib span.small.pull-right {
+        [role="main"] .article .contrib span.small.pull-right {
           margin-top: 0; } }
 
 @media (min-width: 992px) {
-  [role="main"] > .article {
+  [role="main"] .article {
     width: 680px; }
-    [role="main"] > .article .col-md-10 {
+    [role="main"] .article .col-md-10 {
       width: 420px; }
-    [role="main"] > .article .col-md-2 {
+    [role="main"] .article .col-md-2 {
       background-color: aliceblue;
       border: solid 1px #bde0ff;
       width: 260px;
       padding: 0;
       border-width: 0 1px 0;
       display: flex; }
-      [role="main"] > .article .col-md-2 .sideaffix {
+      [role="main"] .article .col-md-2 .sideaffix {
         margin-top: 0; }
-        [role="main"] > .article .col-md-2 .sideaffix .contribution {
+        [role="main"] .article .col-md-2 .sideaffix .contribution {
           width: 258px; }
-        [role="main"] > .article .col-md-2 .sideaffix nav {
+        [role="main"] .article .col-md-2 .sideaffix nav {
           width: 258px; }
-          [role="main"] > .article .col-md-2 .sideaffix nav .nav {
+          [role="main"] .article .col-md-2 .sideaffix nav .nav {
             width: 250px;
             overflow: hidden; } }
 
 @media (min-width: 1200px) {
-  [role="main"] > .article {
+  [role="main"] .article {
     width: 880px; }
-    [role="main"] > .article .col-md-10 {
+    [role="main"] .article .col-md-10 {
       width: 620px; } }
